@@ -1,0 +1,16 @@
+---
+
+categories:
+
+others:
+  - defaults write com.apple.screencapture disable-shadow
+  - defaults write com.apple.screencapture include-date
+  - defaults write com.apple.screencapture location
+  - defaults write com.apple.dock autohide-delay
+  - defaults write com.apple.dock expose-animation-duration
+  - defaults write com.apple.dock pinning
+  - defaults write com.apple.Safari IncludeInternalDebugMenu 1
+  - defaults write com.apple.dashboard mcx-disabled -boolean true
+  - defaults write com.apple.helpviewer DevMode -bool true
+  - defaults write com.apple.Safari IncludeInternalDebugMenu 1
+  - defaults write com.apple.Finder FXPreferredViewStyle clmv
