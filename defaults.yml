@@ -62,3 +62,13 @@ categories:
             image: "0.5.gif"
         versions: [Catalina]
         after: killall Dock
+      - key: expose-animation-duration
+        title: Expose animation duration
+        description: Decrease the Mission Control zoom effect.
+        param:
+          type: float
+        examples:
+          - value: 0
+            text: ToDo
+        versions: [Catalina]
+        after: killall Dock
