@@ -72,9 +72,20 @@ categories:
             text: ToDo
         versions: [Catalina]
         after: killall Dock
+      - key: pinning
+        title: Pin
+        description: Pin the Dock into a corner.
+        param:
+          type: string
+          values: [start, middle, end]
+        examples:
+          - value: middle
+            default: true
+            text: ToDo
+        versions: [Catalina]
+        after: killall Dock
 
 others:
-  - defaults write com.apple.dock pinning
   - defaults write com.apple.Safari IncludeInternalDebugMenu 1
   - defaults write com.apple.dashboard mcx-disabled -boolean true
   - defaults write com.apple.helpviewer DevMode -bool true
