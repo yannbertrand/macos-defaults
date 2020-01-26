@@ -62,9 +62,18 @@ categories:
             image: "0.5.gif"
         versions: [Catalina]
         after: killall Dock
+      - key: expose-animation-duration
+        title: Expose animation duration
+        description: Decrease the Mission Control zoom effect.
+        param:
+          type: float
+        examples:
+          - value: 0
+            text: ToDo
+        versions: [Catalina]
+        after: killall Dock
 
 others:
-  - defaults write com.apple.dock expose-animation-duration
   - defaults write com.apple.dock pinning
   - defaults write com.apple.Safari IncludeInternalDebugMenu 1
   - defaults write com.apple.dashboard mcx-disabled -boolean true
