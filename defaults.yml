@@ -33,10 +33,20 @@ categories:
               - Screenshot.png
               - Screenshot 1.png
         versions: [Catalina]
+      - key: location
+        title: Set location
+        description: Set default screenshot location.
+        param:
+          type: string
+        examples:
+          - value: ~/Desktop
+            default: true
+          - value: ~/Pictures
+        versions: [Catalina]
+        after: killall SystemUIServer
 
 
 others:
-  - defaults write com.apple.screencapture location
   - defaults write com.apple.dock autohide-delay
   - defaults write com.apple.dock expose-animation-duration
   - defaults write com.apple.dock pinning
