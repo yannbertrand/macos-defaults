@@ -1,0 +1,27 @@
+name: Test defaults.yml
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'defaults.yml'
+
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Lint defaults.yml
+      uses: ibiqlik/action-yamllint@v0.0.1
+      with:
+        file_or_dir: defaults.yml
+        config_file: .github/workflows/config/yml-lint.yml
+        strict: true

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`write-initial-tree should write an empty readme.md file using the home template 1`] = `
+"# macos-defaults-list
+Uncomplete list of macOS \`defaults\` commands with demos ✨
+
+## 🤔 How do I add a command?
+Please update [this file from the master branch](https://github.com/yannbertrand/macos-defaults-list/blob/master/defaults.yml). Don't forget to use [gitmoji](https://gitmoji.carloscuesta.me/) in your commit message before doing a PR.
+"
+`;
