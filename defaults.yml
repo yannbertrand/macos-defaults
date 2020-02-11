@@ -45,9 +45,25 @@ categories:
         versions: [Catalina]
         after: killall SystemUIServer
 
+  - folder: dock
+    name: Dock
+    domain: com.apple.dock
+    keys:
+      - key: autohide-delay
+        title: Autohide delay
+        description: Change the auto-hide & show delay.
+        param:
+          type: float
+        examples:
+          - value: 0
+            image: "0.gif"
+          - value: 0.5
+            default: true
+            image: "0.5.gif"
+        versions: [Catalina]
+        after: killall Dock
 
 others:
-  - defaults write com.apple.dock autohide-delay
   - defaults write com.apple.dock expose-animation-duration
   - defaults write com.apple.dock pinning
   - defaults write com.apple.Safari IncludeInternalDebugMenu 1
