@@ -16,8 +16,8 @@
     "yaml": "^1.7.2"
   },
   "devDependencies": {
-    "jest": "^25.1.0",
-    "prettier": "^1.19.1",
-    "rimraf": "^3.0.2"
+    "jest": "25.1.0",
+    "prettier": "1.19.1",
+    "rimraf": "3.0.2"
   }
 }
