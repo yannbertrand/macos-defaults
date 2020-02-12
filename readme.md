@@ -8,7 +8,11 @@
 
 > Generate a list of macOS' `defaults` commands on different websites from [this yaml file](./defaults.yml) content.
 
+It currently builds to:
+- [GitHub markdown](https://github.com/yannbertrand/macos-defaults-list/tree/current)
+
 ## How does it work?
+- See [GitHub's build detail](./build/github/#readme).
 
 ## Show your support
 Give a ⭐️ if this project helped you!
