@@ -2580,7 +2580,7 @@ dir-glob@2.0.0:
     arrify "^1.0.1"
     path-type "^3.0.0"
 
-docusaurus@^1.14.4:
+docusaurus@1.14.4:
   version "1.14.4"
   resolved "https://registry.yarnpkg.com/docusaurus/-/docusaurus-1.14.4.tgz#1ef3ebe8c2aaaf1dec6c2e0e177e83be78aeaca3"
   integrity sha512-KALmrlZBc0E+AB0ITR4POGKv8WcrcSSxvmgq7nC3TdpS+S2hrlXN/2tV3tVOZ8q8m+zhcMs7l9mAIhGFQyQwIw==
@@ -3654,7 +3654,7 @@ gzip-size@5.1.1:
     duplexer "^0.1.1"
     pify "^4.0.1"
 
-handlebars@^4.7.3:
+handlebars@4.7.3:
   version "4.7.3"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.3.tgz#8ece2797826886cf8082d1726ff21d2a022550ee"
   integrity sha512-SRGwSYuNfx8DwHD/6InAPzD6RgeruWLT+B8e8a7gGs8FWgHzlExpTFMEq2IA6QpAfOClpKHy6+8IqTjeBCu6Kg==
@@ -8173,7 +8173,7 @@ yallist@^2.1.2:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
   integrity sha1-HBH5IY8HYImkfdUS+TxmmaaoHVI=
 
-yaml@^1.7.2:
+yaml@1.7.2:
   version "1.7.2"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.7.2.tgz#f26aabf738590ab61efaca502358e48dc9f348b2"
   integrity sha512-qXROVp90sb83XtAoqE8bP9RwAkTTZbugRUTm5YeFCBfNRPEp2YzTeqWiz7m5OORHzEvrA/qcGS8hp/E+MMROYw==
