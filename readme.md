@@ -10,9 +10,11 @@
 
 It currently builds to:
 - [GitHub markdown](https://github.com/yannbertrand/macos-defaults-list/tree/current)
+- [VuePress](https://macos-defaults-list-vuepress.netlify.com/)
 
 ## How does it work?
 - See [GitHub's build detail](./build/github/#readme).
+- See [VuePress's build detail](./build/vuepress/#readme).
 
 ## Show your support
 Give a ⭐️ if this project helped you!

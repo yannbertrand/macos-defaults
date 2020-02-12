@@ -1,0 +1,5 @@
+[build]
+  base = "build/vuepress"
+  command = "yarn test && yarn build:prod"
+  publish = "dist"
+  ignore = "git diff --quiet HEAD^ HEAD ../../defaults.yml ../../images/ ."
