@@ -1,0 +1,22 @@
+---
+
+title: 'macOS defaults list'
+evergreen: true
+themeConfig:
+  repo: 'yannbertrand/macos-defaults-list'
+  nav:
+    - text: 'Home'
+      link: '/'
+  activeHeaderLinks: false
+  sidebar:
+    - title: 'Home'
+      path: '/'
+{{# categories }}
+    - title: {{ name }}
+      collapsable: false
+      path: '/{{ folder }}/'
+      children:
+{{# keys }}
+        - '{{ ../folder }}/{{ key }}'
+{{/ keys}}
+{{/ categories }}

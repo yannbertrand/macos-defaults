@@ -1,0 +1,37 @@
+---
+metaTitle: '{{ title }} | {{ name }} | macOS defaults list'
+---
+# {{ title }}
+
+{{{ description }}}
+
+- **Work on macOS**: {{ versions }}
+- **App**: {{ domain }}
+- **Rule**: {{ key }}
+- **Parameter type**: {{ param.type }}
+{{# param.values }}
+  * {{ . }}
+{{/ param.values }}
+
+{{# examples }}
+## Set to `{{{ value }}}`{{# if default }} (default value){{/ if }}
+```bash
+defaults write {{ ../domain }} {{ ../key }} -{{ ../param.type }} {{{ value }}}{{# if ../after }} && {{ ../after }}{{/ if }}
+```
+{{# image }}
+![Example output with value set to {{{ ../value }}}](./{{ ../../folder }}-{{ ../../key }}-{{ . }})
+{{/ image }}
+{{# text }}
+- {{{ . }}}
+{{/ text }}
+
+{{/ examples }}
+## Read current value
+```bash
+defaults read {{ domain }} {{ key }}
+```
+
+## Delete current value
+```bash
+defaults delete {{ domain }} {{ key }}{{# if after }} && {{ after }}{{/ if }}
+```
