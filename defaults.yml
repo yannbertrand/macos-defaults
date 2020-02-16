@@ -49,6 +49,22 @@ categories:
     name: Dock
     domain: com.apple.dock
     keys:
+      - key: orientation
+        title: Orientation
+        description: Set the dock position
+        param:
+          type: string
+          values: [left, bottom, right]
+        examples:
+          - value: left
+            text: Put the dock on the left of the screen
+          - value: bottom
+            default: true
+            text: Put the dock on the bottom of the screen
+          - value: right
+            text: Put the dock on the right of the screen
+        versions: [Catalina]
+        after: killall Dock
       - key: autohide
         title: Autohide
         description: Autohides the Dock.
