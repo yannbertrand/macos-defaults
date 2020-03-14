@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "macos-defaults-list-images-recorder",
+  "version": "0.1.0",
+  "main": "record.js",
+  "engines": {
+    "node": ">=13.7"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aperture": "5.2.0",
+    "delay": "4.3.0",
+    "glob": "7.1.6",
+    "glob-promise": "3.4.0",
+    "mkdirp": "1.0.3",
+    "rimraf": "3.0.2",
+    "robotjs": "0.6.0",
+    "sharp": "0.25.1"
+  },
+  "devDependencies": {}
+}

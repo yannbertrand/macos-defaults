@@ -15,9 +15,9 @@ categories:
         examples:
           - value: false
             default: true
-            image: "false.png"
+            image: "false.webp"
           - value: true
-            image: "true.png"
+            image: "true.webp"
         versions: [Catalina]
       - key: include-date
         title: Include date
