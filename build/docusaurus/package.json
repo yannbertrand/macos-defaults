@@ -14,7 +14,7 @@
   "dependencies": {
     "docusaurus": "1.14.4",
     "handlebars": "4.7.3",
-    "yaml": "1.7.2"
+    "yaml": "1.8.3"
   },
   "devDependencies": {
     "jest": "25.1.0",
