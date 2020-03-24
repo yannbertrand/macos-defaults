@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "macos-defaults-list-github-builder",
+  "version": "0.1.0",
+  "main": "build.js",
+  "scripts": {
+    "clean": "rimraf dist*",
+    "build": "yarn clean && node build.js",
+    "build:prod": "yarn build",
+    "test": "jest",
+    "gitmoji-initial-changelog": "gitmoji-changelog --preset generic --output dist-initial/changelog.md",
+    "gitmoji-changelog": "gitmoji-changelog --preset generic --output dist/changelog.md"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "4.7.3",
+    "yaml": "1.8.3"
+  },
+  "devDependencies": {
+    "jest": "25.1.0",
+    "prettier": "2.0.2",
+    "rimraf": "3.0.2"
+  }
+}
