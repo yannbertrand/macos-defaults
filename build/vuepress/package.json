@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "macos-defaults-list-vuepress-builder",
+  "version": "0.1.0",
+  "main": "build.js",
+  "scripts": {
+    "clean": "rimraf docs* dist*",
+    "build": "yarn clean && node build.js",
+    "build:prod": "yarn build && vuepress build docs --dest dist",
+    "start": "yarn build && vuepress dev docs",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@vuepress/plugin-medium-zoom": "1.4.0",
+    "handlebars": "4.7.3",
+    "vuepress": "1.4.0",
+    "yaml": "1.8.3"
+  },
+  "devDependencies": {
+    "jest": "25.1.0",
+    "prettier": "2.0.2",
+    "rimraf": "3.0.2"
+  }
+}
