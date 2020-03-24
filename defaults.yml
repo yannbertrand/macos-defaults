@@ -49,6 +49,19 @@ categories:
     name: Dock
     domain: com.apple.dock
     keys:
+      - key: autohide
+        title: Autohide
+        description: Autohides the Dock.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Always display the Dock
+          - value: true
+            text: Autohide the Dock
+        versions: [Catalina]
+        after: killall Dock
       - key: autohide-delay
         title: Autohide delay
         description: Change the auto-hide & show delay.
@@ -61,4 +74,9 @@ categories:
             default: true
             image: "0.5.gif"
         versions: [Catalina]
+        requirements:
+          - folder: dock
+            key: autohide
+            name: com.apple.dock autohide
+            value: true
         after: killall Dock
