@@ -1,0 +1,43 @@
+---
+id: {{ key }}
+title: {{ name }} > {{ title }}
+sidebar_label: {{ title }}
+---
+
+> {{{ description }}}
+
+- **Tested on macOS**: {{ versions }}
+- **Parameter type**: {{ param.type }}
+{{# param.values }}
+  * {{ . }}
+{{/ param.values }}
+
+{{# if requirements }}
+## Requirements
+{{# requirements }}
+- [`{{ name }}`](../{{ folder }}/{{ key }}#set-to-{{ value }}) must be set to `{{ value }}`
+{{/ requirements }}
+
+{{/ if }}
+{{# examples }}
+## Set to `{{{ value }}}`{{# if default }} (default value){{/ if }}
+```bash
+defaults write {{ ../domain }} {{ ../key }} -{{ ../param.type }} {{{ value }}}{{# if ../after }} && {{ ../after }}{{/ if }}
+```
+{{# image }}
+![Example output with value set to {{{ ../value }}}](assets/{{ ../../folder }}/{{ ../../key }}/{{ . }})
+{{/ image }}
+{{# text }}
+- {{{ . }}}
+{{/ text }}
+
+{{/ examples }}
+## Read current value
+```bash
+defaults read {{ domain }} {{ key }}
+```
+
+## Delete current value
+```bash
+defaults delete {{ domain }} {{ key }}{{# if after }} && {{ after }}{{/ if }}
+```
