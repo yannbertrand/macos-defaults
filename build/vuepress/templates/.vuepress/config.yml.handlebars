@@ -1,0 +1,25 @@
+---
+
+title: 'macOS defaults list'
+description: 'Uncomplete list of macOS defaults commands with demos ✨'
+evergreen: true
+plugins:
+  - '@vuepress/medium-zoom'
+themeConfig:
+  repo: 'yannbertrand/macos-defaults-list'
+  nav:
+    - text: 'Home'
+      link: '/'
+  activeHeaderLinks: false
+  sidebar:
+    - title: 'Home'
+      path: '/'
+{{# categories }}
+    - title: {{ name }}
+      collapsable: false
+      path: '/{{ folder }}/'
+      children:
+{{# keys }}
+        - '{{ ../folder }}/{{ key }}'
+{{/ keys}}
+{{/ categories }}
