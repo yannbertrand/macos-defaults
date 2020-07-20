@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "docsify-cli": "4.4.0",
-    "handlebars": "4.7.3",
+    "handlebars": "4.7.6",
     "rimraf": "3.0.2",
     "yaml": "1.8.3"
   },
