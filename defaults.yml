@@ -168,3 +168,17 @@ categories:
             text: Display the Finder "Quit" option
         versions: [Big Sur]
         after: killall Finder
+      - key: AppleShowAllExtensions
+        domain: NSGlobalDomain
+        title: Show extensions
+        description: Show all file extensions in the Finder.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Do not show all file extensions inside the Finder
+          - value: true
+            text: Show all file extensions inside the Finder
+        versions: [Big Sur]
+        after: killall Finder
