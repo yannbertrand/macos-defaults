@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`write-initial-tree should write an empty readme.md file using the home template 1`] = `
+"# macos-defaults-list
+Uncomplete list of macOS \`defaults\` commands with demos ✨
+
+## 🤔 How do I add a command?
+Please update [this file](https://github.com/yannbertrand/macos-defaults-list/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults-list/#readme) like this one.
+
+## ❤️ I like this website, how can I do the same?
+Thank you! I built it from scratch. Take a look at [my report](https://github.com/yannbertrand/macos-defaults-list/tree/master/build/github#readme) if you want to do the same.
+"
+`;
