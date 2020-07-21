@@ -54,3 +54,21 @@ categories:
           - value: ~/Pictures
         versions: [Catalina]
         after: killall SystemUIServer
+
+  - folder: dock
+    name: Dock
+    keys:
+      - key: autohide
+        domain: com.apple.dock
+        title: Autohide
+        description: Autohides the Dock.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Always display the Dock
+          - value: true
+            text: Autohide the Dock
+        versions: [Catalina]
+        after: killall Dock
