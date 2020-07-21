@@ -148,3 +148,22 @@ categories:
             text: Show all file extensions inside the Finder
         versions: [Big Sur]
         after: killall Finder
+
+  - folder: feedback-assistant
+    name: Feedback Assistant
+    keys:
+      - key: Autogather
+        domain: com.apple.appleseed.FeedbackAssistant
+        title: Autogather
+        description:
+          Choose whether to autogather large files when submitting a feedback report.
+          Can result in a slow Mac and important upload metrics.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Feedback Assistant gathers large files when submitting a report
+          - value: false
+            text: Do not autogather large files when submitting a report
+        versions: [Big Sur]
