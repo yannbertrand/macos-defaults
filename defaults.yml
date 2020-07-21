@@ -46,3 +46,21 @@ categories:
           - value: ~/Pictures
         versions: [Catalina]
         after: killall SystemUIServer
+
+  - folder: dock
+    name: Dock
+    keys:
+      - key: autohide-delay
+        domain: com.apple.dock
+        title: Autohide delay
+        description: Change the auto-hide & show delay.
+        param:
+          type: float
+        examples:
+          - value: 0
+            image: "0.gif"
+          - value: 0.5
+            default: true
+            image: "0.5.gif"
+        versions: [Catalina]
+        after: killall Dock
