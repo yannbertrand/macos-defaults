@@ -42,3 +42,15 @@ categories:
               - Screenshot.png
               - Screenshot 1.png
         versions: [Catalina]
+      - key: location
+        domain: com.apple.screencapture
+        title: Set location
+        description: Set default screenshot location.
+        param:
+          type: string
+        examples:
+          - value: ~/Desktop
+            default: true
+          - value: ~/Pictures
+        versions: [Catalina]
+        after: killall SystemUIServer
