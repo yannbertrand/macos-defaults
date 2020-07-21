@@ -116,3 +116,21 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+
+  - folder: finder
+    name: Finder
+    keys:
+      - key: QuitMenuItem
+        domain: com.apple.finder
+        title: Quit
+        description: Add a quit option to the Finder.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Hide the Finder "Quit" option
+          - value: true
+            text: Display the Finder "Quit" option
+        versions: [Big Sur]
+        after: killall Finder
