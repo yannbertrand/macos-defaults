@@ -10,6 +10,23 @@ categories:
       By default you can find it on the bottom of your screen.<br><br>
       You can customize it as you like.
     keys:
+      - key: orientation
+        domain: com.apple.dock
+        title: Position
+        description: Set the Dock position
+        param:
+          type: string
+          values: [left, bottom, right]
+        examples:
+          - value: left
+            text: Put the Dock on the left of the screen
+          - value: bottom
+            default: true
+            text: Put the Dock on the bottom of the screen
+          - value: right
+            text: Put the Dock on the right of the screen
+        versions: [Catalina]
+        after: killall Dock
       - key: autohide
         domain: com.apple.dock
         title: Autohide
