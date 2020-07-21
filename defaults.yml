@@ -33,3 +33,18 @@ categories:
               height: 1096
             text: Remove the default shadow from screenshots
         versions: [Big Sur, Catalina]
+      - key: include-date
+        domain: com.apple.screencapture
+        title: Include date
+        description: Include date and time in screenshot filenames.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Screenshot 2020-01-09 at 13.27.20.png
+          - value: false
+            text:
+              - Screenshot.png
+              - Screenshot 1.png
+        versions: [Catalina]
