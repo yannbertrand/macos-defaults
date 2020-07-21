@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "handlebars": "4.7.6",
-    "yaml": "1.8.3"
+    "yaml": "1.10.0"
   },
   "devDependencies": {
     "jest": "26.1.0",
