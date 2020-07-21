@@ -149,6 +149,24 @@ categories:
         versions: [Big Sur]
         after: killall Finder
 
+  - folder: spaces
+    name: Spaces
+    keys:
+      - key: mru-spaces
+        domain: com.apple.dock
+        title: Rearrange automatically
+        description: Choose whether to rearrange Spaces automatically.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Do reorder Spaces based on most recent use
+          - value: false
+            text: Keep the Spaces arrangement
+        versions: [Big Sur]
+        after: killall Dock
+
   - folder: feedback-assistant
     name: Feedback Assistant
     keys:
