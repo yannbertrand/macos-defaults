@@ -1,3 +1,29 @@
 ---
 
 categories:
+
+  - folder: screenshots
+    name: Screenshots
+    keys:
+      - key: disable-shadow
+        domain: com.apple.screencapture
+        title: Disable shadow
+        description:
+          Disable screenshot shadow when capturing an app (`⌘ cmd`+`⇧ shift`+`4`).
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            image:
+              filename: "false.png"
+              width: 1832
+              height: 1320
+            text: Add a shadow to screenshots
+          - value: true
+            image:
+              filename: "true.png"
+              width: 1608
+              height: 1096
+            text: Remove the default shadow from screenshots
+        versions: [Catalina]
