@@ -212,3 +212,20 @@ categories:
           - value: false
             text: Do not autogather large files when submitting a report
         versions: [Big Sur]
+
+  - folder: misc
+    name: Miscellaneous
+    description: All the others `defaults` that don't deserve their own category.
+    keys:
+      - key: DevMode
+        domain: com.apple.helpviewer
+        title: Help Menu position
+        description: Choose whether the Help Menu should be always-on-top.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: By default, the Help Menu is always-on-top
+          - value: true
+            text: The Help Menu can go behind other windows
