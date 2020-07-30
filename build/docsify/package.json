@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "macos-defaults-list-docsify-builder",
+  "version": "0.1.0",
+  "main": "build.js",
+  "scripts": {
+    "clean": "rimraf docs* dist*",
+    "build": "yarn clean && node build.js",
+    "build:prod": "yarn build",
+    "start": "yarn build && npx docsify serve docs",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "docsify-cli": "4.4.1",
+    "handlebars": "4.7.6",
+    "rimraf": "3.0.2",
+    "yaml": "1.10.0"
+  },
+  "devDependencies": {
+    "jest": "26.2.1",
+    "prettier": "2.0.5"
+  }
+}
