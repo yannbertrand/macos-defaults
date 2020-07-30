@@ -167,6 +167,31 @@ categories:
         versions: [Big Sur]
         after: killall Finder
 
+  - folder: mission-control
+    name: Mission Control
+    description:
+      "Formerly known as Spaces, Mission Control allows a user to do the following:<br>
+      - `⌃ ctrl`+`↑ up` view all open application windows.<br>
+      - `⌃ ctrl`+`↓ down` view all open application windows of a specific application.<br>
+      - `⌘ cmd`+`F3 Mission Control` hide all application windows and show the desktop.<br>
+      - `⌃ ctrl`+`← left`/`→ right` manage application windows across multiple virtual desktops.<br>
+      - manage application windows across multiple monitors."
+    keys:
+      - key: mru-spaces
+        domain: com.apple.dock
+        title: Rearrange automatically
+        description: Choose whether to rearrange Spaces automatically.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Do reorder Spaces based on most recent use
+          - value: false
+            text: Keep the Spaces arrangement
+        versions: [Big Sur]
+        after: killall Dock
+
   - folder: feedback-assistant
     name: Feedback Assistant
     description:
