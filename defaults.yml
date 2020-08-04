@@ -101,6 +101,38 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+      - key: mineffect
+        domain: com.apple.dock
+        title: Minimize animation effect
+        description: Change the Dock minimize animation.
+        param:
+          type: string
+          values: [genie, scale, suck]
+        examples:
+          - value: "genie"
+            default: true
+            video:
+              filename: "genie.mp4"
+              width: 1500
+              height: 1500
+          - value: "scale"
+            video:
+              filename: "scale.mp4"
+              width: 1500
+              height: 1500
+          - value: "suck"
+            video:
+              filename: "suck.mp4"
+              width: 1500
+              height: 1500
+            text: Suck is an secret value you can't find inside the System Preferences
+        versions: [Catalina]
+        requirements:
+          - folder: dock
+            key: autohide
+            name: com.apple.dock autohide
+            value: true
+        after: killall Dock
 
   - folder: screenshots
     name: Screenshots
