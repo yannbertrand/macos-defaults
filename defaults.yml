@@ -53,6 +53,39 @@ categories:
             text: Autohide the Dock
         versions: [Catalina]
         after: killall Dock
+      - key: autohide-time-modifier
+        domain: com.apple.dock
+        title: Autohide animation time
+        description: Change the Dock opening and closing animation times.
+        param:
+          type: float
+        examples:
+          - value: 0.5
+            default: true
+            video:
+              filename: "0.5.mp4"
+              width: 882
+              height: 240
+            text: By default, the Dock only opens if the mouse doesn't move for 0.5 seconds
+          - value: 2
+            video:
+              filename: "2.mp4"
+              width: 882
+              height: 240
+            text: Increase the Dock animation time
+          - value: 0
+            video:
+              filename: "0.mp4"
+              width: 882
+              height: 240
+            text: Remove the Dock autohide animation
+        versions: [Catalina]
+        requirements:
+          - folder: dock
+            key: autohide
+            name: com.apple.dock autohide
+            value: true
+        after: killall Dock
       - key: autohide-delay
         domain: com.apple.dock
         title: Autohide delay
