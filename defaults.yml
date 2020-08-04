@@ -24,6 +24,33 @@ categories:
             text: Autohide the Dock
         versions: [Catalina]
         after: killall Dock
+      - key: autohide-delay
+        domain: com.apple.dock
+        title: Autohide delay
+        description: Change the Dock opening delay.
+        param:
+          type: float
+        examples:
+          - value: 0.5
+            default: true
+            video:
+              filename: "0.5.mp4"
+              width: 882
+              height: 240
+            text: By default, the Dock only opens if the mouse doesn't move for 0.5 seconds
+          - value: 0
+            video:
+              filename: "0.mp4"
+              width: 882
+              height: 240
+            text: Remove the autohide delay, the Dock appears instantly
+        versions: [Catalina]
+        requirements:
+          - folder: dock
+            key: autohide
+            name: com.apple.dock autohide
+            value: true
+        after: killall Dock
 
   - folder: screenshots
     name: Screenshots
