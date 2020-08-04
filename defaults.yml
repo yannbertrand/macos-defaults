@@ -204,6 +204,19 @@ categories:
           - value: ~/Pictures
         versions: [Big Sur, Catalina]
         after: killall SystemUIServer
+      - key: show-thumbnail
+        domain: com.apple.screencapture
+        title: Display thumbnail
+        description: Choose whether to display a thumbnail after taking a screenshot.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Display the thumbnail after taking a screenshot
+          - value: false
+            text: Do not display the thumbnail
+        versions: [Big Sur, Catalina]
 
   - folder: finder
     name: Finder
