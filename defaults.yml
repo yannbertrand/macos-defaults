@@ -14,6 +14,35 @@ categories:
       width: 740
       height: 41
     keys:
+      - key: orientation
+        domain: com.apple.dock
+        title: Position
+        description: Set the Dock position
+        param:
+          type: string
+          values: [left, bottom, right]
+        examples:
+          - value: left
+            image:
+              filename: "left.png"
+              width: 740
+              height: 463
+            text: Put the Dock on the left of the screen
+          - value: bottom
+            default: true
+            image:
+              filename: "bottom.png"
+              width: 740
+              height: 463
+            text: Put the Dock on the bottom of the screen
+          - value: right
+            image:
+              filename: "right.png"
+              width: 740
+              height: 463
+            text: Put the Dock on the right of the screen
+        versions: [Catalina]
+        after: killall Dock
       - key: autohide
         domain: com.apple.dock
         title: Autohide
