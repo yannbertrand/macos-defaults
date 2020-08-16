@@ -1,3 +1,35 @@
 ---
 
 categories:
+
+  - folder: screenshots
+    name: Screenshots
+    description:
+      "On a Mac, you can take screenshots using:<br>
+      - `⌘ cmd`+`⇧ shift`+`3` for fullscreen.<br>
+      - `⌘ cmd`+`⇧ shift`+`4` for a selection. Then use `space` to capture an entire app.<br>
+      - `⌘ cmd`+`⇧ shift`+`5` to open the Screenshot app.<br><br>
+      There is a few keys you can customize."
+    keys:
+      - key: disable-shadow
+        domain: com.apple.screencapture
+        title: Disable shadow
+        description:
+          Disable screenshot shadow when capturing an app (`⌘ cmd`+`⇧ shift`+`4` then `space`).
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            image:
+              filename: "false.png"
+              width: 740
+              height: 574
+            text: Add a shadow to screenshots
+          - value: true
+            image:
+              filename: "true.png"
+              width: 740
+              height: 550
+            text: Remove the default shadow from screenshots
+        versions: [Big Sur, Catalina]
