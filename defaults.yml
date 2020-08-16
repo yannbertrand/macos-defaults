@@ -117,6 +117,28 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+      - key: show-recents
+        domain: com.apple.dock
+        title: Show recents
+        description: Show recently used apps in a separate section of the Dock.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            image:
+              filename: "true.png"
+              width: 740
+              height: 82
+            text: Display recent apps in the Dock
+          - value: false
+            image:
+              filename: "false.png"
+              width: 740
+              height: 82
+            text: Do not display recent apps in the Dock
+        versions: [Big Sur, Catalina]
+        after: killall Dock
       - key: mineffect
         domain: com.apple.dock
         title: Minimize animation effect
