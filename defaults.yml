@@ -282,6 +282,28 @@ categories:
             text: Show all file extensions inside the Finder
         versions: [Big Sur]
         after: killall Finder
+      - key: FXEnableExtensionChangeWarning
+        domain: com.apple.finder
+        title: Changing file extension warning
+        description: Choose whether to display a warning when changing a file extension.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            video:
+              filename: "true.mp4"
+              width: 739
+              height: 416
+            text: Display a warning when changing a file extension in the Finder
+          - value: false
+            video:
+              filename: "false.mp4"
+              width: 739
+              height: 416
+            text: Do not display the warning
+        versions: [Big Sur]
+        after: killall Finder
 
   - folder: mission-control
     name: Mission Control
