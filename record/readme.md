@@ -35,6 +35,10 @@ Some [utils](./utils.js) are available to simplify scripts dev:
   - `outputName`: what the compressed video file should be called.
 - `async makeAppActive(appName)` open an App and set it as active using AppleScript
   - `appName`: the app name.
+- `async moveAndResizeApp(appName, cropArea, screenHeight)` move and resize an App using AppleScript
+  - `appName`: the app name.
+  - `cropArea`: the cropArea used by Aperture (`{ x ,y , width, height }`).
+  - `screenHeight`: the screen height.
 
 I consider removing the resize/compression part and upload these assets to a media CDN like [Cloudinary](https://cloudinary.com) to serve optimal resources based on user preferences.
 

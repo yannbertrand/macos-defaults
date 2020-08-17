@@ -120,3 +120,26 @@ module.exports.makeAppActive = async (appName) => {
     })
   })
 }
+
+module.exports.moveAndResizeApp = async (appName, cropArea, screenHeight) => {
+  const x = { start: cropArea.x, end: cropArea.x + cropArea.width }
+  const y = { start: screenHeight - cropArea.y - cropArea.height, end: screenHeight - cropArea.y }
+
+  return new Promise((resolve, reject) => {
+    const osascript = spawn('osascript', ['-e', 'try', '-e', `tell application "${appName}"`, '-e', `set the bounds of the first window to {${x.start}, ${y.start}, ${x.end}, ${y.end}}`, '-e', 'end tell', '-e', 'end try'])
+
+    if (process.env.NODE_ENV === 'DEBUG') {
+      osascript.stderr.on('data', function (message) {
+        console.debug(`${message}`)
+      })
+    }
+
+    osascript.on('exit', osascriptExitCode => {
+      if (osascriptExitCode === '1') {
+        return reject('osascript')
+      }
+
+      resolve()
+    })
+  })
+}
