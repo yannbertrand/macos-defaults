@@ -21,7 +21,7 @@
     "mkdirp": "1.0.4",
     "node-pngquant-native": "2.2.0",
     "robotjs": "0.6.0",
-    "sharp": "0.25.4"
+    "sharp": "0.26.0"
   },
   "devDependencies": {}
 }
