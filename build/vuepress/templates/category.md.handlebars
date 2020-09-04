@@ -1,0 +1,15 @@
+---
+metaTitle: '{{ name }} | macOS defaults'
+---
+# {{ name }}
+
+{{# image }}
+<img src="./{{ filename }}" alt="A screenshot of the {{ ../name }}"
+  width="{{ width }}" height="{{ height }}" style="height: auto" />
+
+{{/ image }}
+> {{{ description }}}
+
+{{# keys }}
+- [{{ title }}](./{{ key }}.html)
+{{/ keys }}
