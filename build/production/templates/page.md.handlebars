@@ -1,0 +1,56 @@
+---
+metaTitle: '{{ title }} | {{ name }} | macOS defaults'
+---
+# {{ title }}
+
+> {{{ description }}}
+
+- **Tested on macOS**:
+{{# versions }}
+  * {{ . }}
+{{/ versions }}
+- **Parameter type**: {{ param.type }}
+{{# param.values }}
+  * {{ . }}
+{{/ param.values }}
+
+{{# if requirements }}
+## Requirements
+{{# requirements }}
+- [`{{ name }}`](../../{{ folder }}/{{ key }}.html#set-to-{{ value }}) must be set to `{{ value }}`
+{{/ requirements }}
+
+{{/ if }}
+{{# examples }}
+## Set to `{{{ value }}}`{{# if default }} (default value){{/ if }}
+```bash
+defaults write {{ ../domain }} {{ ../key }} -{{ ../param.type }} {{{ value }}}{{# if ../after }} && {{ ../after }}{{/ if }}
+```
+{{# video }}
+<video autoplay loop muted playsinline width="{{ width }}" height="{{ height }}" style="max-width: 100%; height: auto">
+  <source src="./{{ ../../folder }}-{{ ../../key }}-{{ filename }}" type="video/mp4">
+  Example output with value set to {{{ ../value }}}
+</video>
+{{/ video }}
+{{# image }}
+<img
+  src="./{{ ../../folder }}-{{ ../../key }}-{{ filename }}"
+  alt="Example output with value set to {{{ ../value }}}"
+  width="{{ width }}" height="{{ height }}" style="height: auto"
+/>
+{{/ image }}
+
+{{# text }}
+- {{{ . }}}
+{{/ text }}
+
+{{/ examples }}
+## Read current value
+```bash
+defaults read {{ domain }} {{ key }}
+```
+
+## Delete current value
+```bash
+defaults delete {{ domain }} {{ key }}{{# if after }} && {{ after }}{{/ if }}
+```
