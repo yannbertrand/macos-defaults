@@ -13,6 +13,7 @@ const copiedFiles = [
   '.vuepress/public/favicon-16x16.png',
   '.vuepress/public/favicon-32x32.png',
   '.vuepress/public/mstile-150x150.png',
+  '.vuepress/public/robots.txt',
   '.vuepress/public/safari-pinned-tab.svg',
   '.vuepress/public/site.webmanifest'
 ]
