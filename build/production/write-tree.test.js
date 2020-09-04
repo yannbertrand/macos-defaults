@@ -15,7 +15,8 @@ const copiedFiles = [
   '.vuepress/public/mstile-150x150.png',
   '.vuepress/public/robots.txt',
   '.vuepress/public/safari-pinned-tab.svg',
-  '.vuepress/public/site.webmanifest'
+  '.vuepress/public/site.webmanifest',
+  '.vuepress/styles/palette.styl'
 ]
 
 describe('write-tree', () => {
