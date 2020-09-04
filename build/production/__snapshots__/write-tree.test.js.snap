@@ -8,6 +8,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -52,6 +57,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
@@ -117,6 +123,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -161,6 +172,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
@@ -258,6 +270,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -302,6 +319,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
@@ -402,6 +420,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -446,6 +469,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
@@ -536,6 +560,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -580,6 +609,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
@@ -674,6 +704,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -718,6 +753,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
@@ -808,6 +844,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -852,6 +893,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
@@ -948,6 +990,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -992,6 +1039,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
@@ -1122,6 +1170,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -1166,6 +1219,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
@@ -1307,6 +1361,11 @@ description: 'Uncomplete list of macOS defaults commands with demos ✨'
 head:
   -
     - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
     - rel: \\"apple-touch-icon\\"
       sizes: \\"180x180\\"
       href: \\"/apple-touch-icon.png\\"
@@ -1351,6 +1410,7 @@ evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
 themeConfig:
+  logo: '/logo.svg'
   nav:
     - text: 'Home'
       link: '/'
