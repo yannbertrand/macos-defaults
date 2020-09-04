@@ -19,6 +19,7 @@ module.exports = (defaults, destinationPath) => {
   fs.copyFileSync('./templates/.vuepress/public/robots.txt', `${destinationPath}/.vuepress/public/robots.txt`)
   fs.copyFileSync('./templates/.vuepress/public/safari-pinned-tab.svg', `${destinationPath}/.vuepress/public/safari-pinned-tab.svg`)
   fs.copyFileSync('./templates/.vuepress/public/site.webmanifest', `${destinationPath}/.vuepress/public/site.webmanifest`)
+  fs.copyFileSync('./templates/.vuepress/styles/index.styl', `${destinationPath}/.vuepress/styles/index.styl`)
   fs.copyFileSync('./templates/.vuepress/styles/palette.styl', `${destinationPath}/.vuepress/styles/palette.styl`)
 
   const homeTemplate = fs.readFileSync('./templates/home.md.handlebars', 'utf8')
