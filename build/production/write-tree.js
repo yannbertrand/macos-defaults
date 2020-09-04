@@ -5,6 +5,7 @@ module.exports = (defaults, destinationPath) => {
   fs.mkdirSync(destinationPath)
   fs.mkdirSync(`${destinationPath}/.vuepress`)
   fs.mkdirSync(`${destinationPath}/.vuepress/public`)
+  fs.mkdirSync(`${destinationPath}/.vuepress/styles`)
 
   fs.copyFileSync('./templates/.vuepress/public/android-chrome-192x192.png', `${destinationPath}/.vuepress/public/android-chrome-192x192.png`)
   fs.copyFileSync('./templates/.vuepress/public/android-chrome-512x512.png', `${destinationPath}/.vuepress/public/android-chrome-512x512.png`)
@@ -17,6 +18,7 @@ module.exports = (defaults, destinationPath) => {
   fs.copyFileSync('./templates/.vuepress/public/robots.txt', `${destinationPath}/.vuepress/public/robots.txt`)
   fs.copyFileSync('./templates/.vuepress/public/safari-pinned-tab.svg', `${destinationPath}/.vuepress/public/safari-pinned-tab.svg`)
   fs.copyFileSync('./templates/.vuepress/public/site.webmanifest', `${destinationPath}/.vuepress/public/site.webmanifest`)
+  fs.copyFileSync('./templates/.vuepress/styles/palette.styl', `${destinationPath}/.vuepress/styles/palette.styl`)
 
   const homeTemplate = fs.readFileSync('./templates/home.md.handlebars', 'utf8')
   const rootReadmeContent = Handlebars.compile(homeTemplate)(defaults)
