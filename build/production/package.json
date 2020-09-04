@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "macos-defaults-vuepress-builder",
+  "name": "macos-defaults-production-builder",
   "version": "0.1.0",
   "main": "build.js",
   "scripts": {
