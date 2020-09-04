@@ -14,6 +14,7 @@ module.exports = (defaults, destinationPath) => {
   fs.copyFileSync('./templates/.vuepress/public/favicon-16x16.png', `${destinationPath}/.vuepress/public/favicon-16x16.png`)
   fs.copyFileSync('./templates/.vuepress/public/favicon-32x32.png', `${destinationPath}/.vuepress/public/favicon-32x32.png`)
   fs.copyFileSync('./templates/.vuepress/public/mstile-150x150.png', `${destinationPath}/.vuepress/public/mstile-150x150.png`)
+  fs.copyFileSync('./templates/.vuepress/public/robots.txt', `${destinationPath}/.vuepress/public/robots.txt`)
   fs.copyFileSync('./templates/.vuepress/public/safari-pinned-tab.svg', `${destinationPath}/.vuepress/public/safari-pinned-tab.svg`)
   fs.copyFileSync('./templates/.vuepress/public/site.webmanifest', `${destinationPath}/.vuepress/public/site.webmanifest`)
 
