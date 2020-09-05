@@ -22,6 +22,10 @@ module.exports = (defaults, destinationPath) => {
   fs.copyFileSync('./templates/.vuepress/styles/index.styl', `${destinationPath}/.vuepress/styles/index.styl`)
   fs.copyFileSync('./templates/.vuepress/styles/palette.styl', `${destinationPath}/.vuepress/styles/palette.styl`)
 
+  const netlifyHeadersTemplate = fs.readFileSync('./templates/.vuepress/public/_headers.handlebars', 'utf8')
+  const netlifyHeadersContent = Handlebars.compile(netlifyHeadersTemplate)()
+  fs.writeFileSync(`${destinationPath}/.vuepress/public/_headers`, netlifyHeadersContent)
+
   const homeTemplate = fs.readFileSync('./templates/home.md.handlebars', 'utf8')
   const rootReadmeContent = Handlebars.compile(homeTemplate)(defaults)
   fs.writeFileSync(`${destinationPath}/readme.md`, rootReadmeContent)

@@ -85,6 +85,12 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). I liked the
 "
 `;
 
+exports[`write-tree no categories should write the netlify _headers file 1`] = `
+"/*
+  Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline';
+"
+`;
+
 exports[`write-tree one category, no page with image should write a category/readme.md file using the category template 1`] = `
 "# Category
 

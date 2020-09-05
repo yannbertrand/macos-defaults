@@ -36,6 +36,11 @@ describe('write-tree', () => {
       })
     })
 
+    it('should write the netlify _headers file', () => {
+      const netlifyHeadersContent = readFile(`${destinationPath}/.vuepress/public/_headers`)
+      expect(netlifyHeadersContent).toMatchSnapshot()
+    })
+
     it('should write an empty readme.md file using the home template', () => {
       const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
       expect(rootReadmeContent).toMatchSnapshot()
