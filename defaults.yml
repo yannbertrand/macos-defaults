@@ -2,6 +2,33 @@
 
 categories:
 
+  - folder: dock
+    name: Dock
+    description:
+      The Dock is a prominent feature of macOS.
+      It is used to launch applications and to switch between running applications.
+      By default you can find it on the bottom of your screen.<br><br>
+      You can customize it as you like.
+    image:
+      filename: "dock.png"
+      width: 740
+      height: 41
+    keys:
+      - key: autohide
+        domain: com.apple.dock
+        title: Autohide
+        description: Autohides the Dock. You can toggle the Dock using `⌥ alt`+`⌘ cmd`+`d`.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Always display the Dock
+          - value: true
+            text: Autohide the Dock when the mouse is out
+        versions: [Big Sur, Catalina]
+        after: killall Dock
+
   - folder: screenshots
     name: Screenshots
     description:
