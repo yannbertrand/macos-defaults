@@ -89,6 +89,7 @@ exports[`write-tree no categories should write the netlify _headers file 1`] = `
 "/*
   Content-Security-Policy: default-src 'self'; style-src 'self' 'unsafe-inline';
   X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
 "
 `;
 
