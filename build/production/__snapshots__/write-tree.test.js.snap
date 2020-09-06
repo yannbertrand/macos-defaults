@@ -5,6 +5,49 @@ exports[`write-tree no categories should write a vuepress config.yml file using 
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -71,6 +114,49 @@ exports[`write-tree one category, no page with image should write a vuepress con
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -169,6 +255,49 @@ exports[`write-tree one category, one page with image example should write a vue
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -270,6 +399,49 @@ exports[`write-tree one category, one page with text and possible values example
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -361,6 +533,49 @@ exports[`write-tree one category, one page with text example with an after comma
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -456,6 +671,49 @@ exports[`write-tree one category, one page with text example with requirements s
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -547,6 +805,49 @@ exports[`write-tree one category, one page with text example with special chars 
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -644,6 +945,49 @@ exports[`write-tree one category, one page with video example should write a vue
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -775,6 +1119,49 @@ exports[`write-tree one category, two pages should write a vuepress config.yml f
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -917,6 +1304,49 @@ exports[`write-tree two categories, one page in each should write a vuepress con
 
 title: 'macOS defaults'
 description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'

@@ -4,7 +4,18 @@ jest.mock('fs')
 const writeTree = require('./write-tree')
 
 const destinationPath = './dist'
-const copiedFiles = ['.vuepress/public/favicon.ico']
+const copiedFiles = [
+  '.vuepress/public/android-chrome-192x192.png',
+  '.vuepress/public/android-chrome-512x512.png',
+  '.vuepress/public/apple-touch-icon.png',
+  '.vuepress/public/browserconfig.xml',
+  '.vuepress/public/favicon.ico',
+  '.vuepress/public/favicon-16x16.png',
+  '.vuepress/public/favicon-32x32.png',
+  '.vuepress/public/mstile-150x150.png',
+  '.vuepress/public/safari-pinned-tab.svg',
+  '.vuepress/public/site.webmanifest'
+]
 
 describe('write-tree', () => {
   afterEach(() => {

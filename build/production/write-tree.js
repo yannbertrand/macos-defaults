@@ -6,7 +6,16 @@ module.exports = (defaults, destinationPath) => {
   fs.mkdirSync(`${destinationPath}/.vuepress`)
   fs.mkdirSync(`${destinationPath}/.vuepress/public`)
 
+  fs.copyFileSync('./templates/.vuepress/public/android-chrome-192x192.png', `${destinationPath}/.vuepress/public/android-chrome-192x192.png`)
+  fs.copyFileSync('./templates/.vuepress/public/android-chrome-512x512.png', `${destinationPath}/.vuepress/public/android-chrome-512x512.png`)
+  fs.copyFileSync('./templates/.vuepress/public/apple-touch-icon.png', `${destinationPath}/.vuepress/public/apple-touch-icon.png`)
+  fs.copyFileSync('./templates/.vuepress/public/browserconfig.xml', `${destinationPath}/.vuepress/public/browserconfig.xml`)
   fs.copyFileSync('./templates/.vuepress/public/favicon.ico', `${destinationPath}/.vuepress/public/favicon.ico`)
+  fs.copyFileSync('./templates/.vuepress/public/favicon-16x16.png', `${destinationPath}/.vuepress/public/favicon-16x16.png`)
+  fs.copyFileSync('./templates/.vuepress/public/favicon-32x32.png', `${destinationPath}/.vuepress/public/favicon-32x32.png`)
+  fs.copyFileSync('./templates/.vuepress/public/mstile-150x150.png', `${destinationPath}/.vuepress/public/mstile-150x150.png`)
+  fs.copyFileSync('./templates/.vuepress/public/safari-pinned-tab.svg', `${destinationPath}/.vuepress/public/safari-pinned-tab.svg`)
+  fs.copyFileSync('./templates/.vuepress/public/site.webmanifest', `${destinationPath}/.vuepress/public/site.webmanifest`)
 
   const homeTemplate = fs.readFileSync('./templates/home.md.handlebars', 'utf8')
   const rootReadmeContent = Handlebars.compile(homeTemplate)(defaults)
