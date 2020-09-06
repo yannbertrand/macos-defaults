@@ -53,6 +53,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -70,7 +98,20 @@ themeConfig:
 
 exports[`write-tree no categories should write an empty readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -95,7 +136,23 @@ exports[`write-tree no categories should write the netlify _headers file 1`] = `
 `;
 
 exports[`write-tree one category, no page with image should write a category/readme.md file using the category template 1`] = `
-"# Category
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
 
 <img src=\\"./category.png\\" alt=\\"A screenshot of the Category\\"
   width=\\"740\\" height=\\"80\\" style=\\"height: auto\\" />
@@ -107,7 +164,20 @@ exports[`write-tree one category, no page with image should write a category/rea
 
 exports[`write-tree one category, no page with image should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -177,6 +247,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -198,7 +296,20 @@ themeConfig:
 
 exports[`write-tree one category, one page with image example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: \\"Page | Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category > Page\\"
+  - name: \\"description\\"
+    content: \\"Page description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -243,7 +354,23 @@ defaults delete com.apple.category page
 `;
 
 exports[`write-tree one category, one page with image example should write a category/readme.md file using the category template 1`] = `
-"# Category
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
 
 > Category description.
 
@@ -253,7 +380,20 @@ exports[`write-tree one category, one page with image example should write a cat
 
 exports[`write-tree one category, one page with image example should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -324,6 +464,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -346,7 +514,20 @@ themeConfig:
 
 exports[`write-tree one category, one page with text and possible values example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: \\"Page | Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category > Page\\"
+  - name: \\"description\\"
+    content: \\"Page description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -393,7 +574,23 @@ defaults delete com.apple.category page
 `;
 
 exports[`write-tree one category, one page with text and possible values example should write a category/readme.md file using the category template 1`] = `
-"# Category
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
 
 > Category description.
 
@@ -403,7 +600,20 @@ exports[`write-tree one category, one page with text and possible values example
 
 exports[`write-tree one category, one page with text and possible values example should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -474,6 +684,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -496,7 +734,20 @@ themeConfig:
 
 exports[`write-tree one category, one page with text example with an after command should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: \\"Page | Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category > Page\\"
+  - name: \\"description\\"
+    content: \\"Page description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -533,7 +784,23 @@ defaults delete com.apple.category page && killall App
 `;
 
 exports[`write-tree one category, one page with text example with an after command should write a category/readme.md file using the category template 1`] = `
-"# Category
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
 
 > Category description.
 
@@ -543,7 +810,20 @@ exports[`write-tree one category, one page with text example with an after comma
 
 exports[`write-tree one category, one page with text example with an after command should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -614,6 +894,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -636,7 +944,20 @@ themeConfig:
 
 exports[`write-tree one category, one page with text example with requirements should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: \\"Page | Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category > Page\\"
+  - name: \\"description\\"
+    content: \\"Page description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -677,7 +998,23 @@ defaults delete com.apple.category page && killall App
 `;
 
 exports[`write-tree one category, one page with text example with requirements should write a category/readme.md file using the category template 1`] = `
-"# Category
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
 
 > Category description.
 
@@ -687,7 +1024,20 @@ exports[`write-tree one category, one page with text example with requirements s
 
 exports[`write-tree one category, one page with text example with requirements should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -758,6 +1108,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -780,7 +1158,20 @@ themeConfig:
 
 exports[`write-tree one category, one page with text example with special chars values should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: \\"Page | Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category > Page\\"
+  - name: \\"description\\"
+    content: \\"Page description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -817,7 +1208,23 @@ defaults delete com.apple.category page
 `;
 
 exports[`write-tree one category, one page with text example with special chars values should write a category/readme.md file using the category template 1`] = `
-"# Category
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
 
 > Category description.
 
@@ -827,7 +1234,20 @@ exports[`write-tree one category, one page with text example with special chars 
 
 exports[`write-tree one category, one page with text example with special chars values should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -898,6 +1318,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -920,7 +1368,20 @@ themeConfig:
 
 exports[`write-tree one category, one page with video example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: \\"Page | Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category > Page\\"
+  - name: \\"description\\"
+    content: \\"Page description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -963,7 +1424,23 @@ defaults delete com.apple.category page
 `;
 
 exports[`write-tree one category, one page with video example should write a category/readme.md file using the category template 1`] = `
-"# Category
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
 
 > Category description.
 
@@ -973,7 +1450,20 @@ exports[`write-tree one category, one page with video example should write a cat
 
 exports[`write-tree one category, one page with video example should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -1044,6 +1534,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -1066,7 +1584,20 @@ themeConfig:
 
 exports[`write-tree one category, two pages should write a category/page1.md file using the page template 1`] = `
 "---
-metaTitle: 'Page 1 | Category | macOS defaults'
+metaTitle: \\"Page 1 | Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category > Page 1\\"
+  - name: \\"description\\"
+    content: \\"Page 1 description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page 1 description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page 1
 
@@ -1104,7 +1635,20 @@ defaults delete com.apple.category page1
 
 exports[`write-tree one category, two pages should write a category/page2.md file using the page template 1`] = `
 "---
-metaTitle: 'Page 2 | Category | macOS defaults'
+metaTitle: \\"Page 2 | Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category > Page 2\\"
+  - name: \\"description\\"
+    content: \\"Page 2 description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page 2 description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page 2
 
@@ -1141,7 +1685,23 @@ defaults delete com.apple.category page2
 `;
 
 exports[`write-tree one category, two pages should write a category/readme.md file using the category template 1`] = `
-"# Category
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
 
 > Category description.
 
@@ -1152,7 +1712,20 @@ exports[`write-tree one category, two pages should write a category/readme.md fi
 
 exports[`write-tree one category, two pages should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -1224,6 +1797,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
@@ -1247,7 +1848,20 @@ themeConfig:
 
 exports[`write-tree two categories, one page in each should write a category1/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category 1 | macOS defaults'
+metaTitle: \\"Page | Category 1 | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category 1 > Page\\"
+  - name: \\"description\\"
+    content: \\"Page description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -1284,7 +1898,23 @@ defaults delete com.apple.category1 page
 `;
 
 exports[`write-tree two categories, one page in each should write a category1/readme.md file using the category template 1`] = `
-"# Category 1
+"---
+metaTitle: \\"Category 1 | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category 1\\"
+  - name: \\"description\\"
+    content: \\"Category 1 description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category 1 description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category 1
 
 > Category 1 description.
 
@@ -1294,7 +1924,20 @@ exports[`write-tree two categories, one page in each should write a category1/re
 
 exports[`write-tree two categories, one page in each should write a category2/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category 2 | macOS defaults'
+metaTitle: \\"Page | Category 2 | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category 2 > Page\\"
+  - name: \\"description\\"
+    content: \\"Page description.\\"
+  - property: \\"og:description\\"
+    content: \\"Page description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -1331,7 +1974,23 @@ defaults delete com.apple.category2 page
 `;
 
 exports[`write-tree two categories, one page in each should write a category2/readme.md file using the category template 1`] = `
-"# Category 2
+"---
+metaTitle: \\"Category 2 | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category 2\\"
+  - name: \\"description\\"
+    content: \\"Category 2 description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category 2 description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category 2
 
 > Category 2 description.
 
@@ -1341,7 +2000,20 @@ exports[`write-tree two categories, one page in each should write a category2/re
 
 exports[`write-tree two categories, one page in each should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: 'macOS defaults'
+metaTitle: \\"macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"A list of macOS defaults commands with demos ✨\\"
+  - name: \\"description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"og:description\\"
+    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary_large_image\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-2x1.jpg\\"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -1415,6 +2087,34 @@ head:
     - meta
     - http-equiv: \\"Content-Type\\"
       content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
