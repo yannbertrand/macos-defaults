@@ -17,7 +17,55 @@ meta:
 # macOS `defaults` list
 Uncomplete list of macOS `defaults` commands with demos ✨
 
-## 💻 Commands
+## 🙋 What's a `defaults` command?
+
+<div class="custom-block tip">
+  <p>
+    <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
+    Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
+  </p>
+  <p>
+    User defaults belong to <strong>domains</strong>, which typically correspond to individual applications.
+    Applications, system services, and other programs have their own domains, they also share a domain named <strong>NSGlobalDomain</strong>.
+    If a default isn't specified in the application's domain, it may be specified in NSGlobalDomain.
+  </p>
+  <p>
+    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>"Default Font" = "Helvetica"</strong>.
+    <strong>Keys</strong> are strings, <strong>values</strong> can be complex data structures comprising arrays,
+    dictionaries, strings, and binary data. They're stored as XML Property List.
+  </p>
+  <p>The <code>defaults</code> command line interface is a way to interact with these values.</p>
+</div>
+
+**Source: [Real-World-Systems](http://www.real-world-systems.com/docs/defaults.1.html)**
+
+### Command line interface basics
+#### Print the help
+```bash
+defaults help
+```
+
+#### List all domains
+```bash
+defaults domains
+```
+
+#### List all entries containing *word*
+```bash
+defaults search ${word}
+```
+
+#### Show the type for the given *domain*, *key*
+```bash
+defaults read-type ${domain} ${key}
+```
+
+#### Rename *old_key* to *new_key*
+```bash
+defaults rename ${domain} ${old_key} ${new_key}
+```
+
+## 💻 List of commands
 {{# categories }}
 ### {{ name }}
 {{# keys }}
