@@ -65,6 +65,15 @@ It currently builds to:
 - See [Docusaurus' build detail](./build/docusaurus/#readme) [![Docusaurus build status](https://img.shields.io/netlify/92522518-2bcc-4086-8926-6c3534666011)](https://macos-defaults-docusaurus.netlify.app/)
 - See [Docsify's build detail](./build/docsify/#readme) [![Docsify build status](https://img.shields.io/netlify/8af81039-12cc-4080-a434-d8f162d5c416)](https://macos-defaults-docsify.netlify.app/)
 
+# macOS-defaults recorder 📷
+
+> Programmatically record a Mac screen with a predefined list of actions 📹.
+
+The project also contains scripts that run desktop actions, take screenshots or record videos. The goal is to avoid having to manually recheck the status of commands with each new major version of macOS.
+
+## How does it work?
+Take a look at the [record folder](./record/#readme) if you want to go deeper.
+
 # Show your support
 Give a ⭐️ if this project helped you!
 
