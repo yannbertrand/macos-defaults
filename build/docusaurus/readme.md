@@ -33,6 +33,8 @@ Here is the built website architecture:
 
 All the other pages are markdown files that are carefully put under their folder (e.g. `docs/screenshot/disable-shadow.md`). Assets are stored under the `docs/assets` folder.
 
+I didn't implement internationalization as it requires the use of the [Crowdin](https://crowdin.com) SaaS solution and is [likely to change in v2](https://github.com/facebook/docusaurus/issues/3317).
+
 There is a second build phase where Docusaurus generates the static website.
 
 ## Try locally
