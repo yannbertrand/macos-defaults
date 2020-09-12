@@ -24,7 +24,7 @@ Here is the built website architecture:
 - `readme.md`
   * The main page content
 
-All the other pages are markdown files that are carefully put under their folder (e.g. `screenshot/disable-shadow.md`). Assets are stored at the same level.
+All the other pages (including translations) are markdown files that are carefully put under their folder (e.g. `screenshot/disable-shadow.md`). Assets are stored at the same level.
 
 There is a second build phase where VuePress generates the static website.
 

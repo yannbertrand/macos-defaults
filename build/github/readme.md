@@ -5,7 +5,8 @@ Instead of building a website, I wanted to try constructing GitHub readmes linke
 As the project is simple, I thought it could be a decent choice.
 
 ## My opinion
-Unfortunately, it's not possible to display videos in GitHub Flavored Markdown. Images can't be sized using HTML `width` and `height` to avoid [Cumulative Layout Shift](https://web.dev/cls/).
+Unfortunately, it's not possible to display videos in GitHub Flavored Markdown. Images can't be sized using HTML `width` and `height` to avoid [Cumulative Layout Shift](https://web.dev/cls/). I also didn't a find a proper way to internationalize.
+
 Apart from that I'm sure it could be used for real small projects as it avoids setting up anything else.
 
 ## How does it work?
