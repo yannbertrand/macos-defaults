@@ -11,6 +11,7 @@ docsify was the easiest to setup as it's pretty much the same markdown as VuePre
 
 ### 😕 Bad
 - Requires JavaScript
+- Internationalization is not documented and tough to setup
 - The full text search is pretty bad
 - The docsify-cli is really basic
 
