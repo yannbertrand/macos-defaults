@@ -6,9 +6,36 @@
 
 **Stability: 1 - Experimental**
 
-> Build an up-to-date list of [macOS `defaults` commands](https://macos-defaults.com) with demos ✨.
+> An up-to-date list of [macOS `defaults` commands](https://macos-defaults.com) with demos ✨.
 
-That's the main goal of this repo. But why not go further?
+## Add a command
+All the listed `defaults` commands are stored in a single [defaults.yml file](./defaults.yml). Here is how a command's info is designed:
+
+```yml
+      - key: the-command-name-separated-with-dashes # The command's key
+        domain: com.some-domain.app-name # The command's domain
+        title: My command
+        description: Explaining what my command does.
+        param:
+          type: bool # Other types can be used
+        examples: # A list of examples
+          - value: false # This example sets the value to `false`
+            default: true # `false` is the default value of the command
+            image: # Optional: an auto recorded screenshot
+              filename: "false.png"
+              width: 800
+              height: 600
+            text: Explaining what happens when the command is set to `false`
+          - value: true # This one sets the value to `true`
+            image:
+              filename: "true.png" # The name of the image
+              width: 800 # The width of the image
+              height: 600 # And its height
+            text: Explaining what happens when the command is set to `true`
+        versions: [Big Sur, Catalina] # It's been tested on Big Sur and Catalina
+```
+
+Images and videos are built programmatically. Take a look at the [record folder](./record/#readme) to find out how to record some. I will always prefer images and videos examples as they help maintenance a lot! Please consider it if you want to [open a PR](https://github.com/yannbertrand/macos-defaults/compare).
 
 # macOS-defaults builder 🤖
 
