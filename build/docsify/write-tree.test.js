@@ -3,8 +3,8 @@ jest.mock('fs')
 
 const writeTree = require('./write-tree')
 
-const destinationPath = './dist'
-const copiedFiles = ['index.html', 'favicon.ico']
+const templatesPath = 'templates'
+const destinationPath = 'dist'
 
 describe('write-tree', () => {
   afterEach(() => {
@@ -14,21 +14,9 @@ describe('write-tree', () => {
   describe('no categories', () => {
     beforeEach(() => callWriteTree({ categories: null }))
 
-    it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
-        const fileContent = readFile(`${destinationPath}/${file}`)
-        expect(fileContent).toEqual(`copied:./templates/${file}`)
-      })
-    })
-
     it('should write an empty readme.md file using the home template', () => {
       const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
       expect(rootReadmeContent).toMatchSnapshot()
-    })
-
-    it('should write a sidebar config file using the sidebar template', () => {
-      const sidebarConfigContent = readFile(`${destinationPath}/_sidebar.md`)
-      expect(sidebarConfigContent).toMatchSnapshot()
     })
   })
 
@@ -51,23 +39,9 @@ describe('write-tree', () => {
         })
       )
 
-      it('should copy some static files', () => {
-        copiedFiles.forEach(file => {
-          const fileContent = readFile(`${destinationPath}/${file}`)
-          expect(fileContent).toEqual(`copied:./templates/${file}`)
-        })
-      })
-
       it('should write a readme.md file using the home template', () => {
         const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
         expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a sidebar config file using the sidebar template', () => {
-        const sidebarConfigContent = readFile(
-          `${destinationPath}/_sidebar.md`
-        )
-        expect(sidebarConfigContent).toMatchSnapshot()
       })
 
       it('should write a category/readme.md file using the category template', () => {
@@ -124,23 +98,9 @@ describe('write-tree', () => {
           })
         )
 
-        it('should copy some static files', () => {
-          copiedFiles.forEach(file => {
-            const fileContent = readFile(`${destinationPath}/${file}`)
-            expect(fileContent).toEqual(`copied:./templates/${file}`)
-          })
-        })
-
         it('should write a readme.md file using the home template', () => {
           const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
           expect(rootReadmeContent).toMatchSnapshot()
-        })
-
-        it('should write a sidebar config file using the sidebar template', () => {
-          const sidebarConfigContent = readFile(
-            `${destinationPath}/_sidebar.md`
-          )
-          expect(sidebarConfigContent).toMatchSnapshot()
         })
 
         it('should write a category/readme.md file using the category template', () => {
@@ -207,23 +167,9 @@ describe('write-tree', () => {
           })
         )
 
-        it('should copy some static files', () => {
-          copiedFiles.forEach(file => {
-            const fileContent = readFile(`${destinationPath}/${file}`)
-            expect(fileContent).toEqual(`copied:./templates/${file}`)
-          })
-        })
-
         it('should write a readme.md file using the home template', () => {
           const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
           expect(rootReadmeContent).toMatchSnapshot()
-        })
-
-        it('should write a sidebar config file using the sidebar template', () => {
-          const sidebarConfigContent = readFile(
-            `${destinationPath}/_sidebar.md`
-          )
-          expect(sidebarConfigContent).toMatchSnapshot()
         })
 
         it('should write a category/readme.md file using the category template', () => {
@@ -276,23 +222,9 @@ describe('write-tree', () => {
           })
         )
 
-        it('should copy some static files', () => {
-          copiedFiles.forEach(file => {
-            const fileContent = readFile(`${destinationPath}/${file}`)
-            expect(fileContent).toEqual(`copied:./templates/${file}`)
-          })
-        })
-
         it('should write a readme.md file using the home template', () => {
           const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
           expect(rootReadmeContent).toMatchSnapshot()
-        })
-
-        it('should write a sidebar config file using the sidebar template', () => {
-          const sidebarConfigContent = readFile(
-            `${destinationPath}/_sidebar.md`
-          )
-          expect(sidebarConfigContent).toMatchSnapshot()
         })
 
         it('should write a category/readme.md file using the category template', () => {
@@ -349,23 +281,9 @@ describe('write-tree', () => {
         })
       )
 
-      it('should copy some static files', () => {
-        copiedFiles.forEach(file => {
-          const fileContent = readFile(`${destinationPath}/${file}`)
-          expect(fileContent).toEqual(`copied:./templates/${file}`)
-        })
-      })
-
       it('should write a readme.md file using the home template', () => {
         const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
         expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a sidebar config file using the sidebar template', () => {
-        const sidebarConfigContent = readFile(
-          `${destinationPath}/_sidebar.md`
-        )
-        expect(sidebarConfigContent).toMatchSnapshot()
       })
 
       it('should write a category/readme.md file using the category template', () => {
@@ -425,23 +343,9 @@ describe('write-tree', () => {
         })
       )
 
-      it('should copy some static files', () => {
-        copiedFiles.forEach(file => {
-          const fileContent = readFile(`${destinationPath}/${file}`)
-          expect(fileContent).toEqual(`copied:./templates/${file}`)
-        })
-      })
-
       it('should write a readme.md file using the home template', () => {
         const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
         expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a sidebar config file using the sidebar template', () => {
-        const sidebarConfigContent = readFile(
-          `${destinationPath}/_sidebar.md`
-        )
-        expect(sidebarConfigContent).toMatchSnapshot()
       })
 
       it('should write a category/readme.md file using the category template', () => {
@@ -519,23 +423,9 @@ describe('write-tree', () => {
         })
       )
 
-      it('should copy some static files', () => {
-        copiedFiles.forEach(file => {
-          const fileContent = readFile(`${destinationPath}/${file}`)
-          expect(fileContent).toEqual(`copied:./templates/${file}`)
-        })
-      })
-
       it('should write a readme.md file using the home template', () => {
         const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
         expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a sidebar config file using the sidebar template', () => {
-        const sidebarConfigContent = readFile(
-          `${destinationPath}/_sidebar.md`
-        )
-        expect(sidebarConfigContent).toMatchSnapshot()
       })
 
       it('should write a category/readme.md file using the category template', () => {
@@ -625,23 +515,9 @@ describe('write-tree', () => {
       })
     )
 
-    it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
-        const fileContent = readFile(`${destinationPath}/${file}`)
-        expect(fileContent).toEqual(`copied:./templates/${file}`)
-      })
-    })
-
     it('should write a readme.md file using the home template', () => {
       const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
       expect(rootReadmeContent).toMatchSnapshot()
-    })
-
-    it('should write a sidebar config file using the sidebar template', () => {
-      const sidebarConfigContent = readFile(
-        `${destinationPath}/_sidebar.md`
-      )
-      expect(sidebarConfigContent).toMatchSnapshot()
     })
 
     it('should write a category/readme.md file using the category template', () => {
@@ -722,23 +598,9 @@ describe('write-tree', () => {
       })
     )
 
-    it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
-        const fileContent = readFile(`${destinationPath}/${file}`)
-        expect(fileContent).toEqual(`copied:./templates/${file}`)
-      })
-    })
-
     it('should write a readme.md file using the home template', () => {
       const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
       expect(rootReadmeContent).toMatchSnapshot()
-    })
-
-    it('should write a sidebar config file using the sidebar template', () => {
-      const sidebarConfigContent = readFile(
-        `${destinationPath}/_sidebar.md`
-      )
-      expect(sidebarConfigContent).toMatchSnapshot()
     })
 
     it('should write a category1/readme.md file using the category template', () => {
@@ -767,5 +629,5 @@ describe('write-tree', () => {
   })
 })
 
-const callWriteTree = sourceFile => writeTree(sourceFile, destinationPath)
+const callWriteTree = sourceFile => writeTree(sourceFile, templatesPath, destinationPath)
 const readFile = file => fs.readFakeFileSync(file, 'utf8')

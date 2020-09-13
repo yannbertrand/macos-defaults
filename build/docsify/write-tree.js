@@ -1,22 +1,15 @@
 const fs = require('fs')
 const Handlebars = require('handlebars')
 
-module.exports = (defaults, destinationPath) => {
+module.exports = (defaults, templatesPath, destinationPath) => {
   fs.mkdirSync(destinationPath)
 
-  fs.copyFileSync('./templates/index.html', `${destinationPath}/index.html`)
-  fs.copyFileSync('./templates/favicon.ico', `${destinationPath}/favicon.ico`)
-
-  const homeTemplate = fs.readFileSync('./templates/home.md.handlebars', 'utf8')
+  const homeTemplate = fs.readFileSync(`${templatesPath}/home.md.handlebars`, 'utf8')
   const rootReadmeContent = Handlebars.compile(homeTemplate)(defaults)
   fs.writeFileSync(`${destinationPath}/readme.md`, rootReadmeContent)
 
-  const sidebarConfigTemplate = fs.readFileSync('./templates/_sidebar.md.handlebars', 'utf8')
-  const sidebarConfigContent = Handlebars.compile(sidebarConfigTemplate)(defaults)
-  fs.writeFileSync(`${destinationPath}/_sidebar.md`, sidebarConfigContent)
-
   if (defaults.categories !== null) {
-    const categoryTemplate = fs.readFileSync('./templates/category.md.handlebars', 'utf8')
+    const categoryTemplate = fs.readFileSync(`${templatesPath}/category.md.handlebars`, 'utf8')
     const renderCategory = Handlebars.compile(categoryTemplate)
     defaults.categories.forEach(category => {
       fs.mkdirSync(`${destinationPath}/${category.folder}`)
@@ -31,7 +24,7 @@ module.exports = (defaults, destinationPath) => {
       }
     })
 
-    const pageTemplate = fs.readFileSync('./templates/page.md.handlebars', 'utf8')
+    const pageTemplate = fs.readFileSync(`${templatesPath}/page.md.handlebars`, 'utf8')
     const renderPage = Handlebars.compile(pageTemplate)
     defaults.categories.forEach(({ folder, name, keys }) => {
       if (keys === undefined) { return }
