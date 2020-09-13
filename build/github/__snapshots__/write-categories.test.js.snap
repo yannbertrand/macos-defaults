@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`write-categories one category, no page with image should write a category/readme.md file using the category template 1`] = `
+"# Category
+
+![A screenshot of the Category](category.png)
+
+> Category description.
+
+"
+`;
+
+exports[`write-categories one category, one page should write a category/readme.md file using the category template 1`] = `
+"# Category
+
+> Category description.
+
+- [Page](./page/readme.md)
+"
+`;
+
+exports[`write-categories one category, two pages should write a category/readme.md file using the category template 1`] = `
+"# Category
+
+> Category description.
+
+- [Page 1](./page1/readme.md)
+- [Page 2](./page2/readme.md)
+"
+`;
+
+exports[`write-categories two categories, one page in each should write a category1/readme.md file using the category template 1`] = `
+"# Category 1
+
+> Category 1 description.
+
+- [Page](./page/readme.md)
+"
+`;
+
+exports[`write-categories two categories, one page in each should write a category2/readme.md file using the category template 1`] = `
+"# Category 2
+
+> Category 2 description.
+
+- [Page](./page/readme.md)
+"
+`;

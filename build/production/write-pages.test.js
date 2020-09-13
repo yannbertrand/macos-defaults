@@ -1,72 +1,21 @@
 const fs = require('fs')
 jest.mock('fs')
 
-const writeTree = require('./write-tree')
+const writePages = require('./write-pages')
 
 const templatesPath = 'templates'
 const destinationPath = 'dist'
 
-describe('write-tree', () => {
+describe('write-pages', () => {
   afterEach(() => {
     jest.clearAllMocks()
-  })
-
-  describe('no categories', () => {
-    beforeEach(() => callWriteTree({ categories: null }))
-
-    it('should write an empty readme.md file using the home template', () => {
-      const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-      expect(rootReadmeContent).toMatchSnapshot()
-    })
-  })
-
-  describe('one category, no page', () => {
-    describe('with image', () => {
-      beforeEach(() =>
-        callWriteTree({
-          categories: [
-            {
-              folder: 'category',
-              name: 'Category',
-              description: 'Category description.',
-              image: {
-                filename: 'category.png',
-                width: 740,
-                height: 80
-              }
-            }
-          ]
-        })
-      )
-
-      it('should write a readme.md file using the home template', () => {
-        const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-        expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a category/readme.md file using the category template', () => {
-        const categoryReadmeContent = readFile(
-          `${destinationPath}/category/readme.md`
-        )
-        expect(categoryReadmeContent).toMatchSnapshot()
-      })
-
-      it('should copy the category.png example image to a category folder', () => {
-        const originImagePath = readFile(
-          `${destinationPath}/category/category.png`
-        )
-        expect(originImagePath).toMatchInlineSnapshot(
-          `"copied:../../images/category/category.png"`
-        )
-      })
-    })
   })
 
   describe('one category, one page', () => {
     describe('with text example', () => {
       describe('with special chars values', () => {
         beforeEach(() =>
-          callWriteTree({
+          callWritePages({
             categories: [
               {
                 folder: 'category',
@@ -98,18 +47,6 @@ describe('write-tree', () => {
           })
         )
 
-        it('should write a readme.md file using the home template', () => {
-          const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-          expect(rootReadmeContent).toMatchSnapshot()
-        })
-
-        it('should write a category/readme.md file using the category template', () => {
-          const categoryReadmeContent = readFile(
-            `${destinationPath}/category/readme.md`
-          )
-          expect(categoryReadmeContent).toMatchSnapshot()
-        })
-
         it('should write a category/page.md file using the page template', () => {
           const pageReadmeContent = readFile(
             `${destinationPath}/category/page.md`
@@ -120,7 +57,7 @@ describe('write-tree', () => {
 
       describe('with requirements', () => {
         beforeEach(() =>
-          callWriteTree({
+          callWritePages({
             categories: [
               {
                 folder: 'category',
@@ -167,18 +104,6 @@ describe('write-tree', () => {
           })
         )
 
-        it('should write a readme.md file using the home template', () => {
-          const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-          expect(rootReadmeContent).toMatchSnapshot()
-        })
-
-        it('should write a category/readme.md file using the category template', () => {
-          const categoryReadmeContent = readFile(
-            `${destinationPath}/category/readme.md`
-          )
-          expect(categoryReadmeContent).toMatchSnapshot()
-        })
-
         it('should write a category/page.md file using the page template', () => {
           const pageReadmeContent = readFile(
             `${destinationPath}/category/page.md`
@@ -189,7 +114,7 @@ describe('write-tree', () => {
 
       describe('with an after command', () => {
         beforeEach(() =>
-          callWriteTree({
+          callWritePages({
             categories: [
               {
                 folder: 'category',
@@ -222,18 +147,6 @@ describe('write-tree', () => {
           })
         )
 
-        it('should write a readme.md file using the home template', () => {
-          const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-          expect(rootReadmeContent).toMatchSnapshot()
-        })
-
-        it('should write a category/readme.md file using the category template', () => {
-          const categoryReadmeContent = readFile(
-            `${destinationPath}/category/readme.md`
-          )
-          expect(categoryReadmeContent).toMatchSnapshot()
-        })
-
         it('should write a category/page.md file using the page template', () => {
           const pageReadmeContent = readFile(
             `${destinationPath}/category/page.md`
@@ -245,7 +158,7 @@ describe('write-tree', () => {
 
     describe('with text and possible values example', () => {
       beforeEach(() =>
-        callWriteTree({
+        callWritePages({
           categories: [
             {
               folder: 'category',
@@ -281,18 +194,6 @@ describe('write-tree', () => {
         })
       )
 
-      it('should write a readme.md file using the home template', () => {
-        const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-        expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a category/readme.md file using the category template', () => {
-        const categoryReadmeContent = readFile(
-          `${destinationPath}/category/readme.md`
-        )
-        expect(categoryReadmeContent).toMatchSnapshot()
-      })
-
       it('should write a category/page.md file using the page template', () => {
         const pageReadmeContent = readFile(
           `${destinationPath}/category/page.md`
@@ -303,7 +204,7 @@ describe('write-tree', () => {
 
     describe('with image example', () => {
       beforeEach(() =>
-        callWriteTree({
+        callWritePages({
           categories: [
             {
               folder: 'category',
@@ -343,18 +244,6 @@ describe('write-tree', () => {
         })
       )
 
-      it('should write a readme.md file using the home template', () => {
-        const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-        expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a category/readme.md file using the category template', () => {
-        const categoryReadmeContent = readFile(
-          `${destinationPath}/category/readme.md`
-        )
-        expect(categoryReadmeContent).toMatchSnapshot()
-      })
-
       it('should write a category/page.md file using the page template', () => {
         const pageReadmeContent = readFile(
           `${destinationPath}/category/page.md`
@@ -383,7 +272,7 @@ describe('write-tree', () => {
 
     describe('with video example', () => {
       beforeEach(() =>
-        callWriteTree({
+        callWritePages({
           categories: [
             {
               folder: 'category',
@@ -423,18 +312,6 @@ describe('write-tree', () => {
         })
       )
 
-      it('should write a readme.md file using the home template', () => {
-        const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-        expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a category/readme.md file using the category template', () => {
-        const categoryReadmeContent = readFile(
-          `${destinationPath}/category/readme.md`
-        )
-        expect(categoryReadmeContent).toMatchSnapshot()
-      })
-
       it('should write a category/page.md file using the page template', () => {
         const pageReadmeContent = readFile(
           `${destinationPath}/category/page.md`
@@ -464,7 +341,7 @@ describe('write-tree', () => {
 
   describe('one category, two pages', () => {
     beforeEach(() =>
-      callWriteTree({
+      callWritePages({
         categories: [
           {
             folder: 'category',
@@ -515,18 +392,6 @@ describe('write-tree', () => {
       })
     )
 
-    it('should write a readme.md file using the home template', () => {
-      const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-      expect(rootReadmeContent).toMatchSnapshot()
-    })
-
-    it('should write a category/readme.md file using the category template', () => {
-      const categoryReadmeContent = readFile(
-        `${destinationPath}/category/readme.md`
-      )
-      expect(categoryReadmeContent).toMatchSnapshot()
-    })
-
     it('should write a category/page1.md file using the page template', () => {
       const pageReadmeContent = readFile(`${destinationPath}/category/page1.md`)
       expect(pageReadmeContent).toMatchSnapshot()
@@ -540,7 +405,7 @@ describe('write-tree', () => {
 
   describe('two categories, one page in each', () => {
     beforeEach(() =>
-      callWriteTree({
+      callWritePages({
         categories: [
           {
             folder: 'category1',
@@ -598,25 +463,6 @@ describe('write-tree', () => {
       })
     )
 
-    it('should write a readme.md file using the home template', () => {
-      const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
-      expect(rootReadmeContent).toMatchSnapshot()
-    })
-
-    it('should write a category1/readme.md file using the category template', () => {
-      const categoryReadmeContent = readFile(
-        `${destinationPath}/category1/readme.md`
-      )
-      expect(categoryReadmeContent).toMatchSnapshot()
-    })
-
-    it('should write a category2/readme.md file using the category template', () => {
-      const categoryReadmeContent = readFile(
-        `${destinationPath}/category2/readme.md`
-      )
-      expect(categoryReadmeContent).toMatchSnapshot()
-    })
-
     it('should write a category1/page.md file using the page template', () => {
       const pageReadmeContent = readFile(`${destinationPath}/category1/page.md`)
       expect(pageReadmeContent).toMatchSnapshot()
@@ -629,5 +475,5 @@ describe('write-tree', () => {
   })
 })
 
-const callWriteTree = sourceFile => writeTree(sourceFile, templatesPath, destinationPath)
+const callWritePages = defaults => writePages({ defaults, url: '/' }, templatesPath, destinationPath)
 const readFile = file => fs.readFakeFileSync(file, 'utf8')
