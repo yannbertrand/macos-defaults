@@ -1,0 +1,369 @@
+---
+
+categories:
+
+  - folder: dock
+    name: Dock
+    description:
+      Le Dock est une composante importante de macOS.
+      Il est utilisé pour lancer des applications et pour naviguer entre les applications lancées.
+      Par défaut il est placé en bas de votre écran.<br><br>
+      Il est personnalisable à souhait.
+    image:
+      filename: "dock.png"
+      width: 740
+      height: 41
+    keys:
+      - key: orientation
+        domain: com.apple.dock
+        title: Position
+        description: Choisir la position du Dock
+        param:
+          type: string
+          values: [left, bottom, right]
+        examples:
+          - value: left
+            image:
+              filename: "left.png"
+              width: 740
+              height: 463
+            text: Placer le Dock sur la gauche de l'écran
+          - value: bottom
+            default: true
+            image:
+              filename: "bottom.png"
+              width: 740
+              height: 463
+            text: Placer le Dock en bas de l'écran
+          - value: right
+            image:
+              filename: "right.png"
+              width: 740
+              height: 463
+            text: Placer le Dock sur la droite de l'écran
+        versions: [Big Sur, Catalina]
+        after: killall Dock
+      - key: autohide
+        domain: com.apple.dock
+        title: Caché automatiquement
+        description: Cacher le Dock automatiquement. Vous pouvez afficher/cacher le Dock avec `⌥ alt`+`⌘ cmd`+`d`.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Toujours afficher le Dock
+          - value: true
+            text: Cacher le Dock automatiquement lorsque votre souris n'est pas dessus
+        versions: [Big Sur, Catalina]
+        after: killall Dock
+      - key: autohide-time-modifier
+        domain: com.apple.dock
+        title: Durée de l'animation d'affichage
+        description: Changer la durée d'animation d'affichage et de cachage du Dock.
+        param:
+          type: float
+        examples:
+          - value: 0.5
+            default: true
+            video:
+              filename: "0.5.mp4"
+              width: 742
+              height: 202
+            text: Par défaut, l'animation d'affichage et de cachage prends 0.5 secondes
+          - value: 2
+            video:
+              filename: "2.mp4"
+              width: 742
+              height: 202
+            text: Allonger la durée d'animation du Dock
+          - value: 0
+            video:
+              filename: "0.mp4"
+              width: 742
+              height: 202
+            text: Supprimer la durée d'animation du Dock
+        versions: [Big Sur, Catalina]
+        requirements:
+          - folder: dock
+            key: autohide
+            name: com.apple.dock autohide
+            value: true
+        after: killall Dock
+      - key: autohide-delay
+        domain: com.apple.dock
+        title: Délai avant affichage
+        description: Change the Dock opening delay.
+        param:
+          type: float
+        examples:
+          - value: 0.5
+            default: true
+            video:
+              filename: "0.5.mp4"
+              width: 742
+              height: 202
+            text: By default, the Dock only opens if the mouse doesn't move for 0.5 seconds
+          - value: 0
+            video:
+              filename: "0.mp4"
+              width: 742
+              height: 202
+            text: Remove the autohide delay, the Dock appears instantly
+        versions: [Big Sur, Catalina]
+        requirements:
+          - folder: dock
+            key: autohide
+            name: com.apple.dock autohide
+            value: true
+        after: killall Dock
+      - key: show-recents
+        domain: com.apple.dock
+        title: Afficher les Apps récentes
+        description: Afficher ou non les applications utilisées récemment dans une section à part.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            image:
+              filename: "true.png"
+              width: 740
+              height: 82
+            text: Afficher la section des applications utilisées récemment.
+          - value: false
+            image:
+              filename: "false.png"
+              width: 740
+              height: 82
+            text: Ne pas afficher la section des applications utilisées récemment.
+        versions: [Big Sur, Catalina]
+        after: killall Dock
+      - key: mineffect
+        domain: com.apple.dock
+        title: Animation de minimisation
+        description: Changer le style d'animation de minimisation des applications.
+        param:
+          type: string
+          values: [genie, scale, suck]
+        examples:
+          - value: "genie"
+            default: true
+            video:
+              filename: "genie.mp4"
+              width: 740
+              height: 740
+          - value: "scale"
+            video:
+              filename: "scale.mp4"
+              width: 740
+              height: 740
+          - value: "suck"
+            video:
+              filename: "suck.mp4"
+              width: 740
+              height: 740
+            text: "\"suck\" est une valeur secrète qui n'est pas disponible dans les Préférénces Systèmes"
+        versions: [Big Sur, Catalina]
+        requirements:
+          - folder: dock
+            key: autohide
+            name: com.apple.dock autohide
+            value: true
+        after: killall Dock
+
+  - folder: screenshots
+    name: Capture d'écran
+    description:
+      "Sur un Mac, il est possible de prendre des captures d'écran avec:<br>
+      - `⌘ cmd`+`⇧ maj`+`3` pour l'écran complet.<br>
+      - `⌘ cmd`+`⇧ maj`+`4` pour une sous partie de l'écran. Ajoutez `espace` pour prendre une application entière.<br>
+      - `⌘ cmd`+`⇧ maj`+`5` pour ouvrir l'appli de capture.<br><br>
+      Il est possible de personnaliser quelques trucs."
+    keys:
+      - key: disable-shadow
+        domain: com.apple.screencapture
+        title: Enlever l'ombre
+        description:
+          Afficher ou non une ombre en prenant une capture d'une app (`⌘ cmd`+`⇧ shift`+`4` puis `espace`).
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            image:
+              filename: "false.png"
+              width: 740
+              height: 574
+            text: Ajouter l'ombre aux captures
+          - value: true
+            image:
+              filename: "true.png"
+              width: 740
+              height: 550
+            text: Supprimer l'ombre des captures
+        versions: [Big Sur, Catalina]
+      - key: include-date
+        domain: com.apple.screencapture
+        title: Inclure la date
+        description: Inclure la date et l'heure dans le nom du fichier.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Screenshot 2020-01-09 at 13.27.20.png
+          - value: false
+            text:
+              - Screenshot.png
+              - Screenshot 1.png
+        versions: [Big Sur, Catalina]
+      - key: location
+        domain: com.apple.screencapture
+        title: Emplacement
+        description: Préciser l'emplacement par défaut des captures.
+        param:
+          type: string
+        examples:
+          - value: ~/Desktop
+            default: true
+          - value: ~/Pictures
+        versions: [Big Sur, Catalina]
+        after: killall SystemUIServer
+      - key: show-thumbnail
+        domain: com.apple.screencapture
+        title: Afficher la vignette
+        description: Afficher ou non la vignette après avoir fait une capture.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Afficher la vignette après avoir fait une capture
+          - value: false
+            text: Ne pas afficher la vignette
+        versions: [Big Sur, Catalina]
+
+  - folder: finder
+    name: Finder
+    description:
+      Le Finder est le gestionnaire de fichier de macOS.
+      Il est responsable du lancement d'autres applications,
+      et pour la gestion générique des fichiers, disques externes, et volumes réseaux.
+      Depuis les années 80-90, l'icône du Finder est un écran souriant d'ordinateur, connu sous le nom "Happy Mac".<br><br>
+      Certaines de ses fonctionnalités sont personnalisables.
+    keys:
+      - key: QuitMenuItem
+        domain: com.apple.finder
+        title: Quitter
+        description: Afficher ou non l'option pour quitter le Finder.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Cacher l'option "Quitter" du Finder
+          - value: true
+            text: Afficher l'option "Quitter" du Finder
+        versions: [Big Sur]
+        after: killall Finder
+      - key: AppleShowAllExtensions
+        domain: NSGlobalDomain
+        title: Afficher les extensions
+        description: Afficher toutes les extensions de fichier ou non.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Ne pas afficher toutes les extensions dans le Finder
+          - value: true
+            text: Afficher toutes les extensions de fichier dans le Finder
+        versions: [Big Sur]
+        after: killall Finder
+      - key: FXEnableExtensionChangeWarning
+        domain: com.apple.finder
+        title: Alerte au changement d'extension
+        description: Choisir si il faut afficher une alerte au changement de format de fichier ou non.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            video:
+              filename: "true.mp4"
+              width: 739
+              height: 416
+            text: Afficher une alerte au changement de format de fichier
+          - value: false
+            video:
+              filename: "false.mp4"
+              width: 739
+              height: 416
+            text: Ne pas afficher d'alerte au changement
+        versions: [Big Sur]
+        after: killall Finder
+
+  - folder: mission-control
+    name: Mission Control
+    description:
+      "Anciennement connu sous le nom d'Exposé, Mission Control permet :<br>
+      - `⌃ ctrl`+`↑ haut` voir toutes les fenêtres d'applications ouvertes.<br>
+      - `⌃ ctrl`+`↓ bas` voir toutes les fenêtres de l'application courante.<br>
+      - `⌘ cmd`+`F3 Mission Control` cacher toutes les applications et afficher le bureau.<br>
+      - `⌃ ctrl`+`← gauche`/`→ droite` se déplacer entre les bureaux virtuels.<br>
+      - déplacer des applications entre plusieurs écrans."
+    keys:
+      - key: mru-spaces
+        domain: com.apple.dock
+        title: Réorganiser automatiquement
+        description: Réorganiser les bureaux virtuels automatiquement.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Déplacer les bureaux virtuels les plus récemment utilisés
+          - value: false
+            text: Toujours conserver l'arrangement de bureaux virtuels
+        versions: [Big Sur]
+        after: killall Dock
+
+  - folder: feedback-assistant
+    name: Assistant d'évaluation
+    description:
+      L'application "Assistant d'évaluation" permet d'envoyer des comptes rendus développeur.
+    keys:
+      - key: Autogather
+        domain: com.apple.appleseed.FeedbackAssistant
+        title: Collecte automatique
+        description:
+          Collecter automatiquement des larges fichiers lors de la soumission de compte rendu.<br>
+          Peut ralentir significativement le Mac et envoyer de grosses quantités de données.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: L'assistant d'évaluation récupère de gros fichiers lors de la soumission
+          - value: false
+            text: Ne pas collecter ces fichiers lors de l'envoi
+        versions: [Big Sur]
+
+  - folder: misc
+    name: Divers
+    description: Tous les `defaults` qui n'ont pas leur place ailleurs.
+    keys:
+      - key: DevMode
+        domain: com.apple.helpviewer
+        title: Position du menu d'Aide
+        description: Choisir si le menu d'Aide doit être au-dessus de toutes les applications.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Par défaut, le menu d'Aide est au-dessus de n'importe quel fenêtre
+          - value: true
+            text: Laisser le menu d'Aide passer derrière les autres fenêtres
+        versions: [Big Sur]

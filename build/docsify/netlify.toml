@@ -2,4 +2,4 @@
   base = "build/docsify"
   command = "yarn test && yarn build:prod"
   publish = "docs"
-  ignore = "git diff --quiet HEAD^ HEAD ../../defaults.yml ../../images/ __snapshots__/ templates/ build.js netlify.toml write-tree.js write-tree.test.js package.json yarn.lock"
+  ignore = "git diff --quiet HEAD^ HEAD ../../defaults.yml ../../defaults-fr.yml ../../images/ __snapshots__/ templates/ build.js netlify.toml write-tree.js write-tree.test.js package.json yarn.lock"
