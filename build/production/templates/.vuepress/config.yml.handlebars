@@ -81,21 +81,30 @@ head:
 evergreen: true
 plugins:
   - '@vuepress/medium-zoom'
+locales:
+{{# languages }}
+  {{ url }}:
+    lang: '{{ lang }}'
+{{/ languages }}
 themeConfig:
   logo: '/logo.svg'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-{{# categories }}
-    - title: {{ name }}
-      collapsable: false
-      path: '/{{ folder }}/'
-      children:
-{{# keys }}
-        - '{{ ../folder }}/{{ key }}'
-{{/ keys}}
-{{/ categories }}
+  locales:
+  {{# languages }}
+    {{ url }}:
+      nav:
+        - text: '{{ home }}'
+          link: '{{ url }}'
+      activeHeaderLinks: false
+      sidebar:
+        - title: '{{ home }}'
+          path: '{{ url }}'
+      {{# defaults.categories }}
+        - title: {{{ name }}}
+          collapsable: false
+          path: '{{ ../url }}{{ folder }}/'
+          children:
+        {{# keys }}
+            - '{{ ../../url }}{{ ../folder }}/{{ key }}'
+        {{/ keys}}
+      {{/ defaults.categories }}
+  {{/ languages }}

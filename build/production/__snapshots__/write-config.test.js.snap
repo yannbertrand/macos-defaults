@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`write-config should write a vuepress config.yml file using the template 1`] = `
+"---
+
+title: 'macOS defaults'
+description: 'Uncomplete list of macOS defaults commands with demos ✨'
+head:
+  -
+    - link
+    - rel: \\"preload\\"
+      href: \\"/logo.svg\\"
+      as: \\"image\\"
+  -
+    - link
+    - rel: \\"apple-touch-icon\\"
+      sizes: \\"180x180\\"
+      href: \\"/apple-touch-icon.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"32x32\\"
+      href: \\"/favicon-32x32.png\\"
+  -
+    - link
+    - rel: \\"icon\\"
+      type: \\"image/png\\"
+      sizes: \\"16x16\\"
+      href: \\"/favicon-16x16.png\\"
+  -
+    - link
+    - rel: \\"manifest\\"
+      href: \\"/site.webmanifest\\"
+  -
+    - link
+    - rel: \\"mask-icon\\"
+      href: \\"/safari-pinned-tab.svg\\"
+      color: \\"#004bbd\\"
+  -
+    - meta
+    - name: 'viewport'
+      content: 'width=device-width,initial-scale=1'
+  -
+    - meta
+    - name: \\"msapplication-TileColor\\"
+      content: \\"#da532c\\"
+  -
+    - meta
+    - name: \\"theme-color\\"
+      content: \\"#ffffff\\"
+  -
+    - meta
+    - http-equiv: \\"Content-Type\\"
+      content: \\"text/html; charset=utf-8\\"
+  -
+    - meta
+    - property: \\"twitter:site\\"
+      content: \\"@macos_defaults\\"
+  -
+    - meta
+    - property: \\"twitter:creator\\"
+      content: \\"@_YannBertrand\\"
+  -
+    - meta
+    - property: \\"og:site_name\\"
+      content: \\"macOS defaults\\"
+  -
+    - meta
+    - property: \\"og:url\\"
+      content: \\"https://inspiring-hopper-66c5ab.netlify.app\\"
+  -
+    - meta
+    - property: \\"og:type\\"
+      content: \\"website\\"
+  -
+    - meta
+    - property: \\"og:image:alt\\"
+      content: \\"\\"
+  -
+    - meta
+    - name: \\"author\\"
+      content: \\"Yann Bertrand\\"
+evergreen: true
+plugins:
+  - '@vuepress/medium-zoom'
+locales:
+  /:
+    lang: 'en-US'
+  /fr/:
+    lang: 'fr-FR'
+themeConfig:
+  logo: '/logo.svg'
+  locales:
+    /:
+      nav:
+        - text: 'Home'
+          link: '/'
+      activeHeaderLinks: false
+      sidebar:
+        - title: 'Home'
+          path: '/'
+        - title: Category 1
+          collapsable: false
+          path: '/category1/'
+          children:
+            - '/category1/page'
+        - title: Category 2
+          collapsable: false
+          path: '/category2/'
+          children:
+            - '/category2/page'
+    /fr/:
+      nav:
+        - text: 'Accueil'
+          link: '/fr/'
+      activeHeaderLinks: false
+      sidebar:
+        - title: 'Accueil'
+          path: '/fr/'
+        - title: Catégorie 1
+          collapsable: false
+          path: '/fr/categorie1/'
+          children:
+            - '/fr/categorie1/page'
+        - title: Catégorie 2
+          collapsable: false
+          path: '/fr/categorie2/'
+          children:
+            - '/fr/categorie2/page'
+"
+`;
+
+exports[`write-config should write the netlify _headers file 1`] = `
+"/*
+  Content-Security-Policy: default-src 'self'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-PjBkwE8xcYZAp+HsnzzOVNqa/Ra+/v1Fnx6f0PW6ic4=' 'unsafe-hashes' 'sha256-aqNNdDLnnrDOnTNdkJpYlAxKVJtLt9CtFLklmInuUAE=' 'sha256-OFZH/KmE1spbRSh4CjNax9vyG1iEwWYtQyOeXApqoN4=' 'sha256-laxniBKFE69CPUpLCGftSNNcrHa/q3ajB6sagR6TudM=';
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+"
+`;
