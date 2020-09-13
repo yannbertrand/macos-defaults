@@ -2,8 +2,30 @@ const fs = require('fs')
 const YAML = require('yaml')
 
 const writeTree = require('./write-tree')
+const writeConfig = require('./write-config')
 
 const input = fs.readFileSync('../../defaults.yml', 'utf8')
+const inputFr = fs.readFileSync('../../defaults-fr.yml', 'utf8')
 const defaults = YAML.parse(input)
+const defaultsFr = YAML.parse(inputFr)
 
-writeTree(defaults, 'docs')
+const templatesPath = 'templates'
+const destinationPath = 'docs'
+
+const supportedLanguages = {
+  languages: [
+    { url: '/', lang: 'en-US', home: 'Home', defaults: defaults },
+    { url: '/fr/', lang: 'fr-FR', home: 'Accueil', defaults: getSafeDefaults(defaultsFr, defaults) },
+  ]
+}
+
+supportedLanguages.languages.forEach((supportedLanguage) => {
+  const { defaults, url } = supportedLanguage
+  writeTree(defaults, `${templatesPath}${url}`, `${destinationPath}${url}`)
+})
+
+writeConfig(supportedLanguages, templatesPath, destinationPath)
+
+function getSafeDefaults(localizedDefaults, fallbackDefaults) {
+  return { ...fallbackDefaults, ...localizedDefaults }
+}

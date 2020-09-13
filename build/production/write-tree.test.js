@@ -3,27 +3,8 @@ jest.mock('fs')
 
 const writeTree = require('./write-tree')
 
-const destinationPath = './dist'
-const copiedFiles = [
-  '.vuepress/public/android-chrome-192x192.png',
-  '.vuepress/public/android-chrome-512x512.png',
-  '.vuepress/public/apple-touch-icon.png',
-  '.vuepress/public/browserconfig.xml',
-  '.vuepress/public/favicon.ico',
-  '.vuepress/public/favicon-16x16.png',
-  '.vuepress/public/favicon-32x32.png',
-  '.vuepress/public/logo.svg',
-  '.vuepress/public/media-1x1.jpg',
-  '.vuepress/public/media-1x1.webp',
-  '.vuepress/public/media-2x1.jpg',
-  '.vuepress/public/media-2x1.webp',
-  '.vuepress/public/mstile-150x150.png',
-  '.vuepress/public/robots.txt',
-  '.vuepress/public/safari-pinned-tab.svg',
-  '.vuepress/public/site.webmanifest',
-  '.vuepress/styles/index.styl',
-  '.vuepress/styles/palette.styl'
-]
+const templatesPath = 'templates'
+const destinationPath = 'dist'
 
 describe('write-tree', () => {
   afterEach(() => {
@@ -33,28 +14,9 @@ describe('write-tree', () => {
   describe('no categories', () => {
     beforeEach(() => callWriteTree({ categories: null }))
 
-    it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
-        const fileContent = readFile(`${destinationPath}/${file}`)
-        expect(fileContent).toEqual(`copied:./templates/${file}`)
-      })
-    })
-
-    it('should write the netlify _headers file', () => {
-      const netlifyHeadersContent = readFile(`${destinationPath}/.vuepress/public/_headers`)
-      expect(netlifyHeadersContent).toMatchSnapshot()
-    })
-
     it('should write an empty readme.md file using the home template', () => {
       const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
       expect(rootReadmeContent).toMatchSnapshot()
-    })
-
-    it('should write a vuepress config.yml file using the template', () => {
-      const vuepressConfigContent = readFile(
-        `${destinationPath}/.vuepress/config.yml`
-      )
-      expect(vuepressConfigContent).toMatchSnapshot()
     })
   })
 
@@ -77,23 +39,9 @@ describe('write-tree', () => {
         })
       )
 
-      it('should copy some static files', () => {
-        copiedFiles.forEach(file => {
-          const fileContent = readFile(`${destinationPath}/${file}`)
-          expect(fileContent).toEqual(`copied:./templates/${file}`)
-        })
-      })
-
       it('should write a readme.md file using the home template', () => {
         const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
         expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a vuepress config.yml file using the template', () => {
-        const vuepressConfigContent = readFile(
-          `${destinationPath}/.vuepress/config.yml`
-        )
-        expect(vuepressConfigContent).toMatchSnapshot()
       })
 
       it('should write a category/readme.md file using the category template', () => {
@@ -150,23 +98,9 @@ describe('write-tree', () => {
           })
         )
 
-        it('should copy some static files', () => {
-          copiedFiles.forEach(file => {
-            const fileContent = readFile(`${destinationPath}/${file}`)
-            expect(fileContent).toEqual(`copied:./templates/${file}`)
-          })
-        })
-
         it('should write a readme.md file using the home template', () => {
           const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
           expect(rootReadmeContent).toMatchSnapshot()
-        })
-
-        it('should write a vuepress config.yml file using the template', () => {
-          const vuepressConfigContent = readFile(
-            `${destinationPath}/.vuepress/config.yml`
-          )
-          expect(vuepressConfigContent).toMatchSnapshot()
         })
 
         it('should write a category/readme.md file using the category template', () => {
@@ -233,23 +167,9 @@ describe('write-tree', () => {
           })
         )
 
-        it('should copy some static files', () => {
-          copiedFiles.forEach(file => {
-            const fileContent = readFile(`${destinationPath}/${file}`)
-            expect(fileContent).toEqual(`copied:./templates/${file}`)
-          })
-        })
-
         it('should write a readme.md file using the home template', () => {
           const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
           expect(rootReadmeContent).toMatchSnapshot()
-        })
-
-        it('should write a vuepress config.yml file using the template', () => {
-          const vuepressConfigContent = readFile(
-            `${destinationPath}/.vuepress/config.yml`
-          )
-          expect(vuepressConfigContent).toMatchSnapshot()
         })
 
         it('should write a category/readme.md file using the category template', () => {
@@ -302,23 +222,9 @@ describe('write-tree', () => {
           })
         )
 
-        it('should copy some static files', () => {
-          copiedFiles.forEach(file => {
-            const fileContent = readFile(`${destinationPath}/${file}`)
-            expect(fileContent).toEqual(`copied:./templates/${file}`)
-          })
-        })
-
         it('should write a readme.md file using the home template', () => {
           const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
           expect(rootReadmeContent).toMatchSnapshot()
-        })
-
-        it('should write a vuepress config.yml file using the template', () => {
-          const vuepressConfigContent = readFile(
-            `${destinationPath}/.vuepress/config.yml`
-          )
-          expect(vuepressConfigContent).toMatchSnapshot()
         })
 
         it('should write a category/readme.md file using the category template', () => {
@@ -375,23 +281,9 @@ describe('write-tree', () => {
         })
       )
 
-      it('should copy some static files', () => {
-        copiedFiles.forEach(file => {
-          const fileContent = readFile(`${destinationPath}/${file}`)
-          expect(fileContent).toEqual(`copied:./templates/${file}`)
-        })
-      })
-
       it('should write a readme.md file using the home template', () => {
         const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
         expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a vuepress config.yml file using the template', () => {
-        const vuepressConfigContent = readFile(
-          `${destinationPath}/.vuepress/config.yml`
-        )
-        expect(vuepressConfigContent).toMatchSnapshot()
       })
 
       it('should write a category/readme.md file using the category template', () => {
@@ -451,23 +343,9 @@ describe('write-tree', () => {
         })
       )
 
-      it('should copy some static files', () => {
-        copiedFiles.forEach(file => {
-          const fileContent = readFile(`${destinationPath}/${file}`)
-          expect(fileContent).toEqual(`copied:./templates/${file}`)
-        })
-      })
-
       it('should write a readme.md file using the home template', () => {
         const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
         expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a vuepress config.yml file using the template', () => {
-        const vuepressConfigContent = readFile(
-          `${destinationPath}/.vuepress/config.yml`
-        )
-        expect(vuepressConfigContent).toMatchSnapshot()
       })
 
       it('should write a category/readme.md file using the category template', () => {
@@ -545,23 +423,9 @@ describe('write-tree', () => {
         })
       )
 
-      it('should copy some static files', () => {
-        copiedFiles.forEach(file => {
-          const fileContent = readFile(`${destinationPath}/${file}`)
-          expect(fileContent).toEqual(`copied:./templates/${file}`)
-        })
-      })
-
       it('should write a readme.md file using the home template', () => {
         const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
         expect(rootReadmeContent).toMatchSnapshot()
-      })
-
-      it('should write a vuepress config.yml file using the template', () => {
-        const vuepressConfigContent = readFile(
-          `${destinationPath}/.vuepress/config.yml`
-        )
-        expect(vuepressConfigContent).toMatchSnapshot()
       })
 
       it('should write a category/readme.md file using the category template', () => {
@@ -651,23 +515,9 @@ describe('write-tree', () => {
       })
     )
 
-    it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
-        const fileContent = readFile(`${destinationPath}/${file}`)
-        expect(fileContent).toEqual(`copied:./templates/${file}`)
-      })
-    })
-
     it('should write a readme.md file using the home template', () => {
       const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
       expect(rootReadmeContent).toMatchSnapshot()
-    })
-
-    it('should write a vuepress config.yml file using the template', () => {
-      const vuepressConfigContent = readFile(
-        `${destinationPath}/.vuepress/config.yml`
-      )
-      expect(vuepressConfigContent).toMatchSnapshot()
     })
 
     it('should write a category/readme.md file using the category template', () => {
@@ -748,23 +598,9 @@ describe('write-tree', () => {
       })
     )
 
-    it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
-        const fileContent = readFile(`${destinationPath}/${file}`)
-        expect(fileContent).toEqual(`copied:./templates/${file}`)
-      })
-    })
-
     it('should write a readme.md file using the home template', () => {
       const rootReadmeContent = readFile(`${destinationPath}/readme.md`)
       expect(rootReadmeContent).toMatchSnapshot()
-    })
-
-    it('should write a vuepress config.yml file using the template', () => {
-      const vuepressConfigContent = readFile(
-        `${destinationPath}/.vuepress/config.yml`
-      )
-      expect(vuepressConfigContent).toMatchSnapshot()
     })
 
     it('should write a category1/readme.md file using the category template', () => {
@@ -793,5 +629,5 @@ describe('write-tree', () => {
   })
 })
 
-const callWriteTree = sourceFile => writeTree(sourceFile, destinationPath)
+const callWriteTree = sourceFile => writeTree(sourceFile, templatesPath, destinationPath)
 const readFile = file => fs.readFakeFileSync(file, 'utf8')
