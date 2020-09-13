@@ -3,3 +3,15 @@
   command = "yarn test && yarn build:prod"
   publish = "dist"
   ignore = "git diff --quiet HEAD^ HEAD ../../defaults.yml ../../images/ __snapshots__/ templates/ build.js netlify.toml write-tree.js write-tree.test.js package.json yarn.lock"
+
+[[plugins]]
+  package = "netlify-plugin-minify-html"
+
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+  [plugins.inputs.thresholds]
+    performance = 0.6
+    accessibility = 0.9
+    best-practices = 0.9
+    seo = 0.9
