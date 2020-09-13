@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`write-categories one category, no page with image should write a category/readme.md file using the category template 1`] = `
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
+
+<img src=\\"./category.png\\" alt=\\"A screenshot of the Category\\"
+  width=\\"740\\" height=\\"80\\" style=\\"height: auto\\" />
+
+> Category description.
+
+"
+`;
+
+exports[`write-categories one category, one page should write a category/readme.md file using the category template 1`] = `
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
+
+> Category description.
+
+- [Page](./page.html)
+"
+`;
+
+exports[`write-categories one category, two pages should write a category/readme.md file using the category template 1`] = `
+"---
+metaTitle: \\"Category | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category\\"
+  - name: \\"description\\"
+    content: \\"Category description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category
+
+> Category description.
+
+- [Page 1](./page1.html)
+- [Page 2](./page2.html)
+"
+`;
+
+exports[`write-categories two categories, one page in each should write a category1/readme.md file using the category template 1`] = `
+"---
+metaTitle: \\"Category 1 | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category 1\\"
+  - name: \\"description\\"
+    content: \\"Category 1 description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category 1 description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category 1
+
+> Category 1 description.
+
+- [Page](./page.html)
+"
+`;
+
+exports[`write-categories two categories, one page in each should write a category2/readme.md file using the category template 1`] = `
+"---
+metaTitle: \\"Category 2 | macOS defaults\\"
+meta:
+  - property: \\"og:title\\"
+    content: \\"macOS defaults > Category 2\\"
+  - name: \\"description\\"
+    content: \\"Category 2 description.\\"
+  - property: \\"og:description\\"
+    content: \\"Category 2 description.\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://inspiring-hopper-66c5ab.netlify.app/media-1x1.jpg\\"
+---
+# Category 2
+
+> Category 2 description.
+
+- [Page](./page.html)
+"
+`;
