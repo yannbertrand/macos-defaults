@@ -1,7 +1,7 @@
-* [Home](/)
-{{# categories }}
-* [{{ name }}]({{ folder }}/)
+* [{{ home }}]({{ url }})
+{{# defaults.categories }}
+* [{{ name }}]({{ ../url }}{{ folder }}/)
 {{# keys }}
- - [{{ title }}]({{ ../folder }}/{{ key }})
+ - [{{ title }}]({{ ../../url }}{{ ../folder }}/{{ key }})
 {{/ keys}}
-{{/ categories }}
+{{/ defaults.categories }}
