@@ -1,12 +1,12 @@
 ---
-metaTitle: "{{ name }} | macOS defaults"
+metaTitle: {{{ name }}} | macOS defaults
 meta:
   - property: "og:title"
-    content: "macOS defaults > {{ name }}"
+    content: macOS defaults > {{{ name }}}
   - name: "description"
-    content: "{{{ description }}}"
+    content: {{{ escapeDoubleQuote description }}}
   - property: "og:description"
-    content: "{{{ description }}}"
+    content: {{{ escapeDoubleQuote description }}}
   - property: "twitter:card"
     content: "summary"
   - property: "twitter:image"
@@ -17,8 +17,10 @@ meta:
 # {{ name }}
 
 {{# image }}
-<img src="./{{ filename }}" alt="A screenshot of the {{ ../name }}"
-  width="{{ width }}" height="{{ height }}" style="height: auto" />
+<img
+  src="./{{ filename }}" alt="A screenshot of the {{ ../name }}"
+  width="{{ width }}" height="{{ height }}" style="height: auto"
+/>
 
 {{/ image }}
 > {{{ description }}}

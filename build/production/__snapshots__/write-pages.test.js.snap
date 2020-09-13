@@ -2,14 +2,14 @@
 
 exports[`write-pages one category, one page with image example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page | Category | macOS defaults\\"
+metaTitle: Page | Category | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category > Page\\"
+    content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"og:description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -61,14 +61,14 @@ defaults delete com.apple.category page
 
 exports[`write-pages one category, one page with text and possible values example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page | Category | macOS defaults\\"
+metaTitle: Page | Category | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category > Page\\"
+    content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"og:description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -122,14 +122,14 @@ defaults delete com.apple.category page
 
 exports[`write-pages one category, one page with text example with an after command should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page | Category | macOS defaults\\"
+metaTitle: Page | Category | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category > Page\\"
+    content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"og:description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -173,14 +173,14 @@ defaults delete com.apple.category page && killall App
 
 exports[`write-pages one category, one page with text example with requirements should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page | Category | macOS defaults\\"
+metaTitle: Page | Category | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category > Page\\"
+    content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"og:description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -228,14 +228,14 @@ defaults delete com.apple.category page && killall App
 
 exports[`write-pages one category, one page with text example with special chars values should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page | Category | macOS defaults\\"
+metaTitle: Page | Category | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category > Page\\"
+    content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"og:description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -279,14 +279,14 @@ defaults delete com.apple.category page
 
 exports[`write-pages one category, one page with video example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page | Category | macOS defaults\\"
+metaTitle: Page | Category | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category > Page\\"
+    content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"og:description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -336,14 +336,14 @@ defaults delete com.apple.category page
 
 exports[`write-pages one category, two pages should write a category/page1.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page 1 | Category | macOS defaults\\"
+metaTitle: Page 1 | Category | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category > Page 1\\"
+    content: macOS defaults > Category > Page 1
   - name: \\"description\\"
-    content: \\"Page 1 description.\\"
+    content: Page 1 description.
   - property: \\"og:description\\"
-    content: \\"Page 1 description.\\"
+    content: Page 1 description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -387,14 +387,14 @@ defaults delete com.apple.category page1
 
 exports[`write-pages one category, two pages should write a category/page2.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page 2 | Category | macOS defaults\\"
+metaTitle: Page 2 | Category | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category > Page 2\\"
+    content: macOS defaults > Category > Page 2
   - name: \\"description\\"
-    content: \\"Page 2 description.\\"
+    content: Page 2 description.
   - property: \\"og:description\\"
-    content: \\"Page 2 description.\\"
+    content: Page 2 description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -438,14 +438,14 @@ defaults delete com.apple.category page2
 
 exports[`write-pages two categories, one page in each should write a category1/page.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page | Category 1 | macOS defaults\\"
+metaTitle: Page | Category 1 | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category 1 > Page\\"
+    content: macOS defaults > Category 1 > Page
   - name: \\"description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"og:description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -489,14 +489,14 @@ defaults delete com.apple.category1 page
 
 exports[`write-pages two categories, one page in each should write a category2/page.md file using the page template 1`] = `
 "---
-metaTitle: \\"Page | Category 2 | macOS defaults\\"
+metaTitle: Page | Category 2 | macOS defaults
 meta:
   - property: \\"og:title\\"
-    content: \\"macOS defaults > Category 2 > Page\\"
+    content: macOS defaults > Category 2 > Page
   - name: \\"description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"og:description\\"
-    content: \\"Page description.\\"
+    content: Page description.
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
