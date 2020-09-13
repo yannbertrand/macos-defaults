@@ -2,7 +2,7 @@
 
 exports[`write-pages one category, one page with image example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: Page | Category | macOS defaults
 ---
 # Page
 
@@ -48,7 +48,7 @@ defaults delete com.apple.category page
 
 exports[`write-pages one category, one page with text and possible values example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: Page | Category | macOS defaults
 ---
 # Page
 
@@ -96,7 +96,7 @@ defaults delete com.apple.category page
 
 exports[`write-pages one category, one page with text example with an after command should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: Page | Category | macOS defaults
 ---
 # Page
 
@@ -134,7 +134,7 @@ defaults delete com.apple.category page && killall App
 
 exports[`write-pages one category, one page with text example with requirements should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: Page | Category | macOS defaults
 ---
 # Page
 
@@ -176,7 +176,7 @@ defaults delete com.apple.category page && killall App
 
 exports[`write-pages one category, one page with text example with special chars values should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: Page | Category | macOS defaults
 ---
 # Page
 
@@ -214,7 +214,7 @@ defaults delete com.apple.category page
 
 exports[`write-pages one category, one page with video example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category | macOS defaults'
+metaTitle: Page | Category | macOS defaults
 ---
 # Page
 
@@ -258,7 +258,7 @@ defaults delete com.apple.category page
 
 exports[`write-pages one category, two pages should write a category/page1.md file using the page template 1`] = `
 "---
-metaTitle: 'Page 1 | Category | macOS defaults'
+metaTitle: Page 1 | Category | macOS defaults
 ---
 # Page 1
 
@@ -296,7 +296,7 @@ defaults delete com.apple.category page1
 
 exports[`write-pages one category, two pages should write a category/page2.md file using the page template 1`] = `
 "---
-metaTitle: 'Page 2 | Category | macOS defaults'
+metaTitle: Page 2 | Category | macOS defaults
 ---
 # Page 2
 
@@ -334,7 +334,7 @@ defaults delete com.apple.category page2
 
 exports[`write-pages two categories, one page in each should write a category1/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category 1 | macOS defaults'
+metaTitle: Page | Category 1 | macOS defaults
 ---
 # Page
 
@@ -372,7 +372,7 @@ defaults delete com.apple.category1 page
 
 exports[`write-pages two categories, one page in each should write a category2/page.md file using the page template 1`] = `
 "---
-metaTitle: 'Page | Category 2 | macOS defaults'
+metaTitle: Page | Category 2 | macOS defaults
 ---
 # Page
 

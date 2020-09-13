@@ -2,12 +2,14 @@
 
 exports[`write-categories one category, no page with image should write a category/readme.md file using the category template 1`] = `
 "---
-metaTitle: 'Category | macOS defaults'
+metaTitle: Category | macOS defaults
 ---
 # Category
 
-<img src=\\"./category.png\\" alt=\\"A screenshot of the Category\\"
-  width=\\"740\\" height=\\"80\\" style=\\"height: auto\\" />
+<img
+  src=\\"./category.png\\" alt=\\"A screenshot of the Category\\"
+  width=\\"740\\" height=\\"80\\" class=\\"height-auto\\"
+/>
 
 > Category description.
 
@@ -16,7 +18,7 @@ metaTitle: 'Category | macOS defaults'
 
 exports[`write-categories one category, one page should write a category/readme.md file using the category template 1`] = `
 "---
-metaTitle: 'Category | macOS defaults'
+metaTitle: Category | macOS defaults
 ---
 # Category
 
@@ -28,7 +30,7 @@ metaTitle: 'Category | macOS defaults'
 
 exports[`write-categories one category, two pages should write a category/readme.md file using the category template 1`] = `
 "---
-metaTitle: 'Category | macOS defaults'
+metaTitle: Category | macOS defaults
 ---
 # Category
 
@@ -41,7 +43,7 @@ metaTitle: 'Category | macOS defaults'
 
 exports[`write-categories two categories, one page in each should write a category1/readme.md file using the category template 1`] = `
 "---
-metaTitle: 'Category 1 | macOS defaults'
+metaTitle: Category 1 | macOS defaults
 ---
 # Category 1
 
@@ -53,7 +55,7 @@ metaTitle: 'Category 1 | macOS defaults'
 
 exports[`write-categories two categories, one page in each should write a category2/readme.md file using the category template 1`] = `
 "---
-metaTitle: 'Category 2 | macOS defaults'
+metaTitle: Category 2 | macOS defaults
 ---
 # Category 2
 
