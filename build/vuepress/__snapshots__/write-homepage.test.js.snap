@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`write-homepage no categories should write an empty readme.md file using the home template 1`] = `
+"---
+metaTitle: 'macOS defaults'
+---
+# macOS \`defaults\` list
+Uncomplete list of macOS \`defaults\` commands with demos ✨
+
+## 💻 Commands
+## 🤔 How do I add a command?
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
+
+## ❤️ I like this website, how can I build the same?
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
+"
+`;
+
+exports[`write-homepage one category, no page should write a readme.md file using the home template 1`] = `
+"---
+metaTitle: 'macOS defaults'
+---
+# macOS \`defaults\` list
+Uncomplete list of macOS \`defaults\` commands with demos ✨
+
+## 💻 Commands
+### Category
+
+## 🤔 How do I add a command?
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
+
+## ❤️ I like this website, how can I build the same?
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
+"
+`;
+
+exports[`write-homepage one category, one page should write a readme.md file using the home template 1`] = `
+"---
+metaTitle: 'macOS defaults'
+---
+# macOS \`defaults\` list
+Uncomplete list of macOS \`defaults\` commands with demos ✨
+
+## 💻 Commands
+### Category
+- [Page](./category/page.html)
+
+## 🤔 How do I add a command?
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
+
+## ❤️ I like this website, how can I build the same?
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
+"
+`;
+
+exports[`write-homepage one category, two pages should write a readme.md file using the home template 1`] = `
+"---
+metaTitle: 'macOS defaults'
+---
+# macOS \`defaults\` list
+Uncomplete list of macOS \`defaults\` commands with demos ✨
+
+## 💻 Commands
+### Category
+- [Page 1](./category/page1.html)
+- [Page 2](./category/page2.html)
+
+## 🤔 How do I add a command?
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
+
+## ❤️ I like this website, how can I build the same?
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
+"
+`;
+
+exports[`write-homepage two categories, one page in each should write a readme.md file using the home template 1`] = `
+"---
+metaTitle: 'macOS defaults'
+---
+# macOS \`defaults\` list
+Uncomplete list of macOS \`defaults\` commands with demos ✨
+
+## 💻 Commands
+### Category 1
+- [Page](./category1/page.html)
+
+### Category 2
+- [Page](./category2/page.html)
+
+## 🤔 How do I add a command?
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
+
+## ❤️ I like this website, how can I build the same?
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
+"
+`;

@@ -1,7 +1,9 @@
 const fs = require('fs')
 const YAML = require('yaml')
 
-const writeTree = require('./write-tree')
+const writeHomepage = require('./write-homepage')
+const writeCategories = require('./write-categories')
+const writePages = require('./write-pages')
 const writeConfig = require('./write-config')
 
 const input = fs.readFileSync('../../defaults.yml', 'utf8')
@@ -21,7 +23,9 @@ const supportedLanguages = {
 
 supportedLanguages.languages.forEach((supportedLanguage) => {
   const { defaults, url } = supportedLanguage
-  writeTree(defaults, `${templatesPath}${url}`, `${destinationPath}${url}`)
+  writeHomepage(defaults, `${templatesPath}${url}`, `${destinationPath}${url}`)
+  writeCategories(defaults, `${templatesPath}${url}`, `${destinationPath}${url}`)
+  writePages(supportedLanguage, `${templatesPath}${url}`, `${destinationPath}${url}`)
 })
 
 writeConfig(supportedLanguages, templatesPath, destinationPath)

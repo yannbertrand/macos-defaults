@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`write-config no categories should write an empty website/sidebars.json file using the sidebars template 1`] = `
+"{
+  \\"docs\\": {
+    \\"Home\\": [\\"index\\"]
+  }
+}
+"
+`;
+
+exports[`write-config one category, one page should write a website/sidebars.json file using the sidebars template 1`] = `
+"{
+  \\"docs\\": {
+    \\"Home\\": [\\"index\\"],
+    \\"Category\\": [\\"category/page\\"]
+  }
+}
+"
+`;
+
+exports[`write-config one category, two pages should write a website/sidebars.json file using the sidebars template 1`] = `
+"{
+  \\"docs\\": {
+    \\"Home\\": [\\"index\\"],
+    \\"Category\\": [\\"category/page1\\", \\"category/page2\\"]
+  }
+}
+"
+`;
+
+exports[`write-config two categories, one page in each should write a website/sidebars.json file using the sidebars template 1`] = `
+"{
+  \\"docs\\": {
+    \\"Home\\": [\\"index\\"],
+    \\"Category 1\\": [\\"category1/page\\"],
+    \\"Category 2\\": [\\"category2/page\\"]
+  }
+}
+"
+`;
