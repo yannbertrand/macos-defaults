@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`write-config should write a vuepress config.yml file using the template 1`] = `
+"---
+
+title: 'macOS defaults'
+description: 'Uncomplete list of macOS defaults commands with demos ✨'
+evergreen: true
+plugins:
+  - '@vuepress/medium-zoom'
+locales:
+  /:
+    lang: 'en-US'
+  /fr/:
+    lang: 'fr-FR'
+themeConfig:
+  repo: 'yannbertrand/macos-defaults'
+  locales:
+    /:
+      nav:
+        - text: 'Home'
+          link: '/'
+      activeHeaderLinks: false
+      sidebar:
+        - title: 'Home'
+          path: '/'
+        - title: Category 1
+          collapsable: false
+          path: '/category1/'
+          children:
+            - '/category1/page'
+        - title: Category 2
+          collapsable: false
+          path: '/category2/'
+          children:
+            - '/category2/page'
+    /fr/:
+      nav:
+        - text: 'Accueil'
+          link: '/fr/'
+      activeHeaderLinks: false
+      sidebar:
+        - title: 'Accueil'
+          path: '/fr/'
+        - title: Catégorie 1
+          collapsable: false
+          path: '/fr/categorie1/'
+          children:
+            - '/fr/categorie1/page'
+        - title: Catégorie 2
+          collapsable: false
+          path: '/fr/categorie2/'
+          children:
+            - '/fr/categorie2/page'
+"
+`;

@@ -2,4 +2,4 @@
   base = "build/vuepress"
   command = "yarn test && yarn build:prod"
   publish = "dist"
-  ignore = "git diff --quiet HEAD^ HEAD ../../defaults.yml ../../defaults-fr.yml ../../images/ __snapshots__/ templates/ build.js netlify.toml write-tree.js write-tree.test.js package.json yarn.lock"
+  ignore = "git diff --quiet HEAD^ HEAD ../../defaults.yml ../../defaults-fr.yml ../../images/ __snapshots__/ templates/ netlify.toml *.js package.json yarn.lock"

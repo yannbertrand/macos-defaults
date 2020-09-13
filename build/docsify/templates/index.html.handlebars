@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
   <meta charset="UTF-8">
@@ -21,8 +21,19 @@
       repo: 'yannbertrand/macos-defaults',
       subMaxLevel: 2,
       loadSidebar: true,
+      loadNavbar: true,
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
+      {{# defaults.categories }}
+        {{# ../languages }}
+        '{{ url }}{{ ../folder }}/_sidebar.md': '{{ url }}_sidebar.md',
+        '{{ url }}{{ ../folder }}/_navbar.md': '{{ url }}_navbar.md',
+        {{/ ../languages }}
+      {{/ defaults.categories }}
+      },
+      nameLink: {
+      {{# languages }}
+        '{{ url }}': '/#{{ url }}',
+      {{/ languages }}
       }
     }
   </script>
