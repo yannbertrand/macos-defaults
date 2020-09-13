@@ -30,8 +30,11 @@ defaults write {{ ../domain }} {{ ../key }} -{{ ../param.type }} {{{ value }}}{{
 </video>
 {{/ video }}
 {{# image }}
-<img src="/{{ ../../folder }}-{{ ../../key }}-{{ filename }}" alt="Exemple avec la valeur {{{ ../value }}}"
-  width="{{ width }}" height="{{ height }}" style="height: auto" />
+<img
+  src="/{{ ../../folder }}-{{ ../../key }}-{{ filename }}"
+  alt="Exemple avec la valeur {{{ ../value }}}"
+  width="{{ width }}" height="{{ height }}" style="height: auto"
+/>
 {{/ image }}
 
 {{# text }}

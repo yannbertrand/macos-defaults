@@ -3,8 +3,10 @@
 exports[`write-categories one category, no page should write a category/readme.md file using the category template 1`] = `
 "# Category
 
-<img src=\\"./category-category.png\\" alt=\\"A screenshot of the Category\\" width=\\"740\\" height=\\"80\\"
-  style=\\"height: auto\\" />
+<img
+  src=\\"./category-category.png\\" alt=\\"A screenshot of the Category\\"
+  width=\\"740\\" height=\\"80\\" style=\\"height: auto\\"
+/>
 
 > Category description.
 
