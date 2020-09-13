@@ -1,25 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`write-tree no categories should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-"
-`;
-
 exports[`write-tree no categories should write an empty readme.md file using the home template 1`] = `
 "---
 metaTitle: 'macOS defaults'
@@ -65,30 +45,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, no page with image should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-    - title: Category
-      collapsable: false
-      path: '/category/'
-      children:
 "
 `;
 
@@ -166,31 +122,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, one page with image example should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-    - title: Category
-      collapsable: false
-      path: '/category/'
-      children:
-        - 'category/page'
 "
 `;
 
@@ -273,31 +204,6 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 "
 `;
 
-exports[`write-tree one category, one page with text and possible values example should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-    - title: Category
-      collapsable: false
-      path: '/category/'
-      children:
-        - 'category/page'
-"
-`;
-
 exports[`write-tree one category, one page with text example with an after command should write a category/page.md file using the page template 1`] = `
 "---
 metaTitle: 'Page | Category | macOS defaults'
@@ -364,31 +270,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, one page with text example with an after command should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-    - title: Category
-      collapsable: false
-      path: '/category/'
-      children:
-        - 'category/page'
 "
 `;
 
@@ -465,31 +346,6 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 "
 `;
 
-exports[`write-tree one category, one page with text example with requirements should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-    - title: Category
-      collapsable: false
-      path: '/category/'
-      children:
-        - 'category/page'
-"
-`;
-
 exports[`write-tree one category, one page with text example with special chars values should write a category/page.md file using the page template 1`] = `
 "---
 metaTitle: 'Page | Category | macOS defaults'
@@ -556,31 +412,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, one page with text example with special chars values should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-    - title: Category
-      collapsable: false
-      path: '/category/'
-      children:
-        - 'category/page'
 "
 `;
 
@@ -656,31 +487,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, one page with video example should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-    - title: Category
-      collapsable: false
-      path: '/category/'
-      children:
-        - 'category/page'
 "
 `;
 
@@ -790,32 +596,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, two pages should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-    - title: Category
-      collapsable: false
-      path: '/category/'
-      children:
-        - 'category/page1'
-        - 'category/page2'
 "
 `;
 
@@ -938,35 +718,5 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree two categories, one page in each should write a vuepress config.yml file using the template 1`] = `
-"---
-
-title: 'macOS defaults'
-description: 'Uncomplete list of macOS defaults commands with demos ✨'
-evergreen: true
-plugins:
-  - '@vuepress/medium-zoom'
-themeConfig:
-  repo: 'yannbertrand/macos-defaults'
-  nav:
-    - text: 'Home'
-      link: '/'
-  activeHeaderLinks: false
-  sidebar:
-    - title: 'Home'
-      path: '/'
-    - title: Category 1
-      collapsable: false
-      path: '/category1/'
-      children:
-        - 'category1/page'
-    - title: Category 2
-      collapsable: false
-      path: '/category2/'
-      children:
-        - 'category2/page'
 "
 `;

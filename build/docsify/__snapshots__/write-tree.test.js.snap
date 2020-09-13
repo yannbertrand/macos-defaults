@@ -1,10 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`write-tree no categories should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-"
-`;
-
 exports[`write-tree no categories should write an empty readme.md file using the home template 1`] = `
 "# macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -41,12 +36,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [docsify](https://docsify.js.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/docsify#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, no page with image should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-* [Category](category/)
 "
 `;
 
@@ -109,13 +98,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [docsify](https://docsify.js.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/docsify#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, one page with image example should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-* [Category](category/)
- - [Page](category/page)
 "
 `;
 
@@ -189,13 +171,6 @@ Thank you! I built it using [docsify](https://docsify.js.org/). Take a look at [
 "
 `;
 
-exports[`write-tree one category, one page with text and possible values example should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-* [Category](category/)
- - [Page](category/page)
-"
-`;
-
 exports[`write-tree one category, one page with text example with an after command should write a category/page.md file using the page template 1`] = `
 "# Page
 
@@ -253,13 +228,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [docsify](https://docsify.js.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/docsify#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, one page with text example with an after command should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-* [Category](category/)
- - [Page](category/page)
 "
 `;
 
@@ -327,13 +295,6 @@ Thank you! I built it using [docsify](https://docsify.js.org/). Take a look at [
 "
 `;
 
-exports[`write-tree one category, one page with text example with requirements should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-* [Category](category/)
- - [Page](category/page)
-"
-`;
-
 exports[`write-tree one category, one page with text example with special chars values should write a category/page.md file using the page template 1`] = `
 "# Page
 
@@ -391,13 +352,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [docsify](https://docsify.js.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/docsify#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, one page with text example with special chars values should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-* [Category](category/)
- - [Page](category/page)
 "
 `;
 
@@ -464,13 +418,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [docsify](https://docsify.js.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/docsify#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, one page with video example should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-* [Category](category/)
- - [Page](category/page)
 "
 `;
 
@@ -568,14 +515,6 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [docsify](https://docsify.js.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/docsify#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree one category, two pages should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-* [Category](category/)
- - [Page 1](category/page1)
- - [Page 2](category/page2)
 "
 `;
 
@@ -683,14 +622,5 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [docsify](https://docsify.js.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/docsify#readme) if you want to use it.
-"
-`;
-
-exports[`write-tree two categories, one page in each should write a sidebar config file using the sidebar template 1`] = `
-"* [Home](/)
-* [Category 1](category1/)
- - [Page](category1/page)
-* [Category 2](category2/)
- - [Page](category2/page)
 "
 `;
