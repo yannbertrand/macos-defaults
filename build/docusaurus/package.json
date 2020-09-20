@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "name": "macos-defaults-docusaurus-builder",
+  "version": "0.1.0",
+  "main": "build.js",
+  "scripts": {
+    "clean": "rimraf docs* dist*",
+    "build": "yarn clean && node build.js && yarn --cwd dist/website",
+    "build:prod": "yarn build && cd dist/website && docusaurus-build",
+    "start": "yarn build && cd dist/website && docusaurus-start",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "docusaurus": "1.14.6",
+    "handlebars": "4.7.6",
+    "yaml": "1.10.0"
+  },
+  "devDependencies": {
+    "jest": "26.4.2",
+    "prettier": "2.1.2",
+    "rimraf": "3.0.2"
+  }
+}
