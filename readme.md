@@ -66,7 +66,7 @@ It currently builds to:
   </tr>
   <tr align="center">
     <td>latest</td>
-    <td>1.5.4</td>
+    <td>1.6.0</td>
     <td>1.14.6</td>
     <td>latest</td>
   </tr>
