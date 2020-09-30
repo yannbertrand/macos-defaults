@@ -70,11 +70,10 @@ defaults rename \${domain} \${old_key} \${new_key}
 
 ## 💻 List of commands
 ## 🤔 How do I add a command?
-The list will soon be open sourced! You'll always be welcome to submit PRs, until then reach me on
-[Twitter](http://twitter.com/_YannBertrand).
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
 
 ## ❤️ I like this website, how can I build the same?
-Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). I liked the experience a lot.
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
 "
 `;
 
@@ -150,11 +149,10 @@ defaults rename \${domain} \${old_key} \${new_key}
 ### Category
 
 ## 🤔 How do I add a command?
-The list will soon be open sourced! You'll always be welcome to submit PRs, until then reach me on
-[Twitter](http://twitter.com/_YannBertrand).
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
 
 ## ❤️ I like this website, how can I build the same?
-Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). I liked the experience a lot.
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
 "
 `;
 
@@ -231,11 +229,10 @@ defaults rename \${domain} \${old_key} \${new_key}
 - [Page](./category/page.html)
 
 ## 🤔 How do I add a command?
-The list will soon be open sourced! You'll always be welcome to submit PRs, until then reach me on
-[Twitter](http://twitter.com/_YannBertrand).
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
 
 ## ❤️ I like this website, how can I build the same?
-Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). I liked the experience a lot.
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
 "
 `;
 
@@ -313,11 +310,10 @@ defaults rename \${domain} \${old_key} \${new_key}
 - [Page 2](./category/page2.html)
 
 ## 🤔 How do I add a command?
-The list will soon be open sourced! You'll always be welcome to submit PRs, until then reach me on
-[Twitter](http://twitter.com/_YannBertrand).
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
 
 ## ❤️ I like this website, how can I build the same?
-Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). I liked the experience a lot.
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
 "
 `;
 
@@ -397,10 +393,9 @@ defaults rename \${domain} \${old_key} \${new_key}
 - [Page](./category2/page.html)
 
 ## 🤔 How do I add a command?
-The list will soon be open sourced! You'll always be welcome to submit PRs, until then reach me on
-[Twitter](http://twitter.com/_YannBertrand).
+Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/master/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
 
 ## ❤️ I like this website, how can I build the same?
-Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). I liked the experience a lot.
+Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/master/build/vuepress#readme) if you want to use it.
 "
 `;
