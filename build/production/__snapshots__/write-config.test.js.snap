@@ -90,6 +90,7 @@ locales:
   /fr/:
     lang: 'fr-FR'
 themeConfig:
+  repo: 'yannbertrand/macos-defaults'
   logo: '/logo.svg'
   locales:
     /:
