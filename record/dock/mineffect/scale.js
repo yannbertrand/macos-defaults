@@ -3,7 +3,7 @@ const delay = require('delay')
 const robot = require('robotjs')
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
-const { makeAppActive, compressVideo } = require('../../utils')
+const { makeAppActive, moveAndResizeApp, compressVideo } = require('../../utils')
 
 module.exports = {
   run: async (outputPath) => {
@@ -28,6 +28,12 @@ module.exports = {
       x: width - recordWidth, y: 0,
       width: recordWidth, height: recordHeight
     }
+    const windowCropArea = {
+      x: cropArea.x+21, y: 156,
+      width: 668, height: 568
+    }
+
+    await moveAndResizeApp('System Preferences', windowCropArea, height)
 
     robot.moveMouse(pos1.x, pos1.y)
 
