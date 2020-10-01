@@ -255,7 +255,7 @@ categories:
             text: L'image générée est au format png
           - value: jpg
             text: L'image générée est au format jpg
-        versions: [Catalina]
+        versions: [Big Sur, Catalina]
 
   - folder: finder
     name: Finder

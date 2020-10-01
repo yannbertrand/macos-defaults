@@ -255,7 +255,7 @@ categories:
             text: The generated image is a png
           - value: jpg
             text: The generated image is a jpg
-        versions: [Catalina]
+        versions: [Big Sur, Catalina]
 
   - folder: finder
     name: Finder
