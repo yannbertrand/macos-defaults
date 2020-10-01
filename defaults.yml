@@ -246,15 +246,15 @@ categories:
       - key: set-image-format
         domain: com.apple.screencapture
         title: Choose screenshot format
-        description: Choose the image format of the screenshots.
+        description: Choose the screenshots image format.
         param:
           type: string
         examples:
           - value: png
             default: true
-            text: The image generated is a png
+            text: The generated image is a png
           - value: jpg
-            text: The image generated is a jpg
+            text: The generated image is a jpg
         versions: [Catalina]
 
   - folder: finder
