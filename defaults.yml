@@ -243,18 +243,19 @@ categories:
           - value: false
             text: Do not display the thumbnail
         versions: [Big Sur, Catalina]
-      - key: set-file-format
+sc      - key: set-image-format
         domain: com.apple.screencapture
-        title: Choose format
-        description: Choose the file format of the screenshots
+        title: Choose screenshot format
+        description: Choose the image format of the screenshots.
         param:
           type: string
         examples:
           - value: png
             default: true
-            text: the image generated is a png
+            text: The image generated is a png
           - value: jpg
             text: The image generated is a jpg
+        versions: [Catalina]
 
   - folder: finder
     name: Finder
