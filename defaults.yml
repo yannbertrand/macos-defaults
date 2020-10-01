@@ -354,13 +354,13 @@ categories:
   - folder: xcode
     name: Xcode
     description:
-      Xcode is an integrated development environment for macOS containing a suite of software development tools 
+      Xcode is an integrated development environment for macOS containing a suite of software development tools
       developed by Apple for developing software for macOS, iOS, iPadOS, watchOS, and tvOS.
     keys:
       - key: IDEAdditionalCounterpartSuffixes
         domain: com.apple.dt.Xcode
         title: Add Additional Counterpart Suffixes
-        description: 
+        description:
           Add additional counterpart suffixes that Xcode should consider in the "Related Items > Counterparts" menu.
         param:
           type: array-add
