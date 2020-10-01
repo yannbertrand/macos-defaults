@@ -243,7 +243,7 @@ categories:
           - value: false
             text: Do not display the thumbnail
         versions: [Big Sur, Catalina]
-sc      - key: set-image-format
+      - key: set-image-format
         domain: com.apple.screencapture
         title: Choose screenshot format
         description: Choose the image format of the screenshots.
