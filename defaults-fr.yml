@@ -243,7 +243,7 @@ categories:
           - value: false
             text: Ne pas afficher la vignette
         versions: [Big Sur, Catalina]
-      - key: set-image-format
+      - key: type
         domain: com.apple.screencapture
         title: Choisir le format de la capture
         description: Choisir le format de fichier de l'image dans lequel la capture est enregistrée.
@@ -255,7 +255,7 @@ categories:
             text: L'image générée est au format png
           - value: jpg
             text: L'image générée est au format jpg
-        versions: [Catalina]
+        versions: [Big Sur, Catalina]
 
   - folder: finder
     name: Finder
