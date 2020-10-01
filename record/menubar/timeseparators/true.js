@@ -9,7 +9,7 @@ module.exports = {
   run: async (outputPath) => {
     console.log('> Recording menu bar clock FlashDateSeparators with param set to true')
     // Set the menu bar menuExtras to only show the clock, it will be on the left of notification center, siri, and spotlight search.
-    const { stderr: setEnvError } = await exec(`defaults write com.apple.systemuiserver menuExtras "('/System/Library/CoreServices/Menu Extras/Clock.menu')" && defaults write com.apple.menuextra.clock FlashDateSeparators -bool true && sleep 5 && killall SystemUIServer`)
+    const { stderr: setEnvError } = await exec(`defaults write com.apple.systemuiserver menuExtras "('/System/Library/CoreServices/Menu Extras/Clock.menu')" && defaults write com.apple.menuextra.clock FlashDateSeparators -bool true && killall SystemUIServer && sleep 10`)
 
     if (setEnvError) {
       console.error('An error occured while setting up the menu bar clock FlashDateSeparators command')
