@@ -368,3 +368,24 @@ categories:
           - value: true
             text: The Help Menu can go behind other windows
         versions: [Big Sur]
+
+  - folder: xcode
+    name: Xcode
+    description:
+      Xcode is an integrated development environment for macOS containing a suite of software development tools 
+      developed by Apple for developing software for macOS, iOS, iPadOS, watchOS, and tvOS.
+    keys:
+      - key: IDEAdditionalCounterpartSuffixes
+        domain: com.apple.dt.Xcode
+        title: Add Additional Counterpart Suffixes
+        description: 
+          Add additional counterpart suffixes that Xcode should consider in the "Related Items > Counterparts" menu.
+        param:
+          type: array-add
+        examples:
+          - value: '"ViewModel" "View"'
+            text: Add the "ViewModel" and "View" counterpart suffixes (Useful for Model-View-ViewModel (MVVM) architectures).
+          - value: '"Router" "Interactor" "Builder"'
+            text: Add the "Router", "Interactor" and "Builder" counterpart suffixes (Useful for RIB architectures).
+        versions: [Catalina]
+        after: killall Xcode
