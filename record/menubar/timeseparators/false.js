@@ -32,7 +32,7 @@ module.exports = {
     const fp = await aperture.stopRecording()
     // End recording
     try {
-      await compressVideo(fp, outputPath, 'timeseparators')
+      await compressVideo(fp, outputPath, 'false')
     } catch (compressVideoError) {
       logRollbackInfo()
       throw new Error(compressVideoError)
@@ -45,7 +45,7 @@ module.exports = {
       throw new Error(deleteEnvError)
     }
 
-    return { filepath: `${outputPath}/timeseparators`, isVideo: true }
+    return { filepath: `${outputPath}/false`, isVideo: true }
   }
 }
 
