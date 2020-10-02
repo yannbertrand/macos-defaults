@@ -171,6 +171,7 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+
   - folder: menubar
     name: Menu Bar
     description:
@@ -187,14 +188,14 @@ categories:
             default: true
             video:
               filename: "false.mp4"
-              width: 400
-              height: 22
+              width: 727
+              height: 40
             text: The time separator stays solid continuously.
           - value: true
             video:
               filename: "true.mp4"
-              width: 400
-              height: 22
+              width: 727
+              height: 40
             text: The time separator flashes every second.
 
   - folder: screenshots
