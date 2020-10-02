@@ -6,7 +6,11 @@
 
 **Stability: 1 - Experimental**
 
-> An up-to-date list of [macOS `defaults` commands](https://macos-defaults.com) with demos ✨.
+> https://macos-defaults.com 
+>
+> `defaults` commands allow you to programmatically set System Settings of your Mac. 🤖⚙️🔧
+>
+> An up-to-date list of [macOS `defaults` commands](https://macos-defaults.com) with demos. ✨
 
 ## Add a command
 All the listed `defaults` commands are stored in a single [defaults.yml file](./defaults.yml). Here is how a command's info is designed:
