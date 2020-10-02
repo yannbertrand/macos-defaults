@@ -172,6 +172,32 @@ categories:
             value: true
         after: killall Dock
 
+  - folder: menubar
+    name: Menu Bar
+    description:
+    keys:
+      - key: FlashDateSeparators
+        domain: com.apple.menuextra.clock
+        title: Flash clock time separators
+        description:
+          "When enabled, the clock indicator (which by default is the colon) will flash on and off each second."
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            video:
+              filename: "false.mp4"
+              width: 727
+              height: 40
+            text: The time separator stays solid continuously.
+          - value: true
+            video:
+              filename: "true.mp4"
+              width: 727
+              height: 40
+            text: The time separator flashes every second.
+
   - folder: screenshots
     name: Screenshots
     description:
