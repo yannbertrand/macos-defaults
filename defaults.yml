@@ -320,7 +320,9 @@ categories:
 
   - folder: menubar
     name: Menu Bar
-    description: The menu bar runs along the top of the screen on your Mac. Use the menus and icons in the menu bar to choose commands, perform tasks, and check status.
+    description:
+      The menu bar runs along the top of the screen on your Mac.
+      Use the menus and icons in the menu bar to choose commands, perform tasks, and check status.
     keys:
       - key: FlashDateSeparators
         domain: com.apple.menuextra.clock
