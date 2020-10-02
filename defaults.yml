@@ -172,33 +172,6 @@ categories:
             value: true
         after: killall Dock
 
-  - folder: menubar
-    name: Menu Bar
-    description: The menu bar runs along the top of the screen on your Mac. Use the menus and icons in the menu bar to choose commands, perform tasks, and check status.
-    keys:
-      - key: FlashDateSeparators
-        domain: com.apple.menuextra.clock
-        title: Flash clock time separators
-        description:
-          "When enabled, the clock indicator (which by default is the colon) will flash on and off each second."
-        param:
-          type: bool
-        examples:
-          - value: false
-            default: true
-            video:
-              filename: "false.mp4"
-              width: 727
-              height: 40
-            text: The time separator stays solid continuously.
-          - value: true
-            video:
-              filename: "true.mp4"
-              width: 727
-              height: 40
-            text: The time separator flashes every second.
-        after: killall SystemUIServer
-
   - folder: screenshots
     name: Screenshots
     description:
@@ -344,6 +317,33 @@ categories:
             text: Do not display the warning
         versions: [Big Sur]
         after: killall Finder
+
+  - folder: menubar
+    name: Menu Bar
+    description: The menu bar runs along the top of the screen on your Mac. Use the menus and icons in the menu bar to choose commands, perform tasks, and check status.
+    keys:
+      - key: FlashDateSeparators
+        domain: com.apple.menuextra.clock
+        title: Flash clock time separators
+        description:
+          "When enabled, the clock indicator (which by default is the colon) will flash on and off each second."
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            video:
+              filename: "false.mp4"
+              width: 727
+              height: 40
+            text: The time separator stays solid continuously.
+          - value: true
+            video:
+              filename: "true.mp4"
+              width: 727
+              height: 40
+            text: The time separator flashes every second.
+        after: killall SystemUIServer
 
   - folder: mission-control
     name: Mission Control
