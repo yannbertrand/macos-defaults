@@ -400,9 +400,9 @@ categories:
     keys:
       - key: IDEAdditionalCounterpartSuffixes
         domain: com.apple.dt.Xcode
-        title: Ajouter des suffixes Add Additional Counterpart Suffixes
+        title: Ajouter des suffixes dans les Counterparts
         description:
-          Ajouter des suffixes supplémentaires que Xcode place dans les counterparts du menu "Related Items > Counterparts".
+          Ajouter des suffixes supplémentaires que Xcode place dans le menu "Related Items > Counterparts".
         param:
           type: array-add
         examples:
