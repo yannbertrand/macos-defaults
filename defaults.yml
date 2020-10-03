@@ -171,6 +171,20 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+      - key: enable-spring-load-actions-on-all-items # The command's key
+        domain: com.apple.dock # The command's domain
+        title: Enable spring loading for all Dock items
+        description: Drag a file over a folder/icon and the application/folder will open.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Spring loading is disabled for Dock items.
+          - value: true
+            text: Spring loading is enabled for Dock items.
+        versions: [Catalina]
+        after: killall Dock
 
   - folder: screenshots
     name: Screenshots
