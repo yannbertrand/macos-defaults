@@ -5,6 +5,10 @@ Handlebars.registerHelper('escapeDoubleQuote', (string) => {
   return string.replace(/"/g, '&#34;')
 })
 
+Handlebars.registerHelper('lowerCase', (string) => {
+  return string.toLowerCase()
+})
+
 module.exports = (defaults, templatesPath, destinationPath) => {
   if (defaults.categories !== null) {
     const categoryTemplate = fs.readFileSync(`${templatesPath}/category.md.handlebars`, 'utf8')
