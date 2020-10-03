@@ -284,6 +284,7 @@ categories:
               width: 727
               height: 40
             text: Les séparateurs clignotent toutes les secondes.
+        versions: [Big Sur]
         after: killall SystemUIServer
 
   - folder: finder

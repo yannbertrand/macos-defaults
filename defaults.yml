@@ -345,6 +345,7 @@ categories:
               width: 727
               height: 40
             text: The time separator flashes every second.
+        versions: [Big Sur]
         after: killall SystemUIServer
 
   - folder: mission-control
