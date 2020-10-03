@@ -257,36 +257,6 @@ categories:
             text: L'image générée est au format jpg
         versions: [Big Sur, Catalina]
 
-  - folder: menubar
-    name: Barre des menus
-    description:
-      La barre des menus est située en haut de l’écran.
-      Utilisez les menus et les icônes de la barre des menus pour choisir des commandes, réaliser des tâches et vérifier un état.
-    keys:
-      - key: FlashDateSeparators
-        domain: com.apple.menuextra.clock
-        title: Faire clignoter les séparateurs de l'horloge
-        description:
-          "Permet de faire clignoter ou non les séparateurs de l'horloge numérique (par défaut, ce sont des deux points)."
-        param:
-          type: bool
-        examples:
-          - value: false
-            default: true
-            video:
-              filename: "false.mp4"
-              width: 727
-              height: 40
-            text: Les séparateurs restent toujours solides.
-          - value: true
-            video:
-              filename: "true.mp4"
-              width: 727
-              height: 40
-            text: Les séparateurs clignotent toutes les secondes.
-        versions: [Big Sur]
-        after: killall SystemUIServer
-
   - folder: finder
     name: Finder
     description:
@@ -346,6 +316,36 @@ categories:
             text: Ne pas afficher d'alerte au changement
         versions: [Big Sur]
         after: killall Finder
+
+  - folder: menubar
+    name: Barre des menus
+    description:
+      La barre des menus est située en haut de l’écran.
+      Utilisez les menus et les icônes de la barre des menus pour choisir des commandes, réaliser des tâches et vérifier un état.
+    keys:
+      - key: FlashDateSeparators
+        domain: com.apple.menuextra.clock
+        title: Faire clignoter les séparateurs de l'horloge
+        description:
+          "Permet de faire clignoter ou non les séparateurs de l'horloge numérique (par défaut, ce sont des deux points)."
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            video:
+              filename: "false.mp4"
+              width: 727
+              height: 40
+            text: Les séparateurs restent toujours solides.
+          - value: true
+            video:
+              filename: "true.mp4"
+              width: 727
+              height: 40
+            text: Les séparateurs clignotent toutes les secondes.
+        versions: [Big Sur]
+        after: killall SystemUIServer
 
   - folder: mission-control
     name: Mission Control
