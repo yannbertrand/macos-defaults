@@ -393,6 +393,26 @@ categories:
             text: Ne pas collecter ces fichiers lors de l'envoi
         versions: [Big Sur]
 
+  - folder: xcode
+    name: Xcode
+    description:
+      Xcode est un environnement de développement pour macOS, ainsi que pour iOS, watchOS et tvOS.
+    keys:
+      - key: IDEAdditionalCounterpartSuffixes
+        domain: com.apple.dt.Xcode
+        title: Ajouter des suffixes Add Additional Counterpart Suffixes
+        description:
+          Ajouter des suffixes supplémentaires que Xcode place dans les counterparts du menu "Related Items > Counterparts".
+        param:
+          type: array-add
+        examples:
+          - value: '"ViewModel" "View"'
+            text: Ajoute les suffixes "ViewModel" et "View" (pratique pour les architectures Model-View-ViewModel (MVVM)).
+          - value: '"Router" "Interactor" "Builder"'
+            text: Ajoute les suffixes "Router", "Interactor" et "Builder" (pratique pour les architectures RIB).
+        versions: [Catalina]
+        after: killall Xcode
+
   - folder: misc
     name: Divers
     description: Tous les `defaults` qui n'ont pas leur place ailleurs.
