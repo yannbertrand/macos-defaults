@@ -459,7 +459,6 @@ categories:
             text: By default, the Help Menu is always-on-top
           - value: true
             text: The Help Menu can go behind other windows
-
         versions: [Big Sur, Catalina, Mojave]
       - key: enable-spring-load-actions-on-all-items
         domain: com.apple.dock
