@@ -375,7 +375,7 @@ categories:
               width: 727
               height: 40
             text: "Example time output: Thu 21:46:18"
-        versions: [Catalina]
+        versions: [Big Sur, Catalina]
         after: killall SystemUIServer
 
   - folder: mission-control
