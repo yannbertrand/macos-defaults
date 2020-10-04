@@ -354,6 +354,7 @@ categories:
           digital clock. Default value depends on your locale settings. `ss`
           for seconds, `HH` for 24-hour clock, `EEE` for 3-letter day of the
           week, `d MMM` for day of the month and 3-letter month.
+          These commands could have a different result depending on the Language & Region parameters.
         param:
           type: string
         examples:
