@@ -202,7 +202,7 @@ categories:
               width: 740
               height: 550
             text: Remove the default shadow from screenshots
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
       - key: include-date
         domain: com.apple.screencapture
         title: Include date
@@ -217,7 +217,7 @@ categories:
             text:
               - Screenshot.png
               - Screenshot 1.png
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
       - key: location
         domain: com.apple.screencapture
         title: Set location
@@ -228,7 +228,7 @@ categories:
           - value: ~/Desktop
             default: true
           - value: ~/Pictures
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
       - key: show-thumbnail
         domain: com.apple.screencapture
@@ -242,7 +242,7 @@ categories:
             text: Display the thumbnail after taking a screenshot
           - value: false
             text: Do not display the thumbnail
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
       - key: type
         domain: com.apple.screencapture
         title: Choose screenshot format
@@ -255,7 +255,7 @@ categories:
             text: The generated image is a png
           - value: jpg
             text: The generated image is a jpg
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
 
   - folder: finder
     name: Finder
