@@ -363,19 +363,19 @@ categories:
               filename: "EEE_d_MMM_HH:mm:ss.mp4"
               width: 727
               height: 40
-            text: "Example time output: Thu 18 Aug 21:46:18"
+            text: Thu 18 Aug 21:46:18
           - value: "EEE h:mm:ss"
             video:
               filename: "EEE_h:mm:ss.mp4"
               width: 727
               height: 40
-            text: "Example time output: Thu 9:46:18"
+            text: Thu 9:46:18
           - value: "EEE HH:mm:ss"
             video:
               filename: "EEE_HH:mm:ss.mp4"
               width: 727
               height: 40
-            text: "Example time output: Thu 21:46:18"
+            text: Thu 21:46:18
         versions: [Big Sur, Catalina]
         after: killall SystemUIServer
 
