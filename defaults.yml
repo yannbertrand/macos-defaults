@@ -347,7 +347,7 @@ categories:
             text: The time separator flashes every second.
         after: killall SystemUIServer
       - key: DateFormat
-        domain: com.menuextra.clock
+        domain: com.apple.menuextra.clock
         title: Set menubar digital clock format
         description:
           This setting configures the time and date format for the menubar
@@ -376,6 +376,7 @@ categories:
               height: 40
             text: "Example time output: Thu 21:46:18"
         versions: [Catalina]
+        after: killall SystemUIServer
 
   - folder: mission-control
     name: Mission Control
