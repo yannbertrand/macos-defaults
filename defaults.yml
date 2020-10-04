@@ -377,7 +377,6 @@ categories:
               height: 40
             text: Thu 21:46:18
         versions: [Big Sur, Catalina]
-        after: killall SystemUIServer
 
   - folder: mission-control
     name: Mission Control
