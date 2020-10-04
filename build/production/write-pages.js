@@ -14,7 +14,7 @@ module.exports = ({ defaults, url }, templatesPath, destinationPath) => {
 
       keys.forEach(({ domain, ...page }) => {
         const pageReadmeContent = renderPage({ ...page, folder, name, domain, url })
-        fs.writeFileSync(`${destinationPath}/${folder}/${page.key}.md`, pageReadmeContent)
+        fs.writeFileSync(`${destinationPath}/${folder}/${page.key.toLowerCase()}.md`, pageReadmeContent)
 
         page.examples.forEach(example => {
           if (example.image !== undefined) {

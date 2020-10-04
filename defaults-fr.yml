@@ -41,7 +41,7 @@ categories:
               width: 740
               height: 463
             text: Placer le Dock sur la droite de l'écran
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: autohide
         domain: com.apple.dock
@@ -55,7 +55,7 @@ categories:
             text: Toujours afficher le Dock
           - value: true
             text: Cacher le Dock automatiquement lorsque votre souris n'est pas dessus
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: autohide-time-modifier
         domain: com.apple.dock
@@ -83,7 +83,7 @@ categories:
               width: 742
               height: 202
             text: Supprimer la durée d'animation du Dock
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -110,7 +110,7 @@ categories:
               width: 742
               height: 202
             text: Remove the autohide delay, the Dock appears instantly
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -137,7 +137,7 @@ categories:
               width: 740
               height: 82
             text: Ne pas afficher la section des applications utilisées récemment.
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: mineffect
         domain: com.apple.dock
@@ -164,7 +164,7 @@ categories:
               width: 740
               height: 740
             text: "\"suck\" est une valeur secrète qui n'est pas disponible dans les Préférénces Systèmes"
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -217,7 +217,7 @@ categories:
             text:
               - Screenshot.png
               - Screenshot 1.png
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
       - key: location
         domain: com.apple.screencapture
         title: Emplacement
@@ -228,7 +228,7 @@ categories:
           - value: ~/Desktop
             default: true
           - value: ~/Pictures
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
       - key: show-thumbnail
         domain: com.apple.screencapture
@@ -255,7 +255,7 @@ categories:
             text: L'image générée est au format png
           - value: jpg
             text: L'image générée est au format jpg
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
 
   - folder: finder
     name: Finder
@@ -278,7 +278,7 @@ categories:
             text: Cacher l'option "Quitter" du Finder
           - value: true
             text: Afficher l'option "Quitter" du Finder
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: AppleShowAllExtensions
         domain: NSGlobalDomain
@@ -292,7 +292,7 @@ categories:
             text: Ne pas afficher toutes les extensions dans le Finder
           - value: true
             text: Afficher toutes les extensions de fichier dans le Finder
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
@@ -314,8 +314,66 @@ categories:
               width: 739
               height: 416
             text: Ne pas afficher d'alerte au changement
+        versions: [Big Sur, Catalina, Mojave]
+        after: killall Finder
+      - key: NSToolbarTitleViewRolloverDelay
+        domain: NSGlobalDomain
+        title: Délai au survol du titre
+        description: Choisir le délai d'affichage du titre complet.
+        param:
+          type: float
+        examples:
+          - value: 0.5
+            default: true
+            video:
+              filename: "0.5.mp4"
+              width: 741
+              height: 416
+            text: Par défaut, le titre met 0.5 secondes à s'afficher
+          - value: 0
+            video:
+              filename: "0.mp4"
+              width: 741
+              height: 416
+            text: Supprimer le délai au survol du titre
+          - value: 1
+            video:
+              filename: "1.mp4"
+              width: 741
+              height: 416
+            text: Ajouter du délai au survol du titre
         versions: [Big Sur]
         after: killall Finder
+
+  - folder: menubar
+    name: Barre des menus
+    description:
+      La barre des menus est située en haut de l’écran.
+      Utilisez les menus et les icônes de la barre des menus pour choisir des commandes, réaliser des tâches et vérifier un état.
+    keys:
+      - key: FlashDateSeparators
+        domain: com.apple.menuextra.clock
+        title: Faire clignoter les séparateurs de l'horloge
+        description:
+          "Permet de faire clignoter ou non les séparateurs de l'horloge numérique (par défaut, ce sont des deux points)."
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            video:
+              filename: "false.mp4"
+              width: 727
+              height: 40
+            text: Les séparateurs restent toujours solides.
+          - value: true
+            video:
+              filename: "true.mp4"
+              width: 727
+              height: 40
+            text: Les séparateurs clignotent toutes les secondes.
+        versions: [Big Sur, Catalina, Mojave]
+        after: killall SystemUIServer
 
   - folder: mission-control
     name: Mission Control
@@ -339,7 +397,7 @@ categories:
             text: Déplacer les bureaux virtuels les plus récemment utilisés
           - value: false
             text: Toujours conserver l'arrangement de bureaux virtuels
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
 
   - folder: feedback-assistant
@@ -363,6 +421,26 @@ categories:
             text: Ne pas collecter ces fichiers lors de l'envoi
         versions: [Big Sur]
 
+  - folder: xcode
+    name: Xcode
+    description:
+      Xcode est un environnement de développement pour macOS, ainsi que pour iOS, watchOS et tvOS.
+    keys:
+      - key: IDEAdditionalCounterpartSuffixes
+        domain: com.apple.dt.Xcode
+        title: Ajouter des suffixes dans les Counterparts
+        description:
+          Ajouter des suffixes supplémentaires que Xcode place dans le menu "Related Items > Counterparts".
+        param:
+          type: array-add
+        examples:
+          - value: '"ViewModel" "View"'
+            text: Ajoute les suffixes "ViewModel" et "View" (pratique pour les architectures Model-View-ViewModel (MVVM)).
+          - value: '"Router" "Interactor" "Builder"'
+            text: Ajoute les suffixes "Router", "Interactor" et "Builder" (pratique pour les architectures RIB).
+        versions: [Catalina]
+        after: killall Xcode
+
   - folder: misc
     name: Divers
     description: Tous les `defaults` qui n'ont pas leur place ailleurs.
@@ -379,4 +457,4 @@ categories:
             text: Par défaut, le menu d'Aide est au-dessus de n'importe quel fenêtre
           - value: true
             text: Laisser le menu d'Aide passer derrière les autres fenêtres
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
