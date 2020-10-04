@@ -41,7 +41,7 @@ categories:
               width: 740
               height: 463
             text: Placer le Dock sur la droite de l'écran
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: autohide
         domain: com.apple.dock
@@ -55,7 +55,7 @@ categories:
             text: Toujours afficher le Dock
           - value: true
             text: Cacher le Dock automatiquement lorsque votre souris n'est pas dessus
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: autohide-time-modifier
         domain: com.apple.dock
@@ -83,7 +83,7 @@ categories:
               width: 742
               height: 202
             text: Supprimer la durée d'animation du Dock
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -110,7 +110,7 @@ categories:
               width: 742
               height: 202
             text: Remove the autohide delay, the Dock appears instantly
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -137,7 +137,7 @@ categories:
               width: 740
               height: 82
             text: Ne pas afficher la section des applications utilisées récemment.
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: mineffect
         domain: com.apple.dock
@@ -164,7 +164,7 @@ categories:
               width: 740
               height: 740
             text: "\"suck\" est une valeur secrète qui n'est pas disponible dans les Préférénces Systèmes"
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -217,7 +217,7 @@ categories:
             text:
               - Screenshot.png
               - Screenshot 1.png
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
       - key: location
         domain: com.apple.screencapture
         title: Emplacement
@@ -228,7 +228,7 @@ categories:
           - value: ~/Desktop
             default: true
           - value: ~/Pictures
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
       - key: show-thumbnail
         domain: com.apple.screencapture
@@ -255,7 +255,7 @@ categories:
             text: L'image générée est au format png
           - value: jpg
             text: L'image générée est au format jpg
-        versions: [Big Sur, Catalina]
+        versions: [Big Sur, Catalina, Mojave]
 
   - folder: finder
     name: Finder
@@ -278,7 +278,7 @@ categories:
             text: Cacher l'option "Quitter" du Finder
           - value: true
             text: Afficher l'option "Quitter" du Finder
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: AppleShowAllExtensions
         domain: NSGlobalDomain
@@ -292,7 +292,7 @@ categories:
             text: Ne pas afficher toutes les extensions dans le Finder
           - value: true
             text: Afficher toutes les extensions de fichier dans le Finder
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
@@ -314,7 +314,7 @@ categories:
               width: 739
               height: 416
             text: Ne pas afficher d'alerte au changement
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
 
   - folder: menubar
@@ -344,7 +344,7 @@ categories:
               width: 727
               height: 40
             text: Les séparateurs clignotent toutes les secondes.
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
 
   - folder: mission-control
@@ -369,7 +369,7 @@ categories:
             text: Déplacer les bureaux virtuels les plus récemment utilisés
           - value: false
             text: Toujours conserver l'arrangement de bureaux virtuels
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
 
   - folder: feedback-assistant
@@ -429,4 +429,4 @@ categories:
             text: Par défaut, le menu d'Aide est au-dessus de n'importe quel fenêtre
           - value: true
             text: Laisser le menu d'Aide passer derrière les autres fenêtres
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
