@@ -431,4 +431,4 @@ categories:
             text: By default, the Help Menu is always-on-top
           - value: true
             text: The Help Menu can go behind other windows
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
