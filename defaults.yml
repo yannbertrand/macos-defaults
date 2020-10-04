@@ -279,7 +279,7 @@ categories:
             text: Hide the Finder "Quit" option
           - value: true
             text: Display the Finder "Quit" option
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: AppleShowAllExtensions
         domain: NSGlobalDomain
@@ -293,7 +293,7 @@ categories:
             text: Do not show all file extensions inside the Finder
           - value: true
             text: Show all file extensions inside the Finder
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
@@ -315,7 +315,7 @@ categories:
               width: 739
               height: 416
             text: Do not display the warning
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
 
   - folder: menubar
@@ -345,7 +345,7 @@ categories:
               width: 727
               height: 40
             text: The time separator flashes every second.
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
 
   - folder: mission-control
@@ -370,7 +370,7 @@ categories:
             text: Do reorder Spaces based on most recent use
           - value: false
             text: Keep the Spaces arrangement
-        versions: [Big Sur]
+        versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
 
   - folder: feedback-assistant
