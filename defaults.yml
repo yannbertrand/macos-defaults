@@ -476,5 +476,5 @@ categories:
             text: Spring loading is disabled for Dock items.
           - value: true
             text: Spring loading is enabled for Dock items.
-        versions: [Catalina]
+        versions: [Big Sur, Catalina]
         after: killall Dock
