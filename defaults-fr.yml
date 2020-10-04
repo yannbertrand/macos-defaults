@@ -316,6 +316,34 @@ categories:
             text: Ne pas afficher d'alerte au changement
         versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
+      - key: NSToolbarTitleViewRolloverDelay
+        domain: NSGlobalDomain
+        title: Délai au survol du titre
+        description: Choisir le délai d'affichage du titre complet.
+        param:
+          type: float
+        examples:
+          - value: 0.5
+            default: true
+            video:
+              filename: "0.5.mp4"
+              width: 741
+              height: 416
+            text: Par défaut, le titre met 0.5 secondes à s'afficher
+          - value: 0
+            video:
+              filename: "0.mp4"
+              width: 741
+              height: 416
+            text: Supprimer le délai au survol du titre
+          - value: 1
+            video:
+              filename: "1.mp4"
+              width: 741
+              height: 416
+            text: Ajouter du délai au survol du titre
+        versions: [Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Barre des menus

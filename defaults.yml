@@ -317,6 +317,34 @@ categories:
             text: Do not display the warning
         versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
+      - key: NSToolbarTitleViewRolloverDelay
+        domain: NSGlobalDomain
+        title: Adjust toolbar title rollover delay
+        description: Choose the delay of the auto-hidden document-proxy icon.
+        param:
+          type: float
+        examples:
+          - value: 0.5
+            default: true
+            video:
+              filename: "0.5.mp4"
+              width: 741
+              height: 416
+            text: By default, the toolbar title hovering delay takes 0.5 seconds
+          - value: 0
+            video:
+              filename: "0.mp4"
+              width: 741
+              height: 416
+            text: Remove the delay when hovering the toolbar title
+          - value: 1
+            video:
+              filename: "1.mp4"
+              width: 741
+              height: 416
+            text: Increase the delay when hovering the toolbar title
+        versions: [Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Menu Bar
