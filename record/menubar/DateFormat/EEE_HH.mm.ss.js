@@ -7,10 +7,10 @@ const { makeAppActive, compressVideo } = require('../../utils')
 
 module.exports = {
   run: async (outputPath) => {
-    console.log('> Recording menu bar clock DateFormat with param set to "EEE h:mm:ss"')
+    console.log('> Recording menu bar clock DateFormat with param set to "EEE HH:mm:ss"')
 
     // Set the menu bar menuExtras to only show the clock, it will be on the left of notification center, siri, and spotlight search.
-    const { stderr: setEnvError } = await exec(`defaults write com.apple.menuextra.clock DateFormat -string "EEE h:mm:ss" && killall SystemUIServer && sleep 10`)
+    const { stderr: setEnvError } = await exec(`defaults write com.apple.menuextra.clock DateFormat -string "EEE HH:mm:ss" && killall SystemUIServer && sleep 10`)
 
     if (setEnvError) {
       console.error('An error occured while setting up the menu bar clock DateFormat command')
@@ -36,7 +36,7 @@ module.exports = {
     // End recording
 
     try {
-      await compressVideo(fp, outputPath, 'EEE_h:mm:ss')
+      await compressVideo(fp, outputPath, 'EEE_HH.mm.ss')
     } catch (compressVideoError) {
       logRollbackInfo()
       throw new Error(compressVideoError)
@@ -49,7 +49,7 @@ module.exports = {
       throw new Error(deleteEnvError)
     }
 
-    return { filepath: `${outputPath}/EEE_h:mm:ss`, isVideo: true }
+    return { filepath: `${outputPath}/EEE_HH.mm.ss`, isVideo: true }
   }
 }
 

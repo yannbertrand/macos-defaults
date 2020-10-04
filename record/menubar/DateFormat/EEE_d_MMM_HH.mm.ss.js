@@ -36,7 +36,7 @@ module.exports = {
     // End recording
 
     try {
-      await compressVideo(fp, outputPath, 'EEE_d_MMM_HH:mm:ss')
+      await compressVideo(fp, outputPath, 'EEE_d_MMM_HH.mm.ss')
     } catch (compressVideoError) {
       logRollbackInfo()
       throw new Error(compressVideoError)
@@ -49,7 +49,7 @@ module.exports = {
       throw new Error(deleteEnvError)
     }
 
-    return { filepath: `${outputPath}/EEE_d_MMM_HH:mm:ss`, isVideo: true }
+    return { filepath: `${outputPath}/EEE_d_MMM_HH.mm.ss`, isVideo: true }
   }
 }
 
