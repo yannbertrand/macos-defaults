@@ -12,6 +12,11 @@ module.exports = (supportedLanguages, templatesPath, destinationPath) => {
 
   fs.copyFileSync(`${templatesPath}/.vuepress/public/android-chrome-192x192.png`, `${destinationPath}/.vuepress/public/android-chrome-192x192.png`)
   fs.copyFileSync(`${templatesPath}/.vuepress/public/android-chrome-512x512.png`, `${destinationPath}/.vuepress/public/android-chrome-512x512.png`)
+  fs.copyFileSync(`${templatesPath}/.vuepress/public/apple-touch-icon-120x120-precomposed.png`, `${destinationPath}/.vuepress/public/apple-touch-icon-120x120-precomposed.png`)
+  fs.copyFileSync(`${templatesPath}/.vuepress/public/apple-touch-icon-120x120.png`, `${destinationPath}/.vuepress/public/apple-touch-icon-120x120.png`)
+  fs.copyFileSync(`${templatesPath}/.vuepress/public/apple-touch-icon-152x152-precomposed.png`, `${destinationPath}/.vuepress/public/apple-touch-icon-152x152-precomposed.png`)
+  fs.copyFileSync(`${templatesPath}/.vuepress/public/apple-touch-icon-152x152.png`, `${destinationPath}/.vuepress/public/apple-touch-icon-152x152.png`)
+  fs.copyFileSync(`${templatesPath}/.vuepress/public/apple-touch-icon-precomposed.png`, `${destinationPath}/.vuepress/public/apple-touch-icon-precomposed.png`)
   fs.copyFileSync(`${templatesPath}/.vuepress/public/apple-touch-icon.png`, `${destinationPath}/.vuepress/public/apple-touch-icon.png`)
   fs.copyFileSync(`${templatesPath}/.vuepress/public/browserconfig.xml`, `${destinationPath}/.vuepress/public/browserconfig.xml`)
   fs.copyFileSync(`${templatesPath}/.vuepress/public/favicon.ico`, `${destinationPath}/.vuepress/public/favicon.ico`)

@@ -8,6 +8,11 @@ const destinationPath = 'dist'
 const copiedFiles = [
   '.vuepress/public/android-chrome-192x192.png',
   '.vuepress/public/android-chrome-512x512.png',
+  '.vuepress/public/apple-touch-icon-120x120-precomposed.png',
+  '.vuepress/public/apple-touch-icon-120x120.png',
+  '.vuepress/public/apple-touch-icon-152x152-precomposed.png',
+  '.vuepress/public/apple-touch-icon-152x152.png',
+  '.vuepress/public/apple-touch-icon-precomposed.png',
   '.vuepress/public/apple-touch-icon.png',
   '.vuepress/public/browserconfig.xml',
   '.vuepress/public/favicon.ico',
