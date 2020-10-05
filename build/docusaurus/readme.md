@@ -49,7 +49,7 @@ yarn install
 This will build the [defaults.yml file](../../defaults.yml) and run a Docusaurus server on http://localhost:3000/docs/. Sources of the website are available in the `dist` folder.
 
 ```sh
-yarn build
+yarn start
 ```
 
 ### 🚧 Run unit tests
