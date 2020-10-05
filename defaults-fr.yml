@@ -374,6 +374,34 @@ categories:
             text: Les séparateurs clignotent toutes les secondes.
         versions: [Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
+      - key: DateFormat
+        domain: com.apple.menuextra.clock
+        title: Format de date et heure
+        description:
+          Ce paramètre permet de préciser le format de date et heure de la barre de menus.
+          Les valeurs acceptées dépendent de vos paramètres de Langue & région.
+          - `ss` pour les secondes
+          - `HH` pour l'heure (24h)
+          - `EEE` pour le jour de la semaine en 3 lettres
+          - `d MMM` pour le jour dans le mois et le mois en 3 lettres.
+        param:
+          type: string
+        examples:
+          - value: '"EEE d MMM HH:mm:ss"'
+            video:
+              filename: "EEE_d_MMM_HH.mm.ss.mp4"
+              width: 727
+              height: 40
+            text: Lun. 5 oct. à 21:56:12
+          - value: '"EEE h:mm:ss"'
+            video:
+              filename: "EEE_h.mm.ss.mp4"
+              width: 727
+              height: 40
+            text: Lun. 21:56:40
+          - value: '"MMM d HH:mm:ss"'
+            text: 5 oct. à 21:58:33
+        versions: [Big Sur, Catalina]
 
   - folder: mission-control
     name: Mission Control
