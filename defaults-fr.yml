@@ -378,12 +378,12 @@ categories:
         domain: com.apple.menuextra.clock
         title: Format de date et heure
         description:
-          Ce paramètre permet de préciser le format de date et heure de la barre de menus.
-          Les valeurs acceptées dépendent de vos paramètres de Langue & région.
-          - `ss` pour les secondes
-          - `HH` pour l'heure (24h)
-          - `EEE` pour le jour de la semaine en 3 lettres
-          - `d MMM` pour le jour dans le mois et le mois en 3 lettres.
+          "Ce paramètre permet de préciser le format de date et heure de la barre de menus.
+          Les valeurs acceptées dépendent de vos paramètres de Langue & région.<br>
+          - `ss` pour les secondes.<br>
+          - `HH` pour l'heure (24h).<br>
+          - `EEE` pour le jour de la semaine en 3 lettres.<br>
+          - `d MMM` pour le jour dans le mois et le mois en 3 lettres."
         param:
           type: string
         examples:
