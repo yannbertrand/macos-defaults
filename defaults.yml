@@ -375,6 +375,37 @@ categories:
             text: The time separator flashes every second.
         versions: [Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
+      - key: DateFormat
+        domain: com.apple.menuextra.clock
+        title: Set menubar digital clock format
+        description:
+          This setting configures the time and date format for the menubar
+          digital clock. Default value depends on your locale settings. `ss`
+          for seconds, `HH` for 24-hour clock, `EEE` for 3-letter day of the
+          week, `d MMM` for day of the month and 3-letter month.
+          These commands could have a different result depending on the Language & Region parameters.
+        param:
+          type: string
+        examples:
+          - value: '"EEE d MMM HH:mm:ss"'
+            video:
+              filename: "EEE_d_MMM_HH.mm.ss.mp4"
+              width: 727
+              height: 40
+            text: Thu 18 Aug 21:46:18
+          - value: '"EEE h:mm:ss"'
+            video:
+              filename: "EEE_h.mm.ss.mp4"
+              width: 727
+              height: 40
+            text: Thu 9:46:18
+          - value: '"EEE HH:mm:ss"'
+            video:
+              filename: "EEE_HH.mm.ss.mp4"
+              width: 727
+              height: 40
+            text: Thu 21:46:18
+        versions: [Big Sur, Catalina]
 
   - folder: mission-control
     name: Mission Control
