@@ -486,19 +486,19 @@ categories:
           - value: true
             text: Laisser le menu d'Aide passer derrière les autres fenêtres
         versions: [Big Sur, Catalina, Mojave]
-      - key: itunes-notifications
-        domain: com.apple.dock
+      - key: userWantsPlaybackNotifications
+        domain: com.apple.Music
         title: Afficher les notifications de Musique
         description:
-          Afficher une notification lorsqu'une nouvelle musique commence.
-          La notification apparaît au-dessus de l'icône Musique, dans le dock.
+          Afficher une notification lorsqu'une nouvelle chanson commence dans
+          l'application Musique.
         param:
           type: bool
         examples:
           - value: false
             default: true
-            text: L'affichage de la notification est désactivé.
+            text: L'affichage des notifications est désactivé.
           - value: true
-            text: L'affichage de la notficiation est activé.
-        versions: []
-        after: killall Dock
+            text: L'affichage des notifications est activé.
+        versions: [Catalina]
+        after: killall Music

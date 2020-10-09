@@ -510,19 +510,17 @@ categories:
             text: Spring loading is enabled for Dock items.
         versions: [Big Sur, Catalina]
         after: killall Dock
-      - key: itunes-notifications
-        domain: com.apple.dock
+      - key: userWantsPlaybackNotifications
+        domain: com.apple.Music
         title: Show Music song notifications
-        description:
-          Display a notification when a new music starts. The notification
-          appears above the Music icon, in the dock.
+        description: Display a notification when a new song starts in the Music app.
         param:
           type: bool
         examples:
           - value: false
             default: true
-            text: Notifications will not displayed.
+            text: Notifications will not be displayed.
           - value: true
-            text: Notifications will displayed.
-        versions: []
-        after: killall Dock
+            text: Notifications will be displayed.
+        versions: [Catalina]
+        after: killall Music
