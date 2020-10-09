@@ -520,9 +520,9 @@ categories:
           type: bool
         examples:
           - value: false
-          default: true
-          text: Notifications will not displayed.
+            default: true
+            text: Notifications will not displayed.
           - value: true
-          text: Notifications will displayed.
+            text: Notifications will displayed.
         versions: []
         after: killall Dock
