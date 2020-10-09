@@ -521,8 +521,8 @@ categories:
         examples:
           - value: false
           default: true
-          Notifications will not displayed.
+          text: Notifications will not displayed.
           - value: true
-          Notifications will displayed.
+          text: Notifications will displayed.
         versions: []
         after: killall Dock

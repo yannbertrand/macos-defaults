@@ -497,8 +497,8 @@ categories:
         examples:
           - value: false
           default: true
-          L'affichage de la notification est désactivé.
+          text: L'affichage de la notification est désactivé.
           - value: true
-          L'affichage de la notficiation est activé.
+          text: L'affichage de la notficiation est activé.
         versions: []
         after: killall Dock
