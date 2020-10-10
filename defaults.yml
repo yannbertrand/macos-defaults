@@ -475,6 +475,29 @@ categories:
         versions: [Catalina]
         after: killall Xcode
 
+
+  - folder: timemachine
+    name: Time Machine
+    description:
+      The Time Machine feature allows simple, regular backups of your
+      filesystem.
+    keys:
+      - key: DoNotOfferNewDisksForBackup
+        domain: com.apple.TimeMachine
+        title: Don't offer new disks for Time Machine backup.
+        description:
+          Prevent Time Machine from prompting to use newly connected storage as backup volumes.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text:
+              When a new disk is connected, system prompts to ask if you want to use it as a backup volume.
+          - value: true
+            text:
+              When a new disk is connected, system does not prompt to ask if you want to use it as a backup volume.
+        versions: [Catalina]
   - folder: misc
     name: Miscellaneous
     description: All the others `defaults` that don't deserve their own category.
