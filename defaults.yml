@@ -498,6 +498,7 @@ categories:
             text:
               When a new disk is connected, system does not prompt to ask if you want to use it as a backup volume.
         versions: [Catalina]
+
   - folder: misc
     name: Miscellaneous
     description: All the others `defaults` that don't deserve their own category.
