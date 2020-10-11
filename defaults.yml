@@ -484,7 +484,7 @@ categories:
     keys:
       - key: DoNotOfferNewDisksForBackup
         domain: com.apple.TimeMachine
-        title: Don't offer new disks for Time Machine backup.
+        title: Don't offer new disks for Time Machine backup
         description:
           Prevent Time Machine from prompting to use newly connected storage as backup volumes.
         param:
