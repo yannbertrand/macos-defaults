@@ -12,9 +12,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@vuepress/plugin-medium-zoom": "1.7.0",
+    "@vuepress/plugin-medium-zoom": "1.7.1",
     "handlebars": "4.7.6",
-    "vuepress": "1.7.0",
+    "vuepress": "1.7.1",
     "yaml": "1.10.0"
   },
   "devDependencies": {
