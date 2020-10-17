@@ -171,6 +171,27 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+      - key: persistent-apps
+        domain: com.apple.dock
+        title: Add spacer tile
+        description: Appends a spacer tile to the list of apps in the dock.
+        param:
+          type: array-add
+        examples:
+          - value: "'{\"tile-type\"=\"spacer-tile\";}'"
+            image:
+              filename: "spacer-tile.png"
+              width: 740
+              height: 463
+            text: Appends a spacer tile to the persistent apps area of the dock.
+          - value: "'{\"tile-type\"=\"small-spacer-tile\";}'"
+            image:
+              filename: "small-spacer-tile.png"
+              width: 740
+              height: 463
+            text: Appends a spacer tile to the persistent apps area of the dock.
+        versions: [Big Sur, Catalina, Mojave]
+        after: killall Dock
 
   - folder: screenshots
     name: Screenshots
