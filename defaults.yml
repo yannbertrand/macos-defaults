@@ -474,6 +474,21 @@ categories:
             text: Add the "Router", "Interactor" and "Builder" counterpart suffixes (Useful for RIB architectures).
         versions: [Catalina]
         after: killall Xcode
+      - key: ShowBuildOperationDuration
+        domain: com.apple.dt.Xcode
+        title: Show Build Durations
+        description:
+          Show build durations in the Activity Viewer in Xcode's toolbar at the top of the workspace window.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Show the build duration in the Xcode's toolbar
+          - value: false
+            default: true
+            text: Do not show the build duration in the Xcode's toolbar
+        versions: [Catalina]
+        after: killall Xcode
 
   - folder: misc
     name: Miscellaneous
