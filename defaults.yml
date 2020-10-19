@@ -490,6 +490,25 @@ categories:
         versions: [Catalina]
         after: killall Xcode
 
+  - folder: simulator
+    name: Simulator
+    description:
+      Installed as part of the Xcode tools, Simulator is a Mac app simulating iPhone, iPad, Apple Watch, or Apple TV environments.
+    keys:
+      - key: ScreenShotSaveLocation
+        domain: com.apple.iphonesimulator
+        title: Set screenshot location
+        description:
+          Set default location for Simulator screenshots.<br>
+          Note that the folder has to exist in the filesystem.
+        param:
+          type: string
+        examples:
+          - value: ~/Pictures/Screenshots
+            default: true
+          - value: "~/Pictures/Simulator Screenshots"
+        versions: [Catalina]
+
   - folder: misc
     name: Miscellaneous
     description: All the others `defaults` that don't deserve their own category.
