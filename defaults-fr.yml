@@ -486,3 +486,19 @@ categories:
           - value: true
             text: Laisser le menu d'Aide passer derrière les autres fenêtres
         versions: [Big Sur, Catalina, Mojave]
+      - key: userWantsPlaybackNotifications
+        domain: com.apple.Music
+        title: Afficher les notifications de Musique
+        description:
+          Afficher une notification lorsqu'une nouvelle chanson commence dans
+          l'application Musique.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: L'affichage des notifications est désactivé.
+          - value: true
+            text: L'affichage des notifications est activé.
+        versions: [Catalina]
+        after: killall Music
