@@ -317,6 +317,19 @@ categories:
             text: Do not display the warning
         versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
+      - key: NSDocumentSaveNewDocumentsToCloud
+        domain: NSGlobalDomain
+        title: Save to disk or iCloud by default
+        description: Choose whether the default file save location is on disk or iCloud
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: iCloud Documents is the default directory opened in the fileviewer dialog when saving a new document
+          - value: false
+            text: home directory is opened in the fileviewer dialog when saving a new document
+        versions: [Catalina]
       - key: NSToolbarTitleViewRolloverDelay
         domain: NSGlobalDomain
         title: Adjust toolbar title rollover delay
