@@ -24,6 +24,6 @@
   },
   "resolutions": {
     "vuepress/@vuepress/core/webpack-dev-server/selfsigned/node-forge": "0.10.0",
-    "vuepress/@vuepress/core/@vuepress/markdown/markdown-it": "10.0.0"
+    "vuepress/@vuepress/core/@vuepress/markdown/markdown-it": "12.0.2"
   }
 }
