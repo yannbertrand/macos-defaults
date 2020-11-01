@@ -358,6 +358,22 @@ categories:
             text: Increase the delay when hovering the toolbar title
         versions: [Big Sur]
         after: killall Finder
+      - key: NSTableViewDefaultSizeMode
+        domain: NSGlobalDomain
+        title: Set Finder sidebar icon size
+        description: Choose the size of Finder sidebar icons
+        param:
+          type: int
+        examples:
+          - value: 1
+            text: Small
+          - value: 2
+            default: true
+            text: Medium
+          - value: 3
+            text: Large
+        versions: [Big Sur, Catalina]
+        after: killall Finder
 
   - folder: menubar
     name: Menu Bar
