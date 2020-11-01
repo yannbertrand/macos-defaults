@@ -9,7 +9,7 @@ module.exports = {
   run: async (outputPath) => {
     console.log('> Recording dock icon size with param set to 36')
 
-    const { stderr: setEnvError } = await exec('defaults write com.apple.screencapture show-thumbnail -bool false && defaults write com.apple.dock tilesize -string bottom && killall Dock')
+    const { stderr: setEnvError } = await exec('defaults write com.apple.screencapture show-thumbnail -bool false && defaults write com.apple.dock tilesize -int 36 && killall Dock')
     if (setEnvError) {
       console.error('An error occured while setting up the dock tilesize command')
       logRollbackInfo()
