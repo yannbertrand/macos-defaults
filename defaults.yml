@@ -366,11 +366,23 @@ categories:
           type: int
         examples:
           - value: 1
+            image:
+              filename: "1.png"
+              width: 740
+              height: 415
             text: Small
           - value: 2
             default: true
+            image:
+              filename: "2.png"
+              width: 740
+              height: 415
             text: Medium
           - value: 3
+            image:
+              filename: "3.png"
+              width: 740
+              height: 415
             text: Large
         versions: [Big Sur, Catalina]
         after: killall Finder
