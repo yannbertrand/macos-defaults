@@ -360,7 +360,7 @@ categories:
         after: killall Finder
       - key: NSTableViewDefaultSizeMode
         domain: NSGlobalDomain
-        title: Set Finder sidebar icon size
+        title: Set sidebar icon size
         description: Choose the size of Finder sidebar icons
         param:
           type: int
