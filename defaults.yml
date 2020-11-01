@@ -359,7 +359,7 @@ categories:
             text: Medium
           - value: 3
             text: Large
-        versions: [Catalina]
+        versions: [Big Sur, Catalina]
         after: killall Finder
 
   - folder: menubar
