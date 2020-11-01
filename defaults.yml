@@ -63,7 +63,7 @@ categories:
               width: 740
               height: 463
             text: Dock icon size of 48 pixels.
-        versions: [Catalina]
+        versions: [Big Sur, Catalina]
         after: killall Dock
       - key: autohide
         domain: com.apple.dock
