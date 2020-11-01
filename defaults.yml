@@ -43,6 +43,28 @@ categories:
             text: Put the Dock on the right of the screen
         versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
+      - key: tilesize
+        domain: com.apple.dock
+        title: Icon size
+        description: Set the icon size of Dock items in pixels.
+        param:
+          type: int
+        examples:
+          - value: 36
+            image:
+              filename: "36.png"
+              width: 740
+              height: 463
+            text: Dock icon size of 36 pixels.
+          - value: 48
+            default: true
+            image:
+              filename: "48.png"
+              width: 740
+              height: 463
+            text: Dock icon size of 48 pixels.
+        versions: [Big Sur, Catalina]
+        after: killall Dock
       - key: autohide
         domain: com.apple.dock
         title: Autohide
