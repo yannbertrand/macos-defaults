@@ -379,6 +379,34 @@ categories:
             text: Ajouter du délai au survol du titre
         versions: [Big Sur]
         after: killall Finder
+      - key: NSTableViewDefaultSizeMode
+        domain: NSGlobalDomain
+        title: Taille des icônes de la barre latérale
+        description: Personnaliser la taille des icônes dans la barre latérale du Finder
+        param:
+          type: int
+        examples:
+          - value: 1
+            image:
+              filename: "1.png"
+              width: 740
+              height: 415
+            text: Petites
+          - value: 2
+            default: true
+            image:
+              filename: "2.png"
+              width: 740
+              height: 415
+            text: Moyennes
+          - value: 3
+            image:
+              filename: "3.png"
+              width: 740
+              height: 415
+            text: Grosses
+        versions: [Big Sur, Catalina]
+        after: killall Finder
 
   - folder: menubar
     name: Barre des menus
