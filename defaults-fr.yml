@@ -606,6 +606,23 @@ categories:
           - value: true
             text: Laisser le menu d'Aide passer derrière les autres fenêtres
         versions: [Big Sur, Catalina, Mojave]
+      - key: enable-spring-load-actions-on-all-items
+        domain: com.apple.dock
+        title: Activer le spring loading dans le Dock
+        description:
+          Glisser un fichier au dessus d'une icône du Dock et l'application va s'ouvrir.
+          Ne permet de le faire que si l'application n'est pas déjà ouverte.
+          Nous avons réussi à le faire fonctionner sur Aperçu, QuickTime et iWork (Keynote, Pages, Numbers).
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Le spring loading est désactivé
+          - value: true
+            text: Le spring loading est activé
+        versions: [Big Sur, Catalina]
+        after: killall Dock
       - key: userWantsPlaybackNotifications
         domain: com.apple.Music
         title: Afficher les notifications de Musique
