@@ -531,6 +531,21 @@ categories:
             text: Ajoute les suffixes "Router", "Interactor" et "Builder" (pratique pour les architectures RIB).
         versions: [Catalina]
         after: killall Xcode
+      - key: ShowBuildOperationDuration
+        domain: com.apple.dt.Xcode
+        title: Afficher la durée de build
+        description:
+          Afficher la durée de build dans la toolbar en haut de la fenêtre d'Xcode
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Afficher la durée de build dans la toolbar
+          - value: false
+            default: true
+            text: Ne pas afficher la durée de build dans la toolbar
+        versions: [Catalina]
+        after: killall Xcode
 
   - folder: misc
     name: Divers
