@@ -567,6 +567,28 @@ categories:
           - value: "~/Pictures/Simulator Screenshots"
         versions: [Catalina]
 
+  - folder: timemachine
+    name: Time Machine
+    description:
+      Time Machine permet de sauvegarder l'état de son système au cours du temps.
+    keys:
+      - key: DoNotOfferNewDisksForBackup
+        domain: com.apple.TimeMachine
+        title: Eviter les nouveaux disques
+        description:
+          Ne pas proposer les périphériques de stockage nouvellement branchés en tant que disque de sauvegarde
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text:
+              Lorsqu'un nouveau périphérique de stockage est branché, l'ordinateur propose de l'ajouter en tant que disque de sauvegarde
+          - value: true
+            text:
+              Ne pas proposer les nouveaux périphériques de stockage connectés comme disque de sauvegarde
+        versions: [Catalina]
+
   - folder: misc
     name: Divers
     description: Tous les `defaults` qui n'ont pas leur place ailleurs.
