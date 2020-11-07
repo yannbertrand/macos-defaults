@@ -338,6 +338,19 @@ categories:
             text: Ne pas afficher d'alerte au changement
         versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
+      - key: NSDocumentSaveNewDocumentsToCloud
+        domain: NSGlobalDomain
+        title: Sauvegarder sur le disque ou dans iCloud par défaut
+        description: Définir si l'emplacement de sauvegarde par défaut est sur le disque ou dans iCloud
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: iCloud Documents est le dossier ouvert par défaut lors de la sauvegarde d'un nouveau document
+          - value: false
+            text: Le répertoire utilisateur est ouvert par défaut lors de la sauvegarde d'un nouveau document
+        versions: [Catalina]
       - key: NSToolbarTitleViewRolloverDelay
         domain: NSGlobalDomain
         title: Délai au survol du titre
