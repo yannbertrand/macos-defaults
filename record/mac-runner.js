@@ -25,6 +25,20 @@ class MacRunner {
   }
 
   /**
+   * Delete MacOS defaults system
+   * @param {*} domain Application domain
+   * @param {*} key Default key
+   * @param {*} after Action to perform after setting the default (ex: killall Dock)
+   */
+  deleteDefault(domain, key, after) {
+    return this.register(() => {
+      const defaultCommand = `defaults delete ${domain} ${key}`
+      const command = after ? `${defaultCommand} && ${after}` : defaultCommand
+      return execCommand(command)
+    })
+  }
+
+  /**
    * Open an application from it's name
    * @param {*} appName Application name (ex: Finder)
    * @param {*} params Application parameters
