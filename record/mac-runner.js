@@ -1,9 +1,8 @@
-const aperture = require('aperture')();
+const aperture = require('aperture')()
 const wait = require('delay')
 const fs = require('fs')
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
-const { spawn } = require('child_process')
 
 class MacRunner {
   constructor(commands = []) {
@@ -92,8 +91,8 @@ class MacRunner {
   startVideo(options) {
     return this.register(async () => {
       console.info('   Start video recording...')
-      await aperture.startRecording(options);
-      await aperture.isFileReady;
+      await aperture.startRecording(options)
+      await aperture.isFileReady
     })
   }
 
@@ -108,7 +107,7 @@ class MacRunner {
       if (fs.existsSync(output)) {
         fs.unlinkSync(output)
       }
-      fs.renameSync(fp, output);
+      fs.renameSync(fp, output)
     })
   }
 
