@@ -320,7 +320,7 @@ categories:
       - key: AppleShowAllFiles
         domain: com.apple.Finder
         title: Show hidden files
-        description: Show hidden files in the Finder.
+        description: Show hidden files in the Finder. You can toggle the value using `⌘ cmd`+`⇧ shift`+`.`.
         param:
           type: bool
         examples:
