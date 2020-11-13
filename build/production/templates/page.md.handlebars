@@ -64,6 +64,11 @@ defaults read {{ domain }} {{ key }}
 ```
 
 ## Delete current value
+{{# if deleteAlert }}
+::: {{ deleteAlert.type }}
+{{{ deleteAlert.message }}}
+:::
+{{/ if }}
 ```bash
 defaults delete {{ domain }} {{ key }}{{# if after }} && {{ after }}{{/ if }}
 ```

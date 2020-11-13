@@ -154,6 +154,42 @@ describe('write-pages', () => {
           expect(pageReadmeContent).toMatchSnapshot()
         })
       })
+
+      describe('with a deleteAlert section', () => {
+        beforeEach(() =>
+          callWritePages({
+            categories: [
+              {
+                folder: 'category',
+                name: 'Category',
+                description: 'Category description.',
+                keys: [
+                  {
+                    key: 'page',
+                    domain: 'com.apple.category',
+                    title: 'Page',
+                    description: 'Page description.',
+                    param: { type: 'bool' },
+                    examples: [],
+                    deleteAlert: {
+                      type: 'danger',
+                      message: 'This an alert message. <br> `defaults command`'
+                    },
+                    versions: ['Big Sur']
+                  }
+                ]
+              }
+            ]
+          })
+        )
+
+        it('should write a category/page.md file using the page template', () => {
+          const pageReadmeContent = readFile(
+            `${destinationPath}/category/page.md`
+          )
+          expect(pageReadmeContent).toMatchSnapshot()
+        })
+      })
     })
 
     describe('with text and possible values example', () => {

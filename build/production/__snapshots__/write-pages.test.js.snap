@@ -120,6 +120,46 @@ defaults delete com.apple.category page
 "
 `;
 
+exports[`write-pages one category, one page with text example with a deleteAlert section should write a category/page.md file using the page template 1`] = `
+"---
+metaTitle: Page | Category | macOS defaults
+meta:
+  - property: \\"og:title\\"
+    content: macOS defaults > Category > Page
+  - name: \\"description\\"
+    content: Page description.
+  - property: \\"og:description\\"
+    content: Page description.
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+---
+# Page
+
+> Page description.
+
+- **Tested on macOS**:
+  * Big Sur
+- **Parameter type**: bool
+
+## Read current value
+\`\`\`bash
+defaults read com.apple.category page
+\`\`\`
+
+## Delete current value
+::: danger
+This an alert message. <br> \`defaults command\`
+:::
+\`\`\`bash
+defaults delete com.apple.category page
+\`\`\`
+"
+`;
+
 exports[`write-pages one category, one page with text example with an after command should write a category/page.md file using the page template 1`] = `
 "---
 metaTitle: Page | Category | macOS defaults
