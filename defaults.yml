@@ -317,6 +317,27 @@ categories:
             text: Show all file extensions inside the Finder
         versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
+      - key: AppleShowAllFiles
+        domain: com.apple.Finder
+        title: Show hidden files
+        description: Show hidden files in the Finder.
+        param:
+          type: bool
+        examples:
+          - value: false
+            text: Do not show hidden files inside the Finder
+            image:
+              filename: "false.png"
+              width: 740
+              height: 451
+          - value: true
+            text: Show hidden files inside the Finder
+            image:
+              filename: "true.png"
+              width: 740
+              height: 451
+        versions: [Catalina]
+        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Changing file extension warning
