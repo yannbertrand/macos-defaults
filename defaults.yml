@@ -325,6 +325,7 @@ categories:
           type: bool
         examples:
           - value: false
+            default: true
             text: Do not show hidden files inside the Finder
             image:
               filename: "false.png"
