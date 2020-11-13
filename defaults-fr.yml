@@ -316,6 +316,27 @@ categories:
             text: Afficher toutes les extensions de fichier dans le Finder
         versions: [Big Sur, Catalina, Mojave]
         after: killall Finder
+      - key: AppleShowAllFiles
+        domain: com.apple.Finder
+        title: Afficher les fichiers cachés
+        description: Afficher les fichiers cachés dans le Finder.
+        param:
+          type: bool
+        examples:
+          - value: false
+            text: Ne pas afficher les fichiers cachés dans le Finder
+            image:
+              filename: "false.png"
+              width: 740
+              height: 451
+          - value: true
+            text: Afficher les fichiers cachés dans le Finder
+            image:
+              filename: "true.png"
+              width: 740
+              height: 451
+        versions: [Catalina]
+        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Alerte au changement d'extension
