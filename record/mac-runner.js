@@ -95,7 +95,7 @@ class MacRunner {
    * @param {*} output Output file name (png)
    */
   captureApp(appName, output) {
-    return this.register(() => execCommand(`screencapture -l$(osascript -e 'tell app "${appName}" to id of window 1') ${output}`))
+    return this.register(() => execCommand(`screencapture -o -l$(osascript -e 'tell app "${appName}" to id of window 1') ${output}`))
   }
 
   /**
