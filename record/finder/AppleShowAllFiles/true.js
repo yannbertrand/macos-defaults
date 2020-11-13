@@ -1,22 +1,21 @@
-const path = require('path');
-const MacRunner = require('../../mac-runner');
+const MacRunner = require('../../mac-runner')
 const { compressPngImage } = require('../../utils')
 
 module.exports = {
   run: async (outputPath) => {
-    console.log('> Recording finder show hidden files to true');
+    console.log('> Recording finder show hidden files to true')
 
     try {
-      const runner = new MacRunner();
+      const runner = new MacRunner()
       await runner
         .setDefault('com.apple.Finder', 'AppleShowAllFiles', '-bool true', 'killall Finder')
         .openApp('Finder', '~')
         .captureApp('Finder', `${outputPath}/true.png`)
         .deleteDefault('com.apple.Finder', 'AppleShowAllFiles', 'killall Finder')
-        .run();
+        .run()
     } catch (runnerError) {
-      logRollbackInfo();
-      throw new Error(runnerError);
+      logRollbackInfo()
+      throw new Error(runnerError)
     }
 
     try {
@@ -28,7 +27,7 @@ module.exports = {
 
     return { filepath: `${outputPath}/true` }
   },
-};
+}
 
 function logRollbackInfo() {
   console.info('Please manually run this command to make sure everything is properly reset:')
