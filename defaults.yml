@@ -667,3 +667,18 @@ categories:
             text: Notifications will be displayed.
         versions: [Catalina]
         after: killall Music
+      - key: LSQuarantine
+        domain: com.apple.LaunchServices
+        title: Disable application quarantine message
+        description:
+          "Turn off the “Application Downloaded from Internet” quarantine warning.<br>
+          ⚠️ Stopped working on Big Sur."
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: '"Application Downloaded from Internet" popup will display'
+          - value: false
+            text: '"Application Downloaded from Internet" popup will not display'
+        versions: [Catalina]
