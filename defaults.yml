@@ -2,6 +2,27 @@
 
 categories:
 
+  - folder: disk-utility
+    name: Disk Utility
+    description:
+      The Disk Utility application is used to manage disks on mac.
+      # TODO(someone): add image.
+    keys:
+      - key: DUDebugMenuEnabled
+        domain: com.apple.DiskUtility
+        title: Debug Menu Enabled
+        description: Enable additional options in disk utility
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: Don't show additional options in disk utility
+          - value: true
+            text: Show additional options in disk utility
+        versions: [Big Sur, Catalina, Mojave]
+        after: killall Disk Utility
+
   - folder: dock
     name: Dock
     description:
