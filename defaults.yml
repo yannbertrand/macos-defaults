@@ -676,7 +676,7 @@ categories:
         examples:
           - value: true
             default: true
-            text: "Application Downloaded from Internet" popup will display
+            text: '"Application Downloaded from Internet" popup will display'
           - value: false
-            text: "Application Downloaded from Internet" popup will not display
+            text: '"Application Downloaded from Internet" popup will not display'
         versions: [Catalina]
