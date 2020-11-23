@@ -20,7 +20,12 @@ module.exports = async (files) => {
 
     for (const scriptFile of scriptFiles) {
       const script = require(`./${scriptFile}`)
-      await script.run(getImagePath(scriptFile))
+      try {
+        await script.run(getImagePath(scriptFile))
+      } catch (error) {
+        await makeAppActive('iTerm')
+        throw error
+      }
     }
 
     await makeAppActive('iTerm')
