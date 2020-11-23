@@ -8,7 +8,8 @@
     "build": "yarn clean && node build.js && yarn --cwd dist/website",
     "build:prod": "yarn build && cd dist/website && docusaurus-build",
     "start": "yarn build && cd dist/website && docusaurus-start",
-    "test": "jest"
+    "test": "jest",
+    "lint": "prettier --write . --ignore-path ../../.prettierignore"
   },
   "license": "MIT",
   "dependencies": {
