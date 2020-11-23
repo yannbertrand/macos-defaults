@@ -8,7 +8,8 @@
     "build": "yarn clean && node build.js",
     "build:prod": "yarn build && vuepress build docs --dest dist",
     "start": "yarn build && vuepress dev docs",
-    "test": "jest"
+    "test": "jest",
+    "lint": "prettier --write . --ignore-path ../../.prettierignore"
   },
   "license": "MIT",
   "dependencies": {

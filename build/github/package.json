@@ -9,7 +9,8 @@
     "build:prod": "yarn build",
     "test": "jest",
     "gitmoji-initial-changelog": "gitmoji-changelog --preset generic --output dist-initial/changelog.md",
-    "gitmoji-changelog": "gitmoji-changelog --preset generic --output dist/changelog.md"
+    "gitmoji-changelog": "gitmoji-changelog --preset generic --output dist/changelog.md",
+    "lint": "prettier --write . --ignore-path ../../.prettierignore"
   },
   "license": "MIT",
   "dependencies": {
