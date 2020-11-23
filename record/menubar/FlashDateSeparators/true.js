@@ -42,7 +42,7 @@ module.exports = {
       throw new Error(compressVideoError)
     }
 
-    const { stderr: deleteEnvError } = await exec('defaults delete com.apple.menuextra.clock FlashDateSeparators && killall SystemUIServer && sleep 5')
+    const { stderr: deleteEnvError } = await exec('defaults delete com.apple.menuextra.clock FlashDateSeparators && killall SystemUIServer && sleep 10')
     if (deleteEnvError) {
       console.error('An error occured while cleaning the menu bar clock FlashDateSeparators environment')
       logRollbackInfo()

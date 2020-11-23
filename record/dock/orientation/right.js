@@ -9,6 +9,7 @@ module.exports = {
       const runner = new MacRunner()
       await runner
         .setDefault('com.apple.dock', 'orientation', '-string right', 'killall Dock')
+        .wait(2000)
         .captureScreen(`${outputPath}/right-tmp.png`)
         .deleteDefault('com.apple.dock', 'orientation', 'killall Dock')
         .run()
