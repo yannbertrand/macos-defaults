@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - 'defaults.yml'
+      - 'defaults-*.yml'
 
   pull_request:
     branches:
@@ -23,5 +24,12 @@ jobs:
       uses: ibiqlik/action-yamllint@v3.0.0
       with:
         file_or_dir: defaults.yml
+        config_file: .github/workflows/config/yml-lint.yml
+        strict: true
+
+    - name: Lint defaults-fr.yml
+      uses: ibiqlik/action-yamllint@v3.0.0
+      with:
+        file_or_dir: defaults-fr.yml
         config_file: .github/workflows/config/yml-lint.yml
         strict: true
