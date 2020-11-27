@@ -34,5 +34,7 @@ jobs:
 
     - run: yarn install --frozen-lockfile
       working-directory: build/docusaurus
+    - run: yarn lint:ci
+      working-directory: build/docusaurus
     - run: yarn test
       working-directory: build/docusaurus

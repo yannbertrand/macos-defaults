@@ -34,5 +34,7 @@ jobs:
 
     - run: yarn install --frozen-lockfile
       working-directory: build/vuepress
+    - run: yarn lint:ci
+      working-directory: build/vuepress
     - run: yarn test
       working-directory: build/vuepress

@@ -34,5 +34,7 @@ jobs:
 
     - run: yarn install --frozen-lockfile
       working-directory: build/docsify
+    - run: yarn lint:ci
+      working-directory: build/docsify
     - run: yarn test
       working-directory: build/docsify

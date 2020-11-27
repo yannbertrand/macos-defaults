@@ -10,7 +10,8 @@
     "test": "jest",
     "gitmoji-initial-changelog": "gitmoji-changelog --preset generic --output dist-initial/changelog.md",
     "gitmoji-changelog": "gitmoji-changelog --preset generic --output dist/changelog.md",
-    "lint": "prettier --write . --ignore-path ../../.prettierignore"
+    "lint": "prettier --write . --ignore-path ../../.prettierignore",
+    "lint:ci": "prettier --check . --ignore-path ../../.prettierignore"
   },
   "license": "MIT",
   "dependencies": {
