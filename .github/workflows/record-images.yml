@@ -5,7 +5,11 @@ on:
 
 jobs:
   build:
-    runs-on: macos-11.0
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [macos-11.0, macos-10.15]
+
     steps:
 
     - name: Checkout
@@ -36,7 +40,7 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v3
       with:
-        commit-message: ':camera: Update images and videos'
-        title: ':camera: Update images and videos'
-        branch: update-images-and-videos
+        commit-message: ':camera: Update images and videos ${{ matrix.os }}'
+        title: ':camera: Update images and videos ${{ matrix.os }}'
+        branch: update-images-and-videos-${{ matrix.os }}
         delete-branch: true

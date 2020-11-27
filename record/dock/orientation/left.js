@@ -14,7 +14,6 @@ module.exports = {
           '-string left',
           'killall Dock'
         )
-        .wait(2000)
         .captureScreen(`${outputPath}/left-tmp.png`)
         .deleteDefault('com.apple.dock', 'orientation', 'killall Dock')
         .run()

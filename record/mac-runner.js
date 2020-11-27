@@ -17,10 +17,31 @@ class MacRunner {
    * @param {*} after Action to perform after setting the default (ex: killall Finder)
    */
   setDefault(domain, key, params, after) {
-    return this.register(() => {
+    return this.register(async () => {
       const defaultCommand = `defaults write ${domain} ${key} ${params}`
-      const command = after ? `${defaultCommand} && ${after}` : defaultCommand
-      return execCommand(command)
+      await execCommand(defaultCommand)
+      if (after) await execCommand(after)
+
+      for (let i = 5; i--; i > 0) {
+        try {
+          await execCommand(`defaults read ${domain} ${key}`)
+          break
+        } catch (error) {
+          continue
+        }
+      }
+    })
+  }
+
+  /**
+   * Read MacOS defaults system
+   * @param {*} domain Application domain
+   * @param {*} key Default key
+   */
+  readDefault(domain, key) {
+    return this.register(async () => {
+      const defaultCommand = `defaults read ${domain} | grep ${key}`
+      await execCommand(defaultCommand)
     })
   }
 
@@ -31,10 +52,10 @@ class MacRunner {
    * @param {*} after Action to perform after setting the default (ex: killall Dock)
    */
   deleteDefault(domain, key, after) {
-    return this.register(() => {
+    return this.register(async () => {
       const defaultCommand = `defaults delete ${domain} ${key}`
-      const command = after ? `${defaultCommand} && ${after}` : defaultCommand
-      return execCommand(command)
+      await execCommand(defaultCommand).catch(console.warn)
+      if (after) await execCommand(after)
     })
   }
 
@@ -160,7 +181,10 @@ class MacRunner {
 
 async function execCommand(command, delay = 1000) {
   console.info(`   Command: [${command}]`)
-  const { stderr } = await exec(command)
+  const { stderr, stdout } = await exec(command)
+  if (stdout) {
+    console.log(`    > ${stdout}`)
+  }
   if (stderr) {
     throw new Error(stderr)
   }
