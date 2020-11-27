@@ -4,11 +4,12 @@
   "version": "0.1.0",
   "main": "record.js",
   "engines": {
-    "node": ">=13.7"
+    "node": ">=15"
   },
   "scripts": {
     "record": "node index.js",
     "record:debug": "NODE_ENV=DEBUG node index.js",
+    "record:next": "node record-next.mjs",
     "build": "yarn record",
     "lint": "prettier --write . --ignore-path ../.prettierignore",
     "lint:ci": "prettier --check . --ignore-path ../.prettierignore"
