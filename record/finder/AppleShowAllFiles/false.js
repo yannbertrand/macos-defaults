@@ -11,15 +11,15 @@ module.exports = {
         .setDefault(
           'com.apple.Finder',
           'AppleShowAllFiles',
-          '-bool false',
-          'killall Finder'
+          '-bool false', '0',
+          'killall -SIGKILL Finder'
         )
         .openApp('Finder', '~')
         .captureApp('Finder', `${outputPath}/false.png`)
         .deleteDefault(
           'com.apple.Finder',
           'AppleShowAllFiles',
-          'killall Finder'
+          'killall -SIGKILL Finder'
         )
         .run()
     } catch (runnerError) {

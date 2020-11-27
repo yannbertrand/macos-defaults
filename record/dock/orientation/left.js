@@ -11,10 +11,9 @@ module.exports = {
         .setDefault(
           'com.apple.dock',
           'orientation',
-          '-string left',
+          '-string left', 'left',
           'killall Dock'
         )
-        .wait(2000)
         .captureScreen(`${outputPath}/left-tmp.png`)
         .deleteDefault('com.apple.dock', 'orientation', 'killall Dock')
         .run()

@@ -14,13 +14,43 @@ class MacRunner {
    * @param {*} domain Application domain
    * @param {*} key Default key
    * @param {*} params Values for the default
+   * @param {*} expectedResult Expected defaults read result
    * @param {*} after Action to perform after setting the default (ex: killall Finder)
    */
-  setDefault(domain, key, params, after) {
-    return this.register(() => {
+  setDefault(domain, key, params, expectedResult, after) {
+    return this.register(async () => {
       const defaultCommand = `defaults write ${domain} ${key} ${params}`
-      const command = after ? `${defaultCommand} && ${after}` : defaultCommand
-      return execCommand(command)
+
+      // Retry command until it works (sometimes it doesn't...)
+      for (let i = 10; i--; i > 0) {
+        try {
+          await execCommand(defaultCommand, 100)
+          const result = await execCommand(`defaults read ${domain} ${key}`, 0)
+          if (expectedResult === result.trim()) {
+            break
+          }
+        } catch (error) {
+          console.error(error)
+        }
+
+        if (i === 1) {
+          throw new Error(`[${defaultCommand}] failed (too much trials)`)
+        }
+      }
+
+      if (after) await execCommand(after)
+    })
+  }
+
+  /**
+   * Read MacOS defaults system
+   * @param {*} domain Application domain
+   * @param {*} key Default key
+   */
+  readDefault(domain, key) {
+    return this.register(async () => {
+      const defaultCommand = `defaults read ${domain} | grep ${key}`
+      console.log(await execCommand(defaultCommand, 0))
     })
   }
 
@@ -31,10 +61,10 @@ class MacRunner {
    * @param {*} after Action to perform after setting the default (ex: killall Dock)
    */
   deleteDefault(domain, key, after) {
-    return this.register(() => {
+    return this.register(async () => {
       const defaultCommand = `defaults delete ${domain} ${key}`
-      const command = after ? `${defaultCommand} && ${after}` : defaultCommand
-      return execCommand(command)
+      await execCommand(defaultCommand)
+      if (after) await execCommand(after)
     })
   }
 
@@ -80,7 +110,10 @@ class MacRunner {
    * @param {*} output Output file name (png)
    */
   captureScreen(output) {
-    return this.register(() => execCommand(`screencapture ${output}`))
+    return this.register(async () => {
+      await this.wait(2000)
+      execCommand(`screencapture ${output}`)
+    })
   }
 
   /**
@@ -160,11 +193,12 @@ class MacRunner {
 
 async function execCommand(command, delay = 1000) {
   console.info(`   Command: [${command}]`)
-  const { stderr } = await exec(command)
+  const { stderr, stdout } = await exec(command)
   if (stderr) {
     throw new Error(stderr)
   }
   await wait(delay)
+  return stdout
 }
 
 module.exports = MacRunner
