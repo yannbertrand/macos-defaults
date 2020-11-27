@@ -14,7 +14,7 @@ const initialDestinationPath = 'dist-initial'
 const destinationPath = 'dist'
 
 writeHomepage({}, templatesPath, initialDestinationPath)
-writeConfig({}, templatesPath,initialDestinationPath)
+writeConfig({}, templatesPath, initialDestinationPath)
 
 writeHomepage(defaults, templatesPath, destinationPath)
 writeCategories(defaults, templatesPath, destinationPath)

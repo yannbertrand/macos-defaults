@@ -17,7 +17,7 @@ describe('write-config', () => {
   })
 
   it('should copy some static files', () => {
-    copiedFiles.forEach(file => {
+    copiedFiles.forEach((file) => {
       const fileContent = readFile(`${destinationPath}/${file}`)
       expect(fileContent).toEqual(`copied:${templatesPath}/${file}`)
     })
@@ -46,8 +46,8 @@ const supportedLanguages = {
               {
                 key: 'page',
                 title: 'Page',
-              }
-            ]
+              },
+            ],
           },
           {
             folder: 'category2',
@@ -56,11 +56,11 @@ const supportedLanguages = {
               {
                 key: 'page',
                 title: 'Page',
-              }
-            ]
-          }
-        ]
-      }
+              },
+            ],
+          },
+        ],
+      },
     },
     {
       url: '/fr/',
@@ -75,8 +75,8 @@ const supportedLanguages = {
               {
                 key: 'page',
                 title: 'Page',
-              }
-            ]
+              },
+            ],
           },
           {
             folder: 'categorie2',
@@ -85,14 +85,15 @@ const supportedLanguages = {
               {
                 key: 'page',
                 title: 'Page',
-              }
-            ]
-          }
-        ]
-      }
-    }
-  ]
+              },
+            ],
+          },
+        ],
+      },
+    },
+  ],
 }
 
-const callWriteConfig = () => writeConfig(supportedLanguages, templatesPath, destinationPath)
-const readFile = file => fs.readFakeFileSync(file, 'utf8')
+const callWriteConfig = () =>
+  writeConfig(supportedLanguages, templatesPath, destinationPath)
+const readFile = (file) => fs.readFakeFileSync(file, 'utf8')

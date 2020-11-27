@@ -1,3 +1,3 @@
-const record = require('./record');
+const record = require('./record')
 
-(async () => await record(process.argv.slice(2, process.argv.length)))();
+;(async () => await record(process.argv.slice(2, process.argv.length)))()

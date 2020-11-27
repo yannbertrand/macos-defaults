@@ -23,10 +23,10 @@ describe('write-categories', () => {
               image: {
                 filename: 'category.png',
                 width: 740,
-                height: 80
-              }
-            }
-          ]
+                height: 80,
+              },
+            },
+          ],
         })
       )
 
@@ -67,18 +67,18 @@ describe('write-categories', () => {
                   {
                     value: '~/Desktop',
                     default: true,
-                    text: 'output when value is ~/Desktop'
+                    text: 'output when value is ~/Desktop',
                   },
                   {
                     value: '~/Pictures',
-                    text: 'output when value is ~/Pictures'
-                  }
+                    text: 'output when value is ~/Pictures',
+                  },
                 ],
-                versions: ['Big Sur']
-              }
-            ]
-          }
-        ]
+                versions: ['Big Sur'],
+              },
+            ],
+          },
+        ],
       })
     )
 
@@ -109,14 +109,14 @@ describe('write-categories', () => {
                   {
                     value: true,
                     default: true,
-                    text: 'output when value is true'
+                    text: 'output when value is true',
                   },
                   {
                     value: false,
-                    text: 'output when value is false'
-                  }
+                    text: 'output when value is false',
+                  },
                 ],
-                versions: ['Big Sur']
+                versions: ['Big Sur'],
               },
               {
                 key: 'page2',
@@ -127,19 +127,19 @@ describe('write-categories', () => {
                 examples: [
                   {
                     value: true,
-                    text: 'output when value is true'
+                    text: 'output when value is true',
                   },
                   {
                     value: false,
                     default: true,
-                    text: 'output when value is false'
-                  }
+                    text: 'output when value is false',
+                  },
                 ],
-                versions: ['Big Sur']
-              }
-            ]
-          }
-        ]
+                versions: ['Big Sur'],
+              },
+            ],
+          },
+        ],
       })
     )
 
@@ -170,16 +170,16 @@ describe('write-categories', () => {
                   {
                     value: true,
                     default: true,
-                    text: 'output when value is true'
+                    text: 'output when value is true',
                   },
                   {
                     value: false,
-                    text: 'output when value is false'
-                  }
+                    text: 'output when value is false',
+                  },
                 ],
-                versions: ['Big Sur']
-              }
-            ]
+                versions: ['Big Sur'],
+              },
+            ],
           },
           {
             folder: 'category2',
@@ -195,19 +195,19 @@ describe('write-categories', () => {
                 examples: [
                   {
                     value: true,
-                    text: 'output when value is true'
+                    text: 'output when value is true',
                   },
                   {
                     value: false,
                     default: true,
-                    text: 'output when value is false'
-                  }
+                    text: 'output when value is false',
+                  },
                 ],
-                versions: ['Big Sur']
-              }
-            ]
-          }
-        ]
+                versions: ['Big Sur'],
+              },
+            ],
+          },
+        ],
       })
     )
 
@@ -227,5 +227,6 @@ describe('write-categories', () => {
   })
 })
 
-const callWriteCategories = defaults => writeCategories(defaults, templatesPath, destinationPath)
-const readFile = file => fs.readFakeFileSync(file, 'utf8')
+const callWriteCategories = (defaults) =>
+  writeCategories(defaults, templatesPath, destinationPath)
+const readFile = (file) => fs.readFakeFileSync(file, 'utf8')

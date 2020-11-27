@@ -8,7 +8,11 @@ const siteConfig = {
 
   headerLinks: [
     { doc: 'index', label: 'Home' },
-    { href: '//github.com/yannbertrand/macos-defaults', label: 'GitHub', external: true },
+    {
+      href: '//github.com/yannbertrand/macos-defaults',
+      label: 'GitHub',
+      external: true,
+    },
   ],
 
   headerIcon: 'img/docusaurus.svg',
@@ -27,7 +31,7 @@ const siteConfig = {
   onPageNav: 'separate',
   cleanUrl: true,
 
-  twitterUsername: '_YannBertrand'
-};
+  twitterUsername: '_YannBertrand',
+}
 
-module.exports = siteConfig;
+module.exports = siteConfig

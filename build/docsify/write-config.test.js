@@ -13,10 +13,16 @@ describe('write-config', () => {
   })
 
   describe('no categories', () => {
-    beforeEach(() => callWriteConfig({ url: '/', home: 'Home', defaults: { categories: null } }))
+    beforeEach(() =>
+      callWriteConfig({
+        url: '/',
+        home: 'Home',
+        defaults: { categories: null },
+      })
+    )
 
     it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
+      copiedFiles.forEach((file) => {
         const fileContent = readFile(`${destinationPath}/${file}`)
         expect(fileContent).toEqual(`copied:${templatesPath}/${file}`)
       })
@@ -43,7 +49,7 @@ describe('write-config', () => {
       callWriteConfig({
         url: '/',
         home: 'Home',
-        defaults: { 
+        defaults: {
           categories: [
             {
               folder: 'category',
@@ -52,16 +58,16 @@ describe('write-config', () => {
               image: {
                 filename: 'category.png',
                 width: 740,
-                height: 80
-              }
-            }
-          ]
-        }
+                height: 80,
+              },
+            },
+          ],
+        },
       })
     )
 
     it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
+      copiedFiles.forEach((file) => {
         const fileContent = readFile(`${destinationPath}/${file}`)
         expect(fileContent).toEqual(`copied:${templatesPath}/${file}`)
       })
@@ -88,7 +94,7 @@ describe('write-config', () => {
       callWriteConfig({
         url: '/',
         home: 'Home',
-        defaults: { 
+        defaults: {
           categories: [
             {
               folder: 'category',
@@ -105,24 +111,24 @@ describe('write-config', () => {
                     {
                       value: '~/Desktop',
                       default: true,
-                      text: 'output when value is ~/Desktop'
+                      text: 'output when value is ~/Desktop',
                     },
                     {
                       value: '~/Pictures',
-                      text: 'output when value is ~/Pictures'
-                    }
+                      text: 'output when value is ~/Pictures',
+                    },
                   ],
-                  versions: ['Big Sur']
-                }
-              ]
-            }
-          ]
-        }
+                  versions: ['Big Sur'],
+                },
+              ],
+            },
+          ],
+        },
       })
     )
 
     it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
+      copiedFiles.forEach((file) => {
         const fileContent = readFile(`${destinationPath}/${file}`)
         expect(fileContent).toEqual(`copied:${templatesPath}/${file}`)
       })
@@ -149,7 +155,7 @@ describe('write-config', () => {
       callWriteConfig({
         url: '/',
         home: 'Home',
-        defaults: { 
+        defaults: {
           categories: [
             {
               folder: 'category',
@@ -166,14 +172,14 @@ describe('write-config', () => {
                     {
                       value: true,
                       default: true,
-                      text: 'output when value is true'
+                      text: 'output when value is true',
                     },
                     {
                       value: false,
-                      text: 'output when value is false'
-                    }
+                      text: 'output when value is false',
+                    },
                   ],
-                  versions: ['Big Sur']
+                  versions: ['Big Sur'],
                 },
                 {
                   key: 'page2',
@@ -184,25 +190,25 @@ describe('write-config', () => {
                   examples: [
                     {
                       value: true,
-                      text: 'output when value is true'
+                      text: 'output when value is true',
                     },
                     {
                       value: false,
                       default: true,
-                      text: 'output when value is false'
-                    }
+                      text: 'output when value is false',
+                    },
                   ],
-                  versions: ['Big Sur']
-                }
-              ]
-            }
-          ]
-        }
+                  versions: ['Big Sur'],
+                },
+              ],
+            },
+          ],
+        },
       })
     )
 
     it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
+      copiedFiles.forEach((file) => {
         const fileContent = readFile(`${destinationPath}/${file}`)
         expect(fileContent).toEqual(`copied:${templatesPath}/${file}`)
       })
@@ -229,7 +235,7 @@ describe('write-config', () => {
       callWriteConfig({
         url: '/',
         home: 'Home',
-        defaults: { 
+        defaults: {
           categories: [
             {
               folder: 'category1',
@@ -246,16 +252,16 @@ describe('write-config', () => {
                     {
                       value: true,
                       default: true,
-                      text: 'output when value is true'
+                      text: 'output when value is true',
                     },
                     {
                       value: false,
-                      text: 'output when value is false'
-                    }
+                      text: 'output when value is false',
+                    },
                   ],
-                  versions: ['Big Sur']
-                }
-              ]
+                  versions: ['Big Sur'],
+                },
+              ],
             },
             {
               folder: 'category2',
@@ -271,25 +277,25 @@ describe('write-config', () => {
                   examples: [
                     {
                       value: true,
-                      text: 'output when value is true'
+                      text: 'output when value is true',
                     },
                     {
                       value: false,
                       default: true,
-                      text: 'output when value is false'
-                    }
+                      text: 'output when value is false',
+                    },
                   ],
-                  versions: ['Big Sur']
-                }
-              ]
-            }
-          ]
-        }
+                  versions: ['Big Sur'],
+                },
+              ],
+            },
+          ],
+        },
       })
     )
 
     it('should copy some static files', () => {
-      copiedFiles.forEach(file => {
+      copiedFiles.forEach((file) => {
         const fileContent = readFile(`${destinationPath}/${file}`)
         expect(fileContent).toEqual(`copied:${templatesPath}/${file}`)
       })
@@ -315,8 +321,15 @@ describe('write-config', () => {
 const supportedLanguages = {
   languages: [
     { url: '/fr/', lang: 'fr-FR' },
-    { url: '/', lang: 'en-US' }
+    { url: '/', lang: 'en-US' },
   ],
 }
-const callWriteConfig = supportedLanguage => writeConfig(supportedLanguage, supportedLanguages, templatesPath, destinationPath, true)
-const readFile = file => fs.readFakeFileSync(file, 'utf8')
+const callWriteConfig = (supportedLanguage) =>
+  writeConfig(
+    supportedLanguage,
+    supportedLanguages,
+    templatesPath,
+    destinationPath,
+    true
+  )
+const readFile = (file) => fs.readFakeFileSync(file, 'utf8')

@@ -1,4 +1,4 @@
-const React = require('react');
+const React = require('react')
 
 class Footer extends React.Component {
   render() {
@@ -17,9 +17,7 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href="/">
-              Home
-            </a>
+            <a href="/">Home</a>
           </div>
           <div>
             <h5>More</h5>
@@ -28,7 +26,8 @@ class Footer extends React.Component {
               <div className="social">
                 <a
                   href={`https://twitter.com/${this.props.config.twitterUsername}`}
-                  className="twitter-follow-button">
+                  className="twitter-follow-button"
+                >
                   Follow @{this.props.config.twitterUsername}
                 </a>
               </div>
@@ -36,8 +35,8 @@ class Footer extends React.Component {
           </div>
         </section>
       </footer>
-    );
+    )
   }
 }
 
-module.exports = Footer;
+module.exports = Footer

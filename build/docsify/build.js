@@ -16,17 +16,49 @@ const destinationPath = 'docs'
 
 const supportedLanguages = {
   languages: [
-    { url: '/fr/', lang: 'fr-FR', home: 'Accueil', defaults: getSafeDefaults(defaultsFr, defaults), isFallback: false },
-    { url: '/', lang: 'en-US', home: 'Home', defaults: defaults, isFallback: true },
-  ]
+    {
+      url: '/fr/',
+      lang: 'fr-FR',
+      home: 'Accueil',
+      defaults: getSafeDefaults(defaultsFr, defaults),
+      isFallback: false,
+    },
+    {
+      url: '/',
+      lang: 'en-US',
+      home: 'Home',
+      defaults: defaults,
+      isFallback: true,
+    },
+  ],
 }
 
 supportedLanguages.languages.forEach((supportedLanguage) => {
   const { url, isFallback } = supportedLanguage
-  writeHomepage(supportedLanguage, `${templatesPath}${url}`, `${destinationPath}${url}`)
-  writeCategories(supportedLanguage, `${templatesPath}${url}`, `${destinationPath}${url}`, isFallback)
-  writePages(supportedLanguage, `${templatesPath}${url}`, `${destinationPath}${url}`, isFallback)
-  writeConfig(supportedLanguage, supportedLanguages, `${templatesPath}${url}`, `${destinationPath}${url}`, isFallback)
+  writeHomepage(
+    supportedLanguage,
+    `${templatesPath}${url}`,
+    `${destinationPath}${url}`
+  )
+  writeCategories(
+    supportedLanguage,
+    `${templatesPath}${url}`,
+    `${destinationPath}${url}`,
+    isFallback
+  )
+  writePages(
+    supportedLanguage,
+    `${templatesPath}${url}`,
+    `${destinationPath}${url}`,
+    isFallback
+  )
+  writeConfig(
+    supportedLanguage,
+    supportedLanguages,
+    `${templatesPath}${url}`,
+    `${destinationPath}${url}`,
+    isFallback
+  )
 })
 
 function getSafeDefaults(localizedDefaults, fallbackDefaults) {

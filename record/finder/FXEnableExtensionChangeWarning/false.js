@@ -3,15 +3,25 @@ const delay = require('delay')
 const robot = require('robotjs')
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
-const { makeAppActive, moveAndResizeApp, compressVideo } = require('../../utils')
+const {
+  makeAppActive,
+  moveAndResizeApp,
+  compressVideo,
+} = require('../../utils')
 
 module.exports = {
   run: async (outputPath) => {
-    console.log('> Recording finder FXEnableExtensionChangeWarning with param set to false')
+    console.log(
+      '> Recording finder FXEnableExtensionChangeWarning with param set to false'
+    )
 
-    const { stderr: setEnvError } = await exec('defaults write com.apple.finder FXEnableExtensionChangeWarning -string false && killall Finder')
+    const { stderr: setEnvError } = await exec(
+      'defaults write com.apple.finder FXEnableExtensionChangeWarning -string false && killall Finder'
+    )
     if (setEnvError) {
-      console.error('An error occured while setting up the finder FXEnableExtensionChangeWarning command')
+      console.error(
+        'An error occured while setting up the finder FXEnableExtensionChangeWarning command'
+      )
       logRollbackInfo()
       throw new Error(setEnvError)
     }
@@ -37,8 +47,10 @@ module.exports = {
     const recordWidth = 720
     const recordHeight = 404
     const cropArea = {
-      x: width / 2 - recordWidth / 2, y: 345,
-      width: recordWidth, height: recordHeight
+      x: width / 2 - recordWidth / 2,
+      y: 345,
+      width: recordWidth,
+      height: recordHeight,
     }
 
     await moveAndResizeApp('Finder', cropArea, height)
@@ -79,19 +91,27 @@ module.exports = {
       throw new Error(compressVideoError)
     }
 
-    const { stderr: deleteEnvError } = await exec('defaults delete com.apple.finder FXEnableExtensionChangeWarning && killall Finder')
+    const { stderr: deleteEnvError } = await exec(
+      'defaults delete com.apple.finder FXEnableExtensionChangeWarning && killall Finder'
+    )
     if (deleteEnvError) {
-      console.error('An error occured while cleaning the finder FXEnableExtensionChangeWarning environment')
+      console.error(
+        'An error occured while cleaning the finder FXEnableExtensionChangeWarning environment'
+      )
       logRollbackInfo()
       throw new Error(deleteEnvError)
     }
     await delay(1000)
 
     return { filepath: `${outputPath}/false`, isVideo: true }
-  }
+  },
 }
 
 function logRollbackInfo() {
-  console.info('Please manually run this command to make sure everything is properly reset:')
-  console.info('defaults delete com.apple.finder FXEnableExtensionChangeWarning && killall Finder')
+  console.info(
+    'Please manually run this command to make sure everything is properly reset:'
+  )
+  console.info(
+    'defaults delete com.apple.finder FXEnableExtensionChangeWarning && killall Finder'
+  )
 }

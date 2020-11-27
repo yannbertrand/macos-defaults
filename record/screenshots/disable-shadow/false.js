@@ -9,15 +9,22 @@ module.exports = {
   run: async (outputPath) => {
     console.log('> Recording screenshot disable-shadow with param set to false')
 
-    const { stderr: setEnvError } = await exec('defaults write com.apple.screencapture show-thumbnail -bool false && defaults write com.apple.screencapture disable-shadow -bool false')
+    const { stderr: setEnvError } = await exec(
+      'defaults write com.apple.screencapture show-thumbnail -bool false && defaults write com.apple.screencapture disable-shadow -bool false'
+    )
     if (setEnvError) {
-      console.error('An error occured while setting up the screenshot disble-shadow command')
+      console.error(
+        'An error occured while setting up the screenshot disble-shadow command'
+      )
       logRollbackInfo()
       throw new Error(setEnvError)
     }
 
     // Preparation
-    robot.moveMouse(robot.getScreenSize().width / 2, robot.getScreenSize().height / 2)
+    robot.moveMouse(
+      robot.getScreenSize().width / 2,
+      robot.getScreenSize().height / 2
+    )
     robot.mouseClick()
 
     await makeAppActive('Safari')
@@ -42,7 +49,9 @@ module.exports = {
     robot.keyTap('w', 'command')
 
     await delay(1000)
-    const screenshot = (await glob(`/Users/${process.env.USER}/Desktop/*.png`)).pop()
+    const screenshot = (
+      await glob(`/Users/${process.env.USER}/Desktop/*.png`)
+    ).pop()
 
     try {
       await compressPngImage(screenshot, outputPath, 'false')
@@ -51,18 +60,26 @@ module.exports = {
       throw new Error(compressPngImageError)
     }
 
-    const { stderr: deleteEnvError } = await exec('defaults delete com.apple.screencapture show-thumbnail && defaults delete com.apple.screencapture disable-shadow')
+    const { stderr: deleteEnvError } = await exec(
+      'defaults delete com.apple.screencapture show-thumbnail && defaults delete com.apple.screencapture disable-shadow'
+    )
     if (deleteEnvError) {
-      console.error('An error occured while cleaning the dock autohide-delay environment')
+      console.error(
+        'An error occured while cleaning the dock autohide-delay environment'
+      )
       logRollbackInfo()
       throw new Error(deleteEnvError)
     }
 
     return { filepath: `${outputPath}/false`, isVideo: false }
-  }
+  },
 }
 
 function logRollbackInfo() {
-  console.info('Please manually run this command to make sure everything is properly reset:')
-  console.info('defaults delete com.apple.screencapture show-thumbnail && defaults delete com.apple.screencapture disable-shadow')
+  console.info(
+    'Please manually run this command to make sure everything is properly reset:'
+  )
+  console.info(
+    'defaults delete com.apple.screencapture show-thumbnail && defaults delete com.apple.screencapture disable-shadow'
+  )
 }

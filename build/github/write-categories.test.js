@@ -227,5 +227,6 @@ describe('write-categories', () => {
   })
 })
 
-const callWriteCategories = (defaults) => writeCategories(defaults, templatesPath, destinationPath)
+const callWriteCategories = (defaults) =>
+  writeCategories(defaults, templatesPath, destinationPath)
 const readFile = (file) => fs.readFakeFileSync(file, 'utf8')

@@ -5,16 +5,22 @@ module.exports = (defaults, templatesPath, destinationPath) => {
   fs.mkdirSync(`${destinationPath}/assets`)
 
   if (defaults.categories !== null) {
-    const pageTemplate = fs.readFileSync(`${templatesPath}/page.md.handlebars`, 'utf8')
+    const pageTemplate = fs.readFileSync(
+      `${templatesPath}/page.md.handlebars`,
+      'utf8'
+    )
     const renderPage = Handlebars.compile(pageTemplate)
 
     defaults.categories.forEach(({ folder, name, keys }) => {
       keys.forEach(({ domain, ...page }) => {
         mkdirIfNeededSync(`${destinationPath}/${folder}`)
         const pageReadmeContent = renderPage({ ...page, folder, name, domain })
-        fs.writeFileSync(`${destinationPath}/${folder}/${page.key}.md`, pageReadmeContent)
+        fs.writeFileSync(
+          `${destinationPath}/${folder}/${page.key}.md`,
+          pageReadmeContent
+        )
 
-        page.examples.forEach(example => {
+        page.examples.forEach((example) => {
           if (example.image !== undefined) {
             mkdirIfNeededSync(`${destinationPath}/assets/${folder}`)
             mkdirIfNeededSync(`${destinationPath}/assets/${folder}/${page.key}`)

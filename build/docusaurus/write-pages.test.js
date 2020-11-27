@@ -31,18 +31,18 @@ describe('write-pages', () => {
                       {
                         value: '~/Desktop',
                         default: true,
-                        text: 'output when value is ~/Desktop'
+                        text: 'output when value is ~/Desktop',
                       },
                       {
                         value: '~/Pictures',
-                        text: 'output when value is ~/Pictures'
-                      }
+                        text: 'output when value is ~/Pictures',
+                      },
                     ],
-                    versions: ['Big Sur']
-                  }
-                ]
-              }
-            ]
+                    versions: ['Big Sur'],
+                  },
+                ],
+              },
+            ],
           })
         )
 
@@ -73,32 +73,32 @@ describe('write-pages', () => {
                         folder: 'another-category',
                         key: 'another-key',
                         name: 'com.apple.category2 another-key',
-                        value: true
+                        value: true,
                       },
                       {
                         folder: 'a-third-category',
                         key: 'a-third-key',
                         name: 'com.apple.category2 a-third-key',
-                        value: 0.5
+                        value: 0.5,
                       },
                     ],
                     examples: [
                       {
                         value: true,
                         default: true,
-                        text: 'output when value is true'
+                        text: 'output when value is true',
                       },
                       {
                         value: false,
-                        text: 'output when value is false'
-                      }
+                        text: 'output when value is false',
+                      },
                     ],
                     versions: ['Big Sur'],
-                    after: 'killall App'
-                  }
-                ]
-              }
-            ]
+                    after: 'killall App',
+                  },
+                ],
+              },
+            ],
           })
         )
 
@@ -128,19 +128,19 @@ describe('write-pages', () => {
                       {
                         value: '~/Desktop',
                         default: true,
-                        text: 'output when value is ~/Desktop'
+                        text: 'output when value is ~/Desktop',
                       },
                       {
                         value: '~/Pictures',
-                        text: 'output when value is ~/Pictures'
-                      }
+                        text: 'output when value is ~/Pictures',
+                      },
                     ],
                     versions: ['Big Sur'],
-                    after: 'killall App'
-                  }
-                ]
-              }
-            ]
+                    after: 'killall App',
+                  },
+                ],
+              },
+            ],
           })
         )
 
@@ -170,23 +170,23 @@ describe('write-pages', () => {
                   examples: [
                     {
                       value: 'start',
-                      text: 'output when value is start'
+                      text: 'output when value is start',
                     },
                     {
                       value: 'middle',
                       default: true,
-                      text: 'output when value is middle'
+                      text: 'output when value is middle',
                     },
                     {
                       value: 'end',
-                      text: 'output when value is end'
-                    }
+                      text: 'output when value is end',
+                    },
                   ],
-                  versions: ['Big Sur']
-                }
-              ]
-            }
-          ]
+                  versions: ['Big Sur'],
+                },
+              ],
+            },
+          ],
         })
       )
 
@@ -219,23 +219,23 @@ describe('write-pages', () => {
                       image: {
                         filename: 'true.png',
                         width: 600,
-                        height: 400
-                      }
+                        height: 400,
+                      },
                     },
                     {
                       value: false,
                       image: {
                         filename: 'false.png',
                         width: 400,
-                        height: 200
-                      }
-                    }
+                        height: 200,
+                      },
+                    },
                   ],
-                  versions: ['Big Sur']
-                }
-              ]
-            }
-          ]
+                  versions: ['Big Sur'],
+                },
+              ],
+            },
+          ],
         })
       )
 
@@ -286,23 +286,23 @@ describe('write-pages', () => {
                       video: {
                         filename: '0.mp4',
                         width: 750,
-                        height: 400
-                      }
+                        height: 400,
+                      },
                     },
                     {
                       value: '0.5',
                       video: {
                         filename: '0.5.mp4',
                         width: 720,
-                        height: 390
-                      }
-                    }
+                        height: 390,
+                      },
+                    },
                   ],
-                  versions: ['Big Sur']
-                }
-              ]
-            }
-          ]
+                  versions: ['Big Sur'],
+                },
+              ],
+            },
+          ],
         })
       )
 
@@ -351,14 +351,14 @@ describe('write-pages', () => {
                   {
                     value: true,
                     default: true,
-                    text: 'output when value is true'
+                    text: 'output when value is true',
                   },
                   {
                     value: false,
-                    text: 'output when value is false'
-                  }
+                    text: 'output when value is false',
+                  },
                 ],
-                versions: ['Big Sur']
+                versions: ['Big Sur'],
               },
               {
                 key: 'page2',
@@ -369,33 +369,29 @@ describe('write-pages', () => {
                 examples: [
                   {
                     value: true,
-                    text: 'output when value is true'
+                    text: 'output when value is true',
                   },
                   {
                     value: false,
                     default: true,
-                    text: 'output when value is false'
-                  }
+                    text: 'output when value is false',
+                  },
                 ],
-                versions: ['Big Sur']
-              }
-            ]
-          }
-        ]
+                versions: ['Big Sur'],
+              },
+            ],
+          },
+        ],
       })
     )
 
     it('should write a category/page1.md file using the page template', () => {
-      const pageReadmeContent = readFile(
-        `${destinationPath}/category/page1.md`
-      )
+      const pageReadmeContent = readFile(`${destinationPath}/category/page1.md`)
       expect(pageReadmeContent).toMatchSnapshot()
     })
 
     it('should write a category/page2.md file using the page template', () => {
-      const pageReadmeContent = readFile(
-        `${destinationPath}/category/page2.md`
-      )
+      const pageReadmeContent = readFile(`${destinationPath}/category/page2.md`)
       expect(pageReadmeContent).toMatchSnapshot()
     })
   })
@@ -418,16 +414,16 @@ describe('write-pages', () => {
                   {
                     value: true,
                     default: true,
-                    text: 'output when value is true'
+                    text: 'output when value is true',
                   },
                   {
                     value: false,
-                    text: 'output when value is false'
-                  }
+                    text: 'output when value is false',
+                  },
                 ],
-                versions: ['Big Sur']
-              }
-            ]
+                versions: ['Big Sur'],
+              },
+            ],
           },
           {
             folder: 'category2',
@@ -442,37 +438,34 @@ describe('write-pages', () => {
                 examples: [
                   {
                     value: true,
-                    text: 'output when value is true'
+                    text: 'output when value is true',
                   },
                   {
                     value: false,
                     default: true,
-                    text: 'output when value is false'
-                  }
+                    text: 'output when value is false',
+                  },
                 ],
-                versions: ['Big Sur']
-              }
-            ]
-          }
-        ]
+                versions: ['Big Sur'],
+              },
+            ],
+          },
+        ],
       })
     )
 
     it('should write a category1/page.md file using the page template', () => {
-      const pageReadmeContent = readFile(
-        `${destinationPath}/category1/page.md`
-      )
+      const pageReadmeContent = readFile(`${destinationPath}/category1/page.md`)
       expect(pageReadmeContent).toMatchSnapshot()
     })
 
     it('should write a category2/page.md file using the page template', () => {
-      const pageReadmeContent = readFile(
-        `${destinationPath}/category2/page.md`
-      )
+      const pageReadmeContent = readFile(`${destinationPath}/category2/page.md`)
       expect(pageReadmeContent).toMatchSnapshot()
     })
   })
 })
 
-const callWritePages = defaults => writePages(defaults, templatesPath, destinationPath)
-const readFile = file => fs.readFakeFileSync(file, 'utf8')
+const callWritePages = (defaults) =>
+  writePages(defaults, templatesPath, destinationPath)
+const readFile = (file) => fs.readFakeFileSync(file, 'utf8')
