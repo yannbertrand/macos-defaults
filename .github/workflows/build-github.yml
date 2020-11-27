@@ -1,18 +1,11 @@
-name: Build GitHub
+name: Record Images and Videos
 
 on:
-  push:
-    branches:
-      - master
-    paths:
-      - 'defaults.yml'
-      - 'images/**'
-      - 'build/github/**'
-      - '!build/github/readme.md'
+  workflow_dispatch:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
 
     - name: Checkout
@@ -21,10 +14,10 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: 12
+        node-version: 15
 
     - name: Get yarn cache
-      working-directory: build/github
+      working-directory: record
       id: yarn-cache
       run: echo "::set-output name=dir::$(yarn cache dir)"
     - uses: actions/cache@v2
@@ -35,22 +28,13 @@ jobs:
           ${{ runner.os }}-yarn-
 
     - run: yarn install --frozen-lockfile
-      working-directory: build/github
-    - run: yarn lint:ci
-      working-directory: build/github
-    - run: yarn test
-      working-directory: build/github
-    - run: yarn build:prod
-      working-directory: build/github
+      working-directory: record
 
-    - uses: yannbertrand/gha-publish-to-git@develop
+    - run: yarn record:next
+      working-directory: record
+
+    - name: Upload images
+      uses: actions/upload-artifact@v2
       with:
-        branch: current
-        github_token: '${{ secrets.GITHUB_TOKEN  }}'
-        github_pat: '${{ secrets.GITHUB_PAT }}'
-        source_folder: build/github/dist
-        target_folder: .
-        commit_message: '${{ github.event.head_commit.message }}'
-        initial_source_folder: build/github/dist-initial
-        initial_commit_message: ':tada:'
-      if: success()
+        name: images
+        path: ./images/**/*.png
