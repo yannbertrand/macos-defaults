@@ -17,7 +17,7 @@ describe('write-config', () => {
   })
 
   it('should copy some static files', () => {
-    copiedFiles.forEach(file => {
+    copiedFiles.forEach((file) => {
       const fileContent = readFile(`${destinationPath}/${file}`)
       expect(fileContent).toEqual(`copied:${templatesPath}/${file}`)
     })
@@ -25,4 +25,4 @@ describe('write-config', () => {
 })
 
 const callWriteConfig = () => writeConfig({}, templatesPath, destinationPath)
-const readFile = file => fs.readFakeFileSync(file, 'utf8')
+const readFile = (file) => fs.readFakeFileSync(file, 'utf8')

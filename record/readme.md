@@ -5,21 +5,25 @@
 All the images and videos you will find on **macos-defaults** are built programmatically. It's done using **Node.js** scripts found in this folder subfolders.
 
 Programmatic record serves 2 goals:
+
 - Record similar actions with different `defaults` config.
 - Make it easy to replay when a new version comes out.
 
 ## Technical overview
+
 The [record.js](./record.js) file launches subfolders' recording scripts.
 
 The scripts are all the `.js` files in this folder subfolders. There is one script per screenshot/video. These scripts share the same workflow:
+
 1. Set a `defaults` command value
 2. Prepare the recording using [robot.js](https://github.com/octalmage/robotjs)
 3. Record using [Aperture](https://github.com/wulkano/aperture-node)
 4. Post production (resize, compress, move)
 5. Reset the `defaults` value
-I try to keep as much similarity as possible for same-command examples.
+   I try to keep as much similarity as possible for same-command examples.
 
 Some [utils](./utils.js) are available to simplify scripts dev:
+
 - `captureImage(x, y, width, height)` capture a screenshot using [jimp](https://github.com/oliver-moran/jimp)
   - `x`: position from the left border of the screen.
   - `y`: position from the bottom border of the screen.
@@ -43,9 +47,11 @@ Some [utils](./utils.js) are available to simplify scripts dev:
 I consider removing the resize/compression part and upload these assets to a media CDN like [Cloudinary](https://cloudinary.com) to serve optimal resources based on user preferences.
 
 ## Launch locally
+
 This part is only useful if you want to add a command. I **strongely recommand** not to launch the scripts locally if you don't want to mess up your config.
 
 ### 💻 My setup
+
 I'm personally launching these scripts on a 15" 2015 MacBook Pro running the latest macOS developer beta version. I log in as another account when I want to work on the scripts. The scripts should be agnostic from the hardware they run on, please let me know if some of them do not by [opening an issue](https://github.com/yannbertrand/macos-defaults/issues/new).
 
 ### 🏗 Install

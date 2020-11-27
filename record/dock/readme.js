@@ -22,5 +22,5 @@ module.exports = {
     }
 
     return { filepath: `${outputPath}/dock` }
-  }
+  },
 }

@@ -8,9 +8,13 @@ module.exports = {
   run: async (outputPath) => {
     console.log('> Recording dock show-recents with param set to false')
 
-    const { stderr: setEnvError } = await exec('defaults write com.apple.dock show-recents -bool false && killall Dock')
+    const { stderr: setEnvError } = await exec(
+      'defaults write com.apple.dock show-recents -bool false && killall Dock'
+    )
     if (setEnvError) {
-      console.error('An error occured while setting up the dock show-recents command')
+      console.error(
+        'An error occured while setting up the dock show-recents command'
+      )
       logRollbackInfo()
       throw new Error(setEnvError)
     }
@@ -30,11 +34,12 @@ module.exports = {
     }
 
     return { filepath: `${outputPath}/false` }
-  }
+  },
 }
 
 function logRollbackInfo() {
-  console.info('Please manually run this command to make sure everything is properly reset:')
+  console.info(
+    'Please manually run this command to make sure everything is properly reset:'
+  )
   console.info('defaults delete com.apple.dock show-recents && killall Dock')
 }
-  

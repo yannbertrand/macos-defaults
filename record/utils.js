@@ -15,9 +15,12 @@ module.exports.captureImage = (x, y, w, h) => {
   let red, green, blue
   pic.image.forEach((byte, i) => {
     switch (i % 4) {
-      case 0: return blue = byte
-      case 1: return green = byte
-      case 2: return red = byte
+      case 0:
+        return (blue = byte)
+      case 1:
+        return (green = byte)
+      case 2:
+        return (red = byte)
       case 3:
         image.bitmap.data[i - 3] = red
         image.bitmap.data[i - 2] = green
@@ -28,7 +31,11 @@ module.exports.captureImage = (x, y, w, h) => {
   return image
 }
 
-module.exports.compressPngImage = async (inputPath, outputFolder, outputName) => {
+module.exports.compressPngImage = async (
+  inputPath,
+  outputFolder,
+  outputName
+) => {
   const tmpOutput = `${outputFolder}/${outputName}-tmp.png`
   const finalOutput = `${outputFolder}/${outputName}.png`
 
@@ -38,12 +45,15 @@ module.exports.compressPngImage = async (inputPath, outputFolder, outputName) =>
   return new Promise((resolve, reject) => {
     console.info('   Compressing PNG image')
     sharp(tmpOutput)
-      .resize(740, undefined, { fit: sharp.fit.inside, withoutEnlargement: true })
+      .resize(740, undefined, {
+        fit: sharp.fit.inside,
+        withoutEnlargement: true,
+      })
       .toFormat('png')
       .toBuffer()
-      .then(resizedBuffer => {
+      .then((resizedBuffer) => {
         const responseBuffer = pngquant.compress(resizedBuffer)
-        fs.writeFile(finalOutput, responseBuffer, writeFileError => {
+        fs.writeFile(finalOutput, responseBuffer, (writeFileError) => {
           removeSync(tmpOutput)
           if (writeFileError) {
             console.error('An error occured while saving the image')
@@ -77,7 +87,22 @@ function resizeVideo(input, output) {
   console.info('   Resizing video')
 
   return new Promise((resolve, reject) => {
-    const ffmpeg = spawn('ffmpeg', ['-i', input, '-vf', 'scale=\'min(740,iw)\':-2', '-c:v', 'libx264', '-crf', '18', '-preset', 'veryslow', '-y', '-c:a', 'copy', output])
+    const ffmpeg = spawn('ffmpeg', [
+      '-i',
+      input,
+      '-vf',
+      "scale='min(740,iw)':-2",
+      '-c:v',
+      'libx264',
+      '-crf',
+      '18',
+      '-preset',
+      'veryslow',
+      '-y',
+      '-c:a',
+      'copy',
+      output,
+    ])
 
     if (process.env.NODE_ENV === 'DEBUG') {
       ffmpeg.stderr.on('data', function (message) {
@@ -85,7 +110,7 @@ function resizeVideo(input, output) {
       })
     }
 
-    ffmpeg.on('exit', ffmpegExitCode => {
+    ffmpeg.on('exit', (ffmpegExitCode) => {
       if (ffmpegExitCode === '1') {
         return reject('ffmpeg')
       }
@@ -103,7 +128,14 @@ function removeSync(file) {
 
 module.exports.makeAppActive = async (appName) => {
   return new Promise((resolve, reject) => {
-    const osascript = spawn('osascript', ['-e', 'try', '-e', `tell application "${appName}" to activate`, '-e', 'end try'])
+    const osascript = spawn('osascript', [
+      '-e',
+      'try',
+      '-e',
+      `tell application "${appName}" to activate`,
+      '-e',
+      'end try',
+    ])
 
     if (process.env.NODE_ENV === 'DEBUG') {
       osascript.stderr.on('data', function (message) {
@@ -111,7 +143,7 @@ module.exports.makeAppActive = async (appName) => {
       })
     }
 
-    osascript.on('exit', osascriptExitCode => {
+    osascript.on('exit', (osascriptExitCode) => {
       if (osascriptExitCode === '1') {
         return reject('osascript')
       }
@@ -123,10 +155,24 @@ module.exports.makeAppActive = async (appName) => {
 
 module.exports.moveAndResizeApp = async (appName, cropArea, screenHeight) => {
   const x = { start: cropArea.x, end: cropArea.x + cropArea.width }
-  const y = { start: screenHeight - cropArea.y - cropArea.height, end: screenHeight - cropArea.y }
+  const y = {
+    start: screenHeight - cropArea.y - cropArea.height,
+    end: screenHeight - cropArea.y,
+  }
 
   return new Promise((resolve, reject) => {
-    const osascript = spawn('osascript', ['-e', 'try', '-e', `tell application "${appName}"`, '-e', `set the bounds of the first window to {${x.start}, ${y.start}, ${x.end}, ${y.end}}`, '-e', 'end tell', '-e', 'end try'])
+    const osascript = spawn('osascript', [
+      '-e',
+      'try',
+      '-e',
+      `tell application "${appName}"`,
+      '-e',
+      `set the bounds of the first window to {${x.start}, ${y.start}, ${x.end}, ${y.end}}`,
+      '-e',
+      'end tell',
+      '-e',
+      'end try',
+    ])
 
     if (process.env.NODE_ENV === 'DEBUG') {
       osascript.stderr.on('data', function (message) {
@@ -134,7 +180,7 @@ module.exports.moveAndResizeApp = async (appName, cropArea, screenHeight) => {
       })
     }
 
-    osascript.on('exit', osascriptExitCode => {
+    osascript.on('exit', (osascriptExitCode) => {
       if (osascriptExitCode === '1') {
         return reject('osascript')
       }

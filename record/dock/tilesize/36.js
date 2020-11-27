@@ -9,9 +9,13 @@ module.exports = {
   run: async (outputPath) => {
     console.log('> Recording dock icon size with param set to 36')
 
-    const { stderr: setEnvError } = await exec('defaults write com.apple.screencapture show-thumbnail -bool false && defaults write com.apple.dock tilesize -int 36 && killall Dock')
+    const { stderr: setEnvError } = await exec(
+      'defaults write com.apple.screencapture show-thumbnail -bool false && defaults write com.apple.dock tilesize -int 36 && killall Dock'
+    )
     if (setEnvError) {
-      console.error('An error occured while setting up the dock tilesize command')
+      console.error(
+        'An error occured while setting up the dock tilesize command'
+      )
       logRollbackInfo()
       throw new Error(setEnvError)
     }
@@ -21,9 +25,11 @@ module.exports = {
 
     // Screenshot
     robot.keyTap('3', ['command', 'shift'])
-    
+
     await delay(1000)
-    const screenshot = (await glob(`/Users/${process.env.USER}/Desktop/*.png`)).pop()
+    const screenshot = (
+      await glob(`/Users/${process.env.USER}/Desktop/*.png`)
+    ).pop()
 
     try {
       await compressPngImage(screenshot, outputPath, '36')
@@ -32,18 +38,26 @@ module.exports = {
       throw new Error(compressPngImageError)
     }
 
-    const { stderr: deleteEnvError } = await exec('defaults delete com.apple.screencapture show-thumbnail && defaults delete com.apple.dock tilesize && killall Dock')
+    const { stderr: deleteEnvError } = await exec(
+      'defaults delete com.apple.screencapture show-thumbnail && defaults delete com.apple.dock tilesize && killall Dock'
+    )
     if (deleteEnvError) {
-      console.error('An error occured while cleaning the dock tilesize environment')
+      console.error(
+        'An error occured while cleaning the dock tilesize environment'
+      )
       logRollbackInfo()
       throw new Error(deleteEnvError)
     }
 
     return { filepath: `${outputPath}/36` }
-  }
+  },
 }
 
 function logRollbackInfo() {
-  console.info('Please manually run this command to make sure everything is properly reset:')
-  console.info('defaults delete com.apple.screencapture show-thumbnail && defaults delete com.apple.dock tilesize && killall Dock')
+  console.info(
+    'Please manually run this command to make sure everything is properly reset:'
+  )
+  console.info(
+    'defaults delete com.apple.screencapture show-thumbnail && defaults delete com.apple.dock tilesize && killall Dock'
+  )
 }

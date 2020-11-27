@@ -11,12 +11,18 @@ Handlebars.registerHelper('lowerCase', (string) => {
 
 module.exports = (defaults, templatesPath, destinationPath) => {
   if (defaults.categories !== null) {
-    const categoryTemplate = fs.readFileSync(`${templatesPath}/category.md.handlebars`, 'utf8')
+    const categoryTemplate = fs.readFileSync(
+      `${templatesPath}/category.md.handlebars`,
+      'utf8'
+    )
     const renderCategory = Handlebars.compile(categoryTemplate)
-    defaults.categories.forEach(category => {
+    defaults.categories.forEach((category) => {
       fs.mkdirSync(`${destinationPath}/${category.folder}`)
       const categoryReadmeContent = renderCategory(category)
-      fs.writeFileSync(`${destinationPath}/${category.folder}/readme.md`, categoryReadmeContent)
+      fs.writeFileSync(
+        `${destinationPath}/${category.folder}/readme.md`,
+        categoryReadmeContent
+      )
 
       if (category.image !== undefined) {
         fs.copyFileSync(

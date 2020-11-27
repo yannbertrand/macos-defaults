@@ -8,7 +8,12 @@ module.exports = {
     try {
       const runner = new MacRunner()
       await runner
-        .setDefault('com.apple.dock', 'orientation', '-string right', 'killall Dock')
+        .setDefault(
+          'com.apple.dock',
+          'orientation',
+          '-string right',
+          'killall Dock'
+        )
         .wait(2000)
         .captureScreen(`${outputPath}/right-tmp.png`)
         .deleteDefault('com.apple.dock', 'orientation', 'killall Dock')
@@ -26,10 +31,12 @@ module.exports = {
     }
 
     return { filepath: `${outputPath}/right` }
-  }
+  },
 }
 
 function logRollbackInfo() {
-  console.info('Please manually run this command to make sure everything is properly reset:')
+  console.info(
+    'Please manually run this command to make sure everything is properly reset:'
+  )
   console.info('defaults delete com.apple.dock orientation && killall Dock')
 }

@@ -17,15 +17,28 @@ const destinationPath = 'docs'
 const supportedLanguages = {
   languages: [
     { url: '/', lang: 'en-US', home: 'Home', defaults: defaults },
-    { url: '/fr/', lang: 'fr-FR', home: 'Accueil', defaults: getSafeDefaults(defaultsFr, defaults) },
-  ]
+    {
+      url: '/fr/',
+      lang: 'fr-FR',
+      home: 'Accueil',
+      defaults: getSafeDefaults(defaultsFr, defaults),
+    },
+  ],
 }
 
 supportedLanguages.languages.forEach((supportedLanguage) => {
   const { defaults, url } = supportedLanguage
   writeHomepage(defaults, `${templatesPath}${url}`, `${destinationPath}${url}`)
-  writeCategories(defaults, `${templatesPath}${url}`, `${destinationPath}${url}`)
-  writePages(supportedLanguage, `${templatesPath}${url}`, `${destinationPath}${url}`)
+  writeCategories(
+    defaults,
+    `${templatesPath}${url}`,
+    `${destinationPath}${url}`
+  )
+  writePages(
+    supportedLanguage,
+    `${templatesPath}${url}`,
+    `${destinationPath}${url}`
+  )
 })
 
 writeConfig(supportedLanguages, templatesPath, destinationPath)

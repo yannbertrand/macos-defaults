@@ -28,7 +28,7 @@ const copiedFiles = [
   '.vuepress/public/safari-pinned-tab.svg',
   '.vuepress/public/site.webmanifest',
   '.vuepress/styles/index.styl',
-  '.vuepress/styles/palette.styl'
+  '.vuepress/styles/palette.styl',
 ]
 
 describe('write-config', () => {
@@ -41,19 +41,23 @@ describe('write-config', () => {
   })
 
   it('should copy some static files', () => {
-    copiedFiles.forEach(file => {
+    copiedFiles.forEach((file) => {
       const fileContent = readFile(`${destinationPath}/${file}`)
       expect(fileContent).toEqual(`copied:${templatesPath}/${file}`)
     })
   })
 
   it('should write the netlify _headers file', () => {
-    const netlifyHeadersContent = readFile(`${destinationPath}/.vuepress/public/_headers`)
+    const netlifyHeadersContent = readFile(
+      `${destinationPath}/.vuepress/public/_headers`
+    )
     expect(netlifyHeadersContent).toMatchSnapshot()
   })
 
   it('should write a vuepress config.yml file using the template', () => {
-    const vuepressConfigContent = readFile(`${destinationPath}/.vuepress/config.yml`)
+    const vuepressConfigContent = readFile(
+      `${destinationPath}/.vuepress/config.yml`
+    )
     expect(vuepressConfigContent).toMatchSnapshot()
   })
 })
@@ -73,8 +77,8 @@ const supportedLanguages = {
               {
                 key: 'page',
                 title: 'Page',
-              }
-            ]
+              },
+            ],
           },
           {
             folder: 'category2',
@@ -83,11 +87,11 @@ const supportedLanguages = {
               {
                 key: 'page',
                 title: 'Page',
-              }
-            ]
-          }
-        ]
-      }
+              },
+            ],
+          },
+        ],
+      },
     },
     {
       url: '/fr/',
@@ -102,8 +106,8 @@ const supportedLanguages = {
               {
                 key: 'page',
                 title: 'Page',
-              }
-            ]
+              },
+            ],
           },
           {
             folder: 'categorie2',
@@ -112,14 +116,15 @@ const supportedLanguages = {
               {
                 key: 'page',
                 title: 'Page',
-              }
-            ]
-          }
-        ]
-      }
-    }
-  ]
+              },
+            ],
+          },
+        ],
+      },
+    },
+  ],
 }
 
-const callWriteConfig = () => writeConfig(supportedLanguages, templatesPath, destinationPath)
-const readFile = file => fs.readFakeFileSync(file, 'utf8')
+const callWriteConfig = () =>
+  writeConfig(supportedLanguages, templatesPath, destinationPath)
+const readFile = (file) => fs.readFakeFileSync(file, 'utf8')

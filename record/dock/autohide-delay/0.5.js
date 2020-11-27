@@ -9,9 +9,13 @@ module.exports = {
   run: async (outputPath) => {
     console.log('> Recording dock autohide-delay with param set to 0.5')
 
-    const { stderr: setEnvError } = await exec('defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0.5 && killall Dock')
+    const { stderr: setEnvError } = await exec(
+      'defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-delay -float 0.5 && killall Dock'
+    )
     if (setEnvError) {
-      console.error('An error occured while setting up the dock autohide-delay command')
+      console.error(
+        'An error occured while setting up the dock autohide-delay command'
+      )
       logRollbackInfo()
       throw new Error(setEnvError)
     }
@@ -26,8 +30,10 @@ module.exports = {
     const recordWidth = 441
     const recordHeight = 120
     const cropArea = {
-      x: pos2.x - recordWidth / 2, y: 0,
-      width: recordWidth, height: recordHeight
+      x: pos2.x - recordWidth / 2,
+      y: 0,
+      width: recordWidth,
+      height: recordHeight,
     }
 
     robot.moveMouse(pos1.x, pos1.y)
@@ -57,18 +63,26 @@ module.exports = {
       throw new Error(compressVideoError)
     }
 
-    const { stderr: deleteEnvError } = await exec('defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && killall Dock')
+    const { stderr: deleteEnvError } = await exec(
+      'defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && killall Dock'
+    )
     if (deleteEnvError) {
-      console.error('An error occured while cleaning the dock autohide-delay environment')
+      console.error(
+        'An error occured while cleaning the dock autohide-delay environment'
+      )
       logRollbackInfo()
       throw new Error(deleteEnvError)
     }
 
     return { filepath: `${outputPath}/0.5`, isVideo: true }
-  }
+  },
 }
 
 function logRollbackInfo() {
-  console.info('Please manually run this command to make sure everything is properly reset:')
-  console.info('defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && killall Dock')
+  console.info(
+    'Please manually run this command to make sure everything is properly reset:'
+  )
+  console.info(
+    'defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-delay && killall Dock'
+  )
 }

@@ -48,11 +48,13 @@ class MacRunner {
   }
 
   /**
-   * Make active a running application 
+   * Make active a running application
    * @param {*} appName Application name
    */
   activateApp(appName) {
-    return this.register(() => execCommand(`osascript -e 'tell application "${appName}" to activate'`))
+    return this.register(() =>
+      execCommand(`osascript -e 'tell application "${appName}" to activate'`)
+    )
   }
 
   /**
@@ -66,7 +68,11 @@ class MacRunner {
   moveAndResizeApp(appName, x, y, width, height) {
     const h = { start: x, end: x + width }
     const v = { start: y, end: y + height }
-    return this.register(() => execCommand(`osascript -e 'tell application "${appName}" to set the bounds of the first window to {${h.start}, ${v.start}, ${h.end}, ${v.end}}'`))
+    return this.register(() =>
+      execCommand(
+        `osascript -e 'tell application "${appName}" to set the bounds of the first window to {${h.start}, ${v.start}, ${h.end}, ${v.end}}'`
+      )
+    )
   }
 
   /**
@@ -86,7 +92,9 @@ class MacRunner {
    * @param {*} output Output file name (png)
    */
   captureScreenRect(x, y, width, height, output) {
-    return this.register(() => execCommand(`screencapture -R${x},${y},${width},${height} ${output}`))
+    return this.register(() =>
+      execCommand(`screencapture -R${x},${y},${width},${height} ${output}`)
+    )
   }
 
   /**
@@ -95,7 +103,11 @@ class MacRunner {
    * @param {*} output Output file name (png)
    */
   captureApp(appName, output) {
-    return this.register(() => execCommand(`screencapture -o -l$(osascript -e 'tell app "${appName}" to id of window 1') ${output}`))
+    return this.register(() =>
+      execCommand(
+        `screencapture -o -l$(osascript -e 'tell app "${appName}" to id of window 1') ${output}`
+      )
+    )
   }
 
   /**

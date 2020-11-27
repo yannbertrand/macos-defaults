@@ -3,15 +3,23 @@ const delay = require('delay')
 const robot = require('robotjs')
 const util = require('util')
 const exec = util.promisify(require('child_process').exec)
-const { makeAppActive, moveAndResizeApp, compressVideo } = require('../../utils')
+const {
+  makeAppActive,
+  moveAndResizeApp,
+  compressVideo,
+} = require('../../utils')
 
 module.exports = {
   run: async (outputPath) => {
     console.log('> Recording dock mineffect with param set to genie')
 
-    const { stderr: setEnvError } = await exec('defaults write com.apple.dock mineffect -string genie && killall Dock')
+    const { stderr: setEnvError } = await exec(
+      'defaults write com.apple.dock mineffect -string genie && killall Dock'
+    )
     if (setEnvError) {
-      console.error('An error occured while setting up the dock mineffect command')
+      console.error(
+        'An error occured while setting up the dock mineffect command'
+      )
       logRollbackInfo()
       throw new Error(setEnvError)
     }
@@ -25,12 +33,16 @@ module.exports = {
     const recordWidth = 750
     const recordHeight = 750
     const cropArea = {
-      x: width - recordWidth, y: 0,
-      width: recordWidth, height: recordHeight
+      x: width - recordWidth,
+      y: 0,
+      width: recordWidth,
+      height: recordHeight,
     }
     const windowCropArea = {
-      x: cropArea.x+21, y: 156,
-      width: 668, height: 568
+      x: cropArea.x + 21,
+      y: 156,
+      width: 668,
+      height: 568,
     }
 
     await moveAndResizeApp('System Preferences', windowCropArea, height)
@@ -61,18 +73,24 @@ module.exports = {
       throw new Error(compressVideoError)
     }
 
-    const { stderr: deleteEnvError } = await exec('defaults delete com.apple.dock mineffect && killall Dock')
+    const { stderr: deleteEnvError } = await exec(
+      'defaults delete com.apple.dock mineffect && killall Dock'
+    )
     if (deleteEnvError) {
-      console.error('An error occured while cleaning the dock mineffect environment')
+      console.error(
+        'An error occured while cleaning the dock mineffect environment'
+      )
       logRollbackInfo()
       throw new Error(deleteEnvError)
     }
 
     return { filepath: `${outputPath}/genie`, isVideo: true }
-  }
+  },
 }
 
 function logRollbackInfo() {
-  console.info('Please manually run this command to make sure everything is properly reset:')
+  console.info(
+    'Please manually run this command to make sure everything is properly reset:'
+  )
   console.info('defaults delete com.apple.dock mineffect && killall Dock')
 }
