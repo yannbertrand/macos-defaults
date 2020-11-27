@@ -605,7 +605,8 @@ categories:
           - value: false
             default: true
             text:
-              Lorsqu'un nouveau périphérique de stockage est branché, l'ordinateur propose de l'ajouter en tant que disque de sauvegarde
+              Lorsqu'un nouveau périphérique de stockage est branché,
+              l'ordinateur propose de l'ajouter en tant que disque de sauvegarde
           - value: true
             text:
               Ne pas proposer les nouveaux périphériques de stockage connectés comme disque de sauvegarde
