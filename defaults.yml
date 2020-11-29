@@ -672,7 +672,7 @@ categories:
         title: Disable application quarantine message
         description:
           "Turn off the “Application Downloaded from Internet” quarantine warning.<br>
-          :warning: Stopped working on Big Sur."
+          ⚠️ Stopped working on Big Sur."
         param:
           type: bool
         examples:
