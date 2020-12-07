@@ -190,6 +190,14 @@ categories:
               width: 740
               height: 463
             text: Appends a spacer tile to the persistent apps area of the dock.
+        deleteAlert:
+          type: danger
+          message:
+            "This command will remove all saved Apps from your Dock!<br>
+            Make sure to save your config using<br>
+            `defaults export com.apple.dock defaults-dock-backup.plist`<br>
+            You can restore it using<br>
+            `defaults import com.apple.dock defaults-dock-backup.plist`"
         versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
 
