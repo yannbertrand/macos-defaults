@@ -16,7 +16,7 @@
   "dependencies": {
     "@vuepress/plugin-medium-zoom": "1.7.1",
     "chalk": "2.4.2",
-    "commander": "2.20.3",
+    "commander": "6.2.0",
     "esm": "3.2.25",
     "handlebars": "4.7.6",
     "vuepress": "1.7.1",
