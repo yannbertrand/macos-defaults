@@ -55,7 +55,7 @@ defaults domains
 
 #### List all entries containing *word*
 \`\`\`bash
-defaults search \${word}
+defaults find \${word}
 \`\`\`
 
 #### Show the type for the given *domain*, *key*
@@ -136,7 +136,7 @@ defaults domains
 
 #### List all entries containing *word*
 \`\`\`bash
-defaults search \${word}
+defaults find \${word}
 \`\`\`
 
 #### Show the type for the given *domain*, *key*
@@ -219,7 +219,7 @@ defaults domains
 
 #### List all entries containing *word*
 \`\`\`bash
-defaults search \${word}
+defaults find \${word}
 \`\`\`
 
 #### Show the type for the given *domain*, *key*
@@ -303,7 +303,7 @@ defaults domains
 
 #### List all entries containing *word*
 \`\`\`bash
-defaults search \${word}
+defaults find \${word}
 \`\`\`
 
 #### Show the type for the given *domain*, *key*
@@ -388,7 +388,7 @@ defaults domains
 
 #### List all entries containing *word*
 \`\`\`bash
-defaults search \${word}
+defaults find \${word}
 \`\`\`
 
 #### Show the type for the given *domain*, *key*
