@@ -15,8 +15,6 @@
   "license": "MIT",
   "dependencies": {
     "@vuepress/plugin-medium-zoom": "1.7.1",
-    "chalk": "4.1.0",
-    "commander": "6.2.0",
     "esm": "3.2.25",
     "handlebars": "4.7.6",
     "vuepress": "1.7.1",
