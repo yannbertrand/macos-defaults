@@ -594,6 +594,34 @@ categories:
           - value: "~/Pictures/Simulator Screenshots"
         versions: [Catalina]
 
+  - folder: textedit
+    name: TextEdit
+    description:
+      TextEdit allows you to open and edit rich text, plain text and HTML documents.
+    keys:
+      - key: RichText
+        domain: com.apple.TextEdit
+        title: Set default document format
+        description:
+          Set default document format as rich text (.rtf) or plain text (.txt).
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Rich text is enabled.
+            image:
+              filename: "true.png"
+              width: 740
+              height: 451
+          - value: false
+            text: Rich text is disabled.
+            image:
+              filename: "false.png"
+              width: 740
+              height: 451
+        versions: [Big Sur]
+        after: killall TextEdit
 
   - folder: timemachine
     name: Time Machine
