@@ -610,8 +610,16 @@ categories:
           - value: true
             default: true
             text: Rich text is enabled.
+            image:
+              filename: "true.png"
+              width: 601
+              height: 491
           - value: false
             text: Rich text is disabled.
+            image:
+              filename: "false.png"
+              width: 697
+              height: 433
         versions: [Big Sur]
         after: killall TextEdit
 

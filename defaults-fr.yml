@@ -605,11 +605,18 @@ categories:
           - value: true
             default: true
             text: Texte enrichi activé.
+            image:
+              filename: "true.png"
+              width: 601
+              height: 491
           - value: false
             text: Texte enrichi désactivé.
+            image:
+              filename: "false.png"
+              width: 697
+              height: 433
         versions: [Big Sur]
         after: killall TextEdit
-
 
   - folder: timemachine
     name: Time Machine
