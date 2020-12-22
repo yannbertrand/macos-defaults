@@ -9,7 +9,7 @@ module.exports = {
 
     try {
       const fileName = '/tmp/lorem.txt';
-      await manageFile(true, fileName)
+      await manageFile(fileName, true)
       await addContentToFile(fileName, "")
 
       const runner = new MacRunner()
@@ -44,10 +44,10 @@ module.exports = {
   }
 }
 
-async function manageFile(create, filename) {
-  const cmd = create ? 'touch' : 'rm -f';
+async function manageFile(filename, create) {
+  console.log(`   Command: ${create ? 'create' : 'remove'} ${filename}`)
   const { stderr: mngFile } = await exec(
-    `${cmd} ${filename}`
+    `${create ? 'touch' : 'rm -f'} ${filename}`
   )
   if (mngFile) {
     console.error(
@@ -58,6 +58,7 @@ async function manageFile(create, filename) {
 }
 
 async function addContentToFile(filename, content) {
+  console.log(`   Command: add content to ${filename}`)
   const { stderr: mngFile } = await exec(
     `cat > ${filename} << EOF 
 ${content}
