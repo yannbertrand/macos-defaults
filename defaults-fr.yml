@@ -589,6 +589,28 @@ categories:
           - value: "~/Pictures/Simulator Screenshots"
         versions: [Catalina]
 
+  - folder: textedit
+    name: TextEdit
+    description:
+      TextEdit permet d'ouvrir et de modifier des documents de texte enrichi (rich text), texte brut (plain text) et HTML.
+    keys:
+      - key: RichText
+        domain: com.apple.TextEdit
+        title: Définir le format de document par défaut
+        description:
+          Définir le format de document par défaut comme texte enrichi (.rtf) ou texte brut (.txt).
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Texte enrichi activé.
+          - value: false
+            text: Texte enrichi désactivé.
+        versions: [Big Sur]
+        after: killall TextEdit
+
+
   - folder: timemachine
     name: Time Machine
     description:
