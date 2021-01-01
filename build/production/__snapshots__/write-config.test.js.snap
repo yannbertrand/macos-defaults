@@ -83,7 +83,6 @@ head:
       content: \\"Yann Bertrand\\"
 evergreen: true
 plugins:
-  '@vuepress/medium-zoom':
   sitemap:
     hostname: 'https://macos-defaults.com'
     changefreq: 'weekly'
