@@ -959,10 +959,10 @@ github-from-package@0.0.0:
   resolved "https://registry.yarnpkg.com/github-from-package/-/github-from-package-0.0.0.tgz#97fb5d96bfde8973313f20e8288ef9a167fa64ce"
   integrity sha1-l/tdlr/eiXMxPyDoKI75oWf6ZM4=
 
-glob-promise@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/glob-promise/-/glob-promise-4.0.1.tgz#47b0b721f7f52f46c66210eba46d4de840a8b2a2"
-  integrity sha512-QwMkHW0vn0hXHFQg3JWsj2HW8pJQhHeAvsaIcpn4EDP5bU757GtJP/ClLX4iKIFtzgodRiKtb+aOG/k6i2B5mw==
+glob-promise@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/glob-promise/-/glob-promise-4.1.0.tgz#cde1692fd7442ce24b50e123dfe8b5f8428f35a3"
+  integrity sha512-wOdaX1+QJi3ldbjq4fXX/BbGSjhsG6eGXqMnBjQj9ubDiDLvrXbbXRj02rA0CXbMMM7J58dajiQ72va63D7pNw==
   dependencies:
     "@types/glob" "^7.1.3"
 
