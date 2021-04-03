@@ -836,7 +836,8 @@ categories:
         param:
           type: dict
         examples:
-          - value: |
+          - title: Set custom date formats
+            value: |
               <dict>
                 <key>1</key>
                 <string>y-MM-dd</string>
