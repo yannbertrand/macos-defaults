@@ -236,7 +236,7 @@ categories:
             default: true
             text: Screenshot 2020-01-09 at 13.27.20.png
           - value: false
-            text:
+            text: |
               - Screenshot.png
               - Screenshot 1.png
         versions: [Big Sur, Catalina, Mojave]
@@ -551,7 +551,7 @@ categories:
         description:
           Add additional counterpart suffixes that Xcode should consider in the "Related Items > Counterparts" menu.
         param:
-          type: array-add
+          type: array
         examples:
           - value: '"ViewModel" "View"'
             text: Add the "ViewModel" and "View" counterpart suffixes (Useful for Model-View-ViewModel (MVVM) architectures).

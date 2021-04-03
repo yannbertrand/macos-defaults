@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "./defaults.schema.json": ["/defaults*.yml"]
+    }
+}
