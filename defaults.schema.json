@@ -103,10 +103,11 @@
                 }
               },
               "required": [
-                "key",
                 "domain",
-                "title",
-                "param"
+                "examples",
+                "key",
+                "param",
+                "title"
               ]
             },
             "uniqueItems": true
