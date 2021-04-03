@@ -13,7 +13,7 @@
 > An up-to-date list of [macOS `defaults` commands](https://macos-defaults.com) with demos. ✨
 
 ## Add a command
-All the listed `defaults` commands are stored in a single [defaults.yml file](./defaults.yml). Here is how a command's info is designed:
+All the listed `defaults` commands are stored in localized [defaults*.yml files](./defaults.yml). Here is how a command's info is designed:
 
 ```yml
       - key: the-command-name-separated-with-dashes # The command's key
@@ -37,6 +37,12 @@ All the listed `defaults` commands are stored in a single [defaults.yml file](./
               height: 600 # And its height
             text: Explaining what happens when the command is set to `true`
         versions: [Big Sur, Catalina] # It's been tested on Big Sur and Catalina
+```
+
+You can validate these files locally using the provided [JSON schema](./defaults.schema.json) using the [VSCode YAML Language support extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) or on the CLI with:
+
+```sh
+npx pajv validate -s defaults.schema.json -d defaults.yml
 ```
 
 Images and videos are built programmatically. Take a look at the [record folder](./record/#readme) to find out how to record some. I will always prefer images and videos examples as they help maintenance a lot! Please consider it if you want to [open a PR](https://github.com/yannbertrand/macos-defaults/compare).
