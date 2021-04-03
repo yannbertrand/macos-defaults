@@ -1,0 +1,143 @@
+{
+  "$id": "https://macos-defaults.com/defaults.schema.json",
+  "title": "macOS Defaults Reference",
+  "description": "The supporting data for macos-defaults.com.",
+  "type": "object",
+  "properties": {
+    "categories": {
+      "description": "The main categorization level.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "folder": {
+            "description": "The slug for this category in the site's URL.",
+            "type": "string"
+          },
+          "name": {
+            "description": "The human readable name for this category.",
+            "type": "string"
+          },
+          "description": {
+            "description": "Longer form, human readable explanation of this category.",
+            "type": "string"
+          },
+          "image": {
+            "$ref": "#/definitions/image"
+          },
+          "keys": {
+            "description": "The defaults keys within this category.",
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "key": {
+                  "type": "string"
+                },
+                "domain": {
+                  "description": "The domain for this key, typically corresponding to an individual application.",
+                  "type": "string"
+                },
+                "title": {
+                  "description": "The human readable title of this key.",
+                  "type": "string"
+                },
+                "description": {
+                  "description": "Longer form, human readable explanation of this key.",
+                  "type": "string"
+                },
+                "param": {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "description": "The type the key stores in the defaults system.",
+                      "type": "string",
+                      "enum": [
+                        "array",
+                        "bool",
+                        "dict",
+                        "float",
+                        "int",
+                        "string"
+                      ]
+                    },
+                    "values": {
+                      "type": "array"
+                    }
+                  }
+                },
+                "examples": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "value": {
+                        "anyOf": [
+                          {"type": "boolean"},
+                          {"type": "string"},
+                          {"type": "integer"},
+                          {"type": "number"}
+                        ]
+                      },
+                      "default": {
+                        "type": "boolean"
+                      },
+                      "image": {
+                        "$ref": "#/definitions/image"
+                      },
+                      "text": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "uniqueItems": true
+                },
+                "versions": {
+                  "description": "The versions of macOS this key has been tested on.",
+                  "type": "array",
+                  "items": {
+                    "description": "E.g. \"Big Sur\", \"Catalina\"",
+                    "type": "string"
+                  },
+                  "uniqueItems": true
+                }
+              },
+              "required": [
+                "domain",
+                "examples",
+                "key",
+                "param",
+                "title"
+              ]
+            },
+            "uniqueItems": true
+          }
+        }
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": ["categories"],
+  "definitions": {
+    "image": {
+      "type": "object",
+      "properties": {
+        "filename": {
+          "description": "Path to this image asset in the images directory",
+          "type": "string"
+        },
+        "height": {
+          "type": "integer"
+        },
+        "width": {
+          "type": "integer"
+        }
+      },
+      "keys": [
+        "filename",
+        "height",
+        "width"
+      ]
+    }
+  }
+}
