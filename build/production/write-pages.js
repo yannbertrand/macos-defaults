@@ -11,6 +11,10 @@ module.exports = ({ defaults, url }, templatesPath, destinationPath) => {
       `${templatesPath}/page.md.handlebars`,
       'utf8'
     )
+    Handlebars.registerHelper('shellescape', function (value) {
+      // https://stackoverflow.com/a/7685469/2178159
+      return '"'+`${value}`.replace(/(["\s'$`\\])/g,'\\$1')+'"';
+    });
     const renderPage = Handlebars.compile(pageTemplate)
     defaults.categories.forEach(({ folder, name, keys }) => {
       if (keys === undefined) {
