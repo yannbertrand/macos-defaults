@@ -717,6 +717,8 @@ categories:
           Expand the macOS save panel by default.
         param:
           type: bool
+        examples:
+          - value: true
       - key: PMPrintingExpandedStateForPrint
         domain: NSGlobalDomain
         title: Expand print panel
@@ -724,6 +726,8 @@ categories:
           Expand the system print panel by default.
         param:
           type: bool
+        examples:
+          - value: true
       - key: NSAutomaticPeriodSubstitutionEnabled
         domain: NSGlobalDomain
         title: Automatic period substitution
@@ -731,6 +735,8 @@ categories:
           Enable automatic period substitution after typing two spaces.
         param:
           type: bool
+        examples:
+          - value: true
       - key: ApplePressAndHoldEnabled
         domain: NSGlobalDomain
         title: Press-and-hold for special characters
@@ -738,6 +744,8 @@ categories:
           Enable press-and-hold to type special characters.
         param:
           type: bool
+        examples:
+          - value: true
       - key: AppleScrollerPagingBehavior
         domain: NSGlobalDomain
         title: Scroll bar behavior
@@ -771,6 +779,8 @@ categories:
           Force macOS to display 24-hour time globally
         param:
           type: bool
+        examples:
+          - value: true
       - key: AppleLocale
         domain: NSGlobalDomain
         title: Locale
@@ -796,6 +806,8 @@ categories:
         description: ""
         param:
           type: bool
+        examples:
+          - value: true
       - key: AppleTemperatureUnit
         domain: NSGlobalDomain
         title: Temperature unit
@@ -803,6 +815,8 @@ categories:
           System wide default unit for displaying temperature.
         param:
           type: string
+        examples:
+          - value: Celsius
       - key: AppleICUDateFormatStrings
         domain: NSGlobalDomain
         title: System date formats
