@@ -766,7 +766,8 @@ categories:
         param:
           type: array
         examples:
-          - text: Enable American English and Polish Programmer keyboards
+          - title: English/Polish
+            text: Enable American English and Polish Programmer keyboards
             value: |
               <array>
                 <string>en-US</string>
