@@ -18,6 +18,11 @@ module.exports = ({ defaults, url }, templatesPath, destinationPath) => {
       }
 
       keys.forEach(({ domain, ...page }) => {
+        page.examples.forEach(example => {
+          if (!Array.isArray(example.value)) {
+            example.value = [example.value]
+          }
+        })
         const pageReadmeContent = renderPage({
           ...page,
           folder,

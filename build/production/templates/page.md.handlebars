@@ -37,7 +37,7 @@ meta:
 {{# examples }}
 ## Set to `{{{ value }}}`{{# if default }} (default value){{/ if }}
 ```bash
-defaults write {{ ../domain }} {{ ../key }} -{{ ../param.type }} {{{ value }}}{{# if ../after }} && {{ ../after }}{{/ if }}
+defaults write {{ ../domain }} {{ ../key }} -{{# if command }}{{ command }}{{ else }}{{ ../param.type }}{{/ if }} {{# each value }}{{{ this }}} {{/ each }}{{# if ../after }}&& {{ ../after }}{{/ if }}
 ```
 {{# video }}
 <video autoplay loop muted playsinline width="{{ width }}" height="{{ height }}" style="max-width: 100%; height: auto">
