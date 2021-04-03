@@ -236,7 +236,7 @@ categories:
             default: true
             text: Screenshot 2020-01-09 at 13.27.20.png
           - value: false
-            text:
+            text: |
               - Screenshot.png
               - Screenshot 1.png
         versions: [Big Sur, Catalina, Mojave]
@@ -551,7 +551,7 @@ categories:
         description:
           Add additional counterpart suffixes that Xcode should consider in the "Related Items > Counterparts" menu.
         param:
-          type: array-add
+          type: array
         examples:
           - value: '"ViewModel" "View"'
             text: Add the "ViewModel" and "View" counterpart suffixes (Useful for Model-View-ViewModel (MVVM) architectures).
@@ -710,3 +710,126 @@ categories:
           - value: false
             text: '"Application Downloaded from Internet" popup will not display'
         versions: [Catalina]
+      - key: NSNavPanelExpandedStateForSaveMode
+        domain: NSGlobalDomain
+        title: Expand save panel
+        description: |
+          Expand the macOS save panel by default.
+        param:
+          type: bool
+      - key: PMPrintingExpandedStateForPrint
+        domain: NSGlobalDomain
+        title: Expand print panel
+        description: |
+          Expand the system print panel by default.
+        param:
+          type: bool
+      - key: NSAutomaticPeriodSubstitutionEnabled
+        domain: NSGlobalDomain
+        title: Automatic period substitution
+        description: |
+          Enable automatic period substitution after typing two spaces.
+        param:
+          type: bool
+      - key: ApplePressAndHoldEnabled
+        domain: NSGlobalDomain
+        title: Press-and-hold for special characters
+        description: |
+          Enable press-and-hold to type special characters.
+        param:
+          type: bool
+      - key: AppleScrollerPagingBehavior
+        domain: NSGlobalDomain
+        title: Scroll bar behavior
+        description: |
+          Configure behavior when clicking the scrollbar. (System Preferences > General > Click in the scroll bar to:)
+        param:
+          type: int
+        examples:
+          - text: Jump to the next page
+            value: 0
+          - text: Jump to the spot that's clicked in scroll bar.
+            value: 1
+      - key: AppleLanguages
+        domain: NSGlobalDomain
+        title: Languages
+        description: |
+          A list of keyboard locales to enable.
+        param:
+          type: array
+        examples:
+          - text: Enable American English and Polish Programmer keyboards
+            value: |
+              <array>
+                <string>en-US</string>
+                <string>pl-US</string>
+              </array>
+      - key: AppleICUForce24HourTime
+        domain: NSGlobalDomain
+        title: 24-hour time
+        description: |
+          Force macOS to display 24-hour time globally
+        param:
+          type: bool
+      - key: AppleLocale
+        domain: NSGlobalDomain
+        title: Locale
+        description: |
+          System wide locale for number and currency formatting.
+        param:
+          type: string
+        examples:
+          - text: American English and USD
+            value: en_US@currency=USD
+      - key: AppleMeasurementUnits
+        domain: NSGlobalDomain
+        title: Measurement unit
+        description: |
+          System wide default unit for displaying measurements.
+        param:
+          type: string
+        examples:
+          - value: Centimeters
+      - key: AppleMetricUnits
+        domain: NSGlobalDomain
+        title: Force metric units
+        description: ""
+        param:
+          type: bool
+      - key: AppleTemperatureUnit
+        domain: NSGlobalDomain
+        title: Temperature unit
+        description: |
+          System wide default unit for displaying temperature.
+        param:
+          type: string
+      - key: AppleICUDateFormatStrings
+        domain: NSGlobalDomain
+        title: System date formats
+        description: |
+          System wide default date formats as configured in System Preferences > Language & Region > Advanced... > Dates.
+
+          Keys are a "type" of format, values are Apple date formatter strings.
+          See Apple's [Date Formatting Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/DataFormatting/Articles/dfDateFormatting10_4.html#//apple_ref/doc/uid/TP40002369-SW1)
+          for more details on the structure and where these settings are used.
+
+          | Key | Format description |
+          | --- | --- |
+          | 1 | Short |
+          | 2 | Medium |
+          | 3 | Long |
+          | 4 | Full |
+        param:
+          type: dict
+        examples:
+          - value: |
+              <dict>
+                <key>1</key>
+                <string>y-MM-dd</string>
+                <key>2</key>
+                <string>y MMM d</string>
+                <key>3</key>
+                <string>y MMMM d</string>
+                <key>4</key>
+                <string>EEEE, d MMMM y</string>
+              </dict>
