@@ -809,8 +809,8 @@ categories:
         description: |
           System wide default date formats as configured in System Preferences > Language & Region > Advanced... > Dates.
 
-          Keys are a "type" of format, values are Apple date formatter strings.
-          See Apple's [Date Formatting Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/DataFormatting/Articles/dfDateFormatting10_4.html#//apple_ref/doc/uid/TP40002369-SW1)
+          Keys are a "type" of format, values are Apple date formatter strings. See Apple's [Date Formatting
+          Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/DataFormatting/Articles/dfDateFormatting10_4.html#//apple_ref/doc/uid/TP40002369-SW1)
           for more details on the structure and where these settings are used.
 
           | Key | Format description |
