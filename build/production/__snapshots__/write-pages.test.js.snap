@@ -19,15 +19,16 @@ meta:
 ---
 # Page
 
-> Page description.
+Page description.
 
 - **Tested on macOS**:
   * Big Sur
 - **Parameter type**: bool
 
 ## Set to \`true\` (default value)
+
 \`\`\`bash
-defaults write com.apple.category page -bool true
+defaults write com.apple.category page -bool \\"true\\" 
 \`\`\`
 <img
   src=\\"./category-page-true.png\\"
@@ -35,10 +36,10 @@ defaults write com.apple.category page -bool true
   width=\\"600\\" height=\\"400\\" style=\\"height: auto\\"
 />
 
-
 ## Set to \`false\`
+
 \`\`\`bash
-defaults write com.apple.category page -bool false
+defaults write com.apple.category page -bool \\"false\\" 
 \`\`\`
 <img
   src=\\"./category-page-false.png\\"
@@ -46,13 +47,12 @@ defaults write com.apple.category page -bool false
   width=\\"400\\" height=\\"200\\" style=\\"height: auto\\"
 />
 
-
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category page
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category page
 \`\`\`
@@ -78,7 +78,7 @@ meta:
 ---
 # Page
 
-> Page description.
+Page description.
 
 - **Tested on macOS**:
   * Big Sur
@@ -88,32 +88,35 @@ meta:
   * end
 
 ## Set to \`start\`
-\`\`\`bash
-defaults write com.apple.category page -string start
-\`\`\`
 
-- output when value is start
+output when value is start
+
+\`\`\`bash
+defaults write com.apple.category page -string \\"start\\" 
+\`\`\`
 
 ## Set to \`middle\` (default value)
-\`\`\`bash
-defaults write com.apple.category page -string middle
-\`\`\`
 
-- output when value is middle
+output when value is middle
+
+\`\`\`bash
+defaults write com.apple.category page -string \\"middle\\" 
+\`\`\`
 
 ## Set to \`end\`
-\`\`\`bash
-defaults write com.apple.category page -string end
-\`\`\`
 
-- output when value is end
+output when value is end
+
+\`\`\`bash
+defaults write com.apple.category page -string \\"end\\" 
+\`\`\`
 
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category page
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category page
 \`\`\`
@@ -139,7 +142,7 @@ meta:
 ---
 # Page
 
-> Page description.
+Page description.
 
 - **Tested on macOS**:
   * Big Sur
@@ -150,7 +153,7 @@ meta:
 defaults read com.apple.category page
 \`\`\`
 
-## Delete current value
+## Reset to default value
 ::: danger
 This an alert message. <br> \`defaults command\`
 :::
@@ -179,32 +182,34 @@ meta:
 ---
 # Page
 
-> Page description.
+Page description.
 
 - **Tested on macOS**:
   * Big Sur
 - **Parameter type**: string
 
 ## Set to \`~/Desktop\` (default value)
-\`\`\`bash
-defaults write com.apple.category page -string ~/Desktop && killall App
-\`\`\`
 
-- output when value is ~/Desktop
+output when value is ~/Desktop
+
+\`\`\`bash
+defaults write com.apple.category page -string \\"~/Desktop\\" && killall App
+\`\`\`
 
 ## Set to \`~/Pictures\`
-\`\`\`bash
-defaults write com.apple.category page -string ~/Pictures && killall App
-\`\`\`
 
-- output when value is ~/Pictures
+output when value is ~/Pictures
+
+\`\`\`bash
+defaults write com.apple.category page -string \\"~/Pictures\\" && killall App
+\`\`\`
 
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category page
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category page && killall App
 \`\`\`
@@ -230,7 +235,7 @@ meta:
 ---
 # Page
 
-> Page description.
+Page description.
 
 - **Tested on macOS**:
   * Big Sur
@@ -241,25 +246,27 @@ meta:
 - [\`com.apple.category2 a-third-key\`](../../a-third-category/a-third-key.html#set-to-0.5) must be set to \`0.5\`
 
 ## Set to \`true\` (default value)
-\`\`\`bash
-defaults write com.apple.category page -string true && killall App
-\`\`\`
 
-- output when value is true
+output when value is true
+
+\`\`\`bash
+defaults write com.apple.category page -string \\"true\\" && killall App
+\`\`\`
 
 ## Set to \`false\`
-\`\`\`bash
-defaults write com.apple.category page -string false && killall App
-\`\`\`
 
-- output when value is false
+output when value is false
+
+\`\`\`bash
+defaults write com.apple.category page -string \\"false\\" && killall App
+\`\`\`
 
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category page
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category page && killall App
 \`\`\`
@@ -285,32 +292,34 @@ meta:
 ---
 # Page
 
-> Page description.
+Page description.
 
 - **Tested on macOS**:
   * Big Sur
 - **Parameter type**: bool
 
 ## Set to \`~/Desktop\` (default value)
-\`\`\`bash
-defaults write com.apple.category page -bool ~/Desktop
-\`\`\`
 
-- output when value is ~/Desktop
+output when value is ~/Desktop
+
+\`\`\`bash
+defaults write com.apple.category page -bool \\"~/Desktop\\" 
+\`\`\`
 
 ## Set to \`~/Pictures\`
-\`\`\`bash
-defaults write com.apple.category page -bool ~/Pictures
-\`\`\`
 
-- output when value is ~/Pictures
+output when value is ~/Pictures
+
+\`\`\`bash
+defaults write com.apple.category page -bool \\"~/Pictures\\" 
+\`\`\`
 
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category page
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category page
 \`\`\`
@@ -336,38 +345,38 @@ meta:
 ---
 # Page
 
-> Page description.
+Page description.
 
 - **Tested on macOS**:
   * Big Sur
 - **Parameter type**: float
 
 ## Set to \`0\` (default value)
+
 \`\`\`bash
-defaults write com.apple.category page -float 0
+defaults write com.apple.category page -float \\"0\\" 
 \`\`\`
 <video autoplay loop muted playsinline width=\\"750\\" height=\\"400\\" style=\\"max-width: 100%; height: auto\\">
   <source src=\\"./category-page-0.mp4\\" type=\\"video/mp4\\">
   Example output with value set to 0
 </video>
 
-
 ## Set to \`0.5\`
+
 \`\`\`bash
-defaults write com.apple.category page -float 0.5
+defaults write com.apple.category page -float \\"0.5\\" 
 \`\`\`
 <video autoplay loop muted playsinline width=\\"720\\" height=\\"390\\" style=\\"max-width: 100%; height: auto\\">
   <source src=\\"./category-page-0.5.mp4\\" type=\\"video/mp4\\">
   Example output with value set to 0.5
 </video>
 
-
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category page
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category page
 \`\`\`
@@ -393,32 +402,34 @@ meta:
 ---
 # Page 1
 
-> Page 1 description.
+Page 1 description.
 
 - **Tested on macOS**:
   * Big Sur
 - **Parameter type**: bool
 
 ## Set to \`true\` (default value)
-\`\`\`bash
-defaults write com.apple.category page1 -bool true
-\`\`\`
 
-- output when value is true
+output when value is true
+
+\`\`\`bash
+defaults write com.apple.category page1 -bool \\"true\\" 
+\`\`\`
 
 ## Set to \`false\`
-\`\`\`bash
-defaults write com.apple.category page1 -bool false
-\`\`\`
 
-- output when value is false
+output when value is false
+
+\`\`\`bash
+defaults write com.apple.category page1 -bool \\"false\\" 
+\`\`\`
 
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category page1
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category page1
 \`\`\`
@@ -444,32 +455,34 @@ meta:
 ---
 # Page 2
 
-> Page 2 description.
+Page 2 description.
 
 - **Tested on macOS**:
   * Big Sur
 - **Parameter type**: bool
 
 ## Set to \`true\`
-\`\`\`bash
-defaults write com.apple.category page2 -bool true
-\`\`\`
 
-- output when value is true
+output when value is true
+
+\`\`\`bash
+defaults write com.apple.category page2 -bool \\"true\\" 
+\`\`\`
 
 ## Set to \`false\` (default value)
-\`\`\`bash
-defaults write com.apple.category page2 -bool false
-\`\`\`
 
-- output when value is false
+output when value is false
+
+\`\`\`bash
+defaults write com.apple.category page2 -bool \\"false\\" 
+\`\`\`
 
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category page2
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category page2
 \`\`\`
@@ -495,32 +508,34 @@ meta:
 ---
 # Page
 
-> Page description.
+Page description.
 
 - **Tested on macOS**:
   * Big Sur
 - **Parameter type**: bool
 
 ## Set to \`true\` (default value)
-\`\`\`bash
-defaults write com.apple.category1 page -bool true
-\`\`\`
 
-- output when value is true
+output when value is true
+
+\`\`\`bash
+defaults write com.apple.category1 page -bool \\"true\\" 
+\`\`\`
 
 ## Set to \`false\`
-\`\`\`bash
-defaults write com.apple.category1 page -bool false
-\`\`\`
 
-- output when value is false
+output when value is false
+
+\`\`\`bash
+defaults write com.apple.category1 page -bool \\"false\\" 
+\`\`\`
 
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category1 page
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category1 page
 \`\`\`
@@ -546,32 +561,34 @@ meta:
 ---
 # Page
 
-> Page description.
+Page description.
 
 - **Tested on macOS**:
   * Big Sur
 - **Parameter type**: bool
 
 ## Set to \`true\`
-\`\`\`bash
-defaults write com.apple.category2 page -bool true
-\`\`\`
 
-- output when value is true
+output when value is true
+
+\`\`\`bash
+defaults write com.apple.category2 page -bool \\"true\\" 
+\`\`\`
 
 ## Set to \`false\` (default value)
-\`\`\`bash
-defaults write com.apple.category2 page -bool false
-\`\`\`
 
-- output when value is false
+output when value is false
+
+\`\`\`bash
+defaults write com.apple.category2 page -bool \\"false\\" 
+\`\`\`
 
 ## Read current value
 \`\`\`bash
 defaults read com.apple.category2 page
 \`\`\`
 
-## Delete current value
+## Reset to default value
 \`\`\`bash
 defaults delete com.apple.category2 page
 \`\`\`
