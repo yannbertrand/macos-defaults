@@ -553,9 +553,18 @@ categories:
         param:
           type: array
         examples:
-          - value: '"ViewModel" "View"'
+          - command: array-add
+            value:
+              - ViewModel
+              - View
+            title: Add "ViewModel" and "View"
             text: Add the "ViewModel" and "View" counterpart suffixes (Useful for Model-View-ViewModel (MVVM) architectures).
-          - value: '"Router" "Interactor" "Builder"'
+          - command: array-add
+            value:
+              - Router
+              - Interactor
+              - Builder
+            title: Add "Router", "Interactor" and "Builder"
             text: Add the "Router", "Interactor" and "Builder" counterpart suffixes (Useful for RIB architectures).
         versions: [Catalina]
         after: killall Xcode

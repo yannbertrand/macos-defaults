@@ -16,7 +16,7 @@ meta:
 ---
 # {{{ title }}}
 
-> {{{ description }}}
+{{{ description }}}
 
 - **Testé sur macOS**:
 {{# versions }}
@@ -35,10 +35,16 @@ meta:
 
 {{/ if }}
 {{# examples }}
-## Avec la valeur `{{{ value }}}`{{# if default }} (par défaut){{/ if }}
+## {{# if title }}{{{ title }}}{{ else }}Avec la valeur `{{ value }}`{{/ if }}{{# if default }} (par défaut){{/ if }}
+{{# if text }}
+
+{{# text }}
+{{{ . }}}
+{{/ text }}
+{{/ if}}
+
 ```bash
-defaults write {{ ../domain }} {{ ../key }} -{{ ../param.type }} {{{ value }}}{{# if ../after }} &&
-{{ ../after }}{{/ if }}
+defaults write {{ ../domain }} {{ ../key }} -{{# if command }}{{ command }}{{ else }}{{ ../param.type }}{{/ if }} {{# each value }}{{{ shellescape this }}} {{/ each }}{{# if ../after }}&& {{ ../after }}{{/ if }}
 ```
 {{# video }}
 <video autoplay loop muted playsinline width="{{ width }}" height="{{ height }}" style="max-width: 100%; height: auto">
@@ -54,17 +60,18 @@ defaults write {{ ../domain }} {{ ../key }} -{{ ../param.type }} {{{ value }}}{{
 />
 {{/ image }}
 
-{{# text }}
-- {{{ . }}}
-{{/ text }}
-
 {{/ examples }}
 ## Lire la valeur courante
 ```bash
 defaults read {{ domain }} {{ key }}
 ```
 
-## Supprimer la valeur courante
+## Remettre la valeur à l'état initial
+{{# if deleteAlert }}
+::: {{ deleteAlert.type }}
+{{{ deleteAlert.message }}}
+:::
+{{/ if }}
 ```bash
 defaults delete {{ domain }} {{ key }}{{# if after }} && {{ after }}{{/ if }}
 ```
