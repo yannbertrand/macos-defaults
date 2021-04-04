@@ -4,9 +4,9 @@ meta:
   - property: "og:title"
     content: macOS defaults > {{{ name }}} > {{{ title }}}
   - name: "description"
-    content: {{{ escapeDoubleQuote description }}}
+    content: {{{ json description }}}
   - property: "og:description"
-    content: {{{ escapeDoubleQuote description }}}
+    content: {{{ json description }}}
   - property: "twitter:card"
     content: "summary"
   - property: "twitter:image"
@@ -17,6 +17,8 @@ meta:
 # {{{ title }}}
 
 {{{ description }}}
+
+<!-- break lists -->
 
 - **Tested on macOS**:
 {{# versions }}

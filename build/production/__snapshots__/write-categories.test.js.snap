@@ -7,9 +7,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category
   - name: \\"description\\"
-    content: Category description.
+    content: \\"This is a description of the category. It can contain \\\\\\"quotes\\\\\\" and markdown.\\\\n\\\\n- a list item\\"
   - property: \\"og:description\\"
-    content: Category description.
+    content: \\"This is a description of the category. It can contain \\\\\\"quotes\\\\\\" and markdown.\\\\n\\\\n- a list item\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -24,7 +24,11 @@ meta:
   width=\\"740\\" height=\\"80\\" style=\\"height: auto\\"
 />
 
-Category description.
+This is a description of the category. It can contain \\"quotes\\" and markdown.
+
+- a list item
+
+## Keys
 
 "
 `;
@@ -36,9 +40,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category
   - name: \\"description\\"
-    content: Category description.
+    content: \\"Category description.\\"
   - property: \\"og:description\\"
-    content: Category description.
+    content: \\"Category description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -49,6 +53,8 @@ meta:
 # Category
 
 Category description.
+
+## Keys
 
 - [Page](./page.html)
 "
@@ -61,9 +67,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category
   - name: \\"description\\"
-    content: Category description.
+    content: \\"Category description.\\"
   - property: \\"og:description\\"
-    content: Category description.
+    content: \\"Category description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -74,6 +80,8 @@ meta:
 # Category
 
 Category description.
+
+## Keys
 
 - [Page 1](./page1.html)
 - [Page 2](./page2.html)
@@ -87,9 +95,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category 1
   - name: \\"description\\"
-    content: Category 1 description.
+    content: \\"Category 1 description.\\"
   - property: \\"og:description\\"
-    content: Category 1 description.
+    content: \\"Category 1 description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -100,6 +108,8 @@ meta:
 # Category 1
 
 Category 1 description.
+
+## Keys
 
 - [Page](./page.html)
 "
@@ -112,9 +122,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category 2
   - name: \\"description\\"
-    content: Category 2 description.
+    content: \\"Category 2 description.\\"
   - property: \\"og:description\\"
-    content: Category 2 description.
+    content: \\"Category 2 description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -125,6 +135,8 @@ meta:
 # Category 2
 
 Category 2 description.
+
+## Keys
 
 - [Page](./page.html)
 "
