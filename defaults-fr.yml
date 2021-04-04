@@ -4,10 +4,11 @@ categories:
 
   - folder: dock
     name: Dock
-    description:
+    description: |
       Le Dock est une composante importante de macOS.
       Il est utilisé pour lancer des applications et pour naviguer entre les applications lancées.
-      Par défaut il est placé en bas de votre écran.<br><br>
+      Par défaut il est placé en bas de votre écran.
+
       Il est personnalisable à souhait.
     image:
       filename: "dock.png"
@@ -196,12 +197,14 @@ categories:
 
   - folder: screenshots
     name: Capture d'écran
-    description:
-      "Sur un Mac, il est possible de prendre des captures d'écran avec:<br>
-      - `⌘ cmd`+`⇧ maj`+`3` pour l'écran complet.<br>
-      - `⌘ cmd`+`⇧ maj`+`4` pour une sous partie de l'écran. Ajoutez `espace` pour prendre une application entière.<br>
-      - `⌘ cmd`+`⇧ maj`+`5` pour ouvrir l'appli de capture.<br><br>
-      Il est possible de personnaliser quelques trucs."
+    description: |
+      Sur un Mac, il est possible de prendre des captures d'écran avec:
+
+      - `⌘ cmd`+`⇧ maj`+`3` pour l'écran complet.
+      - `⌘ cmd`+`⇧ maj`+`4` pour une sous partie de l'écran. Ajoutez `espace` pour prendre une application entière.
+      - `⌘ cmd`+`⇧ maj`+`5` pour ouvrir l'appli de capture.
+
+      Il est possible de personnaliser quelques trucs.
     keys:
       - key: disable-shadow
         domain: com.apple.screencapture
@@ -281,11 +284,12 @@ categories:
 
   - folder: finder
     name: Finder
-    description:
+    description: |
       Le Finder est le gestionnaire de fichier de macOS.
       Il est responsable du lancement d'autres applications,
       et pour la gestion générique des fichiers, disques externes, et volumes réseaux.
-      Depuis les années 80-90, l'icône du Finder est un écran souriant d'ordinateur, connu sous le nom "Happy Mac".<br><br>
+      Depuis les années 80-90, l'icône du Finder est un écran souriant d'ordinateur, connu sous le nom "Happy Mac".
+
       Certaines de ses fonctionnalités sont personnalisables.
     keys:
       - key: QuitMenuItem
@@ -462,13 +466,14 @@ categories:
       - key: DateFormat
         domain: com.apple.menuextra.clock
         title: Format de date et heure
-        description:
-          "Ce paramètre permet de préciser le format de date et heure de la barre de menus.
-          Les valeurs acceptées dépendent de vos paramètres de Langue & région.<br>
-          - `ss` pour les secondes.<br>
-          - `HH` pour l'heure (24h).<br>
-          - `EEE` pour le jour de la semaine en 3 lettres.<br>
-          - `d MMM` pour le jour dans le mois et le mois en 3 lettres."
+        description: |
+          Ce paramètre permet de préciser le format de date et heure de la barre de menus.
+          Les valeurs acceptées dépendent de vos paramètres de Langue & région.
+
+          - `ss` pour les secondes.
+          - `HH` pour l'heure (24h).
+          - `EEE` pour le jour de la semaine en 3 lettres.
+          - `d MMM` pour le jour dans le mois et le mois en 3 lettres.
         param:
           type: string
         examples:
@@ -490,13 +495,14 @@ categories:
 
   - folder: mission-control
     name: Mission Control
-    description:
-      "Anciennement connu sous le nom d'Exposé, Mission Control permet :<br>
-      - `⌃ ctrl`+`↑ haut` voir toutes les fenêtres d'applications ouvertes.<br>
-      - `⌃ ctrl`+`↓ bas` voir toutes les fenêtres de l'application courante.<br>
-      - `⌘ cmd`+`F3 Mission Control` cacher toutes les applications et afficher le bureau.<br>
-      - `⌃ ctrl`+`← gauche`/`→ droite` se déplacer entre les bureaux virtuels.<br>
-      - déplacer des applications entre plusieurs écrans."
+    description: |
+      Anciennement connu sous le nom d'Exposé, Mission Control permet :
+
+      - `⌃ ctrl`+`↑ haut` voir toutes les fenêtres d'applications ouvertes.
+      - `⌃ ctrl`+`↓ bas` voir toutes les fenêtres de l'application courante.
+      - `⌘ cmd`+`F3 Mission Control` cacher toutes les applications et afficher le bureau.
+      - `⌃ ctrl`+`← gauche`/`→ droite` se déplacer entre les bureaux virtuels.
+      - déplacer des applications entre plusieurs écrans.
     keys:
       - key: mru-spaces
         domain: com.apple.dock
@@ -521,8 +527,9 @@ categories:
       - key: Autogather
         domain: com.apple.appleseed.FeedbackAssistant
         title: Collecte automatique
-        description:
-          Collecter automatiquement des larges fichiers lors de la soumission de compte rendu.<br>
+        description: |
+          Collecter automatiquement des larges fichiers lors de la soumission de compte rendu.
+
           Peut ralentir significativement le Mac et envoyer de grosses quantités de données.
         param:
           type: bool
@@ -585,8 +592,9 @@ categories:
       - key: ScreenShotSaveLocation
         domain: com.apple.iphonesimulator
         title: Emplacement des screenshots
-        description:
-          Préciser le chemin par défaut des screenshots du Simulateur.<br>
+        description: |
+          Préciser le chemin par défaut des screenshots du Simulateur.
+
           Le dossier doit obligatoirement exister dans le système.
         param:
           type: string

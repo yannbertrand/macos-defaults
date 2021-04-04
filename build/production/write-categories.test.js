@@ -2,6 +2,7 @@ const fs = require('fs')
 jest.mock('fs')
 
 const writeCategories = require('./write-categories')
+require('./handlebars-helpers')
 
 const templatesPath = 'templates'
 const destinationPath = 'dist'

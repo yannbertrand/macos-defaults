@@ -4,10 +4,11 @@ categories:
 
   - folder: dock
     name: Dock
-    description:
+    description: |
       The Dock is a prominent feature of macOS.
       It is used to launch applications and to switch between running applications.
-      By default you can find it on the bottom of your screen.<br><br>
+      By default you can find it on the bottom of your screen.
+
       You can customize it as you like.
     image:
       filename: "dock.png"
@@ -196,12 +197,14 @@ categories:
 
   - folder: screenshots
     name: Screenshots
-    description:
-      "On a Mac, you can take screenshots using:<br>
-      - `⌘ cmd`+`⇧ shift`+`3` for fullscreen.<br>
-      - `⌘ cmd`+`⇧ shift`+`4` for a selection. Then use `space` to capture an entire app.<br>
-      - `⌘ cmd`+`⇧ shift`+`5` to open the Screenshot app.<br><br>
-      There is a few keys you can customize."
+    description: |
+      On a Mac, you can take screenshots using:
+
+      - `⌘ cmd`+`⇧ shift`+`3` for fullscreen.
+      - `⌘ cmd`+`⇧ shift`+`4` for a selection. Then use `space` to capture an entire app.
+      - `⌘ cmd`+`⇧ shift`+`5` to open the Screenshot app.
+
+      There are a few keys you can customize.
     keys:
       - key: disable-shadow
         domain: com.apple.screencapture
@@ -281,12 +284,13 @@ categories:
 
   - folder: finder
     name: Finder
-    description:
+    description: |
       The Finder is the default file manager on macOS.
       It is responsible for the launching of other applications,
       and for the overall user management of files, disks, and network volumes.
       In a tradition dating back to the Classic Mac OS of the 1980s and 1990s,
-      the Finder icon is the smiling screen of a computer, known as the Happy Mac logo.<br><br>
+      the Finder icon is the smiling screen of a computer, known as the Happy Mac logo.
+
       Some of its features can be customized.
     keys:
       - key: QuitMenuItem
@@ -463,13 +467,14 @@ categories:
       - key: DateFormat
         domain: com.apple.menuextra.clock
         title: Set menubar digital clock format
-        description:
-          "This setting configures the time and date format for the menubar digital clock.
-          Accepted values depend on your Language & Region settings.<br>
-          - `ss` for seconds.<br>
-          - `HH` for 24-hour clock.<br>
-          - `EEE` for 3-letter day of the week.<br>
-          - `d MMM` for day of the month and 3-letter month."
+        description: |
+          This setting configures the time and date format for the menubar digital clock.
+          Accepted values depend on your Language & Region settings.
+
+          - `ss` for seconds.
+          - `HH` for 24-hour clock.
+          - `EEE` for 3-letter day of the week.
+          - `d MMM` for day of the month and 3-letter month.
         param:
           type: string
         examples:
@@ -495,13 +500,14 @@ categories:
 
   - folder: mission-control
     name: Mission Control
-    description:
-      "Formerly known as Spaces, Mission Control allows a user to do the following:<br>
-      - `⌃ ctrl`+`↑ up` view all open application windows.<br>
-      - `⌃ ctrl`+`↓ down` view all open application windows of a specific application.<br>
-      - `⌘ cmd`+`F3 Mission Control` hide all application windows and show the desktop.<br>
-      - `⌃ ctrl`+`← left`/`→ right` manage application windows across multiple virtual desktops.<br>
-      - manage application windows across multiple monitors."
+    description: |
+      Formerly known as Spaces, Mission Control allows a user to do the following:
+
+      - `⌃ ctrl`+`↑ up` view all open application windows.
+      - `⌃ ctrl`+`↓ down` view all open application windows of a specific application.
+      - `⌘ cmd`+`F3 Mission Control` hide all application windows and show the desktop.
+      - `⌃ ctrl`+`← left`/`→ right` manage application windows across multiple virtual desktops.
+      - manage application windows across multiple monitors.
     keys:
       - key: mru-spaces
         domain: com.apple.dock
@@ -526,8 +532,9 @@ categories:
       - key: Autogather
         domain: com.apple.appleseed.FeedbackAssistant
         title: Autogather
-        description:
-          Choose whether to autogather large files when submitting a feedback report.<br>
+        description: |
+          Choose whether to autogather large files when submitting a feedback report.
+
           Can result in a slow Mac and important upload metrics.
         param:
           type: bool
@@ -592,8 +599,9 @@ categories:
       - key: ScreenShotSaveLocation
         domain: com.apple.iphonesimulator
         title: Set screenshot location
-        description:
-          Set default location for Simulator screenshots.<br>
+        description: |
+          Set default location for Simulator screenshots.
+
           Note that the folder has to exist in the filesystem.
         param:
           type: string
@@ -707,9 +715,10 @@ categories:
       - key: LSQuarantine
         domain: com.apple.LaunchServices
         title: Disable application quarantine message
-        description:
-          "Turn off the “Application Downloaded from Internet” quarantine warning.<br>
-          ⚠️ Stopped working on Big Sur."
+        description: |
+          Turn off the “Application Downloaded from Internet” quarantine warning.
+
+          ⚠️ Stopped working on Big Sur.
         param:
           type: bool
         examples:
