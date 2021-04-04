@@ -21,13 +21,13 @@ describe('write-pages', () => {
               {
                 folder: 'category',
                 name: 'Category',
-                description: 'Category description.',
+                description: 'This is a description of the category. It can contain "quotes" and markdown.\n\n- a list item',
                 keys: [
                   {
                     key: 'page',
                     domain: 'com.apple.category',
                     title: 'Page',
-                    description: 'Page description.',
+                    description: 'This is a description of the page. It can contain "quotes" and markdown.\n\n- a list item',
                     param: { type: 'bool' },
                     examples: [
                       {

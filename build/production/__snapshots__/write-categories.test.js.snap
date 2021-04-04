@@ -7,9 +7,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category
   - name: \\"description\\"
-    content: \\"Category description.\\"
+    content: \\"This is a description of the category. It can contain \\\\\\"quotes\\\\\\" and markdown.\\\\n\\\\n- a list item\\"
   - property: \\"og:description\\"
-    content: \\"Category description.\\"
+    content: \\"This is a description of the category. It can contain \\\\\\"quotes\\\\\\" and markdown.\\\\n\\\\n- a list item\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -24,8 +24,10 @@ meta:
   width=\\"740\\" height=\\"80\\" style=\\"height: auto\\"
 />
 
+This is a description of the category. It can contain \\"quotes\\" and markdown.
 
-Category description.
+- a list item
+
 ## Keys
 
 "
@@ -50,8 +52,8 @@ meta:
 ---
 # Category
 
-
 Category description.
+
 ## Keys
 
 - [Page](./page.html)
@@ -77,8 +79,8 @@ meta:
 ---
 # Category
 
-
 Category description.
+
 ## Keys
 
 - [Page 1](./page1.html)
@@ -105,8 +107,8 @@ meta:
 ---
 # Category 1
 
-
 Category 1 description.
+
 ## Keys
 
 - [Page](./page.html)
@@ -132,8 +134,8 @@ meta:
 ---
 # Category 2
 
-
 Category 2 description.
+
 ## Keys
 
 - [Page](./page.html)
