@@ -1,10 +1,6 @@
 const fs = require('fs')
 const Handlebars = require('handlebars')
 
-Handlebars.registerHelper('escapeDoubleQuote', (string) => {
-  return string.replace(/"/g, '&#34;')
-})
-
 module.exports = ({ defaults, url }, templatesPath, destinationPath) => {
   if (defaults.categories !== null) {
     const pageTemplate = fs.readFileSync(

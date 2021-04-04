@@ -1,6 +1,7 @@
 const fs = require('fs')
 const YAML = require('yaml')
 
+require('./handlebars-helpers')
 const writeHomepage = require('./write-homepage')
 const writeCategories = require('./write-categories')
 const writePages = require('./write-pages')
