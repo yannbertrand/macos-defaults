@@ -143,6 +143,9 @@
                       }
                     }
                   }
+                },
+                "after": {
+                  "type": "string"
                 }
               },
               "required": [
@@ -151,16 +154,24 @@
                 "key",
                 "param",
                 "title"
-              ]
+              ],
+              "additionalProperties": false
             },
             "uniqueItems": true
           }
-        }
+        },
+        "required": [
+          "folder",
+          "name",
+          "description"
+        ],
+        "additionalProperties": false
       },
       "uniqueItems": true
     }
   },
   "required": ["categories"],
+  "additionalProperties": false,
   "definitions": {
     "image": {
       "type": "object",
