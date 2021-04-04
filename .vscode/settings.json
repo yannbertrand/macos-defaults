@@ -1,4 +1,7 @@
 {
+    "yaml.schemas": {
+        "./defaults.schema.json": ["/defaults*.yml"]
+    },
     "[yaml]": {
         "editor.rulers": [
             130

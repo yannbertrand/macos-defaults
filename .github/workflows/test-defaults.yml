@@ -33,3 +33,11 @@ jobs:
         file_or_dir: defaults-fr.yml
         config_file: .github/workflows/config/yml-lint.yml
         strict: true
+
+    - name: Validate 'defaults-*.yml' against schema
+      uses: nwisbeta/validate-yaml-schema@v1.0.3
+      with:
+        yamlSchemasJson: |
+          {
+            "./defaults.schema.json": ["/defaults*.yml"]
+          }

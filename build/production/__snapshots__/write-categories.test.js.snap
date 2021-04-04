@@ -24,7 +24,7 @@ meta:
   width=\\"740\\" height=\\"80\\" style=\\"height: auto\\"
 />
 
-> Category description.
+Category description.
 
 "
 `;
@@ -48,7 +48,7 @@ meta:
 ---
 # Category
 
-> Category description.
+Category description.
 
 - [Page](./page.html)
 "
@@ -73,7 +73,7 @@ meta:
 ---
 # Category
 
-> Category description.
+Category description.
 
 - [Page 1](./page1.html)
 - [Page 2](./page2.html)
@@ -99,7 +99,7 @@ meta:
 ---
 # Category 1
 
-> Category 1 description.
+Category 1 description.
 
 - [Page](./page.html)
 "
@@ -124,7 +124,7 @@ meta:
 ---
 # Category 2
 
-> Category 2 description.
+Category 2 description.
 
 - [Page](./page.html)
 "
