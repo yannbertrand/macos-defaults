@@ -193,6 +193,121 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+      - key: showhidden
+        domain: com.apple.dock
+        title: Hidden app dock style
+        description: Make Dock icons of hidden applications translucent
+        param:
+          type: bool
+        examples:
+          - value: true
+            image:
+              filename: true.png
+              width: 296
+              height: 172
+          - value: true
+            image:
+              filename: false.png
+              width: 296
+              height: 172
+        versions: [Big Sur]
+        after: killall Dock
+      - key: wvous-tl-corner
+        domain: com.apple.dock
+        title: Top left hot corner
+        description: |
+          Configure a [hot corner](https://support.apple.com/guide/mac-help/use-hot-corners-mchlp3000/mac)
+          in the top left of your screen.
+
+          | Value | Action |
+          | --- | --- |
+          | 0 | no-op |
+          | 2 | Mission Control |
+          | 3 | Show application windows |
+          | 4 | Desktop |
+          | 5 | Start screen saver |
+          | 6 | Disable screen saver |
+          | 7 | Dashboard |
+          | 10 | Put display to sleep |
+          | 11 | Launchpad |
+          | 12 | Notification Center |
+        param:
+          type: int
+        examples:
+          - value: 10
+            text: Sleep the display when the cursor is moved to the top left of your screen.
+      - key: wvous-tr-corner
+        domain: com.apple.dock
+        title: Top right hot corner
+        description: |
+          Configure a [hot corner](https://support.apple.com/guide/mac-help/use-hot-corners-mchlp3000/mac)
+          in the top right of your screen.
+
+          | Value | Action |
+          | --- | --- |
+          | 0 | no-op |
+          | 2 | Mission Control |
+          | 3 | Show application windows |
+          | 4 | Desktop |
+          | 5 | Start screen saver |
+          | 6 | Disable screen saver |
+          | 7 | Dashboard |
+          | 10 | Put display to sleep |
+          | 11 | Launchpad |
+          | 12 | Notification Center |
+        param:
+          type: int
+        examples:
+          - value: 12
+            text: Show the notification center when the cursor is moved to the top right of your screen.
+      - key: wvous-bl-corner
+        domain: com.apple.dock
+        title: Bottom left hot corner
+        description: |
+          Configure a [hot corner](https://support.apple.com/guide/mac-help/use-hot-corners-mchlp3000/mac)
+          in the bottom left of your screen.
+
+          | Value | Action |
+          | --- | --- |
+          | 0 | no-op |
+          | 2 | Mission Control |
+          | 3 | Show application windows |
+          | 4 | Desktop |
+          | 5 | Start screen saver |
+          | 6 | Disable screen saver |
+          | 7 | Dashboard |
+          | 10 | Put display to sleep |
+          | 11 | Launchpad |
+          | 12 | Notification Center |
+        param:
+          type: int
+        examples:
+          - value: 11
+            text: Show Launchpad when the cursor is moved to the bottom left of your screen.
+      - key: wvous-br-corner
+        domain: com.apple.dock
+        title: Bottom right hot corner
+        description: |
+          Configure a [hot corner](https://support.apple.com/guide/mac-help/use-hot-corners-mchlp3000/mac)
+          in the bottom right of your screen.
+
+          | Value | Action |
+          | --- | --- |
+          | 0 | no-op |
+          | 2 | Mission Control |
+          | 3 | Show application windows |
+          | 4 | Desktop |
+          | 5 | Start screen saver |
+          | 6 | Disable screen saver |
+          | 7 | Dashboard |
+          | 10 | Put display to sleep |
+          | 11 | Launchpad |
+          | 12 | Notification Center |
+        param:
+          type: int
+        examples:
+          - value: 4
+            text: Show the Desktop when the cursor is moved to the bottom right of your screen.
 
   - folder: screenshots
     name: Screenshots
@@ -430,6 +545,95 @@ categories:
             text: Large
         versions: [Big Sur, Catalina]
         after: killall Finder
+      - key: ShowExternalHardDrivesOnDesktop
+        domain: com.apple.Finder
+        title: Show external hard drives on Desktop
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: ShowRemovableMediaOnDesktop
+        domain: com.apple.Finder
+        title: Show removable media on Desktop
+        description:
+          Enabling this will show things like installation disks and flash drives on the desktop.
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: ShowPathbar
+        domain: com.apple.Finder
+        title: Show path bar
+        description: |
+          Enabling this will show a path bar displaying the current location in
+          Finder at the bottom of the window.
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: ShowStatusBar
+        domain: com.apple.Finder
+        title: Show status bar
+        description: |
+          Enabling this will show a status bar displaying a count of items,
+          readonly status, and free disk space within Finder at the bottom
+          of the window.
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: QLEnableTextSelection
+        domain: com.apple.Finder
+        title: Text selection in Quick Look
+        description: |
+          Enabling this will allow selecting text when viewing a preview with [Quick
+          Look](https://support.apple.com/guide/mac-help/preview-files-with-quick-look-mh14119/mac).
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: FXDefaultSearchScope
+        domain: com.apple.Finder
+        title: Default search scope
+        description: |
+          Sets the default place to search.
+        param:
+          type: string
+        examples:
+          - value: SCcf
+            text: Search within the current folder by default.
+        after: killall Finder
+      - key: OpenWindowForNewRemovableDisk
+        domain: com.apple.Finder
+        title: Open new window when a volume is mounted
+        descriptions: |
+          Automatically open a new Finder window when a volume is mounted.
+        param:
+          type: bool
+        examples:
+          - value: bool
+      - key: FXPreferredViewStyle
+        domain: com.apple.Finder
+        title: Preferred view style
+        description: |
+          Configures the default view style for Finder windows.
+
+          | Code | Mode |
+          | --- | --- |
+          | `Nlsv` | List View |
+          | `icnv` | Icon View |
+          | `clmv` | Column View |
+          | `Flwv` | Gallery View |
+        param:
+          type: string
+        examples:
+          - value: clmv
+            text: Use column view in Finder windows by default
 
   - folder: menubar
     name: Menu Bar
