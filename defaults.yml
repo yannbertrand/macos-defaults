@@ -206,7 +206,7 @@ categories:
               filename: true.png
               width: 296
               height: 172
-          - value: true
+          - value: false
             image:
               filename: false.png
               width: 296
@@ -236,6 +236,7 @@ categories:
           type: int
         examples:
           - value: 10
+            title: Sleep
             text: Sleep the display when the cursor is moved to the top left of your screen.
       - key: wvous-tr-corner
         domain: com.apple.dock
@@ -260,6 +261,7 @@ categories:
           type: int
         examples:
           - value: 12
+            title: Open notification center
             text: Show the notification center when the cursor is moved to the top right of your screen.
       - key: wvous-bl-corner
         domain: com.apple.dock
@@ -284,6 +286,7 @@ categories:
           type: int
         examples:
           - value: 11
+            title: Open Launchpad
             text: Show Launchpad when the cursor is moved to the bottom left of your screen.
       - key: wvous-br-corner
         domain: com.apple.dock
@@ -308,6 +311,7 @@ categories:
           type: int
         examples:
           - value: 4
+            title: Show the desktop
             text: Show the Desktop when the cursor is moved to the bottom right of your screen.
 
   - folder: touch-bar
@@ -588,6 +592,7 @@ categories:
       - key: ShowExternalHardDrivesOnDesktop
         domain: com.apple.Finder
         title: Show external hard drives on Desktop
+        description: ""
         param:
           type: bool
         examples:
@@ -651,7 +656,7 @@ categories:
       - key: OpenWindowForNewRemovableDisk
         domain: com.apple.Finder
         title: Open new window when a volume is mounted
-        descriptions: |
+        description: |
           Automatically open a new Finder window when a volume is mounted.
         param:
           type: bool
@@ -772,6 +777,7 @@ categories:
       - key: ABBirthDayVisible
         domain: com.apple.AddressBook
         title: Show date of birth
+        description: ""
         param:
           type: bool
         examples:
@@ -876,7 +882,7 @@ categories:
             - sortingFirstName sortingLastName
         examples:
           - value: sortingLastName sortingFirstName
-            text: Sort by last name
+            title: Sort by last name
 
   - folder: Calendar
     name: Calendar
@@ -884,7 +890,7 @@ categories:
       Calendar.app is the default application for scheduling and managing events
       on macOS.
     keys:
-      - key: '"first day of the week"'
+      - key: first day of the week
         domain: com.apple.iCal
         title: Start week on
         description: |
@@ -904,7 +910,7 @@ categories:
         examples:
           - value: 1
             text: Set the first day of the week to Monday
-      - key: '"number of hours displayed"'
+      - key: number of hours displayed
         domain: com.apple.iCal
         title: Show a number of hours at a time
         description: |
@@ -1034,19 +1040,23 @@ categories:
       - key: PlainTextEncoding
         domain: com.apple.TextEdit
         title: Default encoding format for new files
+        description: ""
         param:
           type: int
         examples:
           - value: 4
+            title: UTF-8
             text: Open new files as UTF-8
         after: killall TextEdit
       - key: PlainTextEncodingForWrite
         domain: com.apple.TextEdit
         title: Default encoding format to save files in
+        description: ""
         param:
           type: int
         examples:
           - value: 4
+            title: UTF-8
             text: Save new files as UTF-8
         after: killall TextEdit
 
@@ -1108,6 +1118,7 @@ categories:
       - key: OpenWindowOnLaunch
         domain: com.camlittle.DefaultBrowser
         title: Open the main app window on launch.
+        description: ""
         param:
           type: bool
         examples:
