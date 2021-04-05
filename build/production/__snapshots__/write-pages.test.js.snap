@@ -7,9 +7,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"og:description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -20,6 +20,8 @@ meta:
 # Page
 
 Page description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -66,9 +68,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"og:description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -79,6 +81,8 @@ meta:
 # Page
 
 Page description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -130,9 +134,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"og:description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -143,6 +147,8 @@ meta:
 # Page
 
 Page description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -170,9 +176,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"og:description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -183,6 +189,8 @@ meta:
 # Page
 
 Page description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -223,9 +231,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"og:description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -236,6 +244,8 @@ meta:
 # Page
 
 Page description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -280,9 +290,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: Page description.
+    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
   - property: \\"og:description\\"
-    content: Page description.
+    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -292,7 +302,11 @@ meta:
 ---
 # Page
 
-Page description.
+This is a description of the page. It can contain \\"quotes\\" and markdown.
+
+- a list item
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -333,9 +347,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category > Page
   - name: \\"description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"og:description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -346,6 +360,8 @@ meta:
 # Page
 
 Page description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -390,9 +406,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category > Page 1
   - name: \\"description\\"
-    content: Page 1 description.
+    content: \\"Page 1 description.\\"
   - property: \\"og:description\\"
-    content: Page 1 description.
+    content: \\"Page 1 description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -403,6 +419,8 @@ meta:
 # Page 1
 
 Page 1 description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -443,9 +461,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category > Page 2
   - name: \\"description\\"
-    content: Page 2 description.
+    content: \\"Page 2 description.\\"
   - property: \\"og:description\\"
-    content: Page 2 description.
+    content: \\"Page 2 description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -456,6 +474,8 @@ meta:
 # Page 2
 
 Page 2 description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -496,9 +516,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category 1 > Page
   - name: \\"description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"og:description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -509,6 +529,8 @@ meta:
 # Page
 
 Page description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
@@ -549,9 +571,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category 2 > Page
   - name: \\"description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"og:description\\"
-    content: Page description.
+    content: \\"Page description.\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
@@ -562,6 +584,8 @@ meta:
 # Page
 
 Page description.
+
+<!-- break lists -->
 
 - **Tested on macOS**:
   * Big Sur
