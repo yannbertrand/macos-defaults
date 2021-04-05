@@ -1,5 +1,5 @@
 const Handlebars = require('handlebars')
 
-Handlebars.registerHelper('json', (string) => {
-  return JSON.stringify(string)
+Handlebars.registerHelper('metaTag', (string) => {
+  return JSON.stringify(string.replace(/"/g, '&quot;'))
 })
