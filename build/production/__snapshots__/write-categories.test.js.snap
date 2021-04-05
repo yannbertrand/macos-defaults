@@ -7,9 +7,9 @@ meta:
   - property: \\"og:title\\"
     content: macOS defaults > Category
   - name: \\"description\\"
-    content: \\"This is a description of the category. It can contain \\\\\\"quotes\\\\\\" and markdown.\\\\n\\\\n- a list item\\"
+    content: \\"This is a description of the category. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
   - property: \\"og:description\\"
-    content: \\"This is a description of the category. It can contain \\\\\\"quotes\\\\\\" and markdown.\\\\n\\\\n- a list item\\"
+    content: \\"This is a description of the category. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
   - property: \\"twitter:card\\"
     content: \\"summary\\"
   - property: \\"twitter:image\\"
