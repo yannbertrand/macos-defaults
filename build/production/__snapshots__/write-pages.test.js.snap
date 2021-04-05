@@ -283,7 +283,62 @@ defaults delete com.apple.category \\"page\\" && killall App
 "
 `;
 
-exports[`write-pages one category, one page with text example with special chars values should write a category/page.md file using the page template 1`] = `undefined`;
+exports[`write-pages one category, one page with text example with special chars key and values should write a category/a-page.md file using the page template 1`] = `
+"---
+metaTitle: Page | Category | macOS defaults
+meta:
+  - property: \\"og:title\\"
+    content: macOS defaults > Category > Page
+  - name: \\"description\\"
+    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
+  - property: \\"og:description\\"
+    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
+  - property: \\"twitter:card\\"
+    content: \\"summary\\"
+  - property: \\"twitter:image\\"
+    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - property: \\"og:image\\"
+    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+---
+# Page
+
+This is a description of the page. It can contain \\"quotes\\" and markdown.
+
+- a list item
+
+<!-- break lists -->
+
+- **Tested on macOS**:
+  * Big Sur
+- **Parameter type**: bool
+
+## Set to \`~/Desktop\` (default value)
+
+output when value is ~/Desktop
+
+\`\`\`bash
+defaults write com.apple.category \\"a page\\" -bool \\"~/Desktop\\" 
+\`\`\`
+
+## Set to \`~/Pictures\`
+
+output when value is ~/Pictures
+
+\`\`\`bash
+defaults write com.apple.category \\"a page\\" -bool \\"~/Pictures\\" 
+\`\`\`
+
+## Read current value
+\`\`\`bash
+defaults read com.apple.category \\"a page\\"
+\`\`\`
+
+## Reset to default value
+\`\`\`bash
+defaults delete com.apple.category \\"a page\\"
+\`\`\`
+"
+`;
 
 exports[`write-pages one category, one page with video example should write a category/page.md file using the page template 1`] = `
 "---
