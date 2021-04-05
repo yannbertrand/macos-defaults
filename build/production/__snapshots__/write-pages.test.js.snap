@@ -30,7 +30,7 @@ Page description.
 ## Set to \`true\` (default value)
 
 \`\`\`bash
-defaults write com.apple.category page -bool \\"true\\" 
+defaults write com.apple.category \\"page\\" -bool \\"true\\" 
 \`\`\`
 <img
   src=\\"./category-page-true.png\\"
@@ -41,7 +41,7 @@ defaults write com.apple.category page -bool \\"true\\"
 ## Set to \`false\`
 
 \`\`\`bash
-defaults write com.apple.category page -bool \\"false\\" 
+defaults write com.apple.category \\"page\\" -bool \\"false\\" 
 \`\`\`
 <img
   src=\\"./category-page-false.png\\"
@@ -51,12 +51,12 @@ defaults write com.apple.category page -bool \\"false\\"
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category page
+defaults read com.apple.category \\"page\\"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category page
+defaults delete com.apple.category \\"page\\"
 \`\`\`
 "
 `;
@@ -96,7 +96,7 @@ Page description.
 output when value is start
 
 \`\`\`bash
-defaults write com.apple.category page -string \\"start\\" 
+defaults write com.apple.category \\"page\\" -string \\"start\\" 
 \`\`\`
 
 ## Set to \`middle\` (default value)
@@ -104,7 +104,7 @@ defaults write com.apple.category page -string \\"start\\"
 output when value is middle
 
 \`\`\`bash
-defaults write com.apple.category page -string \\"middle\\" 
+defaults write com.apple.category \\"page\\" -string \\"middle\\" 
 \`\`\`
 
 ## Set to \`end\`
@@ -112,17 +112,17 @@ defaults write com.apple.category page -string \\"middle\\"
 output when value is end
 
 \`\`\`bash
-defaults write com.apple.category page -string \\"end\\" 
+defaults write com.apple.category \\"page\\" -string \\"end\\" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category page
+defaults read com.apple.category \\"page\\"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category page
+defaults delete com.apple.category \\"page\\"
 \`\`\`
 "
 `;
@@ -156,7 +156,7 @@ Page description.
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category page
+defaults read com.apple.category \\"page\\"
 \`\`\`
 
 ## Reset to default value
@@ -164,7 +164,7 @@ defaults read com.apple.category page
 This an alert message. <br> \`defaults command\`
 :::
 \`\`\`bash
-defaults delete com.apple.category page
+defaults delete com.apple.category \\"page\\"
 \`\`\`
 "
 `;
@@ -201,7 +201,7 @@ Page description.
 output when value is ~/Desktop
 
 \`\`\`bash
-defaults write com.apple.category page -string \\"~/Desktop\\" && killall App
+defaults write com.apple.category \\"page\\" -string \\"~/Desktop\\" && killall App
 \`\`\`
 
 ## Set to \`~/Pictures\`
@@ -209,17 +209,17 @@ defaults write com.apple.category page -string \\"~/Desktop\\" && killall App
 output when value is ~/Pictures
 
 \`\`\`bash
-defaults write com.apple.category page -string \\"~/Pictures\\" && killall App
+defaults write com.apple.category \\"page\\" -string \\"~/Pictures\\" && killall App
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category page
+defaults read com.apple.category \\"page\\"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category page && killall App
+defaults delete com.apple.category \\"page\\" && killall App
 \`\`\`
 "
 `;
@@ -260,7 +260,7 @@ Page description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category page -string \\"true\\" && killall App
+defaults write com.apple.category \\"page\\" -string \\"true\\" && killall App
 \`\`\`
 
 ## Set to \`false\`
@@ -268,77 +268,22 @@ defaults write com.apple.category page -string \\"true\\" && killall App
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category page -string \\"false\\" && killall App
+defaults write com.apple.category \\"page\\" -string \\"false\\" && killall App
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category page
+defaults read com.apple.category \\"page\\"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category page && killall App
+defaults delete com.apple.category \\"page\\" && killall App
 \`\`\`
 "
 `;
 
-exports[`write-pages one category, one page with text example with special chars values should write a category/page.md file using the page template 1`] = `
-"---
-metaTitle: Page | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
-  - property: \\"og:description\\"
-    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
----
-# Page
-
-This is a description of the page. It can contain \\"quotes\\" and markdown.
-
-- a list item
-
-<!-- break lists -->
-
-- **Tested on macOS**:
-  * Big Sur
-- **Parameter type**: bool
-
-## Set to \`~/Desktop\` (default value)
-
-output when value is ~/Desktop
-
-\`\`\`bash
-defaults write com.apple.category page -bool \\"~/Desktop\\" 
-\`\`\`
-
-## Set to \`~/Pictures\`
-
-output when value is ~/Pictures
-
-\`\`\`bash
-defaults write com.apple.category page -bool \\"~/Pictures\\" 
-\`\`\`
-
-## Read current value
-\`\`\`bash
-defaults read com.apple.category page
-\`\`\`
-
-## Reset to default value
-\`\`\`bash
-defaults delete com.apple.category page
-\`\`\`
-"
-`;
+exports[`write-pages one category, one page with text example with special chars values should write a category/page.md file using the page template 1`] = `undefined`;
 
 exports[`write-pages one category, one page with video example should write a category/page.md file using the page template 1`] = `
 "---
@@ -370,7 +315,7 @@ Page description.
 ## Set to \`0\` (default value)
 
 \`\`\`bash
-defaults write com.apple.category page -float \\"0\\" 
+defaults write com.apple.category \\"page\\" -float \\"0\\" 
 \`\`\`
 <video autoplay loop muted playsinline width=\\"750\\" height=\\"400\\" style=\\"max-width: 100%; height: auto\\">
   <source src=\\"./category-page-0.mp4\\" type=\\"video/mp4\\">
@@ -380,7 +325,7 @@ defaults write com.apple.category page -float \\"0\\"
 ## Set to \`0.5\`
 
 \`\`\`bash
-defaults write com.apple.category page -float \\"0.5\\" 
+defaults write com.apple.category \\"page\\" -float \\"0.5\\" 
 \`\`\`
 <video autoplay loop muted playsinline width=\\"720\\" height=\\"390\\" style=\\"max-width: 100%; height: auto\\">
   <source src=\\"./category-page-0.5.mp4\\" type=\\"video/mp4\\">
@@ -389,12 +334,12 @@ defaults write com.apple.category page -float \\"0.5\\"
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category page
+defaults read com.apple.category \\"page\\"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category page
+defaults delete com.apple.category \\"page\\"
 \`\`\`
 "
 `;
@@ -431,7 +376,7 @@ Page 1 description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category page1 -bool \\"true\\" 
+defaults write com.apple.category \\"page1\\" -bool \\"true\\" 
 \`\`\`
 
 ## Set to \`false\`
@@ -439,17 +384,17 @@ defaults write com.apple.category page1 -bool \\"true\\"
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category page1 -bool \\"false\\" 
+defaults write com.apple.category \\"page1\\" -bool \\"false\\" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category page1
+defaults read com.apple.category \\"page1\\"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category page1
+defaults delete com.apple.category \\"page1\\"
 \`\`\`
 "
 `;
@@ -486,7 +431,7 @@ Page 2 description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category page2 -bool \\"true\\" 
+defaults write com.apple.category \\"page2\\" -bool \\"true\\" 
 \`\`\`
 
 ## Set to \`false\` (default value)
@@ -494,17 +439,17 @@ defaults write com.apple.category page2 -bool \\"true\\"
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category page2 -bool \\"false\\" 
+defaults write com.apple.category \\"page2\\" -bool \\"false\\" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category page2
+defaults read com.apple.category \\"page2\\"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category page2
+defaults delete com.apple.category \\"page2\\"
 \`\`\`
 "
 `;
@@ -541,7 +486,7 @@ Page description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category1 page -bool \\"true\\" 
+defaults write com.apple.category1 \\"page\\" -bool \\"true\\" 
 \`\`\`
 
 ## Set to \`false\`
@@ -549,17 +494,17 @@ defaults write com.apple.category1 page -bool \\"true\\"
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category1 page -bool \\"false\\" 
+defaults write com.apple.category1 \\"page\\" -bool \\"false\\" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category1 page
+defaults read com.apple.category1 \\"page\\"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category1 page
+defaults delete com.apple.category1 \\"page\\"
 \`\`\`
 "
 `;
@@ -596,7 +541,7 @@ Page description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category2 page -bool \\"true\\" 
+defaults write com.apple.category2 \\"page\\" -bool \\"true\\" 
 \`\`\`
 
 ## Set to \`false\` (default value)
@@ -604,17 +549,17 @@ defaults write com.apple.category2 page -bool \\"true\\"
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category2 page -bool \\"false\\" 
+defaults write com.apple.category2 \\"page\\" -bool \\"false\\" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category2 page
+defaults read com.apple.category2 \\"page\\"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category2 page
+defaults delete com.apple.category2 \\"page\\"
 \`\`\`
 "
 `;
