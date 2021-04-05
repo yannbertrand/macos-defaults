@@ -309,6 +309,42 @@ categories:
           - value: 4
             text: Show the Desktop when the cursor is moved to the bottom right of your screen.
 
+  - folder: touch-bar
+    name: Touch bar
+    description: |
+      > A feature at the top of the keyboard on some Mac computers. You can use
+      > familiar gestures—like tap, swipe, or slide—directly on the Touch Bar to
+      > adjust settings and perform tasks.
+
+      > The Touch Bar across the top of the keyboard, showing the collapsed
+      > Control Strip on the right, and buttons that vary by app or task.
+      > By default, the Touch Bar shows the Control Strip, which you can use to
+      > adjust settings like brightness  and volume , and ask Siri . You can
+      > expand the Control Strip to access additional settings.
+
+      > Other buttons in the Touch Bar vary by app or task. For example, when you
+      > write an email in the Mail app, the Touch Bar shows buttons for formatting
+      > text.
+    keys:
+      - key: MiniCustomized
+        domain: com.apple.controlstrip
+        title: Set default buttons
+        description: |
+          Set the list of default buttons displayed in the control strip on the
+          right side of the Touch Bar.
+        param:
+          type: array
+        examples:
+          - text: |
+              Show a Brightness button, Volume button, Mute button, and Lock button.
+            value: |
+              <array>
+                <string>com.apple.system.brightness</string>
+                <string>com.apple.system.volume</string>
+                <string>com.apple.system.mute</string>
+                <string>com.apple.system.screen-lock</string>
+              </array>
+
   - folder: screenshots
     name: Screenshots
     description:
