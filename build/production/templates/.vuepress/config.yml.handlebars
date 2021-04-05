@@ -108,7 +108,7 @@ themeConfig:
           path: '{{ ../url }}{{ folder }}/'
           children:
         {{# keys }}
-            - '{{ ../../url }}{{ ../folder }}/{{ lowerCase key }}'
+            - '{{ ../../url }}{{ ../folder }}/{{ slugify key }}'
         {{/ keys}}
       {{/ defaults.categories }}
   {{/ languages }}
