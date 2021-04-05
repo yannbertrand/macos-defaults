@@ -722,6 +722,158 @@ categories:
         versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
 
+  - folder: contacts
+    name: Contacts
+    description: |
+      Contacts, formerly known as Address Book, is the default contacts management application.
+    keys:
+      - key: ABBirthDayVisible
+        domain: com.apple.AddressBook
+        title: Show date of birth
+        param:
+          type: bool
+        examples:
+          - value: true
+      - key: ABDefaultAddressCountryCode
+        domain: com.apple.AddressBook
+        title: Default address country code
+        description: |
+          Sets the default formatting for addresses. Corresponds with the "Address Format" preference.
+        param:
+          type: string
+        examples:
+          - value: us
+            text: Use the United States address format by default.
+      - key: ABInitialLabelsAddress
+        domain: com.apple.AddressBook
+        title: Default address labels
+        description: |
+          A list of localization keys for the default labels of addresses in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: array
+        examples:
+          - value: |
+              <array>
+                <string>_$!&lt;Home&gt;!$_</string>
+              </array>
+            title: "home"
+            default: true
+      - key: ABInitialLabelsEmail
+        domain: com.apple.AddressBook
+        title: Default email labels
+        description: |
+          A list of localization keys for the default labels of emails in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: array
+        examples:
+          - value: |
+              <array>
+                <string>_$!&lt;Home&gt;!$_</string>
+              </array>
+            title: "home"
+            default: true
+      - key: ABInitialLabelsPhone
+        domain: com.apple.AddressBook
+        title: Default phone labels
+        description: |
+          A list of localization keys for the default labels of phone numbers in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: array
+        examples:
+          - value: |
+              <array>
+                <string>_$!&lt;Mobile&gt;!$_</string>
+              </array>
+            title: "mobile"
+            default: true
+      - key: ABInitialLabelsURLs
+        domain: com.apple.AddressBook
+        title: Default website labels
+        description: |
+          A list of localization keys for the default labels of websites in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: array
+        examples:
+          - value: |
+              <array>
+                <string>_$!&lt;HomePage&gt;!$_</string>
+              </array>
+            title: "home page"
+            default: true
+      - key: ABInstantMessagesVisible
+        domain: com.apple.AddressBook
+        title: Show instant message handle in template
+        description: |
+          Show or hide the instant message handle field in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+      - key: ABNameSortingFormat
+        domain: com.apple.AddressBook
+        title: Sort by
+        description: |
+          Specifies the form of a contact's name to sort by.
+
+          Corresponds with the "Sort By" preference.
+        param:
+          type: string
+          values:
+            - sortingLastName sortingFirstName
+            - sortingFirstName sortingLastName
+        examples:
+          - value: sortingLastName sortingFirstName
+            text: Sort by last name
+
+  - folder: Calendar
+    name: Calendar
+    description: |
+      Calendar.app is the default application for scheduling and managing events
+      on macOS.
+    keys:
+      - key: '"first day of the week"'
+        domain: com.apple.iCal
+        title: Start week on
+        description: |
+          Specify the day a calendar week starts on. Corresponds with the "Start week on" preference.
+
+          | Value | Day |
+          | --- | --- |
+          | 0 | Sunday |
+          | 1 | Monday |
+          | 2 | Tuesday |
+          | 3 | Wednesday |
+          | 4 | Thursday |
+          | 5 | Friday |
+          | 6 | Saturday |
+        param:
+          type: int
+        examples:
+          - value: 1
+            text: Set the first day of the week to Monday
+      - key: '"number of hours displayed"'
+        domain: com.apple.iCal
+        title: Show a number of hours at a time
+        description: |
+          This specifies the number of hours shown at a time vertically when in Day or Week view.
+          Corresponds with the "Show X hours at a time" preference.
+        param:
+          type: int
+        examples:
+          - value: 7
+            text: Show 7 hours at a time
+
   - folder: feedback-assistant
     name: Feedback Assistant
     description:

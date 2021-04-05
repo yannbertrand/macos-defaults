@@ -64,7 +64,9 @@
                     "values": {
                       "type": "array"
                     }
-                  }
+                  },
+                  "required": ["type"],
+                  "additionalProperties": false
                 },
                 "examples": {
                   "type": "array",
