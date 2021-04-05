@@ -1065,6 +1065,55 @@ categories:
               When a new disk is connected, system does not prompt to ask if you want to use it as a backup volume.
         versions: [Catalina]
 
+  - folder: default-browser-app
+    name: DefaultBrowser.app
+    description: |
+      Settings for the [Default Browser](https://defaultbrowser.app) macOS app.
+    keys:
+      - key: BrowserBlocklist
+        domain: com.camlittle.DefaultBrowser
+        title: Browser Blocklist
+        description: |
+          A custom list of browsers to never open by default when handling links and web pages. Each browser is specified
+          by it's bundle ID, which is also it's default domain.
+        param:
+          type: array
+        examples:
+          - title: Set a custom list of browsers
+            value: |
+              <array>
+                <string>org.mozilla.firefox</string>
+                <string>com.google.Chrome.canary</string>
+                <string>com.operasoftware.Opera</string>
+                <string>com.vivaldi.Vivaldi</string>
+              </array>
+      - key: DetailedAppNames
+        domain: com.camlittle.DefaultBrowser
+        title: Show detailed app names
+        description: |
+          Shows extended app names and their versions.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+      - key: OpenWindowOnLaunch
+        domain: com.camlittle.DefaultBrowser
+        title: Open the main app window on launch.
+        param:
+          type: bool
+        examples:
+          - value: false
+      - key: PrimaryBrowser
+        domain: com.camlittle.DefaultBrowser
+        title: Primary browser
+        description: |
+          Specify the browser used as default if no current browsers are open.
+        param:
+          type: string
+        examples:
+          - value: com.apple.Safari
+
   - folder: misc
     name: Miscellaneous
     description: All the others `defaults` that don't deserve their own category.
