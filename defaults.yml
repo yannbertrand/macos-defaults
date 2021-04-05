@@ -1023,6 +1023,24 @@ categories:
               height: 451
         versions: [Big Sur]
         after: killall TextEdit
+      - key: PlainTextEncoding
+        domain: com.apple.TextEdit
+        title: Default encoding format for new files
+        param:
+          type: int
+        examples:
+          - value: 4
+            text: Open new files as UTF-8
+        after: killall TextEdit
+      - key: PlainTextEncodingForWrite
+        domain: com.apple.TextEdit
+        title: Default encoding format to save files in
+        param:
+          type: int
+        examples:
+          - value: 4
+            text: Save new files as UTF-8
+        after: killall TextEdit
 
   - folder: timemachine
     name: Time Machine
