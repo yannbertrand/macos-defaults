@@ -46,7 +46,7 @@ meta:
 {{/ if}}
 
 ```bash
-defaults write {{ ../domain }} {{ ../key }} -{{# if command }}{{ command }}{{ else }}{{ ../param.type }}{{/ if }} {{# each value }}{{{ shellescape this }}} {{/ each }}{{# if ../after }}&& {{ ../after }}{{/ if }}
+defaults write {{ ../domain }} {{{ shellescape ../key }}} -{{# if command }}{{ command }}{{ else }}{{ ../param.type }}{{/ if }} {{# each value }}{{{ shellescape this }}} {{/ each }}{{# if ../after }}&& {{ ../after }}{{/ if }}
 ```
 {{# video }}
 <video autoplay loop muted playsinline width="{{ width }}" height="{{ height }}" style="max-width: 100%; height: auto">
@@ -65,7 +65,7 @@ defaults write {{ ../domain }} {{ ../key }} -{{# if command }}{{ command }}{{ el
 {{/ examples }}
 ## Lire la valeur courante
 ```bash
-defaults read {{ domain }} {{ key }}
+defaults read {{ domain }} {{{ shellescape key }}}
 ```
 
 ## Remettre la valeur à l'état initial
@@ -75,5 +75,5 @@ defaults read {{ domain }} {{ key }}
 :::
 {{/ if }}
 ```bash
-defaults delete {{ domain }} {{ key }}{{# if after }} && {{ after }}{{/ if }}
+defaults delete {{ domain }} {{{ shellescape key }}}{{# if after }} && {{ after }}{{/ if }}
 ```

@@ -69,7 +69,7 @@ defaults rename ${domain} ${old_key} ${new_key}
 {{# categories }}
 ### {{ name }}
 {{# keys }}
-- [{{ title }}](./{{ ../folder }}/{{ lowerCase key }}.html)
+- [{{ title }}](./{{ ../folder }}/{{ slugify key }}.html)
 {{/ keys}}
 
 {{/ categories }}

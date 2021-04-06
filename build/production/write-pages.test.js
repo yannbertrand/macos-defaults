@@ -14,7 +14,7 @@ describe('write-pages', () => {
 
   describe('one category, one page', () => {
     describe('with text example', () => {
-      describe('with special chars values', () => {
+      describe('with special chars key and values', () => {
         beforeEach(() =>
           callWritePages({
             categories: [
@@ -24,7 +24,7 @@ describe('write-pages', () => {
                 description: 'This is a description of the category. It can contain "quotes" and markdown.\n\n- a list item',
                 keys: [
                   {
-                    key: 'page',
+                    key: 'a page',
                     domain: 'com.apple.category',
                     title: 'Page',
                     description: 'This is a description of the page. It can contain "quotes" and markdown.\n\n- a list item',
@@ -48,9 +48,9 @@ describe('write-pages', () => {
           })
         )
 
-        it('should write a category/page.md file using the page template', () => {
+        it('should write a category/a-page.md file using the page template', () => {
           const pageReadmeContent = readFile(
-            `${destinationPath}/category/page.md`
+            `${destinationPath}/category/a-page.md`
           )
           expect(pageReadmeContent).toMatchSnapshot()
         })

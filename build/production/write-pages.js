@@ -1,5 +1,6 @@
 const fs = require('fs')
 const Handlebars = require('handlebars')
+const slugify = require('slugify')
 
 module.exports = ({ defaults, url }, templatesPath, destinationPath) => {
   if (defaults.categories !== null) {
@@ -30,7 +31,7 @@ module.exports = ({ defaults, url }, templatesPath, destinationPath) => {
           url,
         })
         fs.writeFileSync(
-          `${destinationPath}/${folder}/${page.key.toLowerCase()}.md`,
+          `${destinationPath}/${folder}/${slugify(page.key)}.md`,
           pageReadmeContent
         )
 
