@@ -2,6 +2,7 @@ const fs = require('fs')
 jest.mock('fs')
 
 const writeHomepage = require('./write-homepage')
+require('./handlebars-helpers')
 
 const templatesPath = 'templates'
 const destinationPath = 'dist'

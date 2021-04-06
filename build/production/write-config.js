@@ -1,10 +1,6 @@
 const fs = require('fs')
 const Handlebars = require('handlebars')
 
-Handlebars.registerHelper('lowerCase', (string) => {
-  return string.toLowerCase()
-})
-
 module.exports = (supportedLanguages, templatesPath, destinationPath) => {
   fs.mkdirSync(`${destinationPath}/.vuepress`)
   fs.mkdirSync(`${destinationPath}/.vuepress/public`)
