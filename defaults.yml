@@ -194,6 +194,161 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+      - key: showhidden
+        domain: com.apple.dock
+        title: Hidden app dock style
+        description: Make Dock icons of hidden applications translucent
+        param:
+          type: bool
+        examples:
+          - value: true
+            image:
+              filename: true.png
+              width: 296
+              height: 172
+          - value: false
+            image:
+              filename: false.png
+              width: 296
+              height: 172
+        versions: [Big Sur]
+        after: killall Dock
+      - key: wvous-tl-corner
+        domain: com.apple.dock
+        title: Top left hot corner
+        description: |
+          Configure a [hot corner](https://support.apple.com/guide/mac-help/use-hot-corners-mchlp3000/mac)
+          in the top left of your screen.
+
+          | Value | Action |
+          | --- | --- |
+          | 0 | no-op |
+          | 2 | Mission Control |
+          | 3 | Show application windows |
+          | 4 | Desktop |
+          | 5 | Start screen saver |
+          | 6 | Disable screen saver |
+          | 7 | Dashboard |
+          | 10 | Put display to sleep |
+          | 11 | Launchpad |
+          | 12 | Notification Center |
+        param:
+          type: int
+        examples:
+          - value: 10
+            title: Sleep
+            text: Sleep the display when the cursor is moved to the top left of your screen.
+      - key: wvous-tr-corner
+        domain: com.apple.dock
+        title: Top right hot corner
+        description: |
+          Configure a [hot corner](https://support.apple.com/guide/mac-help/use-hot-corners-mchlp3000/mac)
+          in the top right of your screen.
+
+          | Value | Action |
+          | --- | --- |
+          | 0 | no-op |
+          | 2 | Mission Control |
+          | 3 | Show application windows |
+          | 4 | Desktop |
+          | 5 | Start screen saver |
+          | 6 | Disable screen saver |
+          | 7 | Dashboard |
+          | 10 | Put display to sleep |
+          | 11 | Launchpad |
+          | 12 | Notification Center |
+        param:
+          type: int
+        examples:
+          - value: 12
+            title: Open notification center
+            text: Show the notification center when the cursor is moved to the top right of your screen.
+      - key: wvous-bl-corner
+        domain: com.apple.dock
+        title: Bottom left hot corner
+        description: |
+          Configure a [hot corner](https://support.apple.com/guide/mac-help/use-hot-corners-mchlp3000/mac)
+          in the bottom left of your screen.
+
+          | Value | Action |
+          | --- | --- |
+          | 0 | no-op |
+          | 2 | Mission Control |
+          | 3 | Show application windows |
+          | 4 | Desktop |
+          | 5 | Start screen saver |
+          | 6 | Disable screen saver |
+          | 7 | Dashboard |
+          | 10 | Put display to sleep |
+          | 11 | Launchpad |
+          | 12 | Notification Center |
+        param:
+          type: int
+        examples:
+          - value: 11
+            title: Open Launchpad
+            text: Show Launchpad when the cursor is moved to the bottom left of your screen.
+      - key: wvous-br-corner
+        domain: com.apple.dock
+        title: Bottom right hot corner
+        description: |
+          Configure a [hot corner](https://support.apple.com/guide/mac-help/use-hot-corners-mchlp3000/mac)
+          in the bottom right of your screen.
+
+          | Value | Action |
+          | --- | --- |
+          | 0 | no-op |
+          | 2 | Mission Control |
+          | 3 | Show application windows |
+          | 4 | Desktop |
+          | 5 | Start screen saver |
+          | 6 | Disable screen saver |
+          | 7 | Dashboard |
+          | 10 | Put display to sleep |
+          | 11 | Launchpad |
+          | 12 | Notification Center |
+        param:
+          type: int
+        examples:
+          - value: 4
+            title: Show the desktop
+            text: Show the Desktop when the cursor is moved to the bottom right of your screen.
+
+  - folder: touch-bar
+    name: Touch bar
+    description: |
+      > A feature at the top of the keyboard on some Mac computers. You can use
+      > familiar gestures—like tap, swipe, or slide—directly on the Touch Bar to
+      > adjust settings and perform tasks.
+
+      > The Touch Bar across the top of the keyboard, showing the collapsed
+      > Control Strip on the right, and buttons that vary by app or task.
+      > By default, the Touch Bar shows the Control Strip, which you can use to
+      > adjust settings like brightness  and volume , and ask Siri . You can
+      > expand the Control Strip to access additional settings.
+
+      > Other buttons in the Touch Bar vary by app or task. For example, when you
+      > write an email in the Mail app, the Touch Bar shows buttons for formatting
+      > text.
+    keys:
+      - key: MiniCustomized
+        domain: com.apple.controlstrip
+        title: Set default buttons
+        description: |
+          Set the list of default buttons displayed in the control strip on the
+          right side of the Touch Bar.
+        param:
+          type: array
+        examples:
+          - text: |
+              Show a Brightness button, Volume button, Mute button, and Lock button.
+            value: |
+              <array>
+                <string>com.apple.system.brightness</string>
+                <string>com.apple.system.volume</string>
+                <string>com.apple.system.mute</string>
+                <string>com.apple.system.screen-lock</string>
+              </array>
 
   - folder: screenshots
     name: Screenshots
@@ -434,6 +589,96 @@ categories:
             text: Large
         versions: [Big Sur, Catalina]
         after: killall Finder
+      - key: ShowExternalHardDrivesOnDesktop
+        domain: com.apple.Finder
+        title: Show external hard drives on Desktop
+        description: ""
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: ShowRemovableMediaOnDesktop
+        domain: com.apple.Finder
+        title: Show removable media on Desktop
+        description:
+          Enabling this will show things like installation disks and flash drives on the desktop.
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: ShowPathbar
+        domain: com.apple.Finder
+        title: Show path bar
+        description: |
+          Enabling this will show a path bar displaying the current location in
+          Finder at the bottom of the window.
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: ShowStatusBar
+        domain: com.apple.Finder
+        title: Show status bar
+        description: |
+          Enabling this will show a status bar displaying a count of items,
+          readonly status, and free disk space within Finder at the bottom
+          of the window.
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: QLEnableTextSelection
+        domain: com.apple.Finder
+        title: Text selection in Quick Look
+        description: |
+          Enabling this will allow selecting text when viewing a preview with [Quick
+          Look](https://support.apple.com/guide/mac-help/preview-files-with-quick-look-mh14119/mac).
+        param:
+          type: bool
+        examples:
+          - value: true
+        after: killall Finder
+      - key: FXDefaultSearchScope
+        domain: com.apple.Finder
+        title: Default search scope
+        description: |
+          Sets the default place to search.
+        param:
+          type: string
+        examples:
+          - value: SCcf
+            text: Search within the current folder by default.
+        after: killall Finder
+      - key: OpenWindowForNewRemovableDisk
+        domain: com.apple.Finder
+        title: Open new window when a volume is mounted
+        description: |
+          Automatically open a new Finder window when a volume is mounted.
+        param:
+          type: bool
+        examples:
+          - value: bool
+      - key: FXPreferredViewStyle
+        domain: com.apple.Finder
+        title: Preferred view style
+        description: |
+          Configures the default view style for Finder windows.
+
+          | Code | Mode |
+          | --- | --- |
+          | `Nlsv` | List View |
+          | `icnv` | Icon View |
+          | `clmv` | Column View |
+          | `Flwv` | Gallery View |
+        param:
+          type: string
+        examples:
+          - value: clmv
+            text: Use column view in Finder windows by default
 
   - folder: menubar
     name: Menu Bar
@@ -523,6 +768,159 @@ categories:
             text: Keep the Spaces arrangement
         versions: [Big Sur, Catalina, Mojave]
         after: killall Dock
+
+  - folder: contacts
+    name: Contacts
+    description: |
+      Contacts, formerly known as Address Book, is the default contacts management application.
+    keys:
+      - key: ABBirthDayVisible
+        domain: com.apple.AddressBook
+        title: Show date of birth
+        description: ""
+        param:
+          type: bool
+        examples:
+          - value: true
+      - key: ABDefaultAddressCountryCode
+        domain: com.apple.AddressBook
+        title: Default address country code
+        description: |
+          Sets the default formatting for addresses. Corresponds with the "Address Format" preference.
+        param:
+          type: string
+        examples:
+          - value: us
+            text: Use the United States address format by default.
+      - key: ABInitialLabelsAddress
+        domain: com.apple.AddressBook
+        title: Default address labels
+        description: |
+          A list of localization keys for the default labels of addresses in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: array
+        examples:
+          - value: |
+              <array>
+                <string>_$!&lt;Home&gt;!$_</string>
+              </array>
+            title: "home"
+            default: true
+      - key: ABInitialLabelsEmail
+        domain: com.apple.AddressBook
+        title: Default email labels
+        description: |
+          A list of localization keys for the default labels of emails in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: array
+        examples:
+          - value: |
+              <array>
+                <string>_$!&lt;Home&gt;!$_</string>
+              </array>
+            title: "home"
+            default: true
+      - key: ABInitialLabelsPhone
+        domain: com.apple.AddressBook
+        title: Default phone labels
+        description: |
+          A list of localization keys for the default labels of phone numbers in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: array
+        examples:
+          - value: |
+              <array>
+                <string>_$!&lt;Mobile&gt;!$_</string>
+              </array>
+            title: "mobile"
+            default: true
+      - key: ABInitialLabelsURLs
+        domain: com.apple.AddressBook
+        title: Default website labels
+        description: |
+          A list of localization keys for the default labels of websites in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: array
+        examples:
+          - value: |
+              <array>
+                <string>_$!&lt;HomePage&gt;!$_</string>
+              </array>
+            title: "home page"
+            default: true
+      - key: ABInstantMessagesVisible
+        domain: com.apple.AddressBook
+        title: Show instant message handle in template
+        description: |
+          Show or hide the instant message handle field in the new contact form.
+
+          Corresponds with the "Template" section of Contacts preferences.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+      - key: ABNameSortingFormat
+        domain: com.apple.AddressBook
+        title: Sort by
+        description: |
+          Specifies the form of a contact's name to sort by.
+
+          Corresponds with the "Sort By" preference.
+        param:
+          type: string
+          values:
+            - sortingLastName sortingFirstName
+            - sortingFirstName sortingLastName
+        examples:
+          - value: sortingLastName sortingFirstName
+            title: Sort by last name
+
+  - folder: Calendar
+    name: Calendar
+    description: |
+      Calendar.app is the default application for scheduling and managing events
+      on macOS.
+    keys:
+      - key: first day of the week
+        domain: com.apple.iCal
+        title: Start week on
+        description: |
+          Specify the day a calendar week starts on. Corresponds with the "Start week on" preference.
+
+          | Value | Day |
+          | --- | --- |
+          | 0 | Sunday |
+          | 1 | Monday |
+          | 2 | Tuesday |
+          | 3 | Wednesday |
+          | 4 | Thursday |
+          | 5 | Friday |
+          | 6 | Saturday |
+        param:
+          type: int
+        examples:
+          - value: 1
+            text: Set the first day of the week to Monday
+      - key: number of hours displayed
+        domain: com.apple.iCal
+        title: Show a number of hours at a time
+        description: |
+          This specifies the number of hours shown at a time vertically when in Day or Week view.
+          Corresponds with the "Show X hours at a time" preference.
+        param:
+          type: int
+        examples:
+          - value: 7
+            text: Show 7 hours at a time
 
   - folder: feedback-assistant
     name: Feedback Assistant
@@ -639,6 +1037,28 @@ categories:
               height: 451
         versions: [Big Sur]
         after: killall TextEdit
+      - key: PlainTextEncoding
+        domain: com.apple.TextEdit
+        title: Default encoding format for new files
+        description: ""
+        param:
+          type: int
+        examples:
+          - value: 4
+            title: UTF-8
+            text: Open new files as UTF-8
+        after: killall TextEdit
+      - key: PlainTextEncodingForWrite
+        domain: com.apple.TextEdit
+        title: Default encoding format to save files in
+        description: ""
+        param:
+          type: int
+        examples:
+          - value: 4
+            title: UTF-8
+            text: Save new files as UTF-8
+        after: killall TextEdit
 
   - folder: timemachine
     name: Time Machine
@@ -662,6 +1082,56 @@ categories:
             text:
               When a new disk is connected, system does not prompt to ask if you want to use it as a backup volume.
         versions: [Catalina]
+
+  - folder: default-browser-app
+    name: DefaultBrowser.app
+    description: |
+      Settings for the [Default Browser](https://defaultbrowser.app) macOS app.
+    keys:
+      - key: BrowserBlocklist
+        domain: com.camlittle.DefaultBrowser
+        title: Browser Blocklist
+        description: |
+          A custom list of browsers to never open by default when handling links and web pages. Each browser is specified
+          by it's bundle ID, which is also it's default domain.
+        param:
+          type: array
+        examples:
+          - title: Set a custom list of browsers
+            value: |
+              <array>
+                <string>org.mozilla.firefox</string>
+                <string>com.google.Chrome.canary</string>
+                <string>com.operasoftware.Opera</string>
+                <string>com.vivaldi.Vivaldi</string>
+              </array>
+      - key: DetailedAppNames
+        domain: com.camlittle.DefaultBrowser
+        title: Show detailed app names
+        description: |
+          Shows extended app names and their versions.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+      - key: OpenWindowOnLaunch
+        domain: com.camlittle.DefaultBrowser
+        title: Open the main app window on launch.
+        description: ""
+        param:
+          type: bool
+        examples:
+          - value: false
+      - key: PrimaryBrowser
+        domain: com.camlittle.DefaultBrowser
+        title: Primary browser
+        description: |
+          Specify the browser used as default if no current browsers are open.
+        param:
+          type: string
+        examples:
+          - value: com.apple.Safari
 
   - folder: misc
     name: Miscellaneous
@@ -728,3 +1198,142 @@ categories:
           - value: false
             text: '"Application Downloaded from Internet" popup will not display'
         versions: [Catalina]
+      - key: NSNavPanelExpandedStateForSaveMode
+        domain: NSGlobalDomain
+        title: Expand save panel
+        description: |
+          Expand the macOS save panel by default.
+        param:
+          type: bool
+        examples:
+          - value: true
+      - key: PMPrintingExpandedStateForPrint
+        domain: NSGlobalDomain
+        title: Expand print panel
+        description: |
+          Expand the system print panel by default.
+        param:
+          type: bool
+        examples:
+          - value: true
+      - key: NSAutomaticPeriodSubstitutionEnabled
+        domain: NSGlobalDomain
+        title: Automatic period substitution
+        description: |
+          Enable automatic period substitution after typing two spaces.
+        param:
+          type: bool
+        examples:
+          - value: true
+      - key: ApplePressAndHoldEnabled
+        domain: NSGlobalDomain
+        title: Press-and-hold for special characters
+        description: |
+          Enable press-and-hold to type special characters.
+        param:
+          type: bool
+        examples:
+          - value: true
+      - key: AppleScrollerPagingBehavior
+        domain: NSGlobalDomain
+        title: Scroll bar behavior
+        description: |
+          Configure behavior when clicking the scrollbar. (System Preferences > General > Click in the scroll bar to:)
+        param:
+          type: int
+        examples:
+          - text: Jump to the next page
+            value: 0
+          - text: Jump to the spot that's clicked in scroll bar.
+            value: 1
+      - key: AppleLanguages
+        domain: NSGlobalDomain
+        title: Languages
+        description: |
+          A list of keyboard locales to enable.
+        param:
+          type: array
+        examples:
+          - title: English/Polish
+            text: Enable American English and Polish Programmer keyboards
+            value: |
+              <array>
+                <string>en-US</string>
+                <string>pl-US</string>
+              </array>
+      - key: AppleICUForce24HourTime
+        domain: NSGlobalDomain
+        title: 24-hour time
+        description: |
+          Force macOS to display 24-hour time globally
+        param:
+          type: bool
+        examples:
+          - value: true
+      - key: AppleLocale
+        domain: NSGlobalDomain
+        title: Locale
+        description: |
+          System wide locale for number and currency formatting.
+        param:
+          type: string
+        examples:
+          - text: American English and USD
+            value: en_US@currency=USD
+      - key: AppleMeasurementUnits
+        domain: NSGlobalDomain
+        title: Measurement unit
+        description: |
+          System wide default unit for displaying measurements.
+        param:
+          type: string
+        examples:
+          - value: Centimeters
+      - key: AppleMetricUnits
+        domain: NSGlobalDomain
+        title: Force metric units
+        description: ""
+        param:
+          type: bool
+        examples:
+          - value: true
+      - key: AppleTemperatureUnit
+        domain: NSGlobalDomain
+        title: Temperature unit
+        description: |
+          System wide default unit for displaying temperature.
+        param:
+          type: string
+        examples:
+          - value: Celsius
+      - key: AppleICUDateFormatStrings
+        domain: NSGlobalDomain
+        title: System date formats
+        description: |
+          System wide default date formats as configured in System Preferences > Language & Region > Advanced... > Dates.
+
+          Keys are a "type" of format, values are Apple date formatter strings. See Apple's [Date Formatting
+          Guide](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/DataFormatting/Articles/dfDateFormatting10_4.html#//apple_ref/doc/uid/TP40002369-SW1)
+          for more details on the structure and where these settings are used.
+
+          | Key | Format description |
+          | --- | --- |
+          | 1 | Short |
+          | 2 | Medium |
+          | 3 | Long |
+          | 4 | Full |
+        param:
+          type: dict
+        examples:
+          - title: Set custom date formats
+            value: |
+              <dict>
+                <key>1</key>
+                <string>y-MM-dd</string>
+                <key>2</key>
+                <string>y MMM d</string>
+                <key>3</key>
+                <string>y MMMM d</string>
+                <key>4</key>
+                <string>EEEE, d MMMM y</string>
+              </dict>
