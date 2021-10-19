@@ -18,7 +18,7 @@
   "dependencies": {
     "aperture": "5.2.0",
     "delay": "5.0.0",
-    "glob": "7.1.7",
+    "glob": "7.2.0",
     "glob-promise": "4.2.1",
     "jimp": "0.16.1",
     "mkdirp": "1.0.4",
@@ -26,6 +26,6 @@
     "prettier": "2.2.1",
     "prompt-confirm": "2.0.4",
     "robotjs": "0.6.0",
-    "sharp": "0.28.1"
+    "sharp": "0.28.3"
   }
 }
