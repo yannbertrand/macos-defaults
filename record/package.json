@@ -19,7 +19,7 @@
     "aperture": "5.2.0",
     "delay": "5.0.0",
     "glob": "7.1.7",
-    "glob-promise": "4.1.0",
+    "glob-promise": "4.2.1",
     "jimp": "0.16.1",
     "mkdirp": "1.0.4",
     "node-pngquant-native": "2.2.0",
