@@ -21,14 +21,14 @@ jobs:
       uses: actions/checkout@master
 
     - name: Lint defaults.yml
-      uses: ibiqlik/action-yamllint@v3.0.0
+      uses: ibiqlik/action-yamllint@v3.1.0
       with:
         file_or_dir: defaults.yml
         config_file: .github/workflows/config/yml-lint.yml
         strict: true
 
     - name: Lint defaults-fr.yml
-      uses: ibiqlik/action-yamllint@v3.0.0
+      uses: ibiqlik/action-yamllint@v3.1.0
       with:
         file_or_dir: defaults-fr.yml
         config_file: .github/workflows/config/yml-lint.yml
