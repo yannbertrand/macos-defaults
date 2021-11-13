@@ -194,6 +194,19 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+      - key: static-only
+        domain: com.apple.dock
+        title: Active applications only
+        description: Only show opened apps in Dock.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Only show active apps
+          - value: false
+            default: true
+            text: Hide inactive apps from the Dock
+        after: killall Dock
 
   - folder: screenshots
     name: Screenshots
