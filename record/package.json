@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "aperture": "5.2.0",
+    "aperture": "6.1.1",
     "delay": "5.0.0",
     "glob": "7.2.0",
     "glob-promise": "4.2.2",
@@ -26,6 +26,6 @@
     "prettier": "2.5.1",
     "prompt-confirm": "2.0.4",
     "robotjs": "0.6.0",
-    "sharp": "0.28.3"
+    "sharp": "0.29.3"
   }
 }
