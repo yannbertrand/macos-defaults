@@ -8,15 +8,12 @@ module.exports = {
     try {
       const runner = new MacRunner()
       await runner
-        .setDefault(
-          'com.apple.dock',
-          'orientation',
-          '-string bottom', 'bottom',
-          'killall Dock'
-        )
+        .setDefault('com.apple.dock', 'orientation', '-string bottom', 'bottom')
+        .killApp('Dock')
         .wait(1000)
         .captureScreen(`${outputPath}/bottom-tmp.png`)
-        .deleteDefault('com.apple.dock', 'orientation', 'killall Dock')
+        .deleteDefault('com.apple.dock', 'orientation')
+        .killApp('Dock')
         .run()
     } catch (runnerError) {
       logRollbackInfo()

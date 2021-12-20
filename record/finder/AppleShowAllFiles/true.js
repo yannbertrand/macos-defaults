@@ -8,19 +8,12 @@ module.exports = {
     try {
       const runner = new MacRunner()
       await runner
-        .setDefault(
-          'com.apple.Finder',
-          'AppleShowAllFiles',
-          '-bool true', '1',
-          'killall -SIGKILL Finder'
-        )
+        .setDefault('com.apple.Finder', 'AppleShowAllFiles', '-bool true', '1')
+        .killApp('Finder')
         .openApp('Finder', '~')
         .captureApp('Finder', `${outputPath}/true.png`)
-        .deleteDefault(
-          'com.apple.Finder',
-          'AppleShowAllFiles',
-          'killall -SIGKILL Finder'
-        )
+        .deleteDefault('com.apple.Finder', 'AppleShowAllFiles')
+        .killApp('Finder')
         .run()
     } catch (runnerError) {
       logRollbackInfo()

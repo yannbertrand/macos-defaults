@@ -8,29 +8,21 @@ module.exports = {
     console.log('> Recording TextEdit opens rich text files to true')
 
     try {
-      const fileName = '/tmp/lorem.txt';
+      const fileName = '/tmp/lorem.txt'
       await manageFile(fileName, true)
-      await addContentToFile(fileName, "")
+      await addContentToFile(fileName, '')
 
       const runner = new MacRunner()
       await runner
-        .setDefault(
-          'com.apple.TextEdit',
-          'RichText',
-          '-bool false', '0',
-          ''
-        )
+        .setDefault('com.apple.TextEdit', 'RichText', '-bool false', '0')
         .openApp('TextEdit', fileName)
         .moveAndResizeApp('TextEdit', 0, 0, 744, 451)
         .captureApp('TextEdit', `${outputPath}/false.png`)
-        .deleteDefault(
-          'com.apple.TextEdit',
-          'RichText',
-          'killall -SIGKILL TextEdit'
-        )
+        .deleteDefault('com.apple.TextEdit', 'RichText')
+        .killApp('TextEdit')
         .run()
 
-        await manageFile(fileName, false);
+      await manageFile(fileName, false)
     } catch (runnerError) {
       throw new Error(runnerError)
     }
@@ -42,7 +34,7 @@ module.exports = {
     }
 
     return { filepath: `${outputPath}/false` }
-  }
+  },
 }
 
 async function manageFile(filename, create) {
@@ -51,9 +43,7 @@ async function manageFile(filename, create) {
     `${create ? 'touch' : 'rm -f'} ${filename}`
   )
   if (mngFile) {
-    console.error(
-      'An error occured while working with a file'
-    )
+    console.error('An error occured while working with a file')
     throw new Error(mngFile)
   }
 }
@@ -66,9 +56,7 @@ ${content}
 EOF`
   )
   if (mngFile) {
-    console.error(
-      'An error occured while working with a file'
-    )
+    console.error('An error occured while working with a file')
     throw new Error(mngFile)
   }
 }

@@ -15,9 +15,8 @@ class MacRunner {
    * @param {*} key Default key
    * @param {*} params Values for the default
    * @param {*} expectedResult Expected defaults read result
-   * @param {*} after Action to perform after setting the default (ex: killall Finder)
    */
-  setDefault(domain, key, params, expectedResult, after) {
+  setDefault(domain, key, params, expectedResult) {
     return this.register(async () => {
       const defaultCommand = `defaults write ${domain} ${key} ${params}`
 
@@ -37,8 +36,6 @@ class MacRunner {
           throw new Error(`[${defaultCommand}] failed (too much trials)`)
         }
       }
-
-      if (after) await execCommand(after)
     })
   }
 
@@ -58,13 +55,11 @@ class MacRunner {
    * Delete MacOS defaults system
    * @param {*} domain Application domain
    * @param {*} key Default key
-   * @param {*} after Action to perform after setting the default (ex: killall Dock)
    */
-  deleteDefault(domain, key, after) {
+  deleteDefault(domain, key) {
     return this.register(async () => {
       const defaultCommand = `defaults delete ${domain} ${key}`
       await execCommand(defaultCommand)
-      if (after) await execCommand(after)
     })
   }
 
@@ -85,6 +80,14 @@ class MacRunner {
     return this.register(() =>
       execCommand(`osascript -e 'tell application "${appName}" to activate'`)
     )
+  }
+
+  /**
+   * Kill an application from it's name
+   * @param {*} appName Application name
+   */
+  killApp(appName) {
+    return this.register(() => execCommand(`killall ${appName}`))
   }
 
   /**

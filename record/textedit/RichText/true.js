@@ -8,29 +8,24 @@ module.exports = {
     console.log('> Recording TextEdit opens rich text files to true')
 
     try {
-      const filename = '/tmp/lorem.rtf';
+      const filename = '/tmp/lorem.rtf'
       await manageFile(filename, true)
-      await addContentToFile(filename, "{\\rtf1\\ansi\\ansicpg1252\\cocoartf2577\\cocoatextscaling0\\cocoaplatform0{\\fonttbl}{\\colortbl;\\red255\\green255\\blue255;}{\\*\\expandedcolortbl;;}\\paperw11900\\paperh16840\\margl1440\\margr1440\\vieww11520\\viewh8400\\viewkind0}")
+      await addContentToFile(
+        filename,
+        '{\\rtf1\\ansi\\ansicpg1252\\cocoartf2577\\cocoatextscaling0\\cocoaplatform0{\\fonttbl}{\\colortbl;\\red255\\green255\\blue255;}{\\*\\expandedcolortbl;;}\\paperw11900\\paperh16840\\margl1440\\margr1440\\vieww11520\\viewh8400\\viewkind0}'
+      )
 
       const runner = new MacRunner()
       await runner
-        .setDefault(
-          'com.apple.TextEdit',
-          'RichText',
-          '-bool true', '1',
-          ''
-        )
+        .setDefault('com.apple.TextEdit', 'RichText', '-bool true', '1', '')
         .openApp('TextEdit', filename)
         .moveAndResizeApp('TextEdit', 0, 0, 744, 451)
         .captureApp('TextEdit', `${outputPath}/true.png`)
-        .deleteDefault(
-          'com.apple.TextEdit',
-          'RichText',
-          'killall -SIGKILL TextEdit'
-        )
+        .deleteDefault('com.apple.TextEdit', 'RichText')
+        .killApp('TextEdit')
         .run()
 
-        await manageFile(filename, false);
+      await manageFile(filename, false)
     } catch (runnerError) {
       throw new Error(runnerError)
     }
@@ -42,7 +37,7 @@ module.exports = {
     }
 
     return { filepath: `${outputPath}/true` }
-  }
+  },
 }
 
 async function manageFile(filename, create) {
@@ -51,9 +46,7 @@ async function manageFile(filename, create) {
     `${create ? 'touch' : 'rm -f'} ${filename}`
   )
   if (mngFile) {
-    console.error(
-      'An error occured while working with a file'
-    )
+    console.error('An error occured while working with a file')
     throw new Error(mngFile)
   }
 }
@@ -66,9 +59,7 @@ ${content}
 EOF`
   )
   if (mngFile) {
-    console.error(
-      'An error occured while working with a file'
-    )
+    console.error('An error occured while working with a file')
     throw new Error(mngFile)
   }
 }
