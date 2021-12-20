@@ -17,7 +17,7 @@
     "docsify-cli": "4.4.3",
     "handlebars": "4.7.7",
     "rimraf": "3.0.2",
-    "yaml": "1.10.0"
+    "yaml": "1.10.2"
   },
   "devDependencies": {
     "jest": "27.3.1",
