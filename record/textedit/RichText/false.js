@@ -17,7 +17,7 @@ module.exports = {
         .setDefault(
           'com.apple.TextEdit',
           'RichText',
-          '-bool true', '1',
+          '-bool false', '0',
           ''
         )
         .openApp('TextEdit', fileName)
