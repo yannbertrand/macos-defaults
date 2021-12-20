@@ -46,6 +46,7 @@ module.exports = {
     // Action!
     await aperture.startRecording({ highlightClicks: true, cropArea })
 
+    await delay(200)
     robot.moveMouseSmooth(pos2.x, pos2.y, 2)
     await delay(1000)
     robot.moveMouseSmooth(pos3.x, pos3.y, 5)
