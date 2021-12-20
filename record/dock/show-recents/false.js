@@ -30,6 +30,7 @@ module.exports = {
     try {
       await compressPngImage(screenshot, outputPath, 'false')
     } catch (compressPngImageError) {
+      logRollbackInfo()
       throw new Error(compressPngImageError)
     }
 
