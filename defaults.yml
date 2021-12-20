@@ -42,7 +42,7 @@ categories:
               width: 740
               height: 463
             text: Put the Dock on the right of the screen
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: tilesize
         domain: com.apple.dock
@@ -64,7 +64,7 @@ categories:
               width: 740
               height: 463
             text: Dock icon size of 48 pixels.
-        versions: [Big Sur, Catalina]
+        versions: [Monterey, Big Sur, Catalina]
         after: killall Dock
       - key: autohide
         domain: com.apple.dock
@@ -78,7 +78,7 @@ categories:
             text: Always display the Dock
           - value: true
             text: Autohide the Dock when the mouse is out
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: autohide-time-modifier
         domain: com.apple.dock
@@ -106,7 +106,7 @@ categories:
               width: 742
               height: 202
             text: Remove the Dock autohide animation
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -133,7 +133,7 @@ categories:
               width: 742
               height: 202
             text: Remove the autohide delay, the Dock appears instantly
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -160,7 +160,7 @@ categories:
               width: 740
               height: 82
             text: Do not display recent apps in the Dock
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: mineffect
         domain: com.apple.dock
@@ -187,7 +187,7 @@ categories:
               width: 740
               height: 740
             text: Suck is an secret value you can't find inside the System Preferences
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -227,7 +227,7 @@ categories:
               width: 740
               height: 550
             text: Remove the default shadow from screenshots
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
       - key: include-date
         domain: com.apple.screencapture
         title: Include date
@@ -242,7 +242,7 @@ categories:
             text: |
               - Screenshot.png
               - Screenshot 1.png
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
       - key: location
         domain: com.apple.screencapture
         title: Set location
@@ -253,7 +253,7 @@ categories:
           - value: ~/Desktop
             default: true
           - value: ~/Pictures
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
       - key: show-thumbnail
         domain: com.apple.screencapture
@@ -267,7 +267,7 @@ categories:
             text: Display the thumbnail after taking a screenshot
           - value: false
             text: Do not display the thumbnail
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
       - key: type
         domain: com.apple.screencapture
         title: Choose screenshot format
@@ -280,7 +280,7 @@ categories:
             text: The generated image is a png
           - value: jpg
             text: The generated image is a jpg
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
 
   - folder: finder
     name: Finder
@@ -305,7 +305,7 @@ categories:
             text: Hide the Finder "Quit" option
           - value: true
             text: Display the Finder "Quit" option
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: AppleShowAllExtensions
         domain: NSGlobalDomain
@@ -319,7 +319,7 @@ categories:
             text: Do not show all file extensions inside the Finder
           - value: true
             text: Show all file extensions inside the Finder
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: AppleShowAllFiles
         domain: com.apple.Finder
@@ -341,7 +341,7 @@ categories:
               filename: "true.png"
               width: 740
               height: 451
-        versions: [Big Sur, Catalina]
+        versions: [Monterey, Big Sur, Catalina]
         after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
@@ -363,7 +363,7 @@ categories:
               width: 739
               height: 416
             text: Do not display the warning
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: NSDocumentSaveNewDocumentsToCloud
         domain: NSGlobalDomain
@@ -404,7 +404,7 @@ categories:
               width: 741
               height: 416
             text: Increase the delay when hovering the toolbar title
-        versions: [Big Sur]
+        versions: [Monterey, Big Sur]
         after: killall Finder
       - key: NSTableViewDefaultSizeMode
         domain: NSGlobalDomain
@@ -432,7 +432,7 @@ categories:
               width: 740
               height: 415
             text: Large
-        versions: [Big Sur, Catalina]
+        versions: [Monterey, Big Sur, Catalina]
         after: killall Finder
 
   - folder: menubar
@@ -462,7 +462,7 @@ categories:
               width: 727
               height: 40
             text: The time separator flashes every second.
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
       - key: DateFormat
         domain: com.apple.menuextra.clock
@@ -496,7 +496,7 @@ categories:
               width: 727
               height: 40
             text: Thu 21:46:18
-        versions: [Big Sur, Catalina]
+        versions: [Monterey, Big Sur, Catalina]
 
   - folder: mission-control
     name: Mission Control
@@ -521,7 +521,7 @@ categories:
             text: Do reorder Spaces based on most recent use
           - value: false
             text: Keep the Spaces arrangement
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
 
   - folder: feedback-assistant
@@ -544,7 +544,7 @@ categories:
             text: Feedback Assistant gathers large files when submitting a report
           - value: false
             text: Do not autogather large files when submitting a report
-        versions: [Big Sur]
+        versions: [Monterey, Big Sur]
 
   - folder: xcode
     name: Xcode
@@ -637,7 +637,7 @@ categories:
               filename: "false.png"
               width: 740
               height: 451
-        versions: [Big Sur]
+        versions: [Monterey, Big Sur]
         after: killall TextEdit
 
   - folder: timemachine
@@ -679,7 +679,7 @@ categories:
             text: By default, the Help Menu is always-on-top
           - value: true
             text: The Help Menu can go behind other windows
-        versions: [Big Sur, Catalina, Mojave]
+        versions: [Monterey, Big Sur, Catalina, Mojave]
       - key: enable-spring-load-actions-on-all-items
         domain: com.apple.dock
         title: Enable spring loading for all Dock items
@@ -696,7 +696,7 @@ categories:
             text: Spring loading is disabled for Dock items.
           - value: true
             text: Spring loading is enabled for Dock items.
-        versions: [Big Sur, Catalina]
+        versions: [Monterey, Big Sur, Catalina]
         after: killall Dock
       - key: userWantsPlaybackNotifications
         domain: com.apple.Music
