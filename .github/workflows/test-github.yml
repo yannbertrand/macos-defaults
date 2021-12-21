@@ -31,7 +31,7 @@ jobs:
 
     - run: yarn install --frozen-lockfile
       working-directory: build/github
-    - run: yarn lint:ci
+    - run: yarn lint
       working-directory: build/github
     - run: yarn test
       working-directory: build/github

@@ -9,8 +9,8 @@
     "build:prod": "yarn build && cd dist/website && docusaurus-build",
     "start": "yarn build && cd dist/website && docusaurus-start",
     "test": "jest",
-    "lint": "prettier --write . --ignore-path ../../.prettierignore",
-    "lint:ci": "prettier --check . --ignore-path ../../.prettierignore"
+    "format": "prettier --write . --ignore-path ../../.prettierignore",
+    "lint": "prettier --check . --ignore-path ../../.prettierignore"
   },
   "license": "MIT",
   "dependencies": {

@@ -9,8 +9,8 @@
     "build:prod": "yarn build && vuepress build docs --dest dist",
     "start": "yarn build && vuepress dev docs",
     "test": "jest",
-    "lint": "prettier --write . --ignore-path ../../.prettierignore",
-    "lint:ci": "prettier --check . --ignore-path ../../.prettierignore"
+    "format": "prettier --write . --ignore-path ../../.prettierignore",
+    "lint": "prettier --check . --ignore-path ../../.prettierignore"
   },
   "license": "MIT",
   "dependencies": {

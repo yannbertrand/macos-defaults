@@ -11,8 +11,8 @@
     "record:debug": "NODE_ENV=DEBUG node index.js",
     "record:next": "node record-next.mjs",
     "build": "yarn record",
-    "lint": "prettier --write . --ignore-path ../.prettierignore",
-    "lint:ci": "prettier --check . --ignore-path ../.prettierignore"
+    "format": "prettier --write . --ignore-path ../.prettierignore",
+    "lint": "prettier --check . --ignore-path ../.prettierignore"
   },
   "license": "MIT",
   "dependencies": {
