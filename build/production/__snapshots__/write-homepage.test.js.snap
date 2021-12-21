@@ -29,7 +29,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class=\\"custom-container tip\\">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
@@ -117,7 +117,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class=\\"custom-container tip\\">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
@@ -207,7 +207,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class=\\"custom-container tip\\">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
@@ -298,7 +298,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class=\\"custom-container tip\\">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
@@ -390,7 +390,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class=\\"custom-container tip\\">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
