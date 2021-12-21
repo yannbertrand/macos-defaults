@@ -110,14 +110,13 @@ module.exports = (supportedLanguages, templatesPath, destinationPath) => {
   )
 
   const vuepressConfig = fs.readFileSync(
-    `${templatesPath}/.vuepress/config.yml.handlebars`,
+    `${templatesPath}/.vuepress/config.js.handlebars`,
     'utf8'
   )
-  const vuepressConfigContent = Handlebars.compile(vuepressConfig)(
-    supportedLanguages
-  )
+  const vuepressConfigContent =
+    Handlebars.compile(vuepressConfig)(supportedLanguages)
   fs.writeFileSync(
-    `${destinationPath}/.vuepress/config.yml`,
+    `${destinationPath}/.vuepress/config.js`,
     vuepressConfigContent
   )
 }

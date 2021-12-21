@@ -55,9 +55,9 @@ describe('write-config', () => {
     expect(netlifyHeadersContent).toMatchSnapshot()
   })
 
-  it('should write a vuepress config.yml file using the template', () => {
+  it('should write a vuepress config.js file using the template', () => {
     const vuepressConfigContent = readFile(
-      `${destinationPath}/.vuepress/config.yml`
+      `${destinationPath}/.vuepress/config.js`
     )
     expect(vuepressConfigContent).toMatchSnapshot()
   })

@@ -17,11 +17,18 @@ const destinationPath = 'docs'
 
 const supportedLanguages = {
   languages: [
-    { url: '/', lang: 'en-US', home: 'Home', defaults: defaults },
+    {
+      url: '/',
+      lang: 'en-US',
+      home: 'Home',
+      selectLanguageName: 'English',
+      defaults: defaults,
+    },
     {
       url: '/fr/',
       lang: 'fr-FR',
       home: 'Accueil',
+      selectLanguageName: 'Français',
       defaults: getSafeDefaults(defaultsFr, defaults),
     },
   ],
