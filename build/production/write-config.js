@@ -91,12 +91,12 @@ module.exports = (supportedLanguages, templatesPath, destinationPath) => {
     `${destinationPath}/.vuepress/public/site.webmanifest`
   )
   fs.copyFileSync(
-    `${templatesPath}/.vuepress/styles/index.styl`,
-    `${destinationPath}/.vuepress/styles/index.styl`
+    `${templatesPath}/.vuepress/styles/index.scss`,
+    `${destinationPath}/.vuepress/styles/index.scss`
   )
   fs.copyFileSync(
-    `${templatesPath}/.vuepress/styles/palette.styl`,
-    `${destinationPath}/.vuepress/styles/palette.styl`
+    `${templatesPath}/.vuepress/styles/palette.scss`,
+    `${destinationPath}/.vuepress/styles/palette.scss`
   )
 
   const netlifyHeadersTemplate = fs.readFileSync(

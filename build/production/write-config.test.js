@@ -28,8 +28,8 @@ const copiedFiles = [
   '.vuepress/public/robots.txt',
   '.vuepress/public/safari-pinned-tab.svg',
   '.vuepress/public/site.webmanifest',
-  '.vuepress/styles/index.styl',
-  '.vuepress/styles/palette.styl',
+  '.vuepress/styles/index.scss',
+  '.vuepress/styles/palette.scss',
 ]
 
 describe('write-config', () => {
