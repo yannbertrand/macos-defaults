@@ -2,20 +2,27 @@
 
 exports[`write-homepage no categories should write an empty readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
-meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+title: \\"macOS defaults\\"
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: \\"A list of macOS defaults commands with demos ✨\\"
+  - - meta
+    - name: \\"description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary_large_image\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+sidebarDepth: 1
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -83,20 +90,27 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 
 exports[`write-homepage one category, no page should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
-meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+title: \\"macOS defaults\\"
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: \\"A list of macOS defaults commands with demos ✨\\"
+  - - meta
+    - name: \\"description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary_large_image\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+sidebarDepth: 1
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -166,20 +180,27 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 
 exports[`write-homepage one category, one page should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
-meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+title: \\"macOS defaults\\"
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: \\"A list of macOS defaults commands with demos ✨\\"
+  - - meta
+    - name: \\"description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary_large_image\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+sidebarDepth: 1
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -250,20 +271,27 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 
 exports[`write-homepage one category, two pages should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
-meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+title: \\"macOS defaults\\"
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: \\"A list of macOS defaults commands with demos ✨\\"
+  - - meta
+    - name: \\"description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary_large_image\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+sidebarDepth: 1
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
@@ -335,20 +363,27 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 
 exports[`write-homepage two categories, one page in each should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
-meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+title: \\"macOS defaults\\"
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: \\"A list of macOS defaults commands with demos ✨\\"
+  - - meta
+    - name: \\"description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary_large_image\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+sidebarDepth: 1
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨

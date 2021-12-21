@@ -2,20 +2,26 @@
 
 exports[`write-categories one category, no page with image should write a category/readme.md file using the category template 1`] = `
 "---
-metaTitle: Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category
-  - name: \\"description\\"
-    content: \\"This is a description of the category. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
-  - property: \\"og:description\\"
-    content: \\"This is a description of the category. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category
+  - - meta
+    - name: \\"description\\"
+      content: \\"This is a description of the category. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"This is a description of the category. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Category
 
@@ -35,20 +41,26 @@ This is a description of the category. It can contain \\"quotes\\" and markdown.
 
 exports[`write-categories one category, one page should write a category/readme.md file using the category template 1`] = `
 "---
-metaTitle: Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category
-  - name: \\"description\\"
-    content: \\"Category description.\\"
-  - property: \\"og:description\\"
-    content: \\"Category description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category
+  - - meta
+    - name: \\"description\\"
+      content: \\"Category description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Category description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Category
 
@@ -62,20 +74,26 @@ Category description.
 
 exports[`write-categories one category, two pages should write a category/readme.md file using the category template 1`] = `
 "---
-metaTitle: Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category
-  - name: \\"description\\"
-    content: \\"Category description.\\"
-  - property: \\"og:description\\"
-    content: \\"Category description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category
+  - - meta
+    - name: \\"description\\"
+      content: \\"Category description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Category description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Category
 
@@ -90,20 +108,26 @@ Category description.
 
 exports[`write-categories two categories, one page in each should write a category1/readme.md file using the category template 1`] = `
 "---
-metaTitle: Category 1 | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category 1
-  - name: \\"description\\"
-    content: \\"Category 1 description.\\"
-  - property: \\"og:description\\"
-    content: \\"Category 1 description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Category 1 | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category 1
+  - - meta
+    - name: \\"description\\"
+      content: \\"Category 1 description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Category 1 description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Category 1
 
@@ -117,20 +141,26 @@ Category 1 description.
 
 exports[`write-categories two categories, one page in each should write a category2/readme.md file using the category template 1`] = `
 "---
-metaTitle: Category 2 | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category 2
-  - name: \\"description\\"
-    content: \\"Category 2 description.\\"
-  - property: \\"og:description\\"
-    content: \\"Category 2 description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Category 2 | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category 2
+  - - meta
+    - name: \\"description\\"
+      content: \\"Category 2 description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Category 2 description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Category 2
 

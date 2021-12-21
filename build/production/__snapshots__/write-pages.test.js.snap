@@ -2,20 +2,26 @@
 
 exports[`write-pages one category, one page with image example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: Page | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page | Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category > Page
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -63,20 +69,26 @@ defaults delete com.apple.category \\"page\\"
 
 exports[`write-pages one category, one page with text and possible values example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: Page | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page | Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category > Page
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -129,20 +141,26 @@ defaults delete com.apple.category \\"page\\"
 
 exports[`write-pages one category, one page with text example with a deleteAlert section should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: Page | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page | Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category > Page
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -171,20 +189,26 @@ defaults delete com.apple.category \\"page\\"
 
 exports[`write-pages one category, one page with text example with an after command should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: Page | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page | Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category > Page
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -226,20 +250,26 @@ defaults delete com.apple.category \\"page\\" && killall App
 
 exports[`write-pages one category, one page with text example with requirements should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: Page | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page | Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category > Page
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -285,20 +315,26 @@ defaults delete com.apple.category \\"page\\" && killall App
 
 exports[`write-pages one category, one page with text example with special chars key and values should write a category/a-page.md file using the page template 1`] = `
 "---
-metaTitle: Page | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
-  - property: \\"og:description\\"
-    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page | Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category > Page
+  - - meta
+    - name: \\"description\\"
+      content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -342,20 +378,26 @@ defaults delete com.apple.category \\"a page\\"
 
 exports[`write-pages one category, one page with video example should write a category/page.md file using the page template 1`] = `
 "---
-metaTitle: Page | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page | Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category > Page
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -401,20 +443,26 @@ defaults delete com.apple.category \\"page\\"
 
 exports[`write-pages one category, two pages should write a category/page1.md file using the page template 1`] = `
 "---
-metaTitle: Page 1 | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page 1
-  - name: \\"description\\"
-    content: \\"Page 1 description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page 1 description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page 1 | Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category > Page 1
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page 1 description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page 1 description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page 1
 
@@ -456,20 +504,26 @@ defaults delete com.apple.category \\"page1\\"
 
 exports[`write-pages one category, two pages should write a category/page2.md file using the page template 1`] = `
 "---
-metaTitle: Page 2 | Category | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category > Page 2
-  - name: \\"description\\"
-    content: \\"Page 2 description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page 2 description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page 2 | Category | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category > Page 2
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page 2 description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page 2 description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page 2
 
@@ -511,20 +565,26 @@ defaults delete com.apple.category \\"page2\\"
 
 exports[`write-pages two categories, one page in each should write a category1/page.md file using the page template 1`] = `
 "---
-metaTitle: Page | Category 1 | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category 1 > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page | Category 1 | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category 1 > Page
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
@@ -566,20 +626,26 @@ defaults delete com.apple.category1 \\"page\\"
 
 exports[`write-pages two categories, one page in each should write a category2/page.md file using the page template 1`] = `
 "---
-metaTitle: Page | Category 2 | macOS defaults
-meta:
-  - property: \\"og:title\\"
-    content: macOS defaults > Category 2 > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+title: Page | Category 2 | macOS defaults
+head:
+  - - meta
+    - property: \\"og:title\\"
+      content: macOS defaults > Category 2 > Page
+  - - meta
+    - name: \\"description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"og:description\\"
+      content: \\"Page description.\\"
+  - - meta
+    - property: \\"twitter:card\\"
+      content: \\"summary\\"
+  - - meta
+    - property: \\"twitter:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
+  - - meta
+    - property: \\"og:image\\"
+      content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
 ---
 # Page
 
