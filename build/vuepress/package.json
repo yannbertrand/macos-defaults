@@ -14,9 +14,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@vuepress/plugin-medium-zoom": "1.8.3",
+    "@vuepress/plugin-medium-zoom": "1.9.1",
     "handlebars": "4.7.7",
-    "vuepress": "1.8.3",
+    "vuepress": "1.9.1",
     "yaml": "1.10.2"
   },
   "devDependencies": {
