@@ -1,7 +1,7 @@
 const fs = require('fs')
 const Handlebars = require('handlebars')
 
-module.exports = (supportedLanguages, templatesPath, destinationPath) => {
+module.exports = (config, templatesPath, destinationPath) => {
   fs.mkdirSync(`${destinationPath}/.vuepress`)
   fs.mkdirSync(`${destinationPath}/.vuepress/public`)
   fs.mkdirSync(`${destinationPath}/.vuepress/styles`)
@@ -113,9 +113,7 @@ module.exports = (supportedLanguages, templatesPath, destinationPath) => {
     `${templatesPath}/.vuepress/config.yml.handlebars`,
     'utf8'
   )
-  const vuepressConfigContent = Handlebars.compile(vuepressConfig)(
-    supportedLanguages
-  )
+  const vuepressConfigContent = Handlebars.compile(vuepressConfig)(config)
   fs.writeFileSync(
     `${destinationPath}/.vuepress/config.yml`,
     vuepressConfigContent

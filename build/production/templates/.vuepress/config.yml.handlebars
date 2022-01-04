@@ -92,6 +92,10 @@ locales:
 themeConfig:
   repo: 'yannbertrand/macos-defaults'
   logo: '/logo.svg'
+  algolia:
+    apiKey: '{{ ALGOLIA_API_KEY }}'
+    indexName: '{{ ALGOLIA_INDEX_NAME }}'
+    appId: '{{ ALGOLIA_APP_ID }}'
   locales:
   {{# languages }}
     {{ url }}:

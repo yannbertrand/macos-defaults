@@ -126,6 +126,14 @@ const supportedLanguages = {
   ],
 }
 
+const algoliaConf = {
+  ALGOLIA_API_KEY: 'SAMPLE_ALGOLIA_API_KEY',
+  ALGOLIA_INDEX_NAME: 'SAMPLE_ALGOLIA_INDEX_NAME',
+  ALGOLIA_APP_ID: 'SAMPLE_ALGOLIA_APP_ID',
+}
+
+const config = { ...supportedLanguages, ...algoliaConf }
+
 const callWriteConfig = () =>
-  writeConfig(supportedLanguages, templatesPath, destinationPath)
+  writeConfig(config, templatesPath, destinationPath)
 const readFile = (file) => fs.readFakeFileSync(file, 'utf8')

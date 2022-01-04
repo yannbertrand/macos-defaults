@@ -42,7 +42,15 @@ supportedLanguages.languages.forEach((supportedLanguage) => {
   )
 })
 
-writeConfig(supportedLanguages, templatesPath, destinationPath)
+const algoliaConf = {
+  ALGOLIA_API_KEY: process.env.ALGOLIA_API_KEY,
+  ALGOLIA_INDEX_NAME: process.env.ALGOLIA_INDEX_NAME,
+  ALGOLIA_APP_ID: process.env.ALGOLIA_APP_ID,
+}
+
+const config = { ...supportedLanguages, ...algoliaConf }
+
+writeConfig(config, templatesPath, destinationPath)
 
 function getSafeDefaults(localizedDefaults, fallbackDefaults) {
   return { ...fallbackDefaults, ...localizedDefaults }
