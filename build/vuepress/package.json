@@ -25,6 +25,6 @@
     "rimraf": "3.0.2"
   },
   "resolutions": {
-    "vuepress/@vuepress/core/webpack-dev-server/selfsigned/node-forge": "0.10.0"
+    "vuepress/@vuepress/core/webpack-dev-server/selfsigned/node-forge": "1.2.0"
   }
 }

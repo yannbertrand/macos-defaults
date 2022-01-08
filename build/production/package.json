@@ -27,7 +27,7 @@
     "slugify": "1.6.4"
   },
   "resolutions": {
-    "vuepress/@vuepress/core/webpack-dev-server/selfsigned/node-forge": "0.10.0",
+    "vuepress/@vuepress/core/webpack-dev-server/selfsigned/node-forge": "1.2.0",
     "vuepress/@vuepress/core/@vuepress/markdown/markdown-it": "12.3.0"
   }
 }
