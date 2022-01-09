@@ -24,7 +24,7 @@
     "jest": "27.4.7",
     "prettier": "2.5.1",
     "rimraf": "3.0.2",
-    "slugify": "1.6.4"
+    "slugify": "1.6.5"
   },
   "resolutions": {
     "vuepress/@vuepress/core/webpack-dev-server/selfsigned/node-forge": "0.10.0",
