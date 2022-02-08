@@ -21,7 +21,7 @@
     "yaml": "1.10.0"
   },
   "devDependencies": {
-    "jest": "27.4.7",
+    "jest": "27.5.1",
     "prettier": "2.5.1",
     "rimraf": "3.0.2",
     "slugify": "1.6.5"
