@@ -581,10 +581,10 @@ any-base@^1.1.0:
   resolved "https://registry.yarnpkg.com/any-base/-/any-base-1.1.0.tgz#ae101a62bc08a597b4c9ab5b7089d456630549fe"
   integrity sha512-uMgjozySS8adZZYePpaWs8cxB9/kdzmpX6SgJZ+wbz1K5eYk5QMYDVJaZKhxyIHUdnnJkfR7SVgStgH7LkGUyg==
 
-aperture@6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/aperture/-/aperture-6.1.1.tgz#d20666677cdefea7669ecee0141742de7e7d2487"
-  integrity sha512-STXRDJArEmillPcjzIjwrCNYbfOG7WbMN4WozlW1s5G5+9eT8IOjlfXAGw6vCOj8Jwi7EQPes3NC6syv0Mckvg==
+aperture@6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/aperture/-/aperture-6.1.2.tgz#8aa8fbca5f579a9aa18cbda66e724fdf7477c70c"
+  integrity sha512-VSD9XzC1GssGmKWTlrzaDum0WPu+SYsSpnDkDahMdAF1gVykZ/VH/lA5ekdmmYnvYiz1a/BmDd0TIxNUzIBChw==
   dependencies:
     delay "^5.0.0"
     electron-util "^0.14.2"
