@@ -296,6 +296,27 @@ categories:
             text: The generated image is a jpg
         versions: [Monterey, Big Sur, Catalina, Mojave]
 
+  - folder: safari
+    name: Safari
+    description: |
+      Safari is the default web browser on macOS.
+      Some of its features can be customized.
+    keys:
+      - key: ShowFullURLInSmartSearchField
+        domain: com.apple.Safari
+        title: Show full URL
+        description: Show full website address.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Show full website URL
+          - value: false
+            default: true
+            text: Don't show full website URL
+        versions: [Monterey]
+        after: killall Safari
+
   - folder: finder
     name: Finder
     description: |
