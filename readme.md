@@ -47,8 +47,12 @@ npx pajv validate -s defaults.schema.json -d defaults.yml
 
 Images and videos are built programmatically. Take a look at the [record folder](./record/#readme) to find out how to record some. I will always prefer images and videos examples as they help maintenance a lot! Please consider it if you want to [open a PR](https://github.com/yannbertrand/macos-defaults/compare).
 
-# macOS-defaults builder 🤖
+### How to discover a `defaults` command
+Using this [bash script](diff.sh) (`bash ./diff.sh`), you'll be able to find out which key changed when you change a system or app settings.
 
+After you find the key with your options, simply run `defaults find ${keyname}` to find the domain it is saved in.
+
+# macOS-defaults builder 🤖
 > Compare Static Site Generators by automatically building websites from [this yaml file](./defaults.yml) content 🏗.
 
 It currently builds to:
