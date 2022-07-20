@@ -489,6 +489,24 @@ categories:
           - value: false
             text: home directory is opened in the fileviewer dialog when saving a new document
         versions: [Catalina]
+      - key: showWindowTitlebarIcons
+        domain: com.apple.universalaccess
+        title: Title bar icons
+        description: |
+          Always show folder icon before title in the title bar
+
+          ⚠️ This command requires to grant full disk access to the terminal
+          (System Preferences → Security & Privacy → Full Disk Access)
+        param:
+          type: bool
+        examples:
+          - text: Show icon in the title bar
+            value: true
+          - text: Hide icon from the title bar
+            default: true
+            value: false
+        versions: [Monterey]
+        after: killall Finder
       - key: NSToolbarTitleViewRolloverDelay
         domain: NSGlobalDomain
         title: Adjust toolbar title rollover delay
