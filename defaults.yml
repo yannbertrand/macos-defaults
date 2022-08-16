@@ -410,6 +410,20 @@ categories:
             text: Icon view
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: _FXSortFoldersFirst
+        domain: com.apple.finder
+        title: Keep folders on top
+        description: Keep folders on top when sorting by name
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Keep folders on top
+          - value: false
+            default: true
+            text: Do not keep folders on top
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Changing file extension warning
