@@ -1,6 +1,6 @@
 # Welcome to macOS-defaults 👋
 [![macos-defaults.com build status](https://img.shields.io/netlify/44ddda91-1e32-4e41-9afc-5f640b33aca7)](https://macos-defaults.com)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/yannbertrand/macos-defaults/tree/master)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/yannbertrand/macos-defaults/tree/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
 [![Twitter: \_YannBertrand](https://img.shields.io/twitter/follow/\_YannBertrand.svg?style=social)](https://twitter.com/\_YannBertrand)
 
