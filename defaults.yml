@@ -378,6 +378,20 @@ categories:
               height: 451
         versions: [Monterey, Big Sur, Catalina]
         after: killall Finder
+      - key: ShowPathbar
+        domain: com.apple.finder
+        title: Path bar
+        description: Show path bar in the bottom of the Finder windows
+        param:
+          type: bool
+        examples:
+          - text: Show path bar
+            value: true
+          - text: Hide path bar
+            default: true
+            value: false
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Changing file extension warning
