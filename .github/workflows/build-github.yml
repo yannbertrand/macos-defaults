@@ -3,7 +3,7 @@ name: Build GitHub
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - 'defaults.yml'
       - 'images/**'
