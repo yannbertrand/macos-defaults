@@ -518,6 +518,20 @@ categories:
             value: false
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: ShowExternalHardDrivesOnDesktop
+        domain: com.apple.finder
+        title: External disks
+        description: Hide external disks on desktop
+        param:
+          type: bool
+        examples:
+          - text: Hide external disks
+            value: false
+          - text: Show external disks
+            default: true
+            value: true
+        versions: [Monterey, Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Menu Bar
