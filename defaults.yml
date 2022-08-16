@@ -546,6 +546,20 @@ categories:
             value: true
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: ShowMountedServersOnDesktop
+        domain: com.apple.finder
+        title: Connected servers
+        description: Show connected servers on desktop
+        param:
+          type: bool
+        examples:
+          - text: Show connected servers
+            value: true
+          - text: Hide connected servers
+            default: true
+            value: false
+        versions: [Monterey, Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Menu Bar
