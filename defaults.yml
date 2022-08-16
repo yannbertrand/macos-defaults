@@ -392,6 +392,24 @@ categories:
             value: false
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: FXPreferredViewStyle
+        domain: com.apple.finder
+        title: Default view style
+        description: Set the default view style for folders without custom setting
+        param:
+          type: string
+        examples:
+          - value: clmv
+            text: Column view
+          - value: Nlsv
+            text: List view
+          - value: glyv
+            text: Gallery View
+          - value: icnv
+            default: true
+            text: Icon view
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Changing file extension warning
