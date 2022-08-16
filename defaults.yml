@@ -532,6 +532,20 @@ categories:
             value: true
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: ShowRemovableMediaOnDesktop
+        domain: com.apple.finder
+        title: Removable media
+        description: Hide removable media _(CDs, DVDs and iPods)_ on desktop
+        param:
+          type: bool
+        examples:
+          - text: Hide removable media
+            value: false
+          - text: Show removable media
+            default: true
+            value: true
+        versions: [Monterey, Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Menu Bar
