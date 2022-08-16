@@ -490,6 +490,20 @@ categories:
             text: Don't keep folders on top
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: CreateDesktop
+        domain: com.apple.finder
+        title: All icons
+        description: Hide all icons on desktop
+        param:
+          type: bool
+        examples:
+          - text: Hide all icons
+            value: false
+          - text: Show all icons
+            default: true
+            value: true
+        versions: [Monterey, Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Menu Bar
