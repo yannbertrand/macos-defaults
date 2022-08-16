@@ -447,6 +447,59 @@ categories:
             text: Large
         versions: [Monterey, Big Sur, Catalina]
         after: killall Finder
+      - key: NewWindowTarget
+        domain: com.apple.finder
+        title: "Initial folder shown by new Finder windows"
+        description: >-
+          Set by the "New Finder windows show:" drop down menu in the Finder preferences.
+          Often used in conjunction with `NewWindowTargetPath`.
+        param:
+          type: string
+          values: [PfCm, PfVo, PfHm, PfDe, PfDo, PfAF, PfLo]
+        examples:
+          - value: PfCm
+            text: Your computer (e.g. "Bob's MacBook Pro")
+          - value: PfVo
+            text: The root of your file system (e.g. "Macintosh HD"). Accompanied by `NewWindowTargetPath = "file:///"`.
+          - value: PfHm
+            text: Home. Accompanied by `NewWindowTargetPath = "file:///Users/bob/"`.
+          - value: PfDe
+            text: Desktop. Accompanied by `NewWindowTargetPath = "file:///bob/Desktop/"`.
+          - value: PfDo
+            text: Documents. Accompanied by `NewWindowTargetPath = "file:///Users/bob/Documents/"`.
+          - value: PfID
+            text: iCloud Drive. Accompanied by `file:///Users/bob/Library/Mobile%20Documents/com~apple~CloudDocs`.
+          - value: PfAF
+            default: true
+            text: |
+              Recents. Accompanied by `NewWindowTargetPath =
+              "file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch/"`.
+          - value: PfLo
+            text: Other location. Accompanied by `NewWindowTargetPath = "file:///the/other/location/`.
+      - key: NewWindowTargetPath
+        domain: com.apple.finder
+        title: "Initial folder shown by new Finder windows"
+        param:
+          type: string
+        examples:
+          - value: "file:///"
+            text: The root of your file system (e.g. "Macintosh HD"). Accompanied by `NewWindowTarget = PfVo`.
+          - value: "file:///Users/bob/"
+            text: Home. Accompanied by `NewWindowTarget = PfHm`.
+          - value: "file:///bob/Desktop/"
+            text: Desktop. Accompanied by `NewWindowTarget = PfDe`.
+          - value: "file:///Users/bob/Documents/"
+            text: Documents. Accompanied by `NewWindowTarget = PfDo`.
+          - value: "file:///Users/bob/Library/Mobile%20Documents/com~apple~CloudDocs"
+            text: iCloud Drive. Accompanied by `NewWindowTarget = PfID`.
+          - value: "file:///System/Library/CoreServices/Finder.app/Contents/Resources/MyLibraries/myDocuments.cannedSearch/"
+            default: true
+            text: Recents. Accompanied by `NewWindowTarget = PfAF`.
+          - value: "file:///the/other/location/"
+            text: Other location. Accompanied by `NewWindowTarget = PfLo`.
+        description:
+          Set by the "New Finder windows show:" drop down menu in the Finder preferences.
+          See `NewWindowTarget`.
 
   - folder: menubar
     name: Menu Bar
