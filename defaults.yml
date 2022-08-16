@@ -440,6 +440,20 @@ categories:
             value: SCev
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: FXRemoveOldTrashItems
+        domain: com.apple.finder
+        title: Empty bin items after 30 days
+        description: Remove items in the bin after 30 days
+        param:
+          type: bool
+        examples:
+          - text: Automatically empty bin after 30 days
+            value: true
+          - text: Keep bin as is
+            default: true
+            value: false
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Changing file extension warning
