@@ -504,6 +504,20 @@ categories:
             value: true
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: ShowHardDrivesOnDesktop
+        domain: com.apple.finder
+        title: Disks
+        description: Show hard disks on desktop
+        param:
+          type: bool
+        examples:
+          - text: Show hard disks
+            value: true
+          - text: Hide hard disks
+            default: true
+            value: false
+        versions: [Monterey, Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Menu Bar
