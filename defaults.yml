@@ -470,6 +470,27 @@ categories:
         versions: [Monterey, Big Sur, Catalina]
         after: killall Finder
 
+  - folder: desktop
+    name: Desktop
+    description: |
+      Desktop shows files and icons on a background, works as a part of the Finder.
+      The desktop view can be customized.
+    keys:
+      - key: _FXSortFoldersFirstOnDesktop
+        domain: com.apple.finder
+        title: Keep folders on top
+        description: Keep folders on top when sorting
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Keep folders on top
+          - value: false
+            default: true
+            text: Don't keep folders on top
+        versions: [Monterey, Big Sur]
+        after: killall Finder
+
   - folder: menubar
     name: Menu Bar
     description:
