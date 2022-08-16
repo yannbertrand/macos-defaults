@@ -424,6 +424,22 @@ categories:
             text: Do not keep folders on top
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: FXDefaultSearchScope
+        domain: com.apple.finder
+        title: Default search scope
+        description: Set the default search scope when performing a search
+        param:
+          type: string
+        examples:
+          - text: Search the current folder
+            value: SCcf
+          - text: Use the previous search scope
+            value: SCsp
+          - text: Search this Mac
+            default: true
+            value: SCev
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Changing file extension warning
