@@ -700,6 +700,36 @@ categories:
             text: "Normally (5s)"
         after: killall Activity\ Monitor
         versions: [Monterey]
+      - key: IconType
+        domain: com.apple.ActivityMonitor
+        title: Dock Icon type
+        description: Choose what information should be shown in the app's Dock icon, if any.
+        param:
+          type: int
+          values: [0, 2, 3, 5, 6]
+        examples:
+          - value: 0
+            default: true
+            text: Just show the App's regular icon.
+          - value: 2
+            text: |
+              Show Network usage over time, as two mirrored line graphs.
+              The top (blue) chart shows down-stream traffic.
+              The bottom (red) chart shows up-stream traffic.
+          - value: 3
+            text: |
+              Show Disk usage over time, as two mirrored line graphs.
+              The top (blue) chart shows disk read traffic.
+              The bottom (red) chart shows disk write traffic.
+          - value: 5
+            text: Show the current CPU usages, as a verticle meter.
+          - value: 6
+            text: |
+              Show CPU usage history, graphed over time.
+              If your device has 4 threads or less, it'll show one graph per thread, all stacked vertically.
+              If you have more than 4 threads, then only one bar graph will be shown, for the total CPU usage.
+        after: killall Activity\ Monitor
+        versions: [Monterey]
 
   - folder: misc
     name: Miscellaneous
