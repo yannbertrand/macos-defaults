@@ -1,16 +1,17 @@
 # Welcome to macOS-defaults 👋
-[![macos-defaults.com build status](https://img.shields.io/netlify/44ddda91-1e32-4e41-9afc-5f640b33aca7)](https://macos-defaults.com)
+[![macos-defaults.com status](https://img.shields.io/pingpong/uptime/sp_92e9dcd33e474926853ac99968debf88)](https://macos-defaults.pingpong.host/)
 [![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/yannbertrand/macos-defaults/tree/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
+[![Twitter: macos_defaults](https://img.shields.io/twitter/follow/macos_defaults.svg?style=social)](https://twitter.com/macos_defaults)
 [![Twitter: \_YannBertrand](https://img.shields.io/twitter/follow/\_YannBertrand.svg?style=social)](https://twitter.com/\_YannBertrand)
 
-**Stability: 1 - Experimental**
+**Stability: 2 - Stable**
 
-> https://macos-defaults.com 
->
-> `defaults` commands allow you to programmatically set System Settings of your Mac. 🤖⚙️🔧
->
-> An up-to-date list of [macOS `defaults` commands](https://macos-defaults.com) with demos. ✨
+https://macos-defaults.com
+
+`defaults` commands allow you to programmatically set System Settings of your Mac. 🤖⚙️🔧
+
+An up-to-date list of [macOS `defaults` commands](https://macos-defaults.com) with demos. ✨
 
 ## Add a command
 All the listed `defaults` commands are stored in localized [defaults*.yml files](./defaults.yml). Here is how a command's info is designed:
@@ -54,7 +55,7 @@ After you find the key with your options, simply run `defaults find ${keyname}` 
 
 # macOS-defaults recorder 📷
 
-> Programmatically record a Mac screen with a predefined list of actions 📹.
+Programmatically record a Mac screen with a predefined list of actions 📹.
 
 The project also contains scripts that run desktop actions, take screenshots or record videos. The goal is to avoid having to manually recheck the status of commands with each new major version of macOS.
 
