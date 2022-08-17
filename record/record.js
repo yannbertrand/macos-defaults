@@ -36,7 +36,6 @@ module.exports = async (files) => {
     )
   } catch (error) {
     if (error.code === 'RECORDER_TIMEOUT') {
-      console.error(error.message)
       console.info('The recorder timed out.')
       console.info(
         "You probably need to activate the screen recording feature for the terminal you're using."
@@ -45,11 +44,12 @@ module.exports = async (files) => {
         "You'll find that settings under: System Parameters > Security & Confidentiality > Confidentiality > Screen recording"
       )
     } else if (error.code === 'ENOTDIR') {
-      console.error(error.message)
       console.info('A mandatory folder was not found.')
     } else {
-      console.error('An error occured while recording', error)
+      console.error('An error occured while recording')
     }
+
+    throw error;
   }
 }
 
