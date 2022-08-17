@@ -18,7 +18,7 @@
   "dependencies": {
     "aperture": "6.1.3",
     "delay": "5.0.0",
-    "glob": "7.2.3",
+    "glob": "8.0.3",
     "glob-promise": "4.2.2",
     "jimp": "0.16.1",
     "mkdirp": "1.0.4",
