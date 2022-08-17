@@ -35,4 +35,4 @@ jobs:
         strict: true
 
     - name: Validate 'defaults-*.yml' against schema
-      uses: nwisbeta/validate-yaml-schema@v1.1.0
+      uses: nwisbeta/validate-yaml-schema@v2.0.0
