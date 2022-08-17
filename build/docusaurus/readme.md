@@ -1,6 +1,6 @@
 # Docusaurus Build
 
-![Docusaurus build status](https://api.netlify.com/api/v1/badges/92522518-2bcc-4086-8926-6c3534666011/deploy-status)
+:warning: Docusaurus build is not maintained anymore. Please note we were using Docusaurus@1.14.7 at the time.
 
 ## My opinion
 

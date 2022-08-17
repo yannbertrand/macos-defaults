@@ -1,6 +1,6 @@
 # docsify Build
 
-![Docsify build status](https://api.netlify.com/api/v1/badges/8af81039-12cc-4080-a434-d8f162d5c416/deploy-status)
+:warning: Docsify build is not maintained anymore. Please note we were using Docsify@4.12.2 at the time.
 
 ## My opinion
 

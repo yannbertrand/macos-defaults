@@ -1,6 +1,6 @@
 # GitHub Build
 
-![GitHub build status](https://github.com/yannbertrand/macos-defaults/workflows/Build%20GitHub/badge.svg)
+:warning: GitHub build is not maintained anymore.
 
 Instead of building a website, I wanted to try constructing GitHub readmes linked from one to the other.
 As the project is simple, I thought it could be a decent choice.

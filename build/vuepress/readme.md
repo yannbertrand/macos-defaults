@@ -1,6 +1,6 @@
 # VuePress Build
 
-![VuePress build status](https://api.netlify.com/api/v1/badges/e73b1f35-9442-45e1-b7b4-6eed2b102a9c/deploy-status)
+:warning: VuePress build is not maintained anymore. Please note we were using VuePress@1.9.1 at the time.
 
 ## My opinion
 
