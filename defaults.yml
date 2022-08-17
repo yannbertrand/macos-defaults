@@ -387,9 +387,17 @@ categories:
         examples:
           - text: Show path bar
             value: true
+            image:
+              filename: "true.png"
+              width: 740
+              height: 451
           - text: Hide path bar
             default: true
             value: false
+            image:
+              filename: "false.png"
+              width: 740
+              height: 451
         versions: [Monterey, Big Sur]
         after: killall Finder
       - key: FXPreferredViewStyle
