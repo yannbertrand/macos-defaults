@@ -26,6 +26,6 @@
     "prettier": "2.7.1",
     "prompt-confirm": "2.0.4",
     "robotjs": "0.6.0",
-    "sharp": "0.30.5"
+    "sharp": "0.30.7"
   }
 }
