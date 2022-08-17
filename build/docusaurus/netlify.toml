@@ -1,5 +1,0 @@
-[build]
-  base = "build/docusaurus"
-  command = "yarn test && yarn build:prod"
-  publish = "dist/website/build/macos-defaults"
-  ignore = "git diff --quiet HEAD^ HEAD ../../defaults.yml ../../images/ __snapshots__/ templates/ *.js netlify.toml package.json yarn.lock"

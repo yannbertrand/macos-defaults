@@ -62,6 +62,10 @@ The project also contains scripts that run desktop actions, take screenshots or 
 ## How does it work?
 Take a look at the [record folder](./record/#readme) if you want to go deeper.
 
+# macOS-defaults builder 🤖
+
+This project used to help compare Static Site Generators (SSG). We now removed this part but you can still find an old comparison between a few of them (Docsify, Docusaurus, VuePress and GitHub markdown) [in the project history](https://github.com/yannbertrand/macos-defaults/tree/1716cb77e7c17f8317e18e9b9418cc834bb3486c/build).
+
 # Show your support
 Give a ⭐️ if this project helped you!
 
