@@ -510,9 +510,17 @@ categories:
         examples:
           - text: Show icon in the title bar
             value: true
+            image:
+              filename: "true.png"
+              width: 740
+              height: 451
           - text: Hide icon from the title bar
             default: true
             value: false
+            image:
+              filename: "false.png"
+              width: 740
+              height: 451
         versions: [Monterey]
         after: killall Finder
       - key: NSToolbarTitleViewRolloverDelay
