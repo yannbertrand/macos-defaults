@@ -87,6 +87,7 @@ function resizeVideo(input, output) {
   console.info('   Resizing video')
 
   return new Promise((resolve, reject) => {
+    const ffmpegRawLogs = []
     const ffmpeg = spawn('ffmpeg', [
       '-i',
       input,
@@ -104,15 +105,16 @@ function resizeVideo(input, output) {
       output,
     ])
 
-    if (process.env.NODE_ENV === 'DEBUG') {
-      ffmpeg.stderr.on('data', function (message) {
-        console.debug(`${message}`)
-      })
-    }
-
+    ffmpeg.stderr.on('data', (message) =>
+      ffmpegRawLogs.push(message.toString('utf8'))
+    )
     ffmpeg.on('exit', (ffmpegExitCode) => {
-      if (ffmpegExitCode === '1') {
-        return reject('ffmpeg')
+      if (process.env.NODE_ENV === 'DEBUG') {
+        console.debug(ffmpegRawLogs.join('\n'))
+      }
+
+      if (ffmpegExitCode !== 0) {
+        return reject(ffmpegRawLogs.join('\n'))
       }
 
       resolve()
