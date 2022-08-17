@@ -4,5 +4,11 @@
   ],
   "commitMessagePrefix": ":arrow_up:",
   "commitMessageAction": "Upgrade",
-  "commitMessageTopic": "{{depName}}"
+  "commitMessageTopic": "{{depName}}",
+  "ignorePaths": [
+    "build/docsify/package.json",
+    "build/docusaurus/package.json",
+    "build/github/package.json",
+    "build/vuepress/package.json"
+  ]
 }
