@@ -27,6 +27,6 @@
     "slugify": "1.6.5"
   },
   "resolutions": {
-    "vuepress/@vuepress/core/@vuepress/markdown/markdown-it": "12.3.2"
+    "vuepress/@vuepress/core/@vuepress/markdown/markdown-it": "13.0.1"
   }
 }
