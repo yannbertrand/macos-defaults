@@ -19,7 +19,7 @@ module.exports = {
       await runner
         .setDefault('com.apple.TextEdit', 'RichText', '-bool true', '1', '')
         .openApp('TextEdit', filename)
-        .moveAndResizeApp('TextEdit', 0, 0, 744, 451)
+        .moveAndResizeApp('TextEdit', 0, 0, 740, 400)
         .captureApp('TextEdit', `${outputPath}/true.png`)
         .deleteDefault('com.apple.TextEdit', 'RichText')
         .killApp('TextEdit')
