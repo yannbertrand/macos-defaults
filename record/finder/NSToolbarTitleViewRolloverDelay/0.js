@@ -43,7 +43,7 @@ module.exports = {
     const pos1 = { x: cropArea.x + recordWidth / 3, y: cropArea.y }
     const pos2 = {
       x: cropArea.x + recordWidth / 3,
-      y: cropArea.y - recordHeight / 2 + 38,
+      y: cropArea.y - recordHeight / 2 + 100,
     }
 
     await moveAndResizeApp('Finder', cropArea, height)
@@ -51,6 +51,7 @@ module.exports = {
 
     // Action!
     await aperture.startRecording({ highlightClicks: true, cropArea })
+    await delay(300)
 
     robot.moveMouseSmooth(pos2.x, pos2.y)
     await delay(1500)

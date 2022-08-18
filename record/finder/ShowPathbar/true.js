@@ -11,6 +11,8 @@ module.exports = {
         .setDefault('com.apple.finder', 'ShowPathbar', '-bool true', '1')
         .killApp('Finder')
         .openApp('Finder', '~')
+        .activateApp('Finder')
+        .moveAndResizeApp('Finder', 0, 0, 740, 400)
         .captureApp('Finder', `${outputPath}/true.png`)
         .deleteDefault('com.apple.finder', 'ShowPathbar')
         .killApp('Finder')

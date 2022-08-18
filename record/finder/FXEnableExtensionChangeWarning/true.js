@@ -42,6 +42,12 @@ module.exports = {
     await delay(100)
     robot.keyTap('right')
     await delay(100)
+    robot.keyTap('right')
+    await delay(100)
+    robot.keyTap('right')
+    await delay(100)
+    robot.keyTap('right')
+    await delay(100)
 
     const { width, height } = robot.getScreenSize()
     const recordWidth = 720

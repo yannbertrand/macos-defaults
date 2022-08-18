@@ -28,10 +28,10 @@ module.exports = {
     await makeAppActive('Finder')
     const { width, height } = robot.getScreenSize()
     const recordWidth = 400
-    const recordHeight = 22
+    const recordHeight = 29
     const cropArea = {
       x: width - recordWidth,
-      y: height - recordHeight, // Film the menu bar, which is 22 pixels
+      y: height - recordHeight, // Film the menu bar, which is 29 pixels
       width: recordWidth,
       height: recordHeight,
     }
