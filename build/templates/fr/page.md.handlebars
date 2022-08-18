@@ -32,12 +32,12 @@ meta:
 {{# if requirements }}
 ## Prérequis
 {{# requirements }}
-- [`{{ name }}`](../..{{ ../url }}{{ folder }}/{{ key }}.html#avec-la-valeur-{{ value }}) doit avoir la valeur `{{ value }}`
+- [`{{ name }}`](../..{{ ../url }}{{ folder }}/{{ key }}.html#avec-la-valeur-{{{ value }}}) doit avoir la valeur `{{ value }}`
 {{/ requirements }}
 
 {{/ if }}
 {{# examples }}
-## {{# if title }}{{{ title }}}{{ else }}Avec la valeur `{{ value }}`{{/ if }}{{# if default }} (par défaut){{/ if }}
+## {{# if title }}{{{ title }}}{{ else }}Avec la valeur `{{{ value }}}`{{/ if }}{{# if default }} (par défaut){{/ if }}
 {{# if text }}
 
 {{# text }}

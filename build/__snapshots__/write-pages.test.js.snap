@@ -320,12 +320,12 @@ output when value is ~/Desktop
 defaults write com.apple.category \\"a page\\" -bool \\"~/Desktop\\" 
 \`\`\`
 
-## Set to \`~/Pictures\`
+## Set to \`\\"EEE d MMM HH:mm:ss\\"\`
 
-output when value is ~/Pictures
+output when value is \\"EEE d MMM HH:mm:ss\\"
 
 \`\`\`bash
-defaults write com.apple.category \\"a page\\" -bool \\"~/Pictures\\" 
+defaults write com.apple.category \\"a page\\" -bool \\"\\\\\\"EEE d MMM HH:mm:ss\\\\\\"\\" 
 \`\`\`
 
 ## Read current value

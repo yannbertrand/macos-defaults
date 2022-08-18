@@ -32,12 +32,12 @@ meta:
 {{# if requirements }}
 ## Requirements
 {{# requirements }}
-- [`{{ name }}`](../../{{ folder }}/{{ key }}.html#set-to-{{ value }}) must be set to `{{ value }}`
+- [`{{ name }}`](../../{{ folder }}/{{ key }}.html#set-to-{{{ value }}}) must be set to `{{ value }}`
 {{/ requirements }}
 
 {{/ if }}
 {{# examples }}
-## {{# if title }}{{{ title }}}{{ else }}Set to `{{ value }}`{{/ if }}{{# if default }} (default value){{/ if }}
+## {{# if title }}{{{ title }}}{{ else }}Set to `{{{ value }}}`{{/ if }}{{# if default }} (default value){{/ if }}
 {{# if text }}
 
 {{# text }}

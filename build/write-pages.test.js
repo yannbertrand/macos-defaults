@@ -36,8 +36,8 @@ describe('write-pages', () => {
                         text: 'output when value is ~/Desktop',
                       },
                       {
-                        value: '~/Pictures',
-                        text: 'output when value is ~/Pictures',
+                        value: '"EEE d MMM HH:mm:ss"',
+                        text: 'output when value is "EEE d MMM HH:mm:ss"',
                       },
                     ],
                     versions: ['Big Sur'],
