@@ -35,6 +35,8 @@ module.exports = async (files) => {
       `\nAll videos and screenshots were successfully recorded. You can use your mouse again\n`
     )
   } catch (error) {
+    await makeAppActive('iTerm')
+
     if (error.code === 'RECORDER_TIMEOUT') {
       console.info('The recorder timed out.')
       console.info(
