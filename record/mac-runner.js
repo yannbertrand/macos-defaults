@@ -137,11 +137,14 @@ class MacRunner {
    * Capture the app window into a file
    * @param {*} appName Application name to capture
    * @param {*} output Output file name (png)
+   * @param {boolean} disableShadow Do not capture the App shadow
    */
-  captureApp(appName, output) {
+  captureApp(appName, output, disableShadow = true) {
     return this.register(() =>
       execCommand(
-        `screencapture -o -l$(osascript -e 'tell app "${appName}" to id of window 1') ${output}`
+        `screencapture ${
+          disableShadow ? '-o' : ''
+        } -l$(osascript -e 'tell app "${appName}" to id of window 1') ${output}`
       )
     )
   }
