@@ -1,4 +1,5 @@
 const aperture = require('aperture')()
+const robot = require('robotjs')
 const wait = require('delay')
 const fs = require('fs')
 const util = require('util')
@@ -7,6 +8,28 @@ const exec = util.promisify(require('child_process').exec)
 class MacRunner {
   constructor(commands = []) {
     this.commands = commands
+  }
+
+  /**
+   * @return {{screenWidth: number, screenHeight: number}} The main screen size
+   */
+  static getScreenSize() {
+    const { width, height } = robot.getScreenSize()
+    return { screenWidth: width, screenHeight: height }
+  }
+
+  /**
+   * @return {number} The Dock height
+   */
+  static getDockHeight() {
+    return 80
+  }
+
+  /**
+   * @return {number} The Menu Bar height
+   */
+  static getMenuBarHeight() {
+    return 22
   }
 
   /**
