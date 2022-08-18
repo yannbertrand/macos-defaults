@@ -16,6 +16,8 @@ module.exports = {
         )
         .killApp('Finder')
         .openApp('Finder', '~')
+        .activateApp('Finder')
+        .moveAndResizeApp('Finder', 0, 0, 740, 400)
         .captureApp('Finder', `${outputPath}/true.png`)
         .deleteDefault('com.apple.universalaccess', 'showWindowTitlebarIcons')
         .killApp('Finder')

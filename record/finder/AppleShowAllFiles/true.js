@@ -10,7 +10,10 @@ module.exports = {
       await runner
         .setDefault('com.apple.Finder', 'AppleShowAllFiles', '-bool true', '1')
         .killApp('Finder')
+        .wait(1000)
         .openApp('Finder', '~')
+        .activateApp('Finder')
+        .moveAndResizeApp('Finder', 0, 0, 740, 400)
         .captureApp('Finder', `${outputPath}/true.png`)
         .deleteDefault('com.apple.Finder', 'AppleShowAllFiles')
         .killApp('Finder')
