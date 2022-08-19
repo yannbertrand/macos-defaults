@@ -7,7 +7,9 @@ module.exports = {
 
     try {
       const { screenWidth, screenHeight } = MacRunner.getScreenSize()
-      const dockHeight = MacRunner.getDockHeight()
+
+      // Dock gets larger when not showing most recent Apps
+      const dockHeight = MacRunner.getDockHeight() + 4
 
       const runner = new MacRunner()
       await runner

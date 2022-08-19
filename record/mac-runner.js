@@ -22,7 +22,7 @@ class MacRunner {
    * @return {number} The Dock height
    */
   static getDockHeight() {
-    return 80
+    return 76
   }
 
   /**
