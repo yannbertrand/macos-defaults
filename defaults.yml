@@ -46,7 +46,7 @@ categories:
         after: killall Dock
       - key: tilesize
         domain: com.apple.dock
-        title: Icon size
+        title: Change macOS Dock icon size
         description: Set the icon size of Dock items in pixels.
         param:
           type: int
