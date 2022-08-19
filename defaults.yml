@@ -312,9 +312,17 @@ categories:
         examples:
           - value: true
             text: Show full website URL
+            image:
+              filename: "true.png"
+              width: 740
+              height: 207
           - value: false
             default: true
             text: Don't show full website URL
+            image:
+              filename: "false.png"
+              width: 740
+              height: 207
         versions: [Monterey]
         after: killall Safari
 
