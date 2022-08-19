@@ -274,6 +274,7 @@ categories:
         description: Choisir le format de fichier de l'image dans lequel la capture est enregistrée.
         param:
           type: string
+          values: [png, jpg, pdf, psd, gif, tga, tiff, bmp]
         examples:
           - value: png
             default: true
