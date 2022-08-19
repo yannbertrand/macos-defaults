@@ -2,7 +2,7 @@
 
 exports[`write-homepage no categories should write an empty readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
+metaTitle: \\"macOS defaults list\\"
 meta:
   - property: \\"og:title\\"
     content: \\"A list of macOS defaults commands with demos ✨\\"
@@ -83,7 +83,7 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 
 exports[`write-homepage one category, no page should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
+metaTitle: \\"macOS defaults list\\"
 meta:
   - property: \\"og:title\\"
     content: \\"A list of macOS defaults commands with demos ✨\\"
@@ -166,7 +166,7 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 
 exports[`write-homepage one category, one page should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
+metaTitle: \\"macOS defaults list\\"
 meta:
   - property: \\"og:title\\"
     content: \\"A list of macOS defaults commands with demos ✨\\"
@@ -250,7 +250,7 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 
 exports[`write-homepage one category, two pages should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
+metaTitle: \\"macOS defaults list\\"
 meta:
   - property: \\"og:title\\"
     content: \\"A list of macOS defaults commands with demos ✨\\"
@@ -335,7 +335,7 @@ Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look
 
 exports[`write-homepage two categories, one page in each should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults\\"
+metaTitle: \\"macOS defaults list\\"
 meta:
   - property: \\"og:title\\"
     content: \\"A list of macOS defaults commands with demos ✨\\"
