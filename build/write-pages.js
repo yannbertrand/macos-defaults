@@ -31,7 +31,9 @@ module.exports = ({ defaults, url }, templatesPath, destinationPath) => {
           url,
         })
         fs.writeFileSync(
-          `${destinationPath}/${folder}/${slugify(page.key)}.md`,
+          `${destinationPath}/${folder}/${slugify(page.key, {
+            lower: true,
+          })}.md`,
           pageReadmeContent
         )
 
