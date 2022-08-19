@@ -304,7 +304,7 @@ categories:
       Some of its features can be customized.
     keys:
       - key: ShowFullURLInSmartSearchField
-        domain: com.apple.Safari
+        domain: com.apple.safari
         title: Show full URL
         description: Show full website address.
         param:
@@ -366,7 +366,7 @@ categories:
         versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: AppleShowAllFiles
-        domain: com.apple.Finder
+        domain: com.apple.finder
         title: Show hidden files
         description: Show hidden files in the Finder. You can toggle the value using `⌘ cmd`+`⇧ shift`+`.`.
         param:

@@ -322,7 +322,7 @@ categories:
         versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: AppleShowAllFiles
-        domain: com.apple.Finder
+        domain: com.apple.finder
         title: Afficher les fichiers cachés
         description: Afficher les fichiers cachés dans le Finder.
         param:

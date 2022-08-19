@@ -8,14 +8,14 @@ module.exports = {
     try {
       const runner = new MacRunner()
       await runner
-        .setDefault('com.apple.Finder', 'AppleShowAllFiles', '-bool false', '0')
+        .setDefault('com.apple.finder', 'AppleShowAllFiles', '-bool false', '0')
         .killApp('Finder')
         .wait(1000)
         .openApp('Finder', '~')
         .activateApp('Finder')
         .moveAndResizeApp('Finder', 0, 0, 740, 400)
         .captureApp('Finder', `${outputPath}/false.png`)
-        .deleteDefault('com.apple.Finder', 'AppleShowAllFiles')
+        .deleteDefault('com.apple.finder', 'AppleShowAllFiles')
         .killApp('Finder')
         .run()
     } catch (runnerError) {
@@ -39,6 +39,6 @@ function logRollbackInfo() {
     'Please manually run this command to make sure everything is properly reset:'
   )
   console.info(
-    'defaults delete com.apple.Finder AppleShowAllFiles && killall Finder'
+    'defaults delete com.apple.finder AppleShowAllFiles && killall Finder'
   )
 }
