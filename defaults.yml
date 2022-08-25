@@ -758,6 +758,23 @@ categories:
     name: Trackpad
     description: The trackpad is hardware to control the cursor that comes on all MacBooks.
     keys:
+      - key: FirstClickThreshold
+        domain: com.apple.AppleMultitouchTrackpad
+        title: Click weight (threshold)
+        description: Choose between Light/Medium/Firm.
+        param:
+          type: int
+          values: [0, 1, 2]
+        # TODO: add default value
+        examples:
+          - value: 0
+            text: "Light"
+          - value: 1
+            text: "Medium"
+          - value: 2
+            text: "Firm"
+        versions: [Monterey]
+        # TODO: add killall command
 
   - folder: mission-control
     name: Mission Control
