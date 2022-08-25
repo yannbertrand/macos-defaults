@@ -775,6 +775,20 @@ categories:
             text: "Firm"
         versions: [Monterey]
         # TODO: add killall command
+      - key: ActuationStrength
+        domain: com.apple.AppleMultitouchTrackpad
+        title: Silent clicking
+        description: Choose whether clicking the trackpad makes a noise.
+        param:
+          type: bool
+        # TODO: add default value
+        examples:
+          - value: true
+            text: Clicking the trackpad does not make a noise.
+          - value: false
+            text: Clicking the trackpad makes a noise.
+        versions: [Monterey]
+        # TODO: add killall command
 
   - folder: mission-control
     name: Mission Control
