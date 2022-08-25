@@ -789,6 +789,42 @@ categories:
             text: Clicking the trackpad makes a noise.
         versions: [Monterey]
         # TODO: add killall command
+      - key: DragLock
+        domain: com.apple.AppleMultitouchTrackpad
+        title: Enable dragging with drag lock
+        description: Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.
+        param:
+          type: bool
+        examples:
+          - value: true
+          - value: false
+            default: true
+        versions: [Monterey]
+        # TODO: add killall command
+      - key: Dragging
+        domain: com.apple.AppleMultitouchTrackpad
+        title: Enable dragging without drag lock
+        description: Mutually exclusive with `DragLock` and `TrackpadThreeFingerDrag`.
+        param:
+          type: bool
+        examples:
+          - value: true
+          - value: false
+            default: true
+        versions: [Monterey]
+        # TODO: add killall command
+      - key: TrackpadThreeFingerDrag
+        domain: com.apple.AppleMultitouchTrackpad
+        title: Enable dragging with three finger drag
+        description: Mutually exclusive with `Dragging` and `DragLock`.
+        param:
+          type: bool
+        examples:
+          - value: true
+          - value: false
+            default: true
+        versions: [Monterey]
+        # TODO: add killall command
 
   - folder: mission-control
     name: Mission Control
