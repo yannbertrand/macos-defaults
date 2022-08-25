@@ -754,6 +754,11 @@ categories:
             text: Thu 21:46:18
         versions: [Monterey, Big Sur, Catalina]
 
+  - folder: trackpad
+    name: Trackpad
+    description: The trackpad is hardware to control the cursor that comes on all MacBooks.
+    keys:
+
   - folder: mission-control
     name: Mission Control
     description: |
