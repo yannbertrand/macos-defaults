@@ -211,6 +211,20 @@ categories:
             text: Show apps pinned to the dock
         after: killall Dock
         versions: [Monterey]
+      - key: scroll-to-open
+        domain: com.apple.dock
+        title: Scroll to Exposé app
+        description: Scroll up on the Dock icon to show all windows for an app.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Enable
+          - value: false
+            default: true
+            text: Disable
+        after: killall Dock
+        versions: [Monterey, Big Sur, Catalina, Mojave]
 
   - folder: screenshots
     name: Screenshots
