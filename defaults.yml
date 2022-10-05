@@ -1027,3 +1027,36 @@ categories:
           - value: false
             text: '"Application Downloaded from Internet" popup will not display'
         versions: [Catalina]
+      - key: ApplePressAndHoldEnabled
+        domain: NSGlobalDomain
+        title: Choose the behavior of a key held down
+        description: |
+          Allows you to select the behavior when a key is held down for a long time. The two possible behaviors are:
+
+          - show character accents menu (default)
+          - repeat character while key held
+
+          ⚠️ Restarting the Mac, closing the session or restarting the application is necessary to take into effect the changes.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            image:
+              filename: "true.png"
+              width: 696
+              height: 252
+            text: By default, when a key is held down, the accents menu is displayed.
+          - value: false
+            image:
+              filename: "false.png"
+              width: 696
+              height: 252
+            text: Repeats the key as long as it is held down.
+        versions: [Monterey, Big Sur]
+
+
+
+
+
+

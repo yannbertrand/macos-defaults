@@ -707,3 +707,30 @@ categories:
             text: L'affichage des notifications est activé.
         versions: [Catalina]
         after: killall Music
+      - key: ApplePressAndHoldEnabled
+        domain: NSGlobalDomain
+        title: Choisir le comportement lorsqu'une touche est maintenue enfoncée
+        description: |
+          Permet de choisir le comportement lorsque l'on maintient une touche enfoncée. Les deux comportements possibles sont:
+
+          - affiche le menu des accents (par défaut)
+          - écris le caractère tant qu'il est pressé
+
+          ⚠️ Il est nécessaire de redémarrer le mac, fermer la session ou relancer l'application pour prendre en compte les changements.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            image:
+              filename: true.png
+              width: 696
+              height: 252
+            text: Par défaut, lorsqu'une touche est maintenue enfoncée, le menu des accents s'affiche.
+          - value: false
+            image:
+              filename: false.png
+              width: 696
+              height: 252
+            text: Répète la touche tant que celle-ci est maintenue enfoncée.
+        versions: [Monterey, Big Sur]
