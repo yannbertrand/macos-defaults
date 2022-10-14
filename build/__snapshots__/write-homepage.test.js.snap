@@ -2,27 +2,27 @@
 
 exports[`write-homepage no categories should write an empty readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults list\\"
+metaTitle: "macOS defaults list"
 meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+  - property: "og:title"
+    content: "A list of macOS defaults commands with demos ✨"
+  - name: "description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "og:description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "twitter:card"
+    content: "summary_large_image"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.jpg"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class="custom-block tip">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
@@ -33,7 +33,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
     If a default isn't specified in the application's domain, it may be specified in NSGlobalDomain.
   </p>
   <p>
-    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>\\"Default Font\\" = \\"Helvetica\\"</strong>.
+    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>"Default Font" = "Helvetica"</strong>.
     <strong>Keys</strong> are strings, <strong>values</strong> can be complex data structures comprising arrays,
     dictionaries, strings, and binary data. They're stored as XML Property List.
   </p>
@@ -75,35 +75,35 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/main/build#readme) if you want to use it.
 
-<a href=\\"https://www.netlify.com\\">
-  <img src=\\"netlify.svg\\" alt=\\"Deploys by Netlify\\" width=\\"114\\" height=\\"51\\" />
+<a href="https://www.netlify.com">
+  <img src="netlify.svg" alt="Deploys by Netlify" width="114" height="51" />
 </a>
 "
 `;
 
 exports[`write-homepage one category, no page should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults list\\"
+metaTitle: "macOS defaults list"
 meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+  - property: "og:title"
+    content: "A list of macOS defaults commands with demos ✨"
+  - name: "description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "og:description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "twitter:card"
+    content: "summary_large_image"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.jpg"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class="custom-block tip">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
@@ -114,7 +114,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
     If a default isn't specified in the application's domain, it may be specified in NSGlobalDomain.
   </p>
   <p>
-    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>\\"Default Font\\" = \\"Helvetica\\"</strong>.
+    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>"Default Font" = "Helvetica"</strong>.
     <strong>Keys</strong> are strings, <strong>values</strong> can be complex data structures comprising arrays,
     dictionaries, strings, and binary data. They're stored as XML Property List.
   </p>
@@ -158,35 +158,35 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/main/build#readme) if you want to use it.
 
-<a href=\\"https://www.netlify.com\\">
-  <img src=\\"netlify.svg\\" alt=\\"Deploys by Netlify\\" width=\\"114\\" height=\\"51\\" />
+<a href="https://www.netlify.com">
+  <img src="netlify.svg" alt="Deploys by Netlify" width="114" height="51" />
 </a>
 "
 `;
 
 exports[`write-homepage one category, one page should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults list\\"
+metaTitle: "macOS defaults list"
 meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+  - property: "og:title"
+    content: "A list of macOS defaults commands with demos ✨"
+  - name: "description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "og:description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "twitter:card"
+    content: "summary_large_image"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.jpg"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class="custom-block tip">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
@@ -197,7 +197,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
     If a default isn't specified in the application's domain, it may be specified in NSGlobalDomain.
   </p>
   <p>
-    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>\\"Default Font\\" = \\"Helvetica\\"</strong>.
+    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>"Default Font" = "Helvetica"</strong>.
     <strong>Keys</strong> are strings, <strong>values</strong> can be complex data structures comprising arrays,
     dictionaries, strings, and binary data. They're stored as XML Property List.
   </p>
@@ -242,35 +242,35 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/main/build#readme) if you want to use it.
 
-<a href=\\"https://www.netlify.com\\">
-  <img src=\\"netlify.svg\\" alt=\\"Deploys by Netlify\\" width=\\"114\\" height=\\"51\\" />
+<a href="https://www.netlify.com">
+  <img src="netlify.svg" alt="Deploys by Netlify" width="114" height="51" />
 </a>
 "
 `;
 
 exports[`write-homepage one category, two pages should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults list\\"
+metaTitle: "macOS defaults list"
 meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+  - property: "og:title"
+    content: "A list of macOS defaults commands with demos ✨"
+  - name: "description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "og:description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "twitter:card"
+    content: "summary_large_image"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.jpg"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class="custom-block tip">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
@@ -281,7 +281,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
     If a default isn't specified in the application's domain, it may be specified in NSGlobalDomain.
   </p>
   <p>
-    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>\\"Default Font\\" = \\"Helvetica\\"</strong>.
+    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>"Default Font" = "Helvetica"</strong>.
     <strong>Keys</strong> are strings, <strong>values</strong> can be complex data structures comprising arrays,
     dictionaries, strings, and binary data. They're stored as XML Property List.
   </p>
@@ -327,35 +327,35 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/main/build#readme) if you want to use it.
 
-<a href=\\"https://www.netlify.com\\">
-  <img src=\\"netlify.svg\\" alt=\\"Deploys by Netlify\\" width=\\"114\\" height=\\"51\\" />
+<a href="https://www.netlify.com">
+  <img src="netlify.svg" alt="Deploys by Netlify" width="114" height="51" />
 </a>
 "
 `;
 
 exports[`write-homepage two categories, one page in each should write a readme.md file using the home template 1`] = `
 "---
-metaTitle: \\"macOS defaults list\\"
+metaTitle: "macOS defaults list"
 meta:
-  - property: \\"og:title\\"
-    content: \\"A list of macOS defaults commands with demos ✨\\"
-  - name: \\"description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"og:description\\"
-    content: \\"You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary_large_image\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-2x1.jpg\\"
+  - property: "og:title"
+    content: "A list of macOS defaults commands with demos ✨"
+  - name: "description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "og:description"
+    content: "You've already copied \`defaults write\` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
+  - property: "twitter:card"
+    content: "summary_large_image"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-2x1.jpg"
 ---
 # macOS \`defaults\` list
 Uncomplete list of macOS \`defaults\` commands with demos ✨
 
 ## 🙋 What's a \`defaults\` command?
 
-<div class=\\"custom-block tip\\">
+<div class="custom-block tip">
   <p>
     <em>macOS applications and other programs</em> use the <code>defaults</code> system to record user preferences and other information to be maintained when the application isn't running (font for new documents, or the position of an Info panel).
     Much of this information is accessible through an application's Preferences panel but sometimes they're hidden.
@@ -366,7 +366,7 @@ Uncomplete list of macOS \`defaults\` commands with demos ✨
     If a default isn't specified in the application's domain, it may be specified in NSGlobalDomain.
   </p>
   <p>
-    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>\\"Default Font\\" = \\"Helvetica\\"</strong>.
+    Each domain has a dictionary of keys and values representing its defaults; e.g. <strong>"Default Font" = "Helvetica"</strong>.
     <strong>Keys</strong> are strings, <strong>values</strong> can be complex data structures comprising arrays,
     dictionaries, strings, and binary data. They're stored as XML Property List.
   </p>
@@ -414,8 +414,8 @@ Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/ma
 ## ❤️ I like this website, how can I build the same?
 Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/main/build#readme) if you want to use it.
 
-<a href=\\"https://www.netlify.com\\">
-  <img src=\\"netlify.svg\\" alt=\\"Deploys by Netlify\\" width=\\"114\\" height=\\"51\\" />
+<a href="https://www.netlify.com">
+  <img src="netlify.svg" alt="Deploys by Netlify" width="114" height="51" />
 </a>
 "
 `;
