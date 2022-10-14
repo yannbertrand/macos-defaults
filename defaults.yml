@@ -1029,7 +1029,7 @@ categories:
         versions: [Catalina]
       - key: ApplePressAndHoldEnabled
         domain: NSGlobalDomain
-        title: Choose the behavior of a key held down
+        title: Key held down behavior
         description: |
           Allows you to select the behavior when a key is held down for a long time. The two possible behaviors are:
 
