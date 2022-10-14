@@ -79,6 +79,10 @@ module.exports = (config, templatesPath, destinationPath) => {
     `${destinationPath}/.vuepress/public/mstile-150x150.png`
   )
   fs.copyFileSync(
+    `${templatesPath}/.vuepress/public/netlify.svg`,
+    `${destinationPath}/.vuepress/public/netlify.svg`
+  )
+  fs.copyFileSync(
     `${templatesPath}/.vuepress/public/robots.txt`,
     `${destinationPath}/.vuepress/public/robots.txt`
   )
