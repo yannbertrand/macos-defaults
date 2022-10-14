@@ -25,6 +25,7 @@ const copiedFiles = [
   '.vuepress/public/media-2x1.jpg',
   '.vuepress/public/media-2x1.webp',
   '.vuepress/public/mstile-150x150.png',
+  '.vuepress/public/netlify.svg',
   '.vuepress/public/robots.txt',
   '.vuepress/public/safari-pinned-tab.svg',
   '.vuepress/public/site.webmanifest',
