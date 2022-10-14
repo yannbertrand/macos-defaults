@@ -716,7 +716,8 @@ categories:
           - affiche le menu des accents (par défaut)
           - écris le caractère tant qu'il est pressé
 
-          ⚠️ Il est nécessaire de redémarrer le mac, fermer la session ou relancer l'application pour prendre en compte les changements.
+          ⚠️ Il est nécessaire de redémarrer le mac, fermer la session ou relancer l'application pour prendre en compte les
+          changements.
         param:
           type: bool
         examples:
