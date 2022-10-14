@@ -4,18 +4,18 @@ exports[`write-pages one category, one page with image example should write a ca
 "---
 metaTitle: Page | Category | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page description."
+  - property: "og:description"
+    content: "Page description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page
 
@@ -30,33 +30,33 @@ Page description.
 ## Set to \`true\` (default value)
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -bool \\"true\\" 
+defaults write com.apple.category "page" -bool "true" 
 \`\`\`
 <img
-  src=\\"./category-page-true.png\\"
-  alt=\\"Example output with value set to true\\"
-  width=\\"600\\" height=\\"400\\" style=\\"height: auto\\"
+  src="./category-page-true.png"
+  alt="Example output with value set to true"
+  width="600" height="400" style="height: auto"
 />
 
 ## Set to \`false\`
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -bool \\"false\\" 
+defaults write com.apple.category "page" -bool "false" 
 \`\`\`
 <img
-  src=\\"./category-page-false.png\\"
-  alt=\\"Example output with value set to false\\"
-  width=\\"400\\" height=\\"200\\" style=\\"height: auto\\"
+  src="./category-page-false.png"
+  alt="Example output with value set to false"
+  width="400" height="200" style="height: auto"
 />
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category \\"page\\"
+defaults read com.apple.category "page"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category \\"page\\"
+defaults delete com.apple.category "page"
 \`\`\`
 "
 `;
@@ -65,18 +65,18 @@ exports[`write-pages one category, one page with text and possible values exampl
 "---
 metaTitle: Page | Category | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page description."
+  - property: "og:description"
+    content: "Page description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page
 
@@ -96,7 +96,7 @@ Page description.
 output when value is start
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -string \\"start\\" 
+defaults write com.apple.category "page" -string "start" 
 \`\`\`
 
 ## Set to \`middle\` (default value)
@@ -104,7 +104,7 @@ defaults write com.apple.category \\"page\\" -string \\"start\\"
 output when value is middle
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -string \\"middle\\" 
+defaults write com.apple.category "page" -string "middle" 
 \`\`\`
 
 ## Set to \`end\`
@@ -112,17 +112,17 @@ defaults write com.apple.category \\"page\\" -string \\"middle\\"
 output when value is end
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -string \\"end\\" 
+defaults write com.apple.category "page" -string "end" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category \\"page\\"
+defaults read com.apple.category "page"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category \\"page\\"
+defaults delete com.apple.category "page"
 \`\`\`
 "
 `;
@@ -131,18 +131,18 @@ exports[`write-pages one category, one page with text example with a deleteAlert
 "---
 metaTitle: Page | Category | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page description."
+  - property: "og:description"
+    content: "Page description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page
 
@@ -156,7 +156,7 @@ Page description.
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category \\"page\\"
+defaults read com.apple.category "page"
 \`\`\`
 
 ## Reset to default value
@@ -164,7 +164,7 @@ defaults read com.apple.category \\"page\\"
 This an alert message. <br> \`defaults command\`
 :::
 \`\`\`bash
-defaults delete com.apple.category \\"page\\"
+defaults delete com.apple.category "page"
 \`\`\`
 "
 `;
@@ -173,18 +173,18 @@ exports[`write-pages one category, one page with text example with an after comm
 "---
 metaTitle: Page | Category | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page description."
+  - property: "og:description"
+    content: "Page description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page
 
@@ -201,7 +201,7 @@ Page description.
 output when value is ~/Desktop
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -string \\"~/Desktop\\" && killall App
+defaults write com.apple.category "page" -string "~/Desktop" && killall App
 \`\`\`
 
 ## Set to \`~/Pictures\`
@@ -209,17 +209,17 @@ defaults write com.apple.category \\"page\\" -string \\"~/Desktop\\" && killall 
 output when value is ~/Pictures
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -string \\"~/Pictures\\" && killall App
+defaults write com.apple.category "page" -string "~/Pictures" && killall App
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category \\"page\\"
+defaults read com.apple.category "page"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category \\"page\\" && killall App
+defaults delete com.apple.category "page" && killall App
 \`\`\`
 "
 `;
@@ -228,18 +228,18 @@ exports[`write-pages one category, one page with text example with requirements 
 "---
 metaTitle: Page | Category | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page description."
+  - property: "og:description"
+    content: "Page description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page
 
@@ -260,7 +260,7 @@ Page description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -string \\"true\\" && killall App
+defaults write com.apple.category "page" -string "true" && killall App
 \`\`\`
 
 ## Set to \`false\`
@@ -268,17 +268,17 @@ defaults write com.apple.category \\"page\\" -string \\"true\\" && killall App
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -string \\"false\\" && killall App
+defaults write com.apple.category "page" -string "false" && killall App
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category \\"page\\"
+defaults read com.apple.category "page"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category \\"page\\" && killall App
+defaults delete com.apple.category "page" && killall App
 \`\`\`
 "
 `;
@@ -287,22 +287,22 @@ exports[`write-pages one category, one page with text example with special chars
 "---
 metaTitle: Page | Category | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
-  - property: \\"og:description\\"
-    content: \\"This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\\\n\\\\n- a list item\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\n\\n- a list item"
+  - property: "og:description"
+    content: "This is a description of the page. It can contain &quot;quotes&quot; and markdown.\\n\\n- a list item"
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page
 
-This is a description of the page. It can contain \\"quotes\\" and markdown.
+This is a description of the page. It can contain "quotes" and markdown.
 
 - a list item
 
@@ -317,25 +317,25 @@ This is a description of the page. It can contain \\"quotes\\" and markdown.
 output when value is ~/Desktop
 
 \`\`\`bash
-defaults write com.apple.category \\"a page\\" -bool \\"~/Desktop\\" 
+defaults write com.apple.category "a page" -bool "~/Desktop" 
 \`\`\`
 
-## Set to \`\\"EEE d MMM HH:mm:ss\\"\`
+## Set to \`"EEE d MMM HH:mm:ss"\`
 
-output when value is \\"EEE d MMM HH:mm:ss\\"
+output when value is "EEE d MMM HH:mm:ss"
 
 \`\`\`bash
-defaults write com.apple.category \\"a page\\" -bool \\"\\\\\\"EEE d MMM HH:mm:ss\\\\\\"\\" 
+defaults write com.apple.category "a page" -bool "\\"EEE d MMM HH:mm:ss\\"" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category \\"a page\\"
+defaults read com.apple.category "a page"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category \\"a page\\"
+defaults delete com.apple.category "a page"
 \`\`\`
 "
 `;
@@ -344,18 +344,18 @@ exports[`write-pages one category, one page with video example should write a ca
 "---
 metaTitle: Page | Category | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page description."
+  - property: "og:description"
+    content: "Page description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page
 
@@ -370,31 +370,31 @@ Page description.
 ## Set to \`0\` (default value)
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -float \\"0\\" 
+defaults write com.apple.category "page" -float "0" 
 \`\`\`
-<video autoplay loop muted playsinline width=\\"750\\" height=\\"400\\" style=\\"max-width: 100%; height: auto\\">
-  <source src=\\"./category-page-0.mp4\\" type=\\"video/mp4\\">
+<video autoplay loop muted playsinline width="750" height="400" style="max-width: 100%; height: auto">
+  <source src="./category-page-0.mp4" type="video/mp4">
   Example output with value set to 0
 </video>
 
 ## Set to \`0.5\`
 
 \`\`\`bash
-defaults write com.apple.category \\"page\\" -float \\"0.5\\" 
+defaults write com.apple.category "page" -float "0.5" 
 \`\`\`
-<video autoplay loop muted playsinline width=\\"720\\" height=\\"390\\" style=\\"max-width: 100%; height: auto\\">
-  <source src=\\"./category-page-0.5.mp4\\" type=\\"video/mp4\\">
+<video autoplay loop muted playsinline width="720" height="390" style="max-width: 100%; height: auto">
+  <source src="./category-page-0.5.mp4" type="video/mp4">
   Example output with value set to 0.5
 </video>
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category \\"page\\"
+defaults read com.apple.category "page"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category \\"page\\"
+defaults delete com.apple.category "page"
 \`\`\`
 "
 `;
@@ -403,18 +403,18 @@ exports[`write-pages one category, two pages should write a category/page1.md fi
 "---
 metaTitle: Page 1 | Category | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category > Page 1
-  - name: \\"description\\"
-    content: \\"Page 1 description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page 1 description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page 1 description."
+  - property: "og:description"
+    content: "Page 1 description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page 1
 
@@ -431,7 +431,7 @@ Page 1 description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category \\"page1\\" -bool \\"true\\" 
+defaults write com.apple.category "page1" -bool "true" 
 \`\`\`
 
 ## Set to \`false\`
@@ -439,17 +439,17 @@ defaults write com.apple.category \\"page1\\" -bool \\"true\\"
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category \\"page1\\" -bool \\"false\\" 
+defaults write com.apple.category "page1" -bool "false" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category \\"page1\\"
+defaults read com.apple.category "page1"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category \\"page1\\"
+defaults delete com.apple.category "page1"
 \`\`\`
 "
 `;
@@ -458,18 +458,18 @@ exports[`write-pages one category, two pages should write a category/page2.md fi
 "---
 metaTitle: Page 2 | Category | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category > Page 2
-  - name: \\"description\\"
-    content: \\"Page 2 description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page 2 description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page 2 description."
+  - property: "og:description"
+    content: "Page 2 description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page 2
 
@@ -486,7 +486,7 @@ Page 2 description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category \\"page2\\" -bool \\"true\\" 
+defaults write com.apple.category "page2" -bool "true" 
 \`\`\`
 
 ## Set to \`false\` (default value)
@@ -494,17 +494,17 @@ defaults write com.apple.category \\"page2\\" -bool \\"true\\"
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category \\"page2\\" -bool \\"false\\" 
+defaults write com.apple.category "page2" -bool "false" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category \\"page2\\"
+defaults read com.apple.category "page2"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category \\"page2\\"
+defaults delete com.apple.category "page2"
 \`\`\`
 "
 `;
@@ -513,18 +513,18 @@ exports[`write-pages two categories, one page in each should write a category1/p
 "---
 metaTitle: Page | Category 1 | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category 1 > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page description."
+  - property: "og:description"
+    content: "Page description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page
 
@@ -541,7 +541,7 @@ Page description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category1 \\"page\\" -bool \\"true\\" 
+defaults write com.apple.category1 "page" -bool "true" 
 \`\`\`
 
 ## Set to \`false\`
@@ -549,17 +549,17 @@ defaults write com.apple.category1 \\"page\\" -bool \\"true\\"
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category1 \\"page\\" -bool \\"false\\" 
+defaults write com.apple.category1 "page" -bool "false" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category1 \\"page\\"
+defaults read com.apple.category1 "page"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category1 \\"page\\"
+defaults delete com.apple.category1 "page"
 \`\`\`
 "
 `;
@@ -568,18 +568,18 @@ exports[`write-pages two categories, one page in each should write a category2/p
 "---
 metaTitle: Page | Category 2 | macOS defaults
 meta:
-  - property: \\"og:title\\"
+  - property: "og:title"
     content: macOS defaults > Category 2 > Page
-  - name: \\"description\\"
-    content: \\"Page description.\\"
-  - property: \\"og:description\\"
-    content: \\"Page description.\\"
-  - property: \\"twitter:card\\"
-    content: \\"summary\\"
-  - property: \\"twitter:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.webp\\"
-  - property: \\"og:image\\"
-    content: \\"https://macos-defaults.netlify.app/media-1x1.jpg\\"
+  - name: "description"
+    content: "Page description."
+  - property: "og:description"
+    content: "Page description."
+  - property: "twitter:card"
+    content: "summary"
+  - property: "twitter:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.webp"
+  - property: "og:image"
+    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
 ---
 # Page
 
@@ -596,7 +596,7 @@ Page description.
 output when value is true
 
 \`\`\`bash
-defaults write com.apple.category2 \\"page\\" -bool \\"true\\" 
+defaults write com.apple.category2 "page" -bool "true" 
 \`\`\`
 
 ## Set to \`false\` (default value)
@@ -604,17 +604,17 @@ defaults write com.apple.category2 \\"page\\" -bool \\"true\\"
 output when value is false
 
 \`\`\`bash
-defaults write com.apple.category2 \\"page\\" -bool \\"false\\" 
+defaults write com.apple.category2 "page" -bool "false" 
 \`\`\`
 
 ## Read current value
 \`\`\`bash
-defaults read com.apple.category2 \\"page\\"
+defaults read com.apple.category2 "page"
 \`\`\`
 
 ## Reset to default value
 \`\`\`bash
-defaults delete com.apple.category2 \\"page\\"
+defaults delete com.apple.category2 "page"
 \`\`\`
 "
 `;
