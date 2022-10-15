@@ -1065,3 +1065,19 @@ categories:
               height: 252
             text: Repeats the key as long as it is held down.
         versions: [Monterey, Big Sur]
+      - key: FocusFollowsMouse
+        domain: com.apple.Terminal
+        title: Focus Follows Mouse
+        description: |
+          Focus of the Terminal windows when the mouse cursor hovers over them.
+          The focus change only works between the Terminal windows.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            text: By default, to switch between Terminal windows you should click on it or press on <code>cmd + `</code>.
+          - value: true
+            text: Focus follows the mouse cursor to any Terminal windows.
+        versions: [Monterey]
+        after: killall Terminal
