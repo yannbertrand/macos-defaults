@@ -436,9 +436,17 @@ categories:
         examples:
           - value: true
             text: Keep folders on top
+            video:
+              filename: true.mp4
+              width: 739
+              height: 416
           - value: false
             default: true
             text: Do not keep folders on top
+            video:
+              filename: false.mp4
+              width: 739
+              height: 416
         versions: [Monterey, Big Sur]
         after: killall Finder
       - key: FXDefaultSearchScope

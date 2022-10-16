@@ -390,9 +390,17 @@ categories:
         examples:
           - value: true
             text: Laisse les dossiers en haut
+            video:
+              filename: true.mp4
+              width: 739
+              height: 416
           - value: false
             default: true
             text: Ne laisse pas les dossiers en haut
+            video:
+              filename: false.mp4
+              width: 739
+              height: 416
         versions: [Monterey, Big Sur]
         after: killall Finder
       - key: FXEnableExtensionChangeWarning
