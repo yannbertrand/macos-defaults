@@ -1056,10 +1056,18 @@ categories:
         examples:
           - value: false
             default: true
+            video:
+              filename: false.mp4
+              width: 739
+              height: 416
             text: |
               Par défaut le changement de focus entre fenêtres du Terminal se fait en cliquant sur celles-ci ou en pressant
               <code>cmd + `</code> .
           - value: true
+            video:
+              filename: true.mp4
+              width: 739
+              height: 416
             text: Le focus suit le curseur de la souris entre les fenêtres du Terminal.
         versions: [Monterey]
         after: killall Terminal

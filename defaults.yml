@@ -1076,8 +1076,16 @@ categories:
         examples:
           - value: false
             default: true
+            video:
+              filename: false.mp4
+              width: 739
+              height: 416
             text: By default, to switch between Terminal windows you should click on it or press on <code>cmd + `</code>.
           - value: true
+            video:
+              filename: true.mp4
+              width: 739
+              height: 416
             text: Focus follows the mouse cursor to any Terminal windows.
         versions: [Monterey]
         after: killall Terminal
