@@ -401,6 +401,20 @@ categories:
               filename: false.mp4
               width: 739
               height: 416
+      - key: FXDefaultSearchScope
+        domain: com.apple.finder
+        title: Scope de recherche par défaut
+        description: Définir le scope de recherche par défaut.
+        param:
+          type: string
+        examples:
+          - text: Recherche dans le dossier courant
+            value: SCcf
+          - text: Utilise le scope précédent
+            value: SCsp
+          - text: Recherche dans ce Mac
+            default: true
+            value: SCev
         versions: [Monterey, Big Sur]
         after: killall Finder
       - key: FXEnableExtensionChangeWarning
