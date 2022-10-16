@@ -194,6 +194,23 @@ categories:
             name: com.apple.dock autohide
             value: true
         after: killall Dock
+      - key: static-only
+        domain: com.apple.dock
+        title: Seulement les applications actives
+        description: |
+          Afficher dans le Dock uniquement les applications ouvertes.
+
+          ⚠️ Attention cette commande vide votre Dock.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Affiche uniquement les applications actives.
+          - value: false
+            default: true
+            text: Afficher les applications épinglées au dock.
+        after: killall Dock
+        versions: [Monterey]
 
   - folder: screenshots
     name: Capture d'écran
