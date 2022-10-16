@@ -381,6 +381,20 @@ categories:
           - value: icnv
             default: true
             text: Vue en icônes
+      - key: _FXSortFoldersFirst
+        domain: com.apple.finder
+        title: Laisser les dossiers en haut
+        description: Laisser les dossiers en haut lors d'un tri par nom.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Laisse les dossiers en haut
+          - value: false
+            default: true
+            text: Ne laisse pas les dossiers en haut
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Alerte au changement d'extension
