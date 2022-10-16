@@ -343,6 +343,24 @@ categories:
               height: 451
         versions: [Monterey, Big Sur, Catalina]
         after: killall Finder
+      - key: FXPreferredViewStyle
+        domain: com.apple.finder
+        title: Style de présentation par défaut
+        description: Définir le style d'affichage par défaut des dossiers sans réglage spécifique.
+        param:
+          type: string
+        examples:
+          - value: clmv
+            text: Vue en colonnes
+          - value: Nlsv
+            text: Vue en liste
+          - value: glyv
+            text: Vue en galerie d'icônes
+          - value: icnv
+            default: true
+            text: Vue en icônes
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Alerte au changement d'extension
