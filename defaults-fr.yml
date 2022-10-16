@@ -415,6 +415,18 @@ categories:
           - text: Recherche dans ce Mac
             default: true
             value: SCev
+      - key: FXRemoveOldTrashItems
+        domain: com.apple.finder
+        title: Supprime de la corbeille après 30 jours
+        description: Supprimer automatiquement les éléments de la corbeille après 30 jours.
+        param:
+          type: bool
+        examples:
+          - text: Supprime automatiquement les éléments après 30 jours
+            value: true
+          - text: Garde les éléments dans la corbeille
+            default: true
+            value: false
         versions: [Monterey, Big Sur]
         after: killall Finder
       - key: FXEnableExtensionChangeWarning
