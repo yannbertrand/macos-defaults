@@ -343,6 +343,28 @@ categories:
               height: 451
         versions: [Monterey, Big Sur, Catalina]
         after: killall Finder
+      - key: ShowPathbar
+        domain: com.apple.finder
+        title: Barre du chemin d'accès
+        description: Afficher la barre du chemin d'accès en bas de la fenêtre du Finder.
+        param:
+          type: bool
+        examples:
+          - text: Afficher la barre du chemin d'accès
+            value: true
+            image:
+              filename: "true.png"
+              width: 740
+              height: 451
+          - text: Masquer la barre du chemin d'accès
+            default: true
+            value: false
+            image:
+              filename: "false.png"
+              width: 740
+              height: 451
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXPreferredViewStyle
         domain: com.apple.finder
         title: Style de présentation par défaut
@@ -359,8 +381,6 @@ categories:
           - value: icnv
             default: true
             text: Vue en icônes
-        versions: [Monterey, Big Sur]
-        after: killall Finder
       - key: FXEnableExtensionChangeWarning
         domain: com.apple.finder
         title: Alerte au changement d'extension
