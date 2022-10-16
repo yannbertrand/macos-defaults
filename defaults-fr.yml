@@ -205,10 +205,10 @@ categories:
           type: bool
         examples:
           - value: true
-            text: Affiche uniquement les applications actives.
+            text: Affiche uniquement les applications actives
           - value: false
             default: true
-            text: Afficher les applications épinglées au dock.
+            text: Afficher les applications épinglées au dock
         after: killall Dock
         versions: [Monterey]
 

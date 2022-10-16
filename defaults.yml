@@ -208,7 +208,7 @@ categories:
             text: Only show active apps
           - value: false
             default: true
-            text: Show apps pinned to the dock.
+            text: Show apps pinned to the dock
         after: killall Dock
         versions: [Monterey]
 
