@@ -197,7 +197,10 @@ categories:
       - key: static-only
         domain: com.apple.dock
         title: Active applications only
-        description: Only show opened apps in Dock.
+        description: |
+          Only show opened apps in Dock.
+
+          ⚠️ Beware this command empties your Dock.
         param:
           type: bool
         examples:
@@ -205,7 +208,7 @@ categories:
             text: Only show active apps
           - value: false
             default: true
-            text: Hide inactive apps from the Dock
+            text: Show apps pinned to the dock.
         after: killall Dock
         versions: [Monterey]
 
