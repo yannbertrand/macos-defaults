@@ -283,6 +283,35 @@ categories:
             text: L'image générée est au format jpg
         versions: [Monterey, Big Sur, Catalina, Mojave]
 
+  - folder: safari
+    name: Safari
+    description: |
+      Safari est le navigateur web par défaut sur macOS.
+      Certaines de ses fonctionnalités peuvent être paramétrées.
+    keys:
+      - key: ShowFullURLInSmartSearchField
+        domain: com.apple.safari
+        title: Afficher l'URL complète
+        description: Afficher l'adresse des sites web en entier.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Affiche l'URL complète des sites web.
+            image:
+              filename: "true.png"
+              width: 740
+              height: 207
+          - value: false
+            default: true
+            text: N'affiche pas l'URL complète des sites web.
+            image:
+              filename: "false.png"
+              width: 740
+              height: 207
+        versions: [Monterey]
+        after: killall Safari
+
   - folder: finder
     name: Finder
     description: |
