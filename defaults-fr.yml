@@ -582,6 +582,27 @@ categories:
         versions: [Monterey, Big Sur, Catalina]
         after: killall Finder
 
+  - folder: desktop
+    name: Bureau
+    description: |
+      Le Bureau est une partie du Finder, il affiche les fichiers et les icônes sur un fond.
+      La présentation du Bureau peut être personnalisée.
+    keys:
+      - key: _FXSortFoldersFirstOnDesktop
+        domain: com.apple.finder
+        title: Laisser les dossiers en haut
+        description: Laisser les dossiers en haut lors d'un tri.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Laisse les dossiers en haut
+          - value: false
+            default: true
+            text: Ne laisse pas les dossiers en haut
+        versions: [Monterey, Big Sur]
+        after: killall Finder
+
   - folder: menubar
     name: Barre des menus
     description:
