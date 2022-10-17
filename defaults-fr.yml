@@ -645,6 +645,20 @@ categories:
 
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: ShowRemovableMediaOnDesktop
+        domain: com.apple.finder
+        title: Supports amovibles
+        description: Masquer les supports amovibles _(CDs, DVDs and iPods)_ du bureau.
+        param:
+          type: bool
+        examples:
+          - value: false
+            text: Masque supports amovibles
+          - value: true
+            default: true
+            text: Affiche supports amovibles
+        versions: [Monterey, Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Barre des menus
