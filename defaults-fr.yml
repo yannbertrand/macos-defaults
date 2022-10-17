@@ -630,6 +630,21 @@ categories:
             text: Masque les disques durs
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: ShowExternalHardDrivesOnDesktop
+        domain: com.apple.finder
+        title: Disques externes
+        description: Masquer les disques externes sur le bureau.
+        param:
+          type: bool
+        examples:
+          - value: false
+            text: Masque les disques externes
+          - value: true
+            default: true
+            text: Affiche les disques externes
+
+        versions: [Monterey, Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Barre des menus
