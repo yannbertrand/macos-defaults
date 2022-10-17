@@ -585,13 +585,13 @@ categories:
   - folder: desktop
     name: Bureau
     description: |
-      Le Bureau est une partie du Finder, il affiche les fichiers et les icônes sur un fond.
-      La présentation du Bureau peut être personnalisée.
+      Le bureau est une partie du Finder, il affiche les fichiers et les icônes sur un fond.
+      La présentation du bureau peut être personnalisée.
     keys:
       - key: _FXSortFoldersFirstOnDesktop
         domain: com.apple.finder
         title: Laisser les dossiers en haut
-        description: Laisser les dossiers en haut lors d'un tri.
+        description: Laisser les dossiers du bureau en haut lors d'un tri.
         param:
           type: bool
         examples:
@@ -605,29 +605,29 @@ categories:
       - key: CreateDesktop
         domain: com.apple.finder
         title: Toutes les icônes
-        description: Masquer toutes les icônes du Bureau.
+        description: Masquer toutes les icônes du bureau.
         param:
           type: bool
         examples:
-          - text: Masque toutes les icônes
-            value: false
-          - text: Affiche toutes les icônes
+          - value: false
+            text: Masque toutes les icônes
+          - value: true
             default: true
-            value: true
+            text: Affiche toutes les icônes
         versions: [Monterey, Big Sur]
         after: killall Finder
       - key: ShowHardDrivesOnDesktop
         domain: com.apple.finder
         title: Disques
-        description: Afficher les disques durs sur le Bureau.
+        description: Afficher les disques durs sur le bureau.
         param:
           type: bool
         examples:
-          - text: Affiche les disques durs
-            value: true
-          - text: Masque les disques durs
+          - value: true
+            text: Affiche les disques durs
+          - value: false
             default: true
-            value: false
+            text: Masque les disques durs
         versions: [Monterey, Big Sur]
         after: killall Finder
 
