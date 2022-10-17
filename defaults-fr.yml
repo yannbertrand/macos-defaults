@@ -605,7 +605,7 @@ categories:
       - key: CreateDesktop
         domain: com.apple.finder
         title: Toutes les icônes
-        description: Masque toutes les icônes du Bureau.
+        description: Masquer toutes les icônes du Bureau.
         param:
           type: bool
         examples:
@@ -614,6 +614,20 @@ categories:
           - text: Affiche toutes les icônes
             default: true
             value: true
+        versions: [Monterey, Big Sur]
+        after: killall Finder
+      - key: ShowHardDrivesOnDesktop
+        domain: com.apple.finder
+        title: Disques
+        description: Afficher les disques durs sur le Bureau.
+        param:
+          type: bool
+        examples:
+          - text: Affiche les disques durs
+            value: true
+          - text: Masque les disques durs
+            default: true
+            value: false
         versions: [Monterey, Big Sur]
         after: killall Finder
 
