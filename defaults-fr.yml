@@ -642,7 +642,6 @@ categories:
           - value: true
             default: true
             text: Affiche les disques externes
-
         versions: [Monterey, Big Sur]
         after: killall Finder
       - key: ShowRemovableMediaOnDesktop
