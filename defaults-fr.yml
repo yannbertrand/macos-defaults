@@ -659,6 +659,20 @@ categories:
             text: Affiche supports amovibles
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: ShowMountedServersOnDesktop
+        domain: com.apple.finder
+        title: Serveurs connectés
+        description: Afficher sur le bureau les serveurs connectés.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Affiche les serveurs connectés
+          - value: false
+            default: true
+            text: Masque les serveurs connectés
+        versions: [Monterey, Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Barre des menus
