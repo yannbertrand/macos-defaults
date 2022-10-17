@@ -585,7 +585,7 @@ categories:
   - folder: desktop
     name: Bureau
     description: |
-      Le bureau est une partie du Finder, il affiche les fichiers et les icônes sur un fond.
+      Le bureau est une partie du Finder, il affiche les fichiers et les icônes par dessus le fond d'écran.
       La présentation du bureau peut être personnalisée.
     keys:
       - key: _FXSortFoldersFirstOnDesktop
