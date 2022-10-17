@@ -973,6 +973,26 @@ categories:
         after: killall Activity\ Monitor
         versions: [Monterey]
 
+  - folder: general
+    name: General
+    description: |
+      On a Mac, there are many General settings which are able to be set.
+    keys:
+      - key: NSCloseAlwaysConfirmsChanges
+        domain: .GlobalPreferences.plist
+        title: Close Always Confirm Changes
+        description:
+          Should you be asked to keep changes when closing documents or just have changes saved automatically?
+        param:
+          type: int
+        examples:
+          - value: 0
+            default: 0
+            text: Auto saving is enabled, you are not prompted to save changes.
+          - value: 2
+            text: Auto saving is disabled, you are prompted if you want to save changes.
+        versions: [Big Sur]
+
   - folder: misc
     name: Miscellaneous
     description: All the others `defaults` that don't deserve their own category.
@@ -1064,4 +1084,4 @@ categories:
               width: 696
               height: 252
             text: Repeats the key as long as it is held down.
-        versions: [Monterey, Big Sur]
+        versions: [Monterey, Big Sur]z
