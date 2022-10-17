@@ -809,6 +809,24 @@ categories:
     description: |
       Le Moniteur d'activité est un utilitaire intégré pour consulter l'utilisation des ressources de votre système telles que
       le CPU, la RAM, le disque, le réseau, et l'alimentation.
+    keys:
+      - key: UpdatePeriod
+        domain: com.apple.ActivityMonitor
+        title: Modifier la fréquence
+        description: Modifier la fréquence à laquelle le Moniteur d'activité met à jour ses données, en secondes.
+        param:
+          type: int
+          values: [1, 2, 5]
+        examples:
+          - value: 1
+            text: "Très souvent (1s)"
+          - value: 2
+            text: "Souvent (2s)"
+          - value: 5
+            default: true
+            text: "Normale (5s)"
+        after: killall Activity\ Monitor
+        versions: [Monterey]
 
   - folder: misc
     name: Divers
