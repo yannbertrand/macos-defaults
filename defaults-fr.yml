@@ -827,6 +827,37 @@ categories:
             text: "Normale (5s)"
         after: killall Activity\ Monitor
         versions: [Monterey]
+      - key: IconType
+        domain: com.apple.ActivityMonitor
+        title: Icône du Dock
+        description: Choisir quelles informations sont à afficher dans l'icône lorsqu'elle est dans le Dock.
+        param:
+          type: int
+          values: [0, 2, 3, 5, 6]
+        examples:
+          - value: 0
+            default: true
+            text: Affiche l'icône classique de l'application
+          - value: 2
+            text: |
+              Affiche l'activité du réseau dans le temps sous la forme de deux graphiques en miroir.
+              Le graphique du haut (bleu) montre le flux entrant en paquets/s.
+              Le graphique du bas (rouge) montre le flux sortant en paquets/s.
+          - value: 3
+            text: |
+              Affiche l'activité du disque sous la forme de deux graphiques en miroir.
+              Le graphique du haut (bleu) montre le flux entrant en lectures/s.
+              Le graphique du bas (rouge) montre le flux sortant en écritures/s.
+          - value: 5
+            text: Affiche l'activité du processeur, sous la forme d'une jauge.
+          - value: 6
+            text: |
+              Affiche l'historique du processeur sous forme d'histogramme.
+              Si votre appareil possède 4 cœurs ou moins, il affichera un graphique par thread, tous empilés verticalement.
+              Si vous avez plus de 4 cœurs, un seul graphique à barres sera affiché, pour l'utilisation totale du CPU.
+              En rouge l'utilisation système et en vert l'utilisation utilisateur.
+        after: killall Activity\ Monitor
+        versions: [Monterey]
 
   - folder: misc
     name: Divers
