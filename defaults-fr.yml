@@ -602,6 +602,20 @@ categories:
             text: Ne laisse pas les dossiers en haut
         versions: [Monterey, Big Sur]
         after: killall Finder
+      - key: CreateDesktop
+        domain: com.apple.finder
+        title: Toutes les icônes
+        description: Masque toutes les icônes du Bureau.
+        param:
+          type: bool
+        examples:
+          - text: Masque toutes les icônes
+            value: false
+          - text: Affiche toutes les icônes
+            default: true
+            value: true
+        versions: [Monterey, Big Sur]
+        after: killall Finder
 
   - folder: menubar
     name: Barre des menus
