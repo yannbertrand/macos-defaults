@@ -804,6 +804,12 @@ categories:
               Ne pas proposer les nouveaux périphériques de stockage connectés comme disque de sauvegarde
         versions: [Catalina]
 
+  - folder: activity-monitor
+    name: Moniteur d'activité
+    description: |
+      Le Moniteur d'activité est un utilitaire intégré pour consulter l'utilisation des ressources de votre système telles que
+      le CPU, la RAM, le disque, le réseau, et l'alimentation.
+
   - folder: misc
     name: Divers
     description: Tous les `defaults` qui n'ont pas leur place ailleurs.
