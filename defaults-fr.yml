@@ -403,22 +403,22 @@ categories:
               height: 416
       - key: FXDefaultSearchScope
         domain: com.apple.finder
-        title: Scope de recherche par défaut
-        description: Définir le scope de recherche par défaut.
+        title: Portée des recherches
+        description: Définir la portée par défaut des recherche.
         param:
           type: string
         examples:
           - text: Recherche dans le dossier courant
             value: SCcf
-          - text: Utilise le scope précédent
+          - text: Utilise la portée précédente
             value: SCsp
           - text: Recherche dans ce Mac
             default: true
             value: SCev
       - key: FXRemoveOldTrashItems
         domain: com.apple.finder
-        title: Supprime de la corbeille après 30 jours
-        description: Supprimer automatiquement les éléments de la corbeille après 30 jours.
+        title: Vider la corbeille automatiquement
+        description: Supprimer automatiquement les éléments se trouvant dans la corbeille depuis plus de 30 jours.
         param:
           type: bool
         examples:
