@@ -381,6 +381,8 @@ categories:
           - value: icnv
             default: true
             text: Vue en icônes
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: _FXSortFoldersFirst
         domain: com.apple.finder
         title: Laisser les dossiers en haut
@@ -401,6 +403,8 @@ categories:
               filename: false.mp4
               width: 739
               height: 416
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXDefaultSearchScope
         domain: com.apple.finder
         title: Portée des recherches
@@ -415,6 +419,8 @@ categories:
           - text: Recherche dans ce Mac
             default: true
             value: SCev
+        versions: [Monterey, Big Sur]
+        after: killall Finder
       - key: FXRemoveOldTrashItems
         domain: com.apple.finder
         title: Vider la corbeille automatiquement
