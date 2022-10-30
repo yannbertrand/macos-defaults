@@ -647,7 +647,7 @@ categories:
       - key: ShowRemovableMediaOnDesktop
         domain: com.apple.finder
         title: Supports amovibles
-        description: Masquer les supports amovibles _(CDs, DVDs and iPods)_ du bureau.
+        description: Masquer les supports amovibles _(CDs, DVDs et iPods)_ du bureau.
         param:
           type: bool
         examples:
