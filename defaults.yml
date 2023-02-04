@@ -779,6 +779,48 @@ categories:
             text: Keep the Spaces arrangement
         versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
+      - key: AppleSpacesSwitchOnActivate
+        domain: NSGlobalDomain
+        title: Switch to Space with open windows
+        description: When switching to an application, switch to a Space with open windows for the application.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Switch to a Space with open windows for the application.
+          - value: false
+            text: Do not switch to a Space with open windows for the application.
+        versions: [Big Sur, Ventura]
+        after: killall Dock
+      - key: expose-group-apps
+        domain: com.apple.dock
+        title: Group windows by application.
+        description: Mission control groups windows by application.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text:  Group windows by application.
+          - value: false
+            default: true
+            text: Do not group windows by application.
+        versions: [Big Sur, Ventura]
+        after: killall Dock
+      - key: spans-displays
+        domain: com.apple.spaces
+        title: Displays have separate Spaces.
+        description: Each monitor has its own set of Spaces.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Spaces span all displays.
+          - value: false
+            default: true
+            text: Displays have separate Spaces.
+        versions: [Big Sur, Ventura]
+        after: killall Dock
 
   - folder: feedback-assistant
     name: Feedback Assistant
