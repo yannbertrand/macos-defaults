@@ -779,6 +779,30 @@ categories:
             text: Keep the Spaces arrangement
         versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
+      - key: expose-group-apps
+        domain: com.apple.dock
+        title: Group windows by application
+        description: |
+          If you have several windows from multiple apps open simultaneously, have the windows organised by app in
+          Mission Control.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Group windows by application.
+            image:
+              filename: "true.png"
+              width: 740
+              height: 416
+          - value: false
+            default: true
+            text: Do not group windows by application.
+            image:
+              filename: "false.png"
+              width: 740
+              height: 416
+        versions: [Big Sur, Ventura]
+        after: killall Dock
 
   - folder: feedback-assistant
     name: Feedback Assistant
