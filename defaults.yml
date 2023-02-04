@@ -782,7 +782,7 @@ categories:
       - key: AppleSpacesSwitchOnActivate
         domain: NSGlobalDomain
         title: Switch to Space with open windows
-        description: When switching to an application, switch to a Space with open windows for the application.
+        description: If you use Spaces, have your desktop scroll to a space with open windows for an app when you switch to that app.
         param:
           type: bool
         examples:
@@ -796,7 +796,7 @@ categories:
       - key: expose-group-apps
         domain: com.apple.dock
         title: Group windows by application.
-        description: Mission control groups windows by application.
+        description: If you have several windows from multiple apps open simultaneously, have the windows organised by app in Mission Control.
         param:
           type: bool
         examples:
@@ -810,7 +810,7 @@ categories:
       - key: spans-displays
         domain: com.apple.spaces
         title: Displays have separate Spaces.
-        description: Each monitor has its own set of Spaces.
+        description: Set up separate spaces for each display (if you use Spaces and have multiple displays).
         param:
           type: bool
         examples:
