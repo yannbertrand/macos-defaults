@@ -25,7 +25,7 @@
     "jest": "29.2.0",
     "netlify-plugin-minify-html": "0.3.1",
     "prettier": "2.7.1",
-    "rimraf": "3.0.2",
+    "rimraf": "4.4.1",
     "slugify": "1.6.5"
   },
   "resolutions": {
