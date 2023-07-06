@@ -20,7 +20,8 @@ describe('write-categories', () => {
             {
               folder: 'category',
               name: 'Category',
-              description: 'This is a description of the category. It can contain "quotes" and markdown.\n\n- a list item',
+              description:
+                'This is a description of the category. It can contain "quotes" and markdown.\n\n- a list item',
               image: {
                 filename: 'category.png',
                 width: 740,

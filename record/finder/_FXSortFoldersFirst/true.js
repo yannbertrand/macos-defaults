@@ -11,9 +11,7 @@ const {
 
 module.exports = {
   run: async (outputPath) => {
-    console.log(
-      '> Recording finder _FXSortFoldersFirst with param set to true'
-    )
+    console.log('> Recording finder _FXSortFoldersFirst with param set to true')
 
     const { stderr: setEnvError } = await exec(
       'defaults write com.apple.finder _FXSortFoldersFirst -bool true && killall Finder'
