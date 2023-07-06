@@ -18,14 +18,14 @@
   "dependencies": {
     "aperture": "6.1.3",
     "delay": "5.0.0",
-    "glob": "8.0.3",
-    "glob-promise": "5.0.0",
-    "jimp": "0.16.2",
+    "glob": "8.1.0",
+    "glob-promise": "5.0.1",
+    "jimp": "0.22.8",
     "mkdirp": "1.0.4",
     "node-pngquant-native": "2.2.0",
-    "prettier": "2.7.1",
+    "prettier": "2.8.8",
     "prompt-confirm": "2.0.4",
     "robotjs": "0.6.0",
-    "sharp": "0.31.1"
+    "sharp": "0.32.1"
   }
 }
