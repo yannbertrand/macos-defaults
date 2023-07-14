@@ -691,6 +691,96 @@ categories:
         versions: [Monterey, Big Sur]
         after: killall Finder
 
+  - folder: window-manager
+    name: StageManager/WindowManager
+    description: |
+      The Stage Manager functionality in macOS allows for efficient window management and organization on the desktop.
+      You can activate/deactivate it in the control center of your Mac.
+    keys:
+      - key: AppWindowGroupingBehavior
+        domain: com.apple.WindowManager
+        title: Window grouping
+        description: Show windows from an application (changing values not working in Sonoma)
+        param:
+          type: int
+        examples:
+          - value: 0
+            default: true
+            text: Once at a time
+          - value: 1
+            text: All at Once
+        versions: [Sonoma]
+      - key: AutoHide
+        domain: com.apple.WindowManager
+        title: AutoHide sidebar?
+        description: Not sure what this does (changing values not working in Sonoma)
+        param:
+          type: int
+        examples:
+          - value: 0
+            default: true
+        versions: [Sonoma]
+      - key: GloballyEnabled
+        domain: com.apple.WindowManager
+        title: Enable/Disable StageManager
+        description: Enables/Disables the StageManager (changing values not working in Sonoma)
+        param:
+          type: int
+        examples:
+          - value: 0
+            text: Disabled (changing from 1 to 0 is working)
+            default: true
+          - value: 1
+            text: Enabled (changing from 0 to 1 is NOT working)
+        versions: [Sonoma]
+      - key: GloballyEnabledEver
+        domain: com.apple.WindowManager
+        title: StageManager ever enabled?
+        param:
+          type: int
+        examples:
+          - value: 0
+            text: Never enabled
+            default: true
+        versions: [Sonoma]
+      - key: HideDesktop
+        domain: com.apple.WindowManager
+        title: Hide Desktop items
+        description: (changing values not working in Sonoma)
+        param:
+          type: int
+        examples:
+          - value: 0
+            text: Disabled (changing from 0 to 1 is working)
+            default: true
+          - value: 1
+            text: Enabled (changing from 1 to 0 is NOT working)
+        versions: [Sonoma]
+      - key: StageManagerHideWidgets
+        domain: com.apple.WindowManager
+        title: Hide Desktop
+        description: (changing values not working in Sonoma)
+        param:
+          type: int
+        examples:
+          - value: 0
+            text: Dont hide widgets
+            default: true
+        versions: [Sonoma]
+      - key: StandardHideWidgets
+        domain: com.apple.WindowManager
+        title: Hide Standard Widgets
+        description: I think Standard widgets are those in the notification panel (changing values not working in Sonoma)
+        param:
+          type: int
+        examples:
+          - value: 0
+            text: Dont hide widgets
+            default: true
+        versions: [Sonoma]
+
+
+
   - folder: menubar
     name: Menu Bar
     description:
