@@ -20,7 +20,7 @@
     "delay": "5.0.0",
     "glob": "10.3.3",
     "glob-promise": "6.0.3",
-    "jimp": "0.22.8",
+    "jimp": "0.22.10",
     "mkdirp": "3.0.1",
     "node-pngquant-native": "2.2.0",
     "prettier": "^2.8.8",
