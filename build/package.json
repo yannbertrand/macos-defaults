@@ -15,14 +15,14 @@
   "license": "MIT",
   "dependencies": {
     "esm": "3.2.25",
-    "handlebars": "4.7.7",
+    "handlebars": "4.7.8",
     "vuepress": "1.9.9",
     "vuepress-plugin-sitemap": "2.3.1",
     "yaml": "2.3.1"
   },
   "devDependencies": {
     "@netlify/plugin-lighthouse": "5.0.0",
-    "jest": "29.6.1",
+    "jest": "29.6.2",
     "netlify-plugin-minify-html": "0.3.1",
     "prettier": "^2.8.8",
     "rimraf": "5.0.1",
