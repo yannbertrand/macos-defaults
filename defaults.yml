@@ -803,6 +803,20 @@ categories:
               height: 416
         versions: [Big Sur, Ventura]
         after: killall Dock
+      - key: AppleSpacesSwitchOnActivate
+        domain: NSGlobalDomain
+        title: Switch to Space with open windows
+        description: When switching to an app, switch to a space with open windows for this app.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Switch to a Space with open windows for the application.
+          - value: false
+            text: Do not switch to a Space with open windows for the application.
+        versions: [Big Sur, Ventura]
+        after: killall Dock
 
   - folder: feedback-assistant
     name: Feedback Assistant
