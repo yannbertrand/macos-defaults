@@ -1209,3 +1209,18 @@ categories:
             text: Focus follows the mouse cursor to any Terminal windows.
         versions: [Monterey]
         after: killall Terminal
+      - key: NSCloseAlwaysConfirmsChanges
+        domain: NSGlobalDomain
+        title: Close confirm changes popup
+        description: |
+          Should you be asked to keep changes when closing documents or just have changes saved automatically.
+          Requires closing and opening the app before working. Tested on Apple Preview.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Auto saving is enabled, you are not prompted to save changes.
+          - value: false
+            text: Auto saving is disabled, you are prompted if you want to save changes.
+        versions: [Ventura, Monterey]
