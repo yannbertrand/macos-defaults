@@ -1,7 +1,6 @@
 {
   "extends": [
-    "config:base",
-    "group:allNonMajor"
+    "config:base"
   ],
   "commitMessagePrefix": ":arrow_up:",
   "commitMessageAction": "Upgrade",
