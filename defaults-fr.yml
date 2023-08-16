@@ -1045,3 +1045,29 @@ categories:
               height: 252
             text: Répète la touche tant que celle-ci est maintenue enfoncée.
         versions: [Monterey, Big Sur]
+      - key: FocusFollowsMouse
+        domain: com.apple.Terminal
+        title: Focus du Terminal au survol
+        description: |
+          Focus des fenêtres du Terminal au survol du curseur de la souris.
+          Le changement de focus ne fonctionne qu'entre les fenêtres du Terminal.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            video:
+              filename: false.mp4
+              width: 739
+              height: 416
+            text: |
+              Par défaut le changement de focus entre fenêtres du Terminal se fait en cliquant sur celles-ci ou en pressant
+              <code>cmd + `</code> .
+          - value: true
+            video:
+              filename: true.mp4
+              width: 739
+              height: 416
+            text: Le focus suit le curseur de la souris entre les fenêtres du Terminal.
+        versions: [Monterey]
+        after: killall Terminal

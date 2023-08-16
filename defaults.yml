@@ -211,6 +211,20 @@ categories:
             text: Show apps pinned to the dock
         after: killall Dock
         versions: [Monterey]
+      - key: scroll-to-open
+        domain: com.apple.dock
+        title: Scroll to Exposé app
+        description: Scroll up on a Dock icon to show all Space's opened windows for an app, or open stack.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Enable
+          - value: false
+            default: true
+            text: Disable
+        after: killall Dock
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
 
   - folder: screenshots
     name: Screenshots
@@ -754,6 +768,60 @@ categories:
             text: Thu 21:46:18
         versions: [Monterey, Big Sur, Catalina]
 
+  - folder: trackpad
+    name: Trackpad
+    description: The trackpad is hardware to control the cursor that comes on all MacBooks.
+    keys:
+      - key: FirstClickThreshold
+        domain: com.apple.AppleMultitouchTrackpad
+        title: Click weight (threshold)
+        description: Choose between Light/Medium/Firm.
+        param:
+          type: int
+          values: [0, 1, 2]
+        examples:
+          - value: 0
+            default: true
+            text: "Light"
+          - value: 1
+            text: "Medium"
+          - value: 2
+            text: "Firm"
+        versions: [Monterey]
+      - key: DragLock
+        domain: com.apple.AppleMultitouchTrackpad
+        title: Enable dragging with drag lock
+        description: Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.
+        param:
+          type: bool
+        examples:
+          - value: true
+          - value: false
+            default: true
+        versions: [Monterey]
+      - key: Dragging
+        domain: com.apple.AppleMultitouchTrackpad
+        title: Enable dragging without drag lock
+        description: Mutually exclusive with `DragLock` and `TrackpadThreeFingerDrag`.
+        param:
+          type: bool
+        examples:
+          - value: true
+          - value: false
+            default: true
+        versions: [Monterey]
+      - key: TrackpadThreeFingerDrag
+        domain: com.apple.AppleMultitouchTrackpad
+        title: Enable dragging with three finger drag
+        description: Mutually exclusive with `Dragging` and `DragLock`.
+        param:
+          type: bool
+        examples:
+          - value: true
+          - value: false
+            default: true
+        versions: [Monterey]
+
   - folder: mission-control
     name: Mission Control
     description: |
@@ -779,6 +847,58 @@ categories:
             text: Keep the Spaces arrangement
         versions: [Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
+      - key: expose-group-apps
+        domain: com.apple.dock
+        title: Group windows by application
+        description: |
+          If you have several windows from multiple apps open simultaneously, have the windows organised by app in
+          Mission Control.
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Group windows by application.
+            image:
+              filename: "true.png"
+              width: 740
+              height: 416
+          - value: false
+            default: true
+            text: Do not group windows by application.
+            image:
+              filename: "false.png"
+              width: 740
+              height: 416
+        versions: [Big Sur, Ventura]
+        after: killall Dock
+      - key: AppleSpacesSwitchOnActivate
+        domain: NSGlobalDomain
+        title: Switch to Space with open windows
+        description: When switching to an app, switch to a space with open windows for this app.
+        param:
+          type: bool
+        examples:
+          - value: true
+            default: true
+            text: Switch to a Space with open windows for the application.
+          - value: false
+            text: Do not switch to a Space with open windows for the application.
+        versions: [Big Sur, Ventura]
+        after: killall Dock
+      - key: spans-displays
+        domain: com.apple.spaces
+        title: Displays have separate Spaces
+        description: Set up separate spaces for each display (if you use Spaces and have multiple displays).
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Spaces span all displays.
+          - value: false
+            default: true
+            text: Displays have separate Spaces.
+        versions: [Big Sur, Ventura]
+        after: killall SystemUIServer
 
   - folder: feedback-assistant
     name: Feedback Assistant
@@ -1084,4 +1204,28 @@ categories:
               width: 696
               height: 252
             text: Repeats the key as long as it is held down.
-        versions: [Monterey, Big Sur]z
+        versions: [Monterey, Big Sur]
+      - key: FocusFollowsMouse
+        domain: com.apple.Terminal
+        title: Focus Follows Mouse
+        description: |
+          Focus of the Terminal windows when the mouse cursor hovers over them.
+          The focus change only works between the Terminal windows.
+        param:
+          type: bool
+        examples:
+          - value: false
+            default: true
+            video:
+              filename: false.mp4
+              width: 739
+              height: 416
+            text: By default, to switch between Terminal windows you should click on it or press on <code>cmd + `</code>.
+          - value: true
+            video:
+              filename: true.mp4
+              width: 739
+              height: 416
+            text: Focus follows the mouse cursor to any Terminal windows.
+        versions: [Monterey]
+        after: killall Terminal

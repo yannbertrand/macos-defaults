@@ -9,8 +9,8 @@ module.exports = ({ defaults, url }, templatesPath, destinationPath) => {
       'utf8'
     )
     Handlebars.registerHelper('shellescape', function (value) {
-      return '"'+`${value}`.trim().replace(/(["'$`\\])/g,'\\$1')+'"'
-    });
+      return '"' + `${value}`.trim().replace(/(["'$`\\])/g, '\\$1') + '"'
+    })
     const renderPage = Handlebars.compile(pageTemplate)
     defaults.categories.forEach(({ folder, name, keys }) => {
       if (keys === undefined) {
@@ -18,7 +18,7 @@ module.exports = ({ defaults, url }, templatesPath, destinationPath) => {
       }
 
       keys.forEach(({ domain, ...page }) => {
-        page.examples.forEach(example => {
+        page.examples.forEach((example) => {
           if (!Array.isArray(example.value)) {
             example.value = [example.value]
           }

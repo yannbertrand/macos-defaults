@@ -2,15 +2,13 @@ name: Test defaults.yml
 
 on:
   push:
-    branches:
-      - main
     paths:
       - 'defaults.yml'
       - 'defaults-*.yml'
 
   pull_request:
-    branches:
-      - main
+
+permissions: {}
 
 jobs:
   test:
