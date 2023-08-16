@@ -817,6 +817,20 @@ categories:
             text: Do not switch to a Space with open windows for the application.
         versions: [Big Sur, Ventura]
         after: killall Dock
+      - key: spans-displays
+        domain: com.apple.spaces
+        title: Displays have separate Spaces
+        description: Set up separate spaces for each display (if you use Spaces and have multiple displays).
+        param:
+          type: bool
+        examples:
+          - value: true
+            text: Spaces span all displays.
+          - value: false
+            default: true
+            text: Displays have separate Spaces.
+        versions: [Big Sur, Ventura]
+        after: killall SystemUIServer
 
   - folder: feedback-assistant
     name: Feedback Assistant
