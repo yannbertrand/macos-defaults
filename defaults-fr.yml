@@ -42,7 +42,7 @@ categories:
               width: 740
               height: 463
             text: Placer le Dock sur la droite de l'écran
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: tilesize
         domain: com.apple.dock
@@ -64,7 +64,7 @@ categories:
               width: 740
               height: 463
             text: Taille des icônes du Dock de 48 pixels
-        versions: [Monterey, Big Sur, Catalina]
+        versions: [Ventura, Monterey, Big Sur, Catalina]
         after: killall Dock
       - key: autohide
         domain: com.apple.dock
@@ -78,7 +78,7 @@ categories:
             text: Toujours afficher le Dock
           - value: true
             text: Cacher le Dock automatiquement lorsque votre souris n'est pas dessus
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: autohide-time-modifier
         domain: com.apple.dock
@@ -106,7 +106,7 @@ categories:
               width: 742
               height: 202
             text: Supprimer la durée d'animation du Dock
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -133,7 +133,7 @@ categories:
               width: 742
               height: 202
             text: Remove the autohide delay, the Dock appears instantly
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -160,7 +160,7 @@ categories:
               width: 740
               height: 82
             text: Ne pas afficher la section des applications utilisées récemment.
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
       - key: mineffect
         domain: com.apple.dock
@@ -187,7 +187,7 @@ categories:
               width: 740
               height: 740
             text: "\"suck\" est une valeur secrète qui n'est pas disponible dans les Préférénces Systèmes"
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         requirements:
           - folder: dock
             key: autohide
@@ -244,7 +244,7 @@ categories:
               width: 740
               height: 550
             text: Supprimer l'ombre des captures
-        versions: [Monterey, Big Sur, Catalina]
+        versions: [Ventura, Monterey, Big Sur, Catalina]
       - key: include-date
         domain: com.apple.screencapture
         title: Inclure la date
@@ -259,7 +259,7 @@ categories:
             text: |
               - Screenshot.png
               - Screenshot 1.png
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
       - key: location
         domain: com.apple.screencapture
         title: Emplacement
@@ -270,7 +270,7 @@ categories:
           - value: ~/Desktop
             default: true
           - value: ~/Pictures
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
       - key: show-thumbnail
         domain: com.apple.screencapture
@@ -284,7 +284,7 @@ categories:
             text: Afficher la vignette après avoir fait une capture
           - value: false
             text: Ne pas afficher la vignette
-        versions: [Monterey, Big Sur, Catalina]
+        versions: [Ventura, Monterey, Big Sur, Catalina]
       - key: type
         domain: com.apple.screencapture
         title: Choisir le format de la capture
@@ -298,7 +298,7 @@ categories:
             text: L'image générée est au format png
           - value: jpg
             text: L'image générée est au format jpg
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
 
   - folder: safari
     name: Safari
@@ -342,7 +342,7 @@ categories:
       - key: QuitMenuItem
         domain: com.apple.finder
         title: Quitter
-        description: Afficher ou non l'option pour quitter le Finder.
+        description: Afficher ou non l'option pour quitter le Finder. Non recommandé.
         param:
           type: bool
         examples:
@@ -351,7 +351,7 @@ categories:
             text: Cacher l'option "Quitter" du Finder
           - value: true
             text: Afficher l'option "Quitter" du Finder
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: AppleShowAllExtensions
         domain: NSGlobalDomain
@@ -365,7 +365,7 @@ categories:
             text: Ne pas afficher toutes les extensions dans le Finder
           - value: true
             text: Afficher toutes les extensions de fichier dans le Finder
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: AppleShowAllFiles
         domain: com.apple.finder
@@ -387,7 +387,7 @@ categories:
               filename: "true.png"
               width: 740
               height: 451
-        versions: [Monterey, Big Sur, Catalina]
+        versions: [Ventura, Monterey, Big Sur, Catalina]
         after: killall Finder
       - key: ShowPathbar
         domain: com.apple.finder
@@ -409,7 +409,7 @@ categories:
               filename: "false.png"
               width: 740
               height: 451
-        versions: [Monterey, Big Sur]
+        versions: [Ventura, Monterey, Big Sur]
         after: killall Finder
       - key: FXPreferredViewStyle
         domain: com.apple.finder
@@ -427,7 +427,7 @@ categories:
           - value: icnv
             default: true
             text: Vue en icônes
-        versions: [Monterey, Big Sur]
+        versions: [Ventura, Monterey, Big Sur]
         after: killall Finder
       - key: _FXSortFoldersFirst
         domain: com.apple.finder
@@ -449,7 +449,7 @@ categories:
               filename: false.mp4
               width: 739
               height: 416
-        versions: [Monterey, Big Sur]
+        versions: [Ventura, Monterey, Big Sur]
         after: killall Finder
       - key: FXDefaultSearchScope
         domain: com.apple.finder
@@ -465,7 +465,7 @@ categories:
           - text: Recherche dans ce Mac
             default: true
             value: SCev
-        versions: [Monterey, Big Sur]
+        versions: [Ventura, Monterey, Big Sur]
         after: killall Finder
       - key: FXRemoveOldTrashItems
         domain: com.apple.finder
@@ -501,7 +501,7 @@ categories:
               width: 739
               height: 416
             text: Ne pas afficher d'alerte au changement
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         after: killall Finder
       - key: NSDocumentSaveNewDocumentsToCloud
         domain: NSGlobalDomain
@@ -540,7 +540,7 @@ categories:
               filename: "false.png"
               width: 740
               height: 451
-        versions: [Monterey]
+        versions: [Ventura, Monterey]
         after: killall Finder
       - key: NSToolbarTitleViewRolloverDelay
         domain: NSGlobalDomain
@@ -568,7 +568,12 @@ categories:
               width: 741
               height: 416
             text: Ajouter du délai au survol du titre
-        versions: [Monterey, Big Sur]
+        versions: [Ventura, Monterey, Big Sur]
+        requirements:
+          - folder: finder
+            key: showWindowTitlebarIcons
+            name: com.apple.universalaccess showWindowTitlebarIcons
+            value: false
         after: killall Finder
       - key: NSTableViewDefaultSizeMode
         domain: NSGlobalDomain
@@ -596,7 +601,7 @@ categories:
               width: 740
               height: 415
             text: Grosses
-        versions: [Monterey, Big Sur, Catalina]
+        versions: [Ventura, Monterey, Big Sur, Catalina]
         after: killall Finder
 
   - folder: desktop
@@ -617,7 +622,7 @@ categories:
           - value: false
             default: true
             text: Ne laisse pas les dossiers en haut
-        versions: [Monterey, Big Sur]
+        versions: [Ventura, Monterey, Big Sur]
         after: killall Finder
       - key: CreateDesktop
         domain: com.apple.finder
@@ -631,7 +636,7 @@ categories:
           - value: true
             default: true
             text: Affiche toutes les icônes
-        versions: [Monterey, Big Sur]
+        versions: [Ventura, Monterey, Big Sur]
         after: killall Finder
       - key: ShowHardDrivesOnDesktop
         domain: com.apple.finder
@@ -717,7 +722,7 @@ categories:
               width: 727
               height: 40
             text: Les séparateurs clignotent toutes les secondes.
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         after: killall SystemUIServer
       - key: DateFormat
         domain: com.apple.menuextra.clock
@@ -772,7 +777,7 @@ categories:
             text: Déplacer les bureaux virtuels les plus récemment utilisés
           - value: false
             text: Toujours conserver l'arrangement de bureaux virtuels
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
         after: killall Dock
 
   - folder: feedback-assistant
@@ -886,7 +891,7 @@ categories:
               filename: "false.png"
               width: 740
               height: 451
-        versions: [Monterey, Big Sur]
+        versions: [Ventura, Monterey, Big Sur]
         after: killall TextEdit
 
   - folder: timemachine
@@ -934,7 +939,7 @@ categories:
             default: true
             text: "Normale (5s)"
         after: killall Activity\ Monitor
-        versions: [Monterey]
+        versions: [Ventura, Monterey]
       - key: IconType
         domain: com.apple.ActivityMonitor
         title: Icône du Dock
@@ -965,7 +970,7 @@ categories:
               Si vous avez plus de 4 cœurs, un seul graphique à barres sera affiché, pour l'utilisation totale du CPU.
               En rouge l'utilisation système et en vert l'utilisation utilisateur.
         after: killall Activity\ Monitor
-        versions: [Monterey]
+        versions: [Ventura, Monterey]
 
   - folder: misc
     name: Divers
@@ -983,7 +988,7 @@ categories:
             text: Par défaut, le menu d'Aide est au-dessus de n'importe quel fenêtre
           - value: true
             text: Laisser le menu d'Aide passer derrière les autres fenêtres
-        versions: [Monterey, Big Sur, Catalina, Mojave]
+        versions: [Ventura, Monterey, Big Sur, Catalina, Mojave]
       - key: enable-spring-load-actions-on-all-items
         domain: com.apple.dock
         title: Activer le spring loading dans le Dock
@@ -995,11 +1000,11 @@ categories:
           type: bool
         examples:
           - value: false
-            default: true
             text: Le spring loading est désactivé
           - value: true
+            default: true
             text: Le spring loading est activé
-        versions: [Monterey, Big Sur, Catalina]
+        versions: [Ventura, Monterey, Big Sur, Catalina]
         after: killall Dock
       - key: userWantsPlaybackNotifications
         domain: com.apple.Music
@@ -1015,7 +1020,7 @@ categories:
             text: L'affichage des notifications est désactivé.
           - value: true
             text: L'affichage des notifications est activé.
-        versions: [Catalina]
+        versions: [Ventura, Catalina]
         after: killall Music
       - key: ApplePressAndHoldEnabled
         domain: NSGlobalDomain
@@ -1044,7 +1049,7 @@ categories:
               width: 696
               height: 252
             text: Répète la touche tant que celle-ci est maintenue enfoncée.
-        versions: [Monterey, Big Sur]
+        versions: [Ventura, Monterey, Big Sur]
       - key: FocusFollowsMouse
         domain: com.apple.Terminal
         title: Focus du Terminal au survol
@@ -1069,5 +1074,5 @@ categories:
               width: 739
               height: 416
             text: Le focus suit le curseur de la souris entre les fenêtres du Terminal.
-        versions: [Monterey]
+        versions: [Ventura, Monterey]
         after: killall Terminal
