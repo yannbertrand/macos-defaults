@@ -16,39 +16,27 @@ An up-to-date list of [macOS `defaults` commands](https://macos-defaults.com) wi
 
 ## Add a command
 
-All the listed `defaults` commands are stored in localized [defaults\*.yml files](./defaults.yml). Here is how a command's info is designed:
+All the listed `defaults` commands are Markdown files stored in the [docs folder](./docs). It is recommended to look at a few of them before proposing a new one:
 
-```yml
-- key: the-command-name-separated-with-dashes # The command's key
-  domain: com.some-domain.app-name # The command's domain
-  title: My command
-  description: Explaining what my command does.
-  param:
-    type: bool # Other types can be used
-  examples: # A list of examples
-    - value: false # This example sets the value to `false`
-      default: true # `false` is the default value of the command
-      image: # Optional: an auto recorded screenshot
-        filename: 'false.png'
-        width: 800
-        height: 600
-      text: Explaining what happens when the command is set to `false`
-    - value: true # This one sets the value to `true`
-      image:
-        filename: 'true.png' # The name of the image
-        width: 800 # The width of the image
-        height: 600 # And its height
-      text: Explaining what happens when the command is set to `true`
-  versions: [Big Sur, Catalina] # It's been tested on Big Sur and Catalina
-```
+- https://macos-defaults.com/dock/orientation.html
+- https://macos-defaults.com/dock/autohide-time-modifier.html
+- https://macos-defaults.com/screenshots/disable-shadow.html
 
-You can validate these files locally using the provided [JSON schema](./defaults.schema.json) using the [VSCode YAML Language support extension](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) or on the CLI with:
+Here are the mandatory infos to add a new command:
 
-```sh
-npx pajv validate -s defaults.schema.json -d defaults.yml
-```
+- The defaults command's domain
+- The command's key
+- A neutral title
+- A simple description
+- Parameter type, and list of accepted values when applicable
+- Other command dependency
+- A scenario to test the command is still working
+- The corresponding option access from UI when it exists
+- At least two examples with a small text description
+- Ideally, an image or video for each example
+- Compatible versions it has been tested on
 
-Images and videos are built programmatically. Take a look at the [record folder](./record/#readme) to find out how to record some. I will always prefer images and videos examples as they help maintenance a lot! Please consider it if you want to [open a PR](https://github.com/yannbertrand/macos-defaults/compare).
+Some images and videos are built programmatically. Take a look at the [record folder](./record/#readme) to find out how to record some. I will always prefer images and videos examples as they help maintenance a lot! Please consider it if you want to [open a PR](https://github.com/yannbertrand/macos-defaults/compare).
 
 ### How to discover a `defaults` command
 
