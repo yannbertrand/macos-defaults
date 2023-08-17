@@ -307,7 +307,7 @@ categories:
       Certaines de ses fonctionnalités peuvent être paramétrées.
     keys:
       - key: ShowFullURLInSmartSearchField
-        domain: com.apple.safari
+        domain: com.apple.Safari
         title: Afficher l'URL complète
         description: Afficher l'adresse des sites web en entier.
         param:

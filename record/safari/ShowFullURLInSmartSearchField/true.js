@@ -11,7 +11,7 @@ module.exports = {
       const runner = new MacRunner()
       await runner
         .setDefault(
-          'com.apple.safari',
+          'com.apple.Safari',
           'ShowFullURLInSmartSearchField',
           '-bool true',
           '1'
@@ -20,7 +20,7 @@ module.exports = {
         .activateApp('Safari')
         .moveAndResizeApp('Safari', 0, 0, 740, 250)
         .captureApp('Safari', `${outputPath}/true-tmp.png`)
-        .deleteDefault('com.apple.safari', 'ShowFullURLInSmartSearchField')
+        .deleteDefault('com.apple.Safari', 'ShowFullURLInSmartSearchField')
         .killApp('Safari')
         .run()
     } catch (runnerError) {
@@ -44,6 +44,6 @@ function logRollbackInfo() {
     'Please manually run this command to make sure everything is properly reset:'
   )
   console.info(
-    'defaults delete com.apple.safari ShowFullURLInSmartSearchField && killall Safari'
+    'defaults delete com.apple.Safari ShowFullURLInSmartSearchField && killall Safari'
   )
 }
