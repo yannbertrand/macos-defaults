@@ -42,7 +42,7 @@ defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE d MMM HH:mm
 ```
 
 <video autoplay loop muted playsinline width="727" height="40" style="max-width: 100%; height: auto">
-  <source src="./menubar-DateFormat-EEE_d_MMM_HH.mm.ss.mp4" type="video/mp4">
+  <source src="../../../images/menubar/DateFormat/EEE_d_MMM_HH.mm.ss.mp4" type="video/mp4">
   Exemple avec la valeur "EEE d MMM HH:mm:ss"
 </video>
 
@@ -55,7 +55,7 @@ defaults write com.apple.menuextra.clock "DateFormat" -string "\"EEE h:mm:ss\""
 ```
 
 <video autoplay loop muted playsinline width="727" height="40" style="max-width: 100%; height: auto">
-  <source src="./menubar-DateFormat-EEE_h.mm.ss.mp4" type="video/mp4">
+  <source src="../../../images/menubar/DateFormat/EEE_h.mm.ss.mp4" type="video/mp4">
   Exemple avec la valeur "EEE h:mm:ss"
 </video>
 

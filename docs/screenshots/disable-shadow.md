@@ -38,7 +38,7 @@ defaults write com.apple.screencapture "disable-shadow" -bool "false"
 ```
 
 <img
-  src="./screenshots-disable-shadow-false.png"
+  src="../../images/screenshots/disable-shadow/false.png"
   alt="Example output with value set to false"
   width="740" height="574" style="height: auto"
 />
@@ -52,7 +52,7 @@ defaults write com.apple.screencapture "disable-shadow" -bool "true"
 ```
 
 <img
-  src="./screenshots-disable-shadow-true.png"
+  src="../../images/screenshots/disable-shadow/true.png"
   alt="Example output with value set to true"
   width="740" height="550" style="height: auto"
 />

@@ -42,7 +42,7 @@ defaults write com.apple.dock "autohide-time-modifier" -float "0.5" && killall D
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="./dock-autohide-time-modifier-0.5.mp4" type="video/mp4">
+  <source src="../../../images/dock/autohide-time-modifier/0.5.mp4" type="video/mp4">
   Exemple avec la valeur 0.5
 </video>
 
@@ -55,7 +55,7 @@ defaults write com.apple.dock "autohide-time-modifier" -float "2" && killall Doc
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="./dock-autohide-time-modifier-2.mp4" type="video/mp4">
+  <source src="../../../images/dock/autohide-time-modifier/2.mp4" type="video/mp4">
   Exemple avec la valeur 2
 </video>
 
@@ -68,7 +68,7 @@ defaults write com.apple.dock "autohide-time-modifier" -float "0" && killall Doc
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="./dock-autohide-time-modifier-0.mp4" type="video/mp4">
+  <source src="../../../images/dock/autohide-time-modifier/0.mp4" type="video/mp4">
   Exemple avec la valeur 0
 </video>
 

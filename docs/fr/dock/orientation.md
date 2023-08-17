@@ -41,7 +41,7 @@ defaults write com.apple.dock "orientation" -string "left" && killall Dock
 ```
 
 <img
-  src="./dock-orientation-left.png"
+  src="../../../images/dock/orientation/left.png"
   alt="Exemple avec la valeur left"
   width="740" height="463" style="height: auto"
 />
@@ -55,7 +55,7 @@ defaults write com.apple.dock "orientation" -string "bottom" && killall Dock
 ```
 
 <img
-  src="./dock-orientation-bottom.png"
+  src="../../../images/dock/orientation/bottom.png"
   alt="Exemple avec la valeur bottom"
   width="740" height="463" style="height: auto"
 />
@@ -69,7 +69,7 @@ defaults write com.apple.dock "orientation" -string "right" && killall Dock
 ```
 
 <img
-  src="./dock-orientation-right.png"
+  src="../../../images/dock/orientation/right.png"
   alt="Exemple avec la valeur right"
   width="740" height="463" style="height: auto"
 />

@@ -36,7 +36,7 @@ defaults write com.apple.dock "expose-group-apps" -bool "true" && killall Dock
 ```
 
 <img
-  src="./mission-control-expose-group-apps-true.png"
+  src="../../images/mission-control/expose-group-apps/true.png"
   alt="Example output with value set to true"
   width="740" height="416" style="height: auto"
 />
@@ -50,7 +50,7 @@ defaults write com.apple.dock "expose-group-apps" -bool "false" && killall Dock
 ```
 
 <img
-  src="./mission-control-expose-group-apps-false.png"
+  src="../../images/mission-control/expose-group-apps/false.png"
   alt="Example output with value set to false"
   width="740" height="416" style="height: auto"
 />

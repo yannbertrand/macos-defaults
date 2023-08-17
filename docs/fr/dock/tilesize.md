@@ -37,7 +37,7 @@ defaults write com.apple.dock "tilesize" -int "36" && killall Dock
 ```
 
 <img
-  src="./dock-tilesize-36.png"
+  src="../../../images/dock/tilesize/36.png"
   alt="Exemple avec la valeur 36"
   width="740" height="463" style="height: auto"
 />
@@ -51,7 +51,7 @@ defaults write com.apple.dock "tilesize" -int "48" && killall Dock
 ```
 
 <img
-  src="./dock-tilesize-48.png"
+  src="../../../images/dock/tilesize/48.png"
   alt="Exemple avec la valeur 48"
   width="740" height="463" style="height: auto"
 />

@@ -37,7 +37,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "1" && killall F
 ```
 
 <img
-  src="./finder-NSTableViewDefaultSizeMode-1.png"
+  src="../../../images/finder/NSTableViewDefaultSizeMode/1.png"
   alt="Exemple avec la valeur 1"
   width="740" height="415" style="height: auto"
 />
@@ -51,7 +51,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "2" && killall F
 ```
 
 <img
-  src="./finder-NSTableViewDefaultSizeMode-2.png"
+  src="../../../images/finder/NSTableViewDefaultSizeMode/2.png"
   alt="Exemple avec la valeur 2"
   width="740" height="415" style="height: auto"
 />
@@ -65,7 +65,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "3" && killall F
 ```
 
 <img
-  src="./finder-NSTableViewDefaultSizeMode-3.png"
+  src="../../../images/finder/NSTableViewDefaultSizeMode/3.png"
   alt="Exemple avec la valeur 3"
   width="740" height="415" style="height: auto"
 />
