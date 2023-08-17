@@ -101,7 +101,7 @@ class MacRunner {
    */
   activateApp(appName) {
     return this.register(() =>
-      execCommand(`osascript -e 'tell application "${appName}" to activate'`)
+      execCommand(`osascript -e 'tell application "${appName}" to activate'`),
     )
   }
 
@@ -126,8 +126,8 @@ class MacRunner {
     const v = { start: y, end: y + height }
     return this.register(() =>
       execCommand(
-        `osascript -e 'tell application "${appName}" to set the bounds of the first window to {${h.start}, ${v.start}, ${h.end}, ${v.end}}'`
-      )
+        `osascript -e 'tell application "${appName}" to set the bounds of the first window to {${h.start}, ${v.start}, ${h.end}, ${v.end}}'`,
+      ),
     )
   }
 
@@ -152,7 +152,7 @@ class MacRunner {
    */
   captureScreenRect(x, y, width, height, output) {
     return this.register(() =>
-      execCommand(`screencapture -R${x},${y},${width},${height} ${output}`)
+      execCommand(`screencapture -R${x},${y},${width},${height} ${output}`),
     )
   }
 
@@ -167,8 +167,8 @@ class MacRunner {
       execCommand(
         `screencapture ${
           disableShadow ? '-o' : ''
-        } -l$(osascript -e 'tell app "${appName}" to id of window 1') ${output}`
-      )
+        } -l$(osascript -e 'tell app "${appName}" to id of window 1') ${output}`,
+      ),
     )
   }
 

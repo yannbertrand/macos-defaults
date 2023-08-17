@@ -1,30 +1,30 @@
 ---
 metaTitle: Disable application quarantine message | Miscellaneous | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Miscellaneous > Disable application quarantine message
-  - name: "description"
+  - name: 'description'
     content: "Turn off the “Application Downloaded from Internet” quarantine warning.\n\n⚠️ Stopped working on Big Sur.\n"
-  - property: "og:description"
+  - property: 'og:description'
     content: "Turn off the “Application Downloaded from Internet” quarantine warning.\n\n⚠️ Stopped working on Big Sur.\n"
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Disable application quarantine message
 
 Turn off the “Application Downloaded from Internet” quarantine warning.
 
 ⚠️ Stopped working on Big Sur.
 
-
 <!-- break lists -->
 
 - **Tested on macOS**:
-  * Catalina
+  - Catalina
 - **Parameter type**: bool
 
 ## Set to `true` (default value)
@@ -32,7 +32,7 @@ Turn off the “Application Downloaded from Internet” quarantine warning.
 "Application Downloaded from Internet" popup will display
 
 ```bash
-defaults write com.apple.LaunchServices "LSQuarantine" -bool "true" 
+defaults write com.apple.LaunchServices "LSQuarantine" -bool "true"
 ```
 
 ## Set to `false`
@@ -40,15 +40,17 @@ defaults write com.apple.LaunchServices "LSQuarantine" -bool "true"
 "Application Downloaded from Internet" popup will not display
 
 ```bash
-defaults write com.apple.LaunchServices "LSQuarantine" -bool "false" 
+defaults write com.apple.LaunchServices "LSQuarantine" -bool "false"
 ```
 
 ## Read current value
+
 ```bash
 defaults read com.apple.LaunchServices "LSQuarantine"
 ```
 
 ## Reset to default value
+
 ```bash
 defaults delete com.apple.LaunchServices "LSQuarantine"
 ```

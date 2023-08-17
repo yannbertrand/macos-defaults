@@ -1,19 +1,20 @@
 ---
 metaTitle: Finder | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Finder
-  - name: "description"
+  - name: 'description'
     content: "The Finder is the default file manager on macOS.\nIt is responsible for the launching of other applications,\nand for the overall user management of files, disks, and network volumes.\nIn a tradition dating back to the Classic Mac OS of the 1980s and 1990s,\nthe Finder icon is the smiling screen of a computer, known as the Happy Mac logo.\n\nSome of its features can be customized.\n"
-  - property: "og:description"
+  - property: 'og:description'
     content: "The Finder is the default file manager on macOS.\nIt is responsible for the launching of other applications,\nand for the overall user management of files, disks, and network volumes.\nIn a tradition dating back to the Classic Mac OS of the 1980s and 1990s,\nthe Finder icon is the smiling screen of a computer, known as the Happy Mac logo.\n\nSome of its features can be customized.\n"
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Finder
 
 The Finder is the default file manager on macOS.
@@ -23,7 +24,6 @@ In a tradition dating back to the Classic Mac OS of the 1980s and 1990s,
 the Finder icon is the smiling screen of a computer, known as the Happy Mac logo.
 
 Some of its features can be customized.
-
 
 ## Keys
 

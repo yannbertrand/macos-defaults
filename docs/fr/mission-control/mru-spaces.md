@@ -1,19 +1,20 @@
 ---
 metaTitle: Réorganiser automatiquement | Mission Control | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Mission Control > Réorganiser automatiquement
-  - name: "description"
-    content: "Réorganiser les bureaux virtuels automatiquement."
-  - property: "og:description"
-    content: "Réorganiser les bureaux virtuels automatiquement."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'Réorganiser les bureaux virtuels automatiquement.'
+  - property: 'og:description'
+    content: 'Réorganiser les bureaux virtuels automatiquement.'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Réorganiser automatiquement
 
 Réorganiser les bureaux virtuels automatiquement.
@@ -21,11 +22,11 @@ Réorganiser les bureaux virtuels automatiquement.
 <!-- break lists -->
 
 - **Testé sur macOS**:
-  * Ventura
-  * Monterey
-  * Big Sur
-  * Catalina
-  * Mojave
+  - Ventura
+  - Monterey
+  - Big Sur
+  - Catalina
+  - Mojave
 - **Type de paramètre**: bool
 
 ## Avec la valeur `true` (par défaut)
@@ -45,11 +46,13 @@ defaults write com.apple.dock "mru-spaces" -bool "false" && killall Dock
 ```
 
 ## Lire la valeur courante
+
 ```bash
 defaults read com.apple.dock "mru-spaces"
 ```
 
 ## Remettre la valeur à l'état initial
+
 ```bash
 defaults delete com.apple.dock "mru-spaces" && killall Dock
 ```

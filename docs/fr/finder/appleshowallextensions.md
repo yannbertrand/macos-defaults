@@ -1,19 +1,20 @@
 ---
 metaTitle: Afficher les extensions | Finder | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Finder > Afficher les extensions
-  - name: "description"
-    content: "Afficher toutes les extensions de fichier ou non."
-  - property: "og:description"
-    content: "Afficher toutes les extensions de fichier ou non."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'Afficher toutes les extensions de fichier ou non.'
+  - property: 'og:description'
+    content: 'Afficher toutes les extensions de fichier ou non.'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Afficher les extensions
 
 Afficher toutes les extensions de fichier ou non.
@@ -21,11 +22,11 @@ Afficher toutes les extensions de fichier ou non.
 <!-- break lists -->
 
 - **Testé sur macOS**:
-  * Ventura
-  * Monterey
-  * Big Sur
-  * Catalina
-  * Mojave
+  - Ventura
+  - Monterey
+  - Big Sur
+  - Catalina
+  - Mojave
 - **Type de paramètre**: bool
 
 ## Avec la valeur `false` (par défaut)
@@ -45,11 +46,13 @@ defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true" && killall F
 ```
 
 ## Lire la valeur courante
+
 ```bash
 defaults read NSGlobalDomain "AppleShowAllExtensions"
 ```
 
 ## Remettre la valeur à l'état initial
+
 ```bash
 defaults delete NSGlobalDomain "AppleShowAllExtensions" && killall Finder
 ```

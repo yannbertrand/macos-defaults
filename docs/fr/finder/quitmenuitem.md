@@ -1,19 +1,20 @@
 ---
 metaTitle: Quitter | Finder | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Finder > Quitter
-  - name: "description"
+  - name: 'description'
     content: "Afficher ou non l'option pour quitter le Finder. Non recommandé."
-  - property: "og:description"
+  - property: 'og:description'
     content: "Afficher ou non l'option pour quitter le Finder. Non recommandé."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Quitter
 
 Afficher ou non l'option pour quitter le Finder. Non recommandé.
@@ -21,11 +22,11 @@ Afficher ou non l'option pour quitter le Finder. Non recommandé.
 <!-- break lists -->
 
 - **Testé sur macOS**:
-  * Ventura
-  * Monterey
-  * Big Sur
-  * Catalina
-  * Mojave
+  - Ventura
+  - Monterey
+  - Big Sur
+  - Catalina
+  - Mojave
 - **Type de paramètre**: bool
 
 ## Avec la valeur `false` (par défaut)
@@ -45,11 +46,13 @@ defaults write com.apple.finder "QuitMenuItem" -bool "true" && killall Finder
 ```
 
 ## Lire la valeur courante
+
 ```bash
 defaults read com.apple.finder "QuitMenuItem"
 ```
 
 ## Remettre la valeur à l'état initial
+
 ```bash
 defaults delete com.apple.finder "QuitMenuItem" && killall Finder
 ```

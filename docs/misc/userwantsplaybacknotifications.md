@@ -1,19 +1,20 @@
 ---
 metaTitle: Show Music song notifications | Miscellaneous | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Miscellaneous > Show Music song notifications
-  - name: "description"
-    content: "Display a notification when a new song starts in the Music app."
-  - property: "og:description"
-    content: "Display a notification when a new song starts in the Music app."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'Display a notification when a new song starts in the Music app.'
+  - property: 'og:description'
+    content: 'Display a notification when a new song starts in the Music app.'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Show Music song notifications
 
 Display a notification when a new song starts in the Music app.
@@ -21,8 +22,8 @@ Display a notification when a new song starts in the Music app.
 <!-- break lists -->
 
 - **Tested on macOS**:
-  * Ventura
-  * Catalina
+  - Ventura
+  - Catalina
 - **Parameter type**: bool
 
 ## Set to `false`
@@ -42,11 +43,13 @@ defaults write com.apple.Music "userWantsPlaybackNotifications" -bool "true" && 
 ```
 
 ## Read current value
+
 ```bash
 defaults read com.apple.Music "userWantsPlaybackNotifications"
 ```
 
 ## Reset to default value
+
 ```bash
 defaults delete com.apple.Music "userWantsPlaybackNotifications" && killall Music
 ```

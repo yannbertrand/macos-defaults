@@ -1,19 +1,20 @@
 ---
 metaTitle: Default view style | Finder | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Finder > Default view style
-  - name: "description"
-    content: "Set the default view style for folders without custom setting"
-  - property: "og:description"
-    content: "Set the default view style for folders without custom setting"
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'Set the default view style for folders without custom setting'
+  - property: 'og:description'
+    content: 'Set the default view style for folders without custom setting'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Default view style
 
 Set the default view style for folders without custom setting
@@ -21,9 +22,9 @@ Set the default view style for folders without custom setting
 <!-- break lists -->
 
 - **Tested on macOS**:
-  * Ventura
-  * Monterey
-  * Big Sur
+  - Ventura
+  - Monterey
+  - Big Sur
 - **Parameter type**: string
 
 ## Set to `clmv`
@@ -59,11 +60,13 @@ defaults write com.apple.finder "FXPreferredViewStyle" -string "icnv" && killall
 ```
 
 ## Read current value
+
 ```bash
 defaults read com.apple.finder "FXPreferredViewStyle"
 ```
 
 ## Reset to default value
+
 ```bash
 defaults delete com.apple.finder "FXPreferredViewStyle" && killall Finder
 ```

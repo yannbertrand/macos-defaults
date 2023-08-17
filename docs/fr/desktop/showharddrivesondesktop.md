@@ -1,19 +1,20 @@
 ---
 metaTitle: Disques | Bureau | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Bureau > Disques
-  - name: "description"
-    content: "Afficher les disques durs sur le bureau."
-  - property: "og:description"
-    content: "Afficher les disques durs sur le bureau."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'Afficher les disques durs sur le bureau.'
+  - property: 'og:description'
+    content: 'Afficher les disques durs sur le bureau.'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Disques
 
 Afficher les disques durs sur le bureau.
@@ -21,8 +22,8 @@ Afficher les disques durs sur le bureau.
 <!-- break lists -->
 
 - **Testé sur macOS**:
-  * Monterey
-  * Big Sur
+  - Monterey
+  - Big Sur
 - **Type de paramètre**: bool
 
 ## Avec la valeur `true`
@@ -42,11 +43,13 @@ defaults write com.apple.finder "ShowHardDrivesOnDesktop" -bool "false" && killa
 ```
 
 ## Lire la valeur courante
+
 ```bash
 defaults read com.apple.finder "ShowHardDrivesOnDesktop"
 ```
 
 ## Remettre la valeur à l'état initial
+
 ```bash
 defaults delete com.apple.finder "ShowHardDrivesOnDesktop" && killall Finder
 ```

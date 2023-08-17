@@ -6,7 +6,7 @@ const { compressVideo } = require('../../utils')
 module.exports = {
   run: async (outputPath) => {
     console.log(
-      '> Recording finder NSToolbarTitleViewRolloverDelay with param set to 0.5'
+      '> Recording finder NSToolbarTitleViewRolloverDelay with param set to 0.5',
     )
 
     const { width, height } = robot.getScreenSize()
@@ -18,7 +18,10 @@ module.exports = {
       width: recordWidth,
       height: recordHeight,
     }
-    const pos1 = { x: cropArea.x + recordWidth / 3 + 20, y: MacRunner.getMenuBarHeight() + 100 }
+    const pos1 = {
+      x: cropArea.x + recordWidth / 3 + 20,
+      y: MacRunner.getMenuBarHeight() + 100,
+    }
     const pos2 = {
       x: cropArea.x + recordWidth / 3 + 20,
       y: MacRunner.getMenuBarHeight() + 30,
@@ -31,7 +34,7 @@ module.exports = {
           'NSGlobalDomain',
           'NSToolbarTitleViewRolloverDelay',
           '-float 0.5',
-          '0.5'
+          '0.5',
         )
         .killApp('Finder')
         .openApp('Finder', '~/macos-defaults')
@@ -66,9 +69,9 @@ module.exports = {
 
 function logRollbackInfo() {
   console.info(
-    'Please manually run this command to make sure everything is properly reset:'
+    'Please manually run this command to make sure everything is properly reset:',
   )
   console.info(
-    'defaults delete NSGlobalDomain NSToolbarTitleViewRolloverDelay && killall Finder'
+    'defaults delete NSGlobalDomain NSToolbarTitleViewRolloverDelay && killall Finder',
   )
 }

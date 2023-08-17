@@ -1,19 +1,20 @@
 ---
 metaTitle: Scroll to Exposé app | Dock | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Dock > Scroll to Exposé app
-  - name: "description"
+  - name: 'description'
     content: "Scroll up on a Dock icon to show all Space's opened windows for an app, or open stack."
-  - property: "og:description"
+  - property: 'og:description'
     content: "Scroll up on a Dock icon to show all Space's opened windows for an app, or open stack."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Scroll to Exposé app
 
 Scroll up on a Dock icon to show all Space's opened windows for an app, or open stack.
@@ -21,11 +22,11 @@ Scroll up on a Dock icon to show all Space's opened windows for an app, or open 
 <!-- break lists -->
 
 - **Tested on macOS**:
-  * Ventura
-  * Monterey
-  * Big Sur
-  * Catalina
-  * Mojave
+  - Ventura
+  - Monterey
+  - Big Sur
+  - Catalina
+  - Mojave
 - **Parameter type**: bool
 
 ## Set to `true`
@@ -45,11 +46,13 @@ defaults write com.apple.dock "scroll-to-open" -bool "false" && killall Dock
 ```
 
 ## Read current value
+
 ```bash
 defaults read com.apple.dock "scroll-to-open"
 ```
 
 ## Reset to default value
+
 ```bash
 defaults delete com.apple.dock "scroll-to-open" && killall Dock
 ```
