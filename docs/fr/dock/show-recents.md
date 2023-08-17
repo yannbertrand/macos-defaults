@@ -1,19 +1,20 @@
 ---
 metaTitle: Afficher les Apps récentes | Dock | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Dock > Afficher les Apps récentes
-  - name: "description"
-    content: "Afficher ou non les applications utilisées récemment dans une section à part."
-  - property: "og:description"
-    content: "Afficher ou non les applications utilisées récemment dans une section à part."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'Afficher ou non les applications utilisées récemment dans une section à part.'
+  - property: 'og:description'
+    content: 'Afficher ou non les applications utilisées récemment dans une section à part.'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Afficher les Apps récentes
 
 Afficher ou non les applications utilisées récemment dans une section à part.
@@ -21,11 +22,11 @@ Afficher ou non les applications utilisées récemment dans une section à part.
 <!-- break lists -->
 
 - **Testé sur macOS**:
-  * Ventura
-  * Monterey
-  * Big Sur
-  * Catalina
-  * Mojave
+  - Ventura
+  - Monterey
+  - Big Sur
+  - Catalina
+  - Mojave
 - **Type de paramètre**: bool
 
 ## Avec la valeur `true` (par défaut)
@@ -35,6 +36,7 @@ Afficher la section des applications utilisées récemment.
 ```bash
 defaults write com.apple.dock "show-recents" -bool "true" && killall Dock
 ```
+
 <img
   src="./dock-show-recents-true.png"
   alt="Exemple avec la valeur true"
@@ -48,6 +50,7 @@ Ne pas afficher la section des applications utilisées récemment.
 ```bash
 defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
 ```
+
 <img
   src="./dock-show-recents-false.png"
   alt="Exemple avec la valeur false"
@@ -55,11 +58,13 @@ defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
 />
 
 ## Lire la valeur courante
+
 ```bash
 defaults read com.apple.dock "show-recents"
 ```
 
 ## Remettre la valeur à l'état initial
+
 ```bash
 defaults delete com.apple.dock "show-recents" && killall Dock
 ```

@@ -1,19 +1,20 @@
 ---
 metaTitle: Afficher la durée de build | Xcode | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Xcode > Afficher la durée de build
-  - name: "description"
+  - name: 'description'
     content: "Afficher la durée de build dans la toolbar en haut de la fenêtre d'Xcode"
-  - property: "og:description"
+  - property: 'og:description'
     content: "Afficher la durée de build dans la toolbar en haut de la fenêtre d'Xcode"
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Afficher la durée de build
 
 Afficher la durée de build dans la toolbar en haut de la fenêtre d'Xcode
@@ -21,7 +22,7 @@ Afficher la durée de build dans la toolbar en haut de la fenêtre d'Xcode
 <!-- break lists -->
 
 - **Testé sur macOS**:
-  * Catalina
+  - Catalina
 - **Type de paramètre**: bool
 
 ## Avec la valeur `true`
@@ -41,11 +42,13 @@ defaults write com.apple.dt.Xcode "ShowBuildOperationDuration" -bool "false" && 
 ```
 
 ## Lire la valeur courante
+
 ```bash
 defaults read com.apple.dt.Xcode "ShowBuildOperationDuration"
 ```
 
 ## Remettre la valeur à l'état initial
+
 ```bash
 defaults delete com.apple.dt.Xcode "ShowBuildOperationDuration" && killall Xcode
 ```

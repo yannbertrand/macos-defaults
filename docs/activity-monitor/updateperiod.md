@@ -1,19 +1,20 @@
 ---
 metaTitle: Update Frequency | Activity Monitor | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Activity Monitor > Update Frequency
-  - name: "description"
-    content: "How frequently Activity Monitor should update its data, in seconds."
-  - property: "og:description"
-    content: "How frequently Activity Monitor should update its data, in seconds."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'How frequently Activity Monitor should update its data, in seconds.'
+  - property: 'og:description'
+    content: 'How frequently Activity Monitor should update its data, in seconds.'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Update Frequency
 
 How frequently Activity Monitor should update its data, in seconds.
@@ -21,12 +22,12 @@ How frequently Activity Monitor should update its data, in seconds.
 <!-- break lists -->
 
 - **Tested on macOS**:
-  * Ventura
-  * Monterey
+  - Ventura
+  - Monterey
 - **Parameter type**: int
-  * 1
-  * 2
-  * 5
+  - 1
+  - 2
+  - 5
 
 ## Set to `1`
 
@@ -53,11 +54,13 @@ defaults write com.apple.ActivityMonitor "UpdatePeriod" -int "5" && killall Acti
 ```
 
 ## Read current value
+
 ```bash
 defaults read com.apple.ActivityMonitor "UpdatePeriod"
 ```
 
 ## Reset to default value
+
 ```bash
 defaults delete com.apple.ActivityMonitor "UpdatePeriod" && killall Activity\ Monitor
 ```

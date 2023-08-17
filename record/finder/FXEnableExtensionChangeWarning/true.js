@@ -6,7 +6,7 @@ const { compressVideo } = require('../../utils')
 module.exports = {
   run: async (outputPath) => {
     console.log(
-      '> Recording finder FXEnableExtensionChangeWarning with param set to true'
+      '> Recording finder FXEnableExtensionChangeWarning with param set to true',
     )
 
     const { width, height } = robot.getScreenSize()
@@ -26,7 +26,7 @@ module.exports = {
           'com.apple.finder',
           'FXEnableExtensionChangeWarning',
           '-bool true',
-          '1'
+          '1',
         )
         .killApp('Finder')
         .openApp('Finder', '~/macos-defaults')
@@ -67,9 +67,9 @@ module.exports = {
 
 function logRollbackInfo() {
   console.info(
-    'Please manually run this command to make sure everything is properly reset:'
+    'Please manually run this command to make sure everything is properly reset:',
   )
   console.info(
-    'defaults delete com.apple.finder FXEnableExtensionChangeWarning && killall Finder'
+    'defaults delete com.apple.finder FXEnableExtensionChangeWarning && killall Finder',
   )
 }

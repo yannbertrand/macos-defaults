@@ -1,19 +1,20 @@
 ---
 metaTitle: Ajouter des suffixes dans les Counterparts | Xcode | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Xcode > Ajouter des suffixes dans les Counterparts
-  - name: "description"
-    content: "Ajouter des suffixes supplémentaires que Xcode place dans le menu &quot;Related Items > Counterparts&quot;."
-  - property: "og:description"
-    content: "Ajouter des suffixes supplémentaires que Xcode place dans le menu &quot;Related Items > Counterparts&quot;."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'Ajouter des suffixes supplémentaires que Xcode place dans le menu &quot;Related Items > Counterparts&quot;.'
+  - property: 'og:description'
+    content: 'Ajouter des suffixes supplémentaires que Xcode place dans le menu &quot;Related Items > Counterparts&quot;.'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Ajouter des suffixes dans les Counterparts
 
 Ajouter des suffixes supplémentaires que Xcode place dans le menu "Related Items > Counterparts".
@@ -21,7 +22,7 @@ Ajouter des suffixes supplémentaires que Xcode place dans le menu "Related Item
 <!-- break lists -->
 
 - **Testé sur macOS**:
-  * Catalina
+  - Catalina
 - **Type de paramètre**: array
 
 ## Avec la valeur `ViewModel,View`
@@ -41,11 +42,13 @@ defaults write com.apple.dt.Xcode "IDEAdditionalCounterpartSuffixes" -array-add 
 ```
 
 ## Lire la valeur courante
+
 ```bash
 defaults read com.apple.dt.Xcode "IDEAdditionalCounterpartSuffixes"
 ```
 
 ## Remettre la valeur à l'état initial
+
 ```bash
 defaults delete com.apple.dt.Xcode "IDEAdditionalCounterpartSuffixes" && killall Xcode
 ```

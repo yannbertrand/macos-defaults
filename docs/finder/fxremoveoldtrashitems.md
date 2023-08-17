@@ -1,19 +1,20 @@
 ---
 metaTitle: Empty bin items after 30 days | Finder | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Finder > Empty bin items after 30 days
-  - name: "description"
-    content: "Remove items in the bin after 30 days"
-  - property: "og:description"
-    content: "Remove items in the bin after 30 days"
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'Remove items in the bin after 30 days'
+  - property: 'og:description'
+    content: 'Remove items in the bin after 30 days'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Empty bin items after 30 days
 
 Remove items in the bin after 30 days
@@ -21,8 +22,8 @@ Remove items in the bin after 30 days
 <!-- break lists -->
 
 - **Tested on macOS**:
-  * Monterey
-  * Big Sur
+  - Monterey
+  - Big Sur
 - **Parameter type**: bool
 
 ## Set to `true`
@@ -42,11 +43,13 @@ defaults write com.apple.finder "FXRemoveOldTrashItems" -bool "false" && killall
 ```
 
 ## Read current value
+
 ```bash
 defaults read com.apple.finder "FXRemoveOldTrashItems"
 ```
 
 ## Reset to default value
+
 ```bash
 defaults delete com.apple.finder "FXRemoveOldTrashItems" && killall Finder
 ```

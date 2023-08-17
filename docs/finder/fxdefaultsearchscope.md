@@ -1,19 +1,20 @@
 ---
 metaTitle: Default search scope | Finder | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Finder > Default search scope
-  - name: "description"
-    content: "Set the default search scope when performing a search"
-  - property: "og:description"
-    content: "Set the default search scope when performing a search"
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'Set the default search scope when performing a search'
+  - property: 'og:description'
+    content: 'Set the default search scope when performing a search'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Default search scope
 
 Set the default search scope when performing a search
@@ -21,9 +22,9 @@ Set the default search scope when performing a search
 <!-- break lists -->
 
 - **Tested on macOS**:
-  * Ventura
-  * Monterey
-  * Big Sur
+  - Ventura
+  - Monterey
+  - Big Sur
 - **Parameter type**: string
 
 ## Set to `SCcf`
@@ -51,11 +52,13 @@ defaults write com.apple.finder "FXDefaultSearchScope" -string "SCev" && killall
 ```
 
 ## Read current value
+
 ```bash
 defaults read com.apple.finder "FXDefaultSearchScope"
 ```
 
 ## Reset to default value
+
 ```bash
 defaults delete com.apple.finder "FXDefaultSearchScope" && killall Finder
 ```

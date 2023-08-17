@@ -1,19 +1,20 @@
 ---
 metaTitle: Style de présentation par défaut | Finder | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Finder > Style de présentation par défaut
-  - name: "description"
+  - name: 'description'
     content: "Définir le style d'affichage par défaut des dossiers sans réglage spécifique."
-  - property: "og:description"
+  - property: 'og:description'
     content: "Définir le style d'affichage par défaut des dossiers sans réglage spécifique."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Style de présentation par défaut
 
 Définir le style d'affichage par défaut des dossiers sans réglage spécifique.
@@ -21,9 +22,9 @@ Définir le style d'affichage par défaut des dossiers sans réglage spécifique
 <!-- break lists -->
 
 - **Testé sur macOS**:
-  * Ventura
-  * Monterey
-  * Big Sur
+  - Ventura
+  - Monterey
+  - Big Sur
 - **Type de paramètre**: string
 
 ## Avec la valeur `clmv`
@@ -59,11 +60,13 @@ defaults write com.apple.finder "FXPreferredViewStyle" -string "icnv" && killall
 ```
 
 ## Lire la valeur courante
+
 ```bash
 defaults read com.apple.finder "FXPreferredViewStyle"
 ```
 
 ## Remettre la valeur à l'état initial
+
 ```bash
 defaults delete com.apple.finder "FXPreferredViewStyle" && killall Finder
 ```

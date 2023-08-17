@@ -1,19 +1,20 @@
 ---
 metaTitle: Enlever l'ombre | Capture d'écran | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Capture d'écran > Enlever l'ombre
-  - name: "description"
+  - name: 'description'
     content: "Afficher ou non une ombre en prenant une capture d'une app (`⌘ cmd`+`⇧ shift`+`4` puis `espace`)."
-  - property: "og:description"
+  - property: 'og:description'
     content: "Afficher ou non une ombre en prenant une capture d'une app (`⌘ cmd`+`⇧ shift`+`4` puis `espace`)."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Enlever l'ombre
 
 Afficher ou non une ombre en prenant une capture d'une app (`⌘ cmd`+`⇧ shift`+`4` puis `espace`).
@@ -21,10 +22,10 @@ Afficher ou non une ombre en prenant une capture d'une app (`⌘ cmd`+`⇧ shift
 <!-- break lists -->
 
 - **Testé sur macOS**:
-  * Ventura
-  * Monterey
-  * Big Sur
-  * Catalina
+  - Ventura
+  - Monterey
+  - Big Sur
+  - Catalina
 - **Type de paramètre**: bool
 
 ## Avec la valeur `false` (par défaut)
@@ -32,8 +33,9 @@ Afficher ou non une ombre en prenant une capture d'une app (`⌘ cmd`+`⇧ shift
 Ajouter l'ombre aux captures
 
 ```bash
-defaults write com.apple.screencapture "disable-shadow" -bool "false" 
+defaults write com.apple.screencapture "disable-shadow" -bool "false"
 ```
+
 <img
   src="./screenshots-disable-shadow-false.png"
   alt="Exemple avec la valeur false"
@@ -45,8 +47,9 @@ defaults write com.apple.screencapture "disable-shadow" -bool "false"
 Supprimer l'ombre des captures
 
 ```bash
-defaults write com.apple.screencapture "disable-shadow" -bool "true" 
+defaults write com.apple.screencapture "disable-shadow" -bool "true"
 ```
+
 <img
   src="./screenshots-disable-shadow-true.png"
   alt="Exemple avec la valeur true"
@@ -54,11 +57,13 @@ defaults write com.apple.screencapture "disable-shadow" -bool "true"
 />
 
 ## Lire la valeur courante
+
 ```bash
 defaults read com.apple.screencapture "disable-shadow"
 ```
 
 ## Remettre la valeur à l'état initial
+
 ```bash
 defaults delete com.apple.screencapture "disable-shadow"
 ```

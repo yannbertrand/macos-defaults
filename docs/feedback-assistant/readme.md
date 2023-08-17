@@ -1,19 +1,20 @@
 ---
 metaTitle: Feedback Assistant | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Feedback Assistant
-  - name: "description"
-    content: "The Feedback Assistant app allows user to submit reports for developer or public betas."
-  - property: "og:description"
-    content: "The Feedback Assistant app allows user to submit reports for developer or public betas."
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - name: 'description'
+    content: 'The Feedback Assistant app allows user to submit reports for developer or public betas.'
+  - property: 'og:description'
+    content: 'The Feedback Assistant app allows user to submit reports for developer or public betas.'
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Feedback Assistant
 
 The Feedback Assistant app allows user to submit reports for developer or public betas.

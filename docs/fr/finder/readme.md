@@ -1,19 +1,20 @@
 ---
 metaTitle: Finder | macOS defaults
 meta:
-  - property: "og:title"
+  - property: 'og:title'
     content: macOS defaults > Finder
-  - name: "description"
+  - name: 'description'
     content: "Le Finder est le gestionnaire de fichier de macOS.\nIl est responsable du lancement d'autres applications,\net pour la gestion générique des fichiers, disques externes, et volumes réseaux.\nDepuis les années 80-90, l'icône du Finder est un écran souriant d'ordinateur, connu sous le nom &quot;Happy Mac&quot;.\n\nCertaines de ses fonctionnalités sont personnalisables.\n"
-  - property: "og:description"
+  - property: 'og:description'
     content: "Le Finder est le gestionnaire de fichier de macOS.\nIl est responsable du lancement d'autres applications,\net pour la gestion générique des fichiers, disques externes, et volumes réseaux.\nDepuis les années 80-90, l'icône du Finder est un écran souriant d'ordinateur, connu sous le nom &quot;Happy Mac&quot;.\n\nCertaines de ses fonctionnalités sont personnalisables.\n"
-  - property: "twitter:card"
-    content: "summary"
-  - property: "twitter:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.webp"
-  - property: "og:image"
-    content: "https://macos-defaults.netlify.app/media-1x1.jpg"
+  - property: 'twitter:card'
+    content: 'summary'
+  - property: 'twitter:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
+  - property: 'og:image'
+    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
+
 # Finder
 
 Le Finder est le gestionnaire de fichier de macOS.
@@ -22,7 +23,6 @@ et pour la gestion générique des fichiers, disques externes, et volumes résea
 Depuis les années 80-90, l'icône du Finder est un écran souriant d'ordinateur, connu sous le nom "Happy Mac".
 
 Certaines de ses fonctionnalités sont personnalisables.
-
 
 ## Keys
 
