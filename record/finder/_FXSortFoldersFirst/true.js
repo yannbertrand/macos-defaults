@@ -1,85 +1,42 @@
-const aperture = require('aperture')()
-const delay = require('delay')
-const robot = require('robotjs')
-const util = require('util')
-const exec = util.promisify(require('child_process').exec)
-const {
-  makeAppActive,
-  moveAndResizeApp,
-  compressVideo,
-} = require('../../utils')
+const MacRunner = require('../../mac-runner')
+const { compressPngImage } = require('../../utils')
 
 module.exports = {
   run: async (outputPath) => {
-    console.log('> Recording finder _FXSortFoldersFirst with param set to true')
-
-    const { stderr: setEnvError } = await exec(
-      'defaults write com.apple.finder _FXSortFoldersFirst -bool true && killall Finder'
+    console.log(
+      '> Recording finder _FXSortFoldersFirst with param set to true'
     )
-    if (setEnvError) {
-      console.error(
-        'An error occured while setting up the finder _FXSortFoldersFirst command'
-      )
-      logRollbackInfo()
-      throw new Error(setEnvError)
-    }
-    await delay(1000)
-
-    // Preparation
-    await makeAppActive('Finder')
-    robot.keyTap('g', ['command', 'shift'])
-    await delay(100)
-    robot.typeString('~/macos-defaults/')
-    await delay(1000)
-    robot.keyTap('enter')
-    await delay(500)
-    robot.keyTap('6', ['alt', 'command'])
-    await delay(100)
-
-    const { width, height } = robot.getScreenSize()
-    const recordWidth = 720
-    const recordHeight = 404
-    const cropArea = {
-      x: width / 2 - recordWidth / 2,
-      y: 345,
-      width: recordWidth,
-      height: recordHeight,
-    }
-
-    await moveAndResizeApp('Finder', cropArea, height)
-
-    // Action!
-    await aperture.startRecording({ highlightClicks: true, cropArea })
-
-    await delay(300)
-    robot.keyTap('1', ['alt', 'command'])
-    await delay(2000)
-
-    const fp = await aperture.stopRecording()
-    // End recording
-
-    robot.keyTap('w', 'command')
 
     try {
-      await compressVideo(fp, outputPath, 'true')
-    } catch (compressVideoError) {
+      const runner = new MacRunner()
+      await runner
+        .setDefault(
+          'com.apple.finder',
+          '_FXSortFoldersFirst',
+          '-bool true',
+          '1'
+        )
+        .killApp('Finder')
+        .openApp('Finder', '~/macos-defaults')
+        .activateApp('Finder')
+        .moveAndResizeApp('Finder', 0, 0, 740, 400)
+        .captureApp('Finder', `${outputPath}/true.png`)
+        .deleteDefault('com.apple.finder', '_FXSortFoldersFirst')
+        .killApp('Finder')
+        .run()
+    } catch (runnerError) {
       logRollbackInfo()
-      throw new Error(compressVideoError)
+      throw new Error(runnerError)
     }
 
-    const { stderr: deleteEnvError } = await exec(
-      'defaults delete com.apple.finder _FXSortFoldersFirst && killall Finder'
-    )
-    if (deleteEnvError) {
-      console.error(
-        'An error occured while cleaning the finder _FXSortFoldersFirst environment'
-      )
+    try {
+      await compressPngImage(`${outputPath}/true.png`, outputPath, 'true')
+    } catch (compressPngImageError) {
       logRollbackInfo()
-      throw new Error(deleteEnvError)
+      throw new Error(compressPngImageError)
     }
-    await delay(1000)
 
-    return { filepath: `${outputPath}/true`, isVideo: true }
+    return { filepath: `${outputPath}/true` }
   },
 }
 

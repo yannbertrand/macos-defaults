@@ -22,14 +22,14 @@ class MacRunner {
    * @return {number} The Dock height
    */
   static getDockHeight() {
-    return 76
+    return 100
   }
 
   /**
    * @return {number} The Menu Bar height
    */
   static getMenuBarHeight() {
-    return 22
+    return 23
   }
 
   /**

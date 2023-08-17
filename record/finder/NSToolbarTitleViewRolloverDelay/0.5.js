@@ -1,88 +1,66 @@
-const aperture = require('aperture')()
-const delay = require('delay')
 const robot = require('robotjs')
-const util = require('util')
-const exec = util.promisify(require('child_process').exec)
-const {
-  makeAppActive,
-  moveAndResizeApp,
-  compressVideo,
-} = require('../../utils')
+const MacRunner = require('../../mac-runner')
+const delay = require('delay')
+const { compressVideo } = require('../../utils')
 
 module.exports = {
   run: async (outputPath) => {
     console.log(
-      '> Recording finder NSToolbarTitleViewRolloverDelay with param set to 0.5'
+      '> Recording finder NSToolbarTitleViewRolloverDelay with param set to 0'
     )
-
-    const { stderr: setEnvError } = await exec(
-      'defaults write NSGlobalDomain NSToolbarTitleViewRolloverDelay -float 0.5 && killall Finder'
-    )
-    if (setEnvError) {
-      console.error(
-        'An error occured while setting up the finder NSToolbarTitleViewRolloverDelay command'
-      )
-      logRollbackInfo()
-      throw new Error(setEnvError)
-    }
-    await delay(1000)
-
-    // Preparation
-    await makeAppActive('Finder')
-    await delay(500)
 
     const { width, height } = robot.getScreenSize()
-    const recordWidth = 720
+    const recordWidth = 740
     const recordHeight = 404
     const cropArea = {
-      x: width / 2 - recordWidth / 2,
-      y: 345,
+      x: 0,
+      y: height - recordHeight - MacRunner.getMenuBarHeight(),
       width: recordWidth,
       height: recordHeight,
     }
-    const pos1 = { x: cropArea.x + recordWidth / 3, y: cropArea.y }
+    const pos1 = { x: cropArea.x + recordWidth / 3 + 20, y: MacRunner.getMenuBarHeight() + 100 }
     const pos2 = {
-      x: cropArea.x + recordWidth / 3,
-      y: cropArea.y - recordHeight / 2 + 100,
+      x: cropArea.x + recordWidth / 3 + 20,
+      y: MacRunner.getMenuBarHeight() + 30,
     }
 
-    await moveAndResizeApp('Finder', cropArea, height)
-    robot.moveMouse(pos1.x, pos1.y)
-
-    // Action!
-    await aperture.startRecording({ highlightClicks: true, cropArea })
-    await delay(300)
-
-    robot.moveMouseSmooth(pos2.x, pos2.y)
-    await delay(1500)
-    robot.moveMouseSmooth(pos1.x, pos1.y)
-    await delay(1000)
-
-    const fp = await aperture.stopRecording()
-    // End recording
-
-    robot.keyTap('w', 'command')
+    try {
+      const runner = new MacRunner()
+      await runner
+        .setDefault(
+          'NSGlobalDomain',
+          'NSToolbarTitleViewRolloverDelay',
+          '-float 0',
+          '0'
+        )
+        .killApp('Finder')
+        .openApp('Finder', '~/macos-defaults')
+        .activateApp('Finder')
+        .moveAndResizeApp('Finder', 0, 0, 740, 400)
+        .register(() => robot.moveMouse(pos1.x, pos1.y))
+        .startVideo({ highlightClicks: true, cropArea })
+        .register(() => delay(300))
+        .register(() => robot.moveMouseSmooth(pos2.x, pos2.y))
+        .register(() => delay(1500))
+        .register(() => robot.moveMouseSmooth(pos1.x, pos1.y))
+        .register(() => delay(1000))
+        .stopVideo(`${outputPath}/0.mp4`)
+        .deleteDefault('NSGlobalDomain', 'NSToolbarTitleViewRolloverDelay')
+        .killApp('Finder')
+        .run()
+    } catch (runnerError) {
+      logRollbackInfo()
+      throw new Error(runnerError)
+    }
 
     try {
-      await compressVideo(fp, outputPath, '0.5')
+      await compressVideo(`${outputPath}/0.mp4`, outputPath, '0')
     } catch (compressVideoError) {
       logRollbackInfo()
       throw new Error(compressVideoError)
     }
 
-    const { stderr: deleteEnvError } = await exec(
-      'defaults delete NSGlobalDomain NSToolbarTitleViewRolloverDelay && killall Finder'
-    )
-    if (deleteEnvError) {
-      console.error(
-        'An error occured while cleaning the finder NSToolbarTitleViewRolloverDelay environment'
-      )
-      logRollbackInfo()
-      throw new Error(deleteEnvError)
-    }
-    await delay(1000)
-
-    return { filepath: `${outputPath}/0.5`, isVideo: true }
+    return { filepath: `${outputPath}/0`, isVideo: true }
   },
 }
 

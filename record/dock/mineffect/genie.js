@@ -28,9 +28,9 @@ module.exports = {
     await makeAppActive('System Preferences')
 
     const { width, height } = robot.getScreenSize()
-    const pos1 = { x: width - 682, y: height - 695 }
-    const pos2 = { x: width - 110, y: height - 50 }
-    const recordWidth = 750
+    const pos1 = { x: width - 932, y: height - 695 }
+    const pos2 = { x: width - 270, y: height - 50 }
+    const recordWidth = 1000
     const recordHeight = 750
     const cropArea = {
       x: width - recordWidth,
@@ -52,14 +52,15 @@ module.exports = {
     // Action!
     await aperture.startRecording({ highlightClicks: true, cropArea })
 
+    await delay(500)
     robot.mouseClick()
-    await delay(100)
+    await delay(500)
     robot.moveMouseSmooth(pos2.x, pos2.y, 2)
-    await delay(400)
+    await delay(800)
     robot.mouseClick()
-    await delay(400)
+    await delay(800)
     robot.moveMouseSmooth(pos1.x, pos1.y, 2)
-    await delay(200)
+    await delay(800)
 
     const fp = await aperture.stopRecording()
     // End recording

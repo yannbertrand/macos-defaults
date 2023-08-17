@@ -16,7 +16,7 @@ module.exports = {
           '-bool true',
           '1'
         )
-        .openApp('Safari', '-F https://www.apple.com/macos/monterey/')
+        .openApp('Safari', '-F https://www.apple.com/macos/ventura/')
         .activateApp('Safari')
         .moveAndResizeApp('Safari', 0, 0, 740, 250)
         .captureApp('Safari', `${outputPath}/true-tmp.png`)

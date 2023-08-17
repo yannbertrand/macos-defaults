@@ -24,11 +24,11 @@ module.exports = {
     await delay(1000)
 
     const { height } = robot.getScreenSize()
-    const pos1 = { x: 475, y: height - 80 }
+    const pos1 = { x: 475, y: height - 100 }
     const pos2 = { x: 495, y: height }
-    const pos3 = { x: 500, y: height - 70 }
+    const pos3 = { x: 500, y: height - 80 }
     const recordWidth = 441
-    const recordHeight = 120
+    const recordHeight = 150
     const cropArea = {
       x: pos2.x - recordWidth / 2,
       y: 0,

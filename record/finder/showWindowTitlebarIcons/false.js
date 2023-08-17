@@ -15,7 +15,7 @@ module.exports = {
           '0'
         )
         .killApp('Finder')
-        .openApp('Finder', '~')
+        .openApp('Finder', '~/macos-defaults')
         .activateApp('Finder')
         .moveAndResizeApp('Finder', 0, 0, 740, 400)
         .captureApp('Finder', `${outputPath}/false.png`)

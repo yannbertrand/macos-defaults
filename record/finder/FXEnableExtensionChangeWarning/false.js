@@ -1,13 +1,7 @@
-const aperture = require('aperture')()
-const delay = require('delay')
 const robot = require('robotjs')
-const util = require('util')
-const exec = util.promisify(require('child_process').exec)
-const {
-  makeAppActive,
-  moveAndResizeApp,
-  compressVideo,
-} = require('../../utils')
+const MacRunner = require('../../mac-runner')
+const delay = require('delay')
+const { compressVideo } = require('../../utils')
 
 module.exports = {
   run: async (outputPath) => {
@@ -15,99 +9,61 @@ module.exports = {
       '> Recording finder FXEnableExtensionChangeWarning with param set to false'
     )
 
-    const { stderr: setEnvError } = await exec(
-      'defaults write com.apple.finder FXEnableExtensionChangeWarning -string false && killall Finder'
-    )
-    if (setEnvError) {
-      console.error(
-        'An error occured while setting up the finder FXEnableExtensionChangeWarning command'
-      )
-      logRollbackInfo()
-      throw new Error(setEnvError)
-    }
-    await delay(1000)
-
-    // Preparation
-    await makeAppActive('Finder')
-    robot.keyTap('g', ['command', 'shift'])
-    await delay(100)
-    robot.keyTap('right')
-    robot.keyTap('a', 'command')
-    robot.keyTap('backspace')
-    robot.typeString('~/macos-defaults/')
-    await delay(1000)
-    robot.keyTap('enter')
-    await delay(500)
-    robot.keyTap('right')
-    await delay(100)
-    robot.keyTap('right')
-    await delay(100)
-    robot.keyTap('right')
-    await delay(100)
-    robot.keyTap('right')
-    await delay(100)
-    robot.keyTap('right')
-    await delay(100)
-
     const { width, height } = robot.getScreenSize()
     const recordWidth = 720
     const recordHeight = 404
     const cropArea = {
-      x: width / 2 - recordWidth / 2,
-      y: 345,
+      x: 0,
+      y: height - recordHeight - MacRunner.getMenuBarHeight(),
       width: recordWidth,
       height: recordHeight,
     }
 
-    await moveAndResizeApp('Finder', cropArea, height)
-
-    // Action!
-    await aperture.startRecording({ highlightClicks: true, cropArea })
-
-    robot.keyTap('enter')
-    await delay(100)
-    robot.keyTap('right', 'command')
-    await delay(100)
-    robot.keyTap('left', ['shift', 'alt'])
-    await delay(100)
-    robot.typeStringDelayed('txt', 300)
-    await delay(100)
-    robot.keyTap('enter')
-    await delay(1000)
-    robot.keyTap('enter')
-    await delay(100)
-    robot.keyTap('right', 'command')
-    await delay(100)
-    robot.keyTap('left', ['shift', 'alt'])
-    await delay(100)
-    robot.typeStringDelayed('yml', 300)
-    await delay(100)
-    robot.keyTap('enter')
-    await delay(300)
-
-    const fp = await aperture.stopRecording()
-    // End recording
-
-    robot.keyTap('w', 'command')
+    try {
+      const runner = new MacRunner()
+      await runner
+        .setDefault(
+          'com.apple.finder',
+          'FXEnableExtensionChangeWarning',
+          '-bool false',
+          '0'
+        )
+        .killApp('Finder')
+        .openApp('Finder', '~/macos-defaults')
+        .activateApp('Finder')
+        .moveAndResizeApp('Finder', 0, 0, 740, 400)
+        .register(() => robot.keyTap('right'))
+        .register(() => delay(100))
+        .register(() => robot.keyTap('right'))
+        .register(() => delay(100))
+        .startVideo({ highlightClicks: true, cropArea })
+        .register(() => robot.keyTap('enter'))
+        .register(() => robot.keyTap('right', 'command'))
+        .register(() => robot.keyTap('left', ['shift', 'alt']))
+        .register(() => robot.typeStringDelayed('txt', 300))
+        .register(() => robot.keyTap('enter'))
+        .register(() => delay(800))
+        .register(() => robot.keyTap('enter'))
+        .register(() => robot.keyTap('right', 'command'))
+        .register(() => robot.keyTap('left', ['shift', 'alt']))
+        .register(() => robot.typeStringDelayed('md', 300))
+        .register(() => robot.keyTap('enter'))
+        .register(() => delay(800))
+        .stopVideo(`${outputPath}/false.mp4`)
+        .deleteDefault('com.apple.finder', 'FXEnableExtensionChangeWarning')
+        .killApp('Finder')
+        .run()
+    } catch (runnerError) {
+      logRollbackInfo()
+      throw new Error(runnerError)
+    }
 
     try {
-      await compressVideo(fp, outputPath, 'false')
+      await compressVideo(`${outputPath}/false.mp4`, outputPath, 'false')
     } catch (compressVideoError) {
       logRollbackInfo()
       throw new Error(compressVideoError)
     }
-
-    const { stderr: deleteEnvError } = await exec(
-      'defaults delete com.apple.finder FXEnableExtensionChangeWarning && killall Finder'
-    )
-    if (deleteEnvError) {
-      console.error(
-        'An error occured while cleaning the finder FXEnableExtensionChangeWarning environment'
-      )
-      logRollbackInfo()
-      throw new Error(deleteEnvError)
-    }
-    await delay(1000)
 
     return { filepath: `${outputPath}/false`, isVideo: true }
   },
