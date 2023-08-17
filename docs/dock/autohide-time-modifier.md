@@ -29,10 +29,6 @@ Change the Dock opening and closing animation times.
   - Mojave
 - **Parameter type**: float
 
-## Requirements
-
-- [`com.apple.dock autohide`](../../dock/autohide.html#set-to-true) must be set to `true`
-
 ## Set to `0.5` (default value)
 
 By default, the Dock opening and closing animations take 0.5 seconds
