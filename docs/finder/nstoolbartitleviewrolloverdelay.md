@@ -40,7 +40,7 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "0.5" && 
 ```
 
 <video autoplay loop muted playsinline width="741" height="416" style="max-width: 100%; height: auto">
-  <source src="./finder-NSToolbarTitleViewRolloverDelay-0.5.mp4" type="video/mp4">
+  <source src="../../images/finder/NSToolbarTitleViewRolloverDelay/0.5.mp4" type="video/mp4">
   Example output with value set to 0.5
 </video>
 
@@ -53,7 +53,7 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "0" && ki
 ```
 
 <video autoplay loop muted playsinline width="741" height="416" style="max-width: 100%; height: auto">
-  <source src="./finder-NSToolbarTitleViewRolloverDelay-0.mp4" type="video/mp4">
+  <source src="../../images/finder/NSToolbarTitleViewRolloverDelay/0.mp4" type="video/mp4">
   Example output with value set to 0
 </video>
 
@@ -66,7 +66,7 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "1" && ki
 ```
 
 <video autoplay loop muted playsinline width="741" height="416" style="max-width: 100%; height: auto">
-  <source src="./finder-NSToolbarTitleViewRolloverDelay-1.mp4" type="video/mp4">
+  <source src="../../images/finder/NSToolbarTitleViewRolloverDelay/1.mp4" type="video/mp4">
   Example output with value set to 1
 </video>
 

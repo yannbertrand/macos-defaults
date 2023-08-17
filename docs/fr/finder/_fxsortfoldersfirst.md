@@ -36,7 +36,7 @@ defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true" && killall Fi
 ```
 
 <img
-  src="./finder-_FXSortFoldersFirst-true.png"
+  src="../../../images/finder/_FXSortFoldersFirst/true.png"
   alt="Exemple avec la valeur true"
   width="740" height="400" style="height: auto"
 />
@@ -50,7 +50,7 @@ defaults write com.apple.finder "_FXSortFoldersFirst" -bool "false" && killall F
 ```
 
 <img
-  src="./finder-_FXSortFoldersFirst-false.png"
+  src="../../../images/finder/_FXSortFoldersFirst/false.png"
   alt="Exemple avec la valeur false"
   width="740" height="400" style="height: auto"
 />

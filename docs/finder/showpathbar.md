@@ -36,7 +36,7 @@ defaults write com.apple.finder "ShowPathbar" -bool "true" && killall Finder
 ```
 
 <img
-  src="./finder-ShowPathbar-true.png"
+  src="../../images/finder/ShowPathbar/true.png"
   alt="Example output with value set to true"
   width="740" height="451" style="height: auto"
 />
@@ -50,7 +50,7 @@ defaults write com.apple.finder "ShowPathbar" -bool "false" && killall Finder
 ```
 
 <img
-  src="./finder-ShowPathbar-false.png"
+  src="../../images/finder/ShowPathbar/false.png"
   alt="Example output with value set to false"
   width="740" height="451" style="height: auto"
 />

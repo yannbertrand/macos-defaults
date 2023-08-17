@@ -34,7 +34,7 @@ defaults write com.apple.Safari "ShowFullURLInSmartSearchField" -bool "true" && 
 ```
 
 <img
-  src="./safari-ShowFullURLInSmartSearchField-true.png"
+  src="../../../images/safari/ShowFullURLInSmartSearchField/true.png"
   alt="Exemple avec la valeur true"
   width="740" height="207" style="height: auto"
 />
@@ -48,7 +48,7 @@ defaults write com.apple.Safari "ShowFullURLInSmartSearchField" -bool "false" &&
 ```
 
 <img
-  src="./safari-ShowFullURLInSmartSearchField-false.png"
+  src="../../../images/safari/ShowFullURLInSmartSearchField/false.png"
   alt="Exemple avec la valeur false"
   width="740" height="207" style="height: auto"
 />

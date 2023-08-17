@@ -36,7 +36,7 @@ defaults write com.apple.TextEdit "RichText" -bool "true" && killall TextEdit
 ```
 
 <img
-  src="./textedit-RichText-true.png"
+  src="../../images/textedit/RichText/true.png"
   alt="Example output with value set to true"
   width="740" height="451" style="height: auto"
 />
@@ -50,7 +50,7 @@ defaults write com.apple.TextEdit "RichText" -bool "false" && killall TextEdit
 ```
 
 <img
-  src="./textedit-RichText-false.png"
+  src="../../images/textedit/RichText/false.png"
   alt="Example output with value set to false"
   width="740" height="451" style="height: auto"
 />

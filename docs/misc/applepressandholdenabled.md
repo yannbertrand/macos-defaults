@@ -41,7 +41,7 @@ defaults write NSGlobalDomain "ApplePressAndHoldEnabled" -bool "true"
 ```
 
 <img
-  src="./misc-ApplePressAndHoldEnabled-true.png"
+  src="../../images/misc/ApplePressAndHoldEnabled/true.png"
   alt="Example output with value set to true"
   width="696" height="252" style="height: auto"
 />
@@ -55,7 +55,7 @@ defaults write NSGlobalDomain "ApplePressAndHoldEnabled" -bool "false"
 ```
 
 <img
-  src="./misc-ApplePressAndHoldEnabled-false.png"
+  src="../../images/misc/ApplePressAndHoldEnabled/false.png"
   alt="Example output with value set to false"
   width="696" height="252" style="height: auto"
 />

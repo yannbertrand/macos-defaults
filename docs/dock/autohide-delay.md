@@ -42,7 +42,7 @@ defaults write com.apple.dock "autohide-delay" -float "0.2" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="./dock-autohide-delay-0.5.mp4" type="video/mp4">
+  <source src="../../images/dock/autohide-delay/0.5.mp4" type="video/mp4">
   Example output with value set to 0.2
 </video>
 
@@ -55,7 +55,7 @@ defaults write com.apple.dock "autohide-delay" -float "0" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="./dock-autohide-delay-0.mp4" type="video/mp4">
+  <source src="../../images/dock/autohide-delay/0.mp4" type="video/mp4">
   Example output with value set to 0
 </video>
 
