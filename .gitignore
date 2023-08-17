@@ -1,4 +1,4 @@
-docs*
+build
 !docsify
 dist*
 node_modules
