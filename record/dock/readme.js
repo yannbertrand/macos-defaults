@@ -16,7 +16,7 @@ module.exports = {
           screenHeight - dockHeight,
           screenWidth,
           dockHeight,
-          `${outputPath}/dock-tmp.png`,
+          `${outputPath}/dock-tmp.png`
         )
         .run()
     } catch (runnerError) {

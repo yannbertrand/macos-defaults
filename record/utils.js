@@ -34,7 +34,7 @@ module.exports.captureImage = (x, y, w, h) => {
 module.exports.compressPngImage = async (
   inputPath,
   outputFolder,
-  outputName,
+  outputName
 ) => {
   const tmpOutput = `${outputFolder}/${outputName}-tmp.png`
   const finalOutput = `${outputFolder}/${outputName}.png`
@@ -106,7 +106,7 @@ function resizeVideo(input, output) {
     ])
 
     ffmpeg.stderr.on('data', (message) =>
-      ffmpegRawLogs.push(message.toString('utf8')),
+      ffmpegRawLogs.push(message.toString('utf8'))
     )
     ffmpeg.on('exit', (ffmpegExitCode) => {
       if (process.env.NODE_ENV === 'DEBUG') {

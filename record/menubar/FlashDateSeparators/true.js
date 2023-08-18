@@ -8,17 +8,17 @@ const { makeAppActive, compressVideo } = require('../../utils')
 module.exports = {
   run: async (outputPath) => {
     console.log(
-      '> Recording menu bar clock FlashDateSeparators with param set to true',
+      '> Recording menu bar clock FlashDateSeparators with param set to true'
     )
 
     // Set the menu bar menuExtras to only show the clock, it will be on the left of notification center, siri, and spotlight search.
     const { stderr: setEnvError } = await exec(
-      `defaults write com.apple.menuextra.clock FlashDateSeparators -bool true && killall SystemUIServer && sleep 10`,
+      `defaults write com.apple.menuextra.clock FlashDateSeparators -bool true && killall SystemUIServer && sleep 10`
     )
 
     if (setEnvError) {
       console.error(
-        'An error occured while setting up the menu bar clock FlashDateSeparators command',
+        'An error occured while setting up the menu bar clock FlashDateSeparators command'
       )
       logRollbackInfo()
       throw new Error(setEnvError)
@@ -51,11 +51,11 @@ module.exports = {
     }
 
     const { stderr: deleteEnvError } = await exec(
-      'defaults delete com.apple.menuextra.clock FlashDateSeparators && killall SystemUIServer && sleep 10',
+      'defaults delete com.apple.menuextra.clock FlashDateSeparators && killall SystemUIServer && sleep 10'
     )
     if (deleteEnvError) {
       console.error(
-        'An error occured while cleaning the menu bar clock FlashDateSeparators environment',
+        'An error occured while cleaning the menu bar clock FlashDateSeparators environment'
       )
       logRollbackInfo()
       throw new Error(deleteEnvError)
@@ -67,9 +67,9 @@ module.exports = {
 
 function logRollbackInfo() {
   console.info(
-    'Please manually run this command to make sure everything is properly reset:',
+    'Please manually run this command to make sure everything is properly reset:'
   )
   console.info(
-    'defaults delete com.apple.menuextra.clock FlashDateSeparators && killall SystemUIServer',
+    'defaults delete com.apple.menuextra.clock FlashDateSeparators && killall SystemUIServer'
   )
 }

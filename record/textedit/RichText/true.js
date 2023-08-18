@@ -12,7 +12,7 @@ module.exports = {
       await manageFile(filename, true)
       await addContentToFile(
         filename,
-        '{\\rtf1\\ansi\\ansicpg1252\\cocoartf2577\\cocoatextscaling0\\cocoaplatform0{\\fonttbl}{\\colortbl;\\red255\\green255\\blue255;}{\\*\\expandedcolortbl;;}\\paperw11900\\paperh16840\\margl1440\\margr1440\\vieww11520\\viewh8400\\viewkind0}',
+        '{\\rtf1\\ansi\\ansicpg1252\\cocoartf2577\\cocoatextscaling0\\cocoaplatform0{\\fonttbl}{\\colortbl;\\red255\\green255\\blue255;}{\\*\\expandedcolortbl;;}\\paperw11900\\paperh16840\\margl1440\\margr1440\\vieww11520\\viewh8400\\viewkind0}'
       )
 
       const runner = new MacRunner()
@@ -43,7 +43,7 @@ module.exports = {
 async function manageFile(filename, create) {
   console.log(`   Command: ${create ? 'create' : 'remove'} ${filename}`)
   const { stderr: mngFile } = await exec(
-    `${create ? 'touch' : 'rm -f'} ${filename}`,
+    `${create ? 'touch' : 'rm -f'} ${filename}`
   )
   if (mngFile) {
     console.error('An error occured while working with a file')
@@ -56,7 +56,7 @@ async function addContentToFile(filename, content) {
   const { stderr: mngFile } = await exec(
     `cat > ${filename} << EOF 
 ${content}
-EOF`,
+EOF`
   )
   if (mngFile) {
     console.error('An error occured while working with a file')

@@ -4,7 +4,7 @@ const { compressPngImage } = require('../../utils')
 module.exports = {
   run: async (outputPath) => {
     console.log(
-      '> Recording screencapture disable-shadow with param set to true',
+      '> Recording screencapture disable-shadow with param set to true'
     )
 
     try {

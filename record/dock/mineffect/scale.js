@@ -14,11 +14,11 @@ module.exports = {
     console.log('> Recording dock mineffect with param set to scale')
 
     const { stderr: setEnvError } = await exec(
-      'defaults write com.apple.dock mineffect -string scale && killall Dock',
+      'defaults write com.apple.dock mineffect -string scale && killall Dock'
     )
     if (setEnvError) {
       console.error(
-        'An error occured while setting up the dock mineffect command',
+        'An error occured while setting up the dock mineffect command'
       )
       logRollbackInfo()
       throw new Error(setEnvError)
@@ -75,11 +75,11 @@ module.exports = {
     }
 
     const { stderr: deleteEnvError } = await exec(
-      'defaults delete com.apple.dock mineffect && killall Dock',
+      'defaults delete com.apple.dock mineffect && killall Dock'
     )
     if (deleteEnvError) {
       console.error(
-        'An error occured while cleaning the dock mineffect environment',
+        'An error occured while cleaning the dock mineffect environment'
       )
       logRollbackInfo()
       throw new Error(deleteEnvError)
@@ -91,7 +91,7 @@ module.exports = {
 
 function logRollbackInfo() {
   console.info(
-    'Please manually run this command to make sure everything is properly reset:',
+    'Please manually run this command to make sure everything is properly reset:'
   )
   console.info('defaults delete com.apple.dock mineffect && killall Dock')
 }

@@ -32,7 +32,7 @@ module.exports = async (files) => {
     await makeAppActive('iTerm')
 
     console.info(
-      `\nAll videos and screenshots were successfully recorded. You can use your mouse again\n`,
+      `\nAll videos and screenshots were successfully recorded. You can use your mouse again\n`
     )
   } catch (error) {
     await makeAppActive('iTerm')
@@ -40,10 +40,10 @@ module.exports = async (files) => {
     if (error.code === 'RECORDER_TIMEOUT') {
       console.info('The recorder timed out.')
       console.info(
-        "You probably need to activate the screen recording feature for the terminal you're using.",
+        "You probably need to activate the screen recording feature for the terminal you're using."
       )
       console.info(
-        "You'll find that settings under: System Parameters > Security & Confidentiality > Confidentiality > Screen recording",
+        "You'll find that settings under: System Parameters > Security & Confidentiality > Confidentiality > Screen recording"
       )
     } else if (error.code === 'ENOTDIR') {
       console.info('A mandatory folder was not found.')
