@@ -151,9 +151,9 @@ export default defineConfig({
     repo: 'yannbertrand/macos-defaults',
     logo: '/logo.svg',
     algolia: {
-      apiKey: '',
-      indexName: '',
-      appId: '',
+      apiKey: process.env.ALGOLIA_API_KEY || '',
+      indexName: process.env.ALGOLIA_INDEX_NAME || '',
+      appId: process.env.ALGOLIA_APP_ID || '',
     },
     locales: {
       '/': {
