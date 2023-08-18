@@ -10,11 +10,11 @@ module.exports = {
     console.log('> Recording dock autohide-time-modifier with param set to 0')
 
     const { stderr: setEnvError } = await exec(
-      'defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock',
+      'defaults write com.apple.dock autohide -bool true && defaults write com.apple.dock autohide-time-modifier -float 0 && killall Dock'
     )
     if (setEnvError) {
       console.error(
-        'An error occured while setting up the dock autohide-time-modifier command',
+        'An error occured while setting up the dock autohide-time-modifier command'
       )
       logRollbackInfo()
       throw new Error(setEnvError)
@@ -65,11 +65,11 @@ module.exports = {
     }
 
     const { stderr: deleteEnvError } = await exec(
-      'defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-time-modifier && killall Dock',
+      'defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-time-modifier && killall Dock'
     )
     if (deleteEnvError) {
       console.error(
-        'An error occured while cleaning the dock autohide-time-modifier environment',
+        'An error occured while cleaning the dock autohide-time-modifier environment'
       )
       logRollbackInfo()
       throw new Error(deleteEnvError)
@@ -81,9 +81,9 @@ module.exports = {
 
 function logRollbackInfo() {
   console.info(
-    'Please manually run this command to make sure everything is properly reset:',
+    'Please manually run this command to make sure everything is properly reset:'
   )
   console.info(
-    'defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-time-modifier && killall Dock',
+    'defaults delete com.apple.dock autohide && defaults delete com.apple.dock autohide-time-modifier && killall Dock'
   )
 }

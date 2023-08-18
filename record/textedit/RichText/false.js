@@ -40,7 +40,7 @@ module.exports = {
 async function manageFile(filename, create) {
   console.log(`   Command: ${create ? 'create' : 'remove'} ${filename}`)
   const { stderr: mngFile } = await exec(
-    `${create ? 'touch' : 'rm -f'} ${filename}`,
+    `${create ? 'touch' : 'rm -f'} ${filename}`
   )
   if (mngFile) {
     console.error('An error occured while working with a file')
@@ -53,7 +53,7 @@ async function addContentToFile(filename, content) {
   const { stderr: mngFile } = await exec(
     `cat > ${filename} << EOF 
 ${content}
-EOF`,
+EOF`
   )
   if (mngFile) {
     console.error('An error occured while working with a file')

@@ -4,7 +4,7 @@ const { compressPngImage } = require('../../utils')
 module.exports = {
   run: async (outputPath) => {
     console.log(
-      '> Recording safari ShowFullURLInSmartSearchField with param set to false',
+      '> Recording safari ShowFullURLInSmartSearchField with param set to false'
     )
 
     try {
@@ -14,7 +14,7 @@ module.exports = {
           'com.apple.Safari',
           'ShowFullURLInSmartSearchField',
           '-bool false',
-          '0',
+          '0'
         )
         .openApp('Safari', '-F https://www.apple.com/macos/ventura/')
         .activateApp('Safari')
@@ -41,9 +41,9 @@ module.exports = {
 
 function logRollbackInfo() {
   console.info(
-    'Please manually run this command to make sure everything is properly reset:',
+    'Please manually run this command to make sure everything is properly reset:'
   )
   console.info(
-    'defaults delete com.apple.Safari ShowFullURLInSmartSearchField && killall Safari',
+    'defaults delete com.apple.Safari ShowFullURLInSmartSearchField && killall Safari'
   )
 }
