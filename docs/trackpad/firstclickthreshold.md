@@ -29,7 +29,7 @@ Choose between Light/Medium/Firm.
   - 1
   - 2
 
-## Set to `0` (default value)
+## Set to `0`
 
 Light
 
@@ -37,7 +37,7 @@ Light
 defaults write com.apple.AppleMultitouchTrackpad "FirstClickThreshold" -int "0"
 ```
 
-## Set to `1`
+## Set to `1` (default value)
 
 Medium
 
