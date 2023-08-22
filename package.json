@@ -2,18 +2,19 @@
   "private": true,
   "name": "macos-defaults-production-builder",
   "version": "2.0.0",
-  "main": "build.js",
+  "type": "module",
   "scripts": {
     "clean": "rimraf dist*",
     "build": "yarn build:prod",
-    "build:prod": "vuepress build docs --dest dist",
-    "start": "vuepress dev docs",
+    "build:prod": "vitepress build docs --dest dist",
+    "start": "vitepress dev docs",
     "test": "yarn lint",
     "format": "prettier --write .",
     "lint": "prettier --check ."
   },
   "license": "MIT",
   "dependencies": {
+    "vitepress": "^1.0.0-rc.4",
     "vuepress": "1.9.10",
     "vuepress-plugin-sitemap": "2.3.1"
   },
