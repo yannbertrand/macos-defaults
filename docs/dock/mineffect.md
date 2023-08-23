@@ -34,7 +34,7 @@ Change the Dock minimize animation.
 
 ## Requirements
 
-- [`com.apple.dock autohide`](../../dock/autohide.html#set-to-true) must be set to `true`
+- [`com.apple.dock autohide`](/dock/autohide.html#set-to-true) must be set to `true`
 
 ## Set to `genie` (default value)
 

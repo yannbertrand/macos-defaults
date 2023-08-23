@@ -29,7 +29,7 @@ Choisir le délai d'affichage du titre complet.
 
 ## Prérequis
 
-- [`com.apple.universalaccess showWindowTitlebarIcons`](../../fr/finder/showWindowTitlebarIcons.html#avec-la-valeur-false) doit avoir la valeur `false`
+- [`com.apple.universalaccess showWindowTitlebarIcons`](/fr/finder/showwindowtitlebaricons.html#avec-la-valeur-false-par-defaut) doit avoir la valeur `false`
 
 ## Avec la valeur `0.5` (par défaut)
 

@@ -29,7 +29,7 @@ Choose the delay of the auto-hidden document-proxy icon.
 
 ## Requirements
 
-- [`com.apple.universalaccess showWindowTitlebarIcons`](../../finder/showWindowTitlebarIcons.html#set-to-false-default-value) must be set to `false`
+- [`com.apple.universalaccess showWindowTitlebarIcons`](/finder/showwindowtitlebaricons.html#set-to-false-default-value) must be set to `false`
 
 ## Set to `0.5` (default value)
 
