@@ -38,7 +38,7 @@ defaults write com.apple.dock "show-recents" -bool "true" && killall Dock
 ```
 
 <img
-  src="../../../images/dock/show-recents/true.png"
+  src="../../dock/images/show-recents/true.png"
   alt="Exemple avec la valeur true"
   width="740" height="82" style="height: auto"
 />
@@ -52,7 +52,7 @@ defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
 ```
 
 <img
-  src="../../../images/dock/show-recents/false.png"
+  src="../../dock/images/show-recents/false.png"
   alt="Exemple avec la valeur false"
   width="740" height="82" style="height: auto"
 />

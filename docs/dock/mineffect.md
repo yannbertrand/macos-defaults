@@ -43,7 +43,7 @@ defaults write com.apple.dock "mineffect" -string "genie" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="740" height="740" style="max-width: 100%; height: auto">
-  <source src="../../images/dock/mineffect/genie.mp4" type="video/mp4">
+  <source src="./images/mineffect/genie.mp4" type="video/mp4">
   Example output with value set to genie
 </video>
 
@@ -54,7 +54,7 @@ defaults write com.apple.dock "mineffect" -string "scale" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="740" height="740" style="max-width: 100%; height: auto">
-  <source src="../../images/dock/mineffect/scale.mp4" type="video/mp4">
+  <source src="./images/mineffect/scale.mp4" type="video/mp4">
   Example output with value set to scale
 </video>
 
@@ -67,7 +67,7 @@ defaults write com.apple.dock "mineffect" -string "suck" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="740" height="740" style="max-width: 100%; height: auto">
-  <source src="../../images/dock/mineffect/suck.mp4" type="video/mp4">
+  <source src="./images/mineffect/suck.mp4" type="video/mp4">
   Example output with value set to suck
 </video>
 

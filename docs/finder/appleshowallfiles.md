@@ -37,7 +37,7 @@ defaults write com.apple.finder "AppleShowAllFiles" -bool "false" && killall Fin
 ```
 
 <img
-  src="../../images/finder/AppleShowAllFiles/false.png"
+  src="./images/AppleShowAllFiles/false.png"
   alt="Example output with value set to false"
   width="740" height="451" style="height: auto"
 />
@@ -51,7 +51,7 @@ defaults write com.apple.finder "AppleShowAllFiles" -bool "true" && killall Find
 ```
 
 <img
-  src="../../images/finder/AppleShowAllFiles/true.png"
+  src="./images/AppleShowAllFiles/true.png"
   alt="Example output with value set to true"
   width="740" height="451" style="height: auto"
 />

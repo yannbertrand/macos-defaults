@@ -18,7 +18,7 @@ meta:
 # Dock
 
 <img
-  src="../../../images/dock/dock.png" alt="Une capture de Dock"
+  src="../../dock/images/dock.png" alt="Une capture de Dock"
   width="740" height="41" style="height: auto"
 />
 

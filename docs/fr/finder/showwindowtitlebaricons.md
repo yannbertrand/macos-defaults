@@ -38,7 +38,7 @@ defaults write com.apple.universalaccess "showWindowTitlebarIcons" -bool "true" 
 ```
 
 <img
-  src="../../../images/finder/showWindowTitlebarIcons/true.png"
+  src="../../finder/images/showWindowTitlebarIcons/true.png"
   alt="Exemple avec la valeur true"
   width="740" height="451" style="height: auto"
 />
@@ -52,7 +52,7 @@ defaults write com.apple.universalaccess "showWindowTitlebarIcons" -bool "false"
 ```
 
 <img
-  src="../../../images/finder/showWindowTitlebarIcons/false.png"
+  src="../../finder/images/showWindowTitlebarIcons/false.png"
   alt="Exemple avec la valeur false"
   width="740" height="451" style="height: auto"
 />

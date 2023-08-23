@@ -18,7 +18,7 @@ meta:
 # Dock
 
 <img
-  src="../../images/dock/dock.png" alt="A screenshot of the Dock"
+  src="./images/dock.png" alt="A screenshot of the Dock"
   width="740" height="41" style="height: auto"
 />
 

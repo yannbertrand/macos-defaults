@@ -37,7 +37,7 @@ defaults write com.apple.Terminal "FocusFollowsMouse" -bool "false" && killall T
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/misc/FocusFollowsMouse/false.mp4" type="video/mp4">
+  <source src="../../misc/images/FocusFollowsMouse/false.mp4" type="video/mp4">
   Exemple avec la valeur false
 </video>
 
@@ -50,7 +50,7 @@ defaults write com.apple.Terminal "FocusFollowsMouse" -bool "true" && killall Te
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/misc/FocusFollowsMouse/true.mp4" type="video/mp4">
+  <source src="../../misc/images/FocusFollowsMouse/true.mp4" type="video/mp4">
   Exemple avec la valeur true
 </video>
 

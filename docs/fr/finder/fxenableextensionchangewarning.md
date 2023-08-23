@@ -38,7 +38,7 @@ defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "true" &&
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/finder/FXEnableExtensionChangeWarning/true.mp4" type="video/mp4">
+  <source src="../../finder/images/FXEnableExtensionChangeWarning/true.mp4" type="video/mp4">
   Exemple avec la valeur true
 </video>
 
@@ -51,7 +51,7 @@ defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "false" &
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/finder/FXEnableExtensionChangeWarning/false.mp4" type="video/mp4">
+  <source src="../../finder/images/FXEnableExtensionChangeWarning/false.mp4" type="video/mp4">
   Exemple avec la valeur false
 </video>
 

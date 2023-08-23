@@ -38,7 +38,7 @@ defaults write com.apple.menuextra.clock "FlashDateSeparators" -bool "false" && 
 ```
 
 <video autoplay loop muted playsinline width="727" height="40" style="max-width: 100%; height: auto">
-  <source src="../../../images/menubar/FlashDateSeparators/false.mp4" type="video/mp4">
+  <source src="../../menubar/images/FlashDateSeparators/false.mp4" type="video/mp4">
   Exemple avec la valeur false
 </video>
 
@@ -51,7 +51,7 @@ defaults write com.apple.menuextra.clock "FlashDateSeparators" -bool "true" && k
 ```
 
 <video autoplay loop muted playsinline width="727" height="40" style="max-width: 100%; height: auto">
-  <source src="../../../images/menubar/FlashDateSeparators/true.mp4" type="video/mp4">
+  <source src="../../menubar/images/FlashDateSeparators/true.mp4" type="video/mp4">
   Exemple avec la valeur true
 </video>
 
