@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "type": "module",
   "scripts": {
-    "clean": "rimraf dist*",
+    "clean": "rimraf docs/.vitepress/cache docs/.vitepress/dist",
     "build": "yarn build:prod",
     "build:prod": "vitepress build docs --dest dist",
     "start": "vitepress dev docs",
