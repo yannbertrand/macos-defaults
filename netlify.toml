@@ -1,7 +1,7 @@
 [build]
 base = ""
 command = "yarn build:prod"
-publish = "dist"
+publish = "docs/.vitepress/dist"
 ignore = "git diff --quiet HEAD^ HEAD docs/ images/ netlify.toml package.json yarn.lock .node-version"
 
 [[plugins]]
