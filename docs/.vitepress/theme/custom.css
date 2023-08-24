@@ -4,6 +4,8 @@
   /* Next line should be unnecessary in Vite¨Press next version
     See https://github.com/vuejs/vitepress/blob/e4f5c51bbe25d42fd52a1cd47e83dda4254fdd7e/src/client/theme-default/styles/vars.css#L210 */
   --vp-c-brand: var(--vp-c-brand-1);
+
+  --vp-c-code-dimm: var(--vp-c-text-dark-2);
 }
 
 .dark {
