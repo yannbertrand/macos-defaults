@@ -131,6 +131,9 @@ export default defineConfig({
       },
     ],
   ],
+  markdown: {
+    anchor: { level: [1, 2, 3] },
+  },
   themeConfig: {
     siteTitle: 'macOS defaults',
     logo: '/logo.svg',
