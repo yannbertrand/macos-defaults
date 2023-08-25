@@ -8,7 +8,7 @@
     "build": "yarn build:prod",
     "build:prod": "vitepress build docs --dest dist",
     "start": "vitepress dev docs",
-    "test": "yarn lint",
+    "preview": "vitepress preview docs",
     "format": "prettier --write .",
     "lint": "prettier --check ."
   },
