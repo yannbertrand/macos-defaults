@@ -21,4 +21,4 @@ The Time Machine feature allows simple, regular backups of your filesystem.
 
 ## Keys
 
-- [Don&#x27;t offer new disks for Time Machine backup](./donotoffernewdisksforbackup.html)
+- [Don&#x27;t offer new disks for Time Machine backup](./donotoffernewdisksforbackup.md)

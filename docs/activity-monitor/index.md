@@ -22,5 +22,5 @@ CPU, RAM, Disk, Network, and Energy.
 
 ## Keys
 
-- [Update Frequency](./updateperiod.html)
-- [Dock Icon type](./icontype.html)
+- [Update Frequency](./updateperiod.md)
+- [Dock Icon type](./icontype.md)

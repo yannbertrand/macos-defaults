@@ -21,4 +21,4 @@ Installed as part of the Xcode tools, Simulator is a Mac app simulating iPhone, 
 
 ## Keys
 
-- [Set screenshot location](./screenshotsavelocation.html)
+- [Set screenshot location](./screenshotsavelocation.md)

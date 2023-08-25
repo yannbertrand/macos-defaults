@@ -77,107 +77,107 @@ defaults rename ${domain} ${old_key} ${new_key}
 
 ### Dock
 
-- [Position](./dock/orientation.html)
-- [Change macOS Dock icon size](./dock/tilesize.html)
-- [Autohide](./dock/autohide.html)
-- [Autohide animation time](./dock/autohide-time-modifier.html)
-- [Autohide delay](./dock/autohide-delay.html)
-- [Show recents](./dock/show-recents.html)
-- [Minimize animation effect](./dock/mineffect.html)
-- [Active applications only](./dock/static-only.html)
-- [Scroll to Exposé app](./dock/scroll-to-open.html)
+- [Position](./dock/orientation.md)
+- [Change macOS Dock icon size](./dock/tilesize.md)
+- [Autohide](./dock/autohide.md)
+- [Autohide animation time](./dock/autohide-time-modifier.md)
+- [Autohide delay](./dock/autohide-delay.md)
+- [Show recents](./dock/show-recents.md)
+- [Minimize animation effect](./dock/mineffect.md)
+- [Active applications only](./dock/static-only.md)
+- [Scroll to Exposé app](./dock/scroll-to-open.md)
 
 ### Screenshots
 
-- [Disable shadow](./screenshots/disable-shadow.html)
-- [Include date](./screenshots/include-date.html)
-- [Set location](./screenshots/location.html)
-- [Display thumbnail](./screenshots/show-thumbnail.html)
-- [Choose screenshot format](./screenshots/type.html)
+- [Disable shadow](./screenshots/disable-shadow.md)
+- [Include date](./screenshots/include-date.md)
+- [Set location](./screenshots/location.md)
+- [Display thumbnail](./screenshots/show-thumbnail.md)
+- [Choose screenshot format](./screenshots/type.md)
 
 ### Safari
 
-- [Show full URL](./safari/showfullurlinsmartsearchfield.html)
+- [Show full URL](./safari/showfullurlinsmartsearchfield.md)
 
 ### Finder
 
-- [Quit](./finder/quitmenuitem.html)
-- [Show extensions](./finder/appleshowallextensions.html)
-- [Show hidden files](./finder/appleshowallfiles.html)
-- [Path bar](./finder/showpathbar.html)
-- [Default view style](./finder/fxpreferredviewstyle.html)
-- [Keep folders on top](./finder/_fxsortfoldersfirst.html)
-- [Default search scope](./finder/fxdefaultsearchscope.html)
-- [Empty bin items after 30 days](./finder/fxremoveoldtrashitems.html)
-- [Changing file extension warning](./finder/fxenableextensionchangewarning.html)
-- [Save to disk or iCloud by default](./finder/nsdocumentsavenewdocumentstocloud.html)
-- [Title bar icons](./finder/showwindowtitlebaricons.html)
-- [Adjust toolbar title rollover delay](./finder/nstoolbartitleviewrolloverdelay.html)
-- [Set sidebar icon size](./finder/nstableviewdefaultsizemode.html)
+- [Quit](./finder/quitmenuitem.md)
+- [Show extensions](./finder/appleshowallextensions.md)
+- [Show hidden files](./finder/appleshowallfiles.md)
+- [Path bar](./finder/showpathbar.md)
+- [Default view style](./finder/fxpreferredviewstyle.md)
+- [Keep folders on top](./finder/_fxsortfoldersfirst.md)
+- [Default search scope](./finder/fxdefaultsearchscope.md)
+- [Empty bin items after 30 days](./finder/fxremoveoldtrashitems.md)
+- [Changing file extension warning](./finder/fxenableextensionchangewarning.md)
+- [Save to disk or iCloud by default](./finder/nsdocumentsavenewdocumentstocloud.md)
+- [Title bar icons](./finder/showwindowtitlebaricons.md)
+- [Adjust toolbar title rollover delay](./finder/nstoolbartitleviewrolloverdelay.md)
+- [Set sidebar icon size](./finder/nstableviewdefaultsizemode.md)
 
 ### Desktop
 
-- [Keep folders on top](./desktop/_fxsortfoldersfirstondesktop.html)
-- [All icons](./desktop/createdesktop.html)
-- [Disks](./desktop/showharddrivesondesktop.html)
-- [External disks](./desktop/showexternalharddrivesondesktop.html)
-- [Removable media](./desktop/showremovablemediaondesktop.html)
-- [Connected servers](./desktop/showmountedserversondesktop.html)
+- [Keep folders on top](./desktop/_fxsortfoldersfirstondesktop.md)
+- [All icons](./desktop/createdesktop.md)
+- [Disks](./desktop/showharddrivesondesktop.md)
+- [External disks](./desktop/showexternalharddrivesondesktop.md)
+- [Removable media](./desktop/showremovablemediaondesktop.md)
+- [Connected servers](./desktop/showmountedserversondesktop.md)
 
 ### Menu Bar
 
-- [Flash clock time separators](./menubar/flashdateseparators.html)
-- [Set menubar digital clock format](./menubar/dateformat.html)
+- [Flash clock time separators](./menubar/flashdateseparators.md)
+- [Set menubar digital clock format](./menubar/dateformat.md)
 
 ### Trackpad
 
-- [Click weight (threshold)](./trackpad/firstclickthreshold.html)
-- [Enable dragging with drag lock](./trackpad/draglock.html)
-- [Enable dragging without drag lock](./trackpad/dragging.html)
-- [Enable dragging with three finger drag](./trackpad/trackpadthreefingerdrag.html)
+- [Click weight (threshold)](./trackpad/firstclickthreshold.md)
+- [Enable dragging with drag lock](./trackpad/draglock.md)
+- [Enable dragging without drag lock](./trackpad/dragging.md)
+- [Enable dragging with three finger drag](./trackpad/trackpadthreefingerdrag.md)
 
 ### Mission Control
 
-- [Rearrange automatically](./mission-control/mru-spaces.html)
-- [Group windows by application](./mission-control/expose-group-apps.html)
-- [Switch to Space with open windows](./mission-control/applespacesswitchonactivate.html)
-- [Displays have separate Spaces](./mission-control/spans-displays.html)
+- [Rearrange automatically](./mission-control/mru-spaces.md)
+- [Group windows by application](./mission-control/expose-group-apps.md)
+- [Switch to Space with open windows](./mission-control/applespacesswitchonactivate.md)
+- [Displays have separate Spaces](./mission-control/spans-displays.md)
 
 ### Feedback Assistant
 
-- [Autogather](./feedback-assistant/autogather.html)
+- [Autogather](./feedback-assistant/autogather.md)
 
 ### Xcode
 
-- [Add Additional Counterpart Suffixes](./xcode/ideadditionalcounterpartsuffixes.html)
-- [Show Build Durations](./xcode/showbuildoperationduration.html)
+- [Add Additional Counterpart Suffixes](./xcode/ideadditionalcounterpartsuffixes.md)
+- [Show Build Durations](./xcode/showbuildoperationduration.md)
 
 ### Simulator
 
-- [Set screenshot location](./simulator/screenshotsavelocation.html)
+- [Set screenshot location](./simulator/screenshotsavelocation.md)
 
 ### TextEdit
 
-- [Set default document format](./textedit/richtext.html)
+- [Set default document format](./textedit/richtext.md)
 
 ### Time Machine
 
-- [Don&#x27;t offer new disks for Time Machine backup](./timemachine/donotoffernewdisksforbackup.html)
+- [Don&#x27;t offer new disks for Time Machine backup](./timemachine/donotoffernewdisksforbackup.md)
 
 ### Activity Monitor
 
-- [Update Frequency](./activity-monitor/updateperiod.html)
-- [Dock Icon type](./activity-monitor/icontype.html)
+- [Update Frequency](./activity-monitor/updateperiod.md)
+- [Dock Icon type](./activity-monitor/icontype.md)
 
 ### Miscellaneous
 
-- [Help Menu position](./misc/devmode.html)
-- [Enable spring loading for all Dock items](./misc/enable-spring-load-actions-on-all-items.html)
-- [Show Music song notifications](./misc/userwantsplaybacknotifications.html)
-- [Disable application quarantine message](./misc/lsquarantine.html)
-- [Key held down behavior](./misc/applepressandholdenabled.html)
-- [Focus Follows Mouse](./misc/focusfollowsmouse.html)
-- [Close confirm changes popup](./misc/nsclosealwaysconfirmschanges.html)
+- [Help Menu position](./misc/devmode.md)
+- [Enable spring loading for all Dock items](./misc/enable-spring-load-actions-on-all-items.md)
+- [Show Music song notifications](./misc/userwantsplaybacknotifications.md)
+- [Disable application quarantine message](./misc/lsquarantine.md)
+- [Key held down behavior](./misc/applepressandholdenabled.md)
+- [Focus Follows Mouse](./misc/focusfollowsmouse.md)
+- [Close confirm changes popup](./misc/nsclosealwaysconfirmschanges.md)
 
 ## 🤔 How do I add a command?
 

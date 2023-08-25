@@ -21,4 +21,4 @@ The Feedback Assistant app allows user to submit reports for developer or public
 
 ## Keys
 
-- [Autogather](./autogather.html)
+- [Autogather](./autogather.md)

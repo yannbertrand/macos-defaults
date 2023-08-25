@@ -21,5 +21,5 @@ La barre des menus est située en haut de l’écran. Utilisez les menus et les 
 
 ## Keys
 
-- [Faire clignoter les séparateurs de l&#x27;horloge](./flashdateseparators.html)
-- [Format de date et heure](./dateformat.html)
+- [Faire clignoter les séparateurs de l&#x27;horloge](./flashdateseparators.md)
+- [Format de date et heure](./dateformat.md)

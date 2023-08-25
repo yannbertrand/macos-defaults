@@ -21,5 +21,5 @@ Xcode is an integrated development environment for macOS containing a suite of s
 
 ## Keys
 
-- [Add Additional Counterpart Suffixes](./ideadditionalcounterpartsuffixes.html)
-- [Show Build Durations](./showbuildoperationduration.html)
+- [Add Additional Counterpart Suffixes](./ideadditionalcounterpartsuffixes.md)
+- [Show Build Durations](./showbuildoperationduration.md)

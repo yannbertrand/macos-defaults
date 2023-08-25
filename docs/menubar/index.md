@@ -21,5 +21,5 @@ The menu bar runs along the top of the screen on your Mac. Use the menus and ico
 
 ## Keys
 
-- [Flash clock time separators](./flashdateseparators.html)
-- [Set menubar digital clock format](./dateformat.html)
+- [Flash clock time separators](./flashdateseparators.md)
+- [Set menubar digital clock format](./dateformat.md)

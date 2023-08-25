@@ -30,12 +30,12 @@ You can customize it as you like.
 
 ## Keys
 
-- [Position](./orientation.html)
-- [Change macOS Dock icon size](./tilesize.html)
-- [Autohide](./autohide.html)
-- [Autohide animation time](./autohide-time-modifier.html)
-- [Autohide delay](./autohide-delay.html)
-- [Show recents](./show-recents.html)
-- [Minimize animation effect](./mineffect.html)
-- [Active applications only](./static-only.html)
-- [Scroll to Exposé app](./scroll-to-open.html)
+- [Position](./orientation.md)
+- [Change macOS Dock icon size](./tilesize.md)
+- [Autohide](./autohide.md)
+- [Autohide animation time](./autohide-time-modifier.md)
+- [Autohide delay](./autohide-delay.md)
+- [Show recents](./show-recents.md)
+- [Minimize animation effect](./mineffect.md)
+- [Active applications only](./static-only.md)
+- [Scroll to Exposé app](./scroll-to-open.md)

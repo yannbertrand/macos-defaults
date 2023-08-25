@@ -27,4 +27,4 @@ Anciennement connu sous le nom d'Exposé, Mission Control permet :
 
 ## Keys
 
-- [Réorganiser automatiquement](./mru-spaces.html)
+- [Réorganiser automatiquement](./mru-spaces.md)

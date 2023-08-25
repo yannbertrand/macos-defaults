@@ -160,53 +160,53 @@ export default defineConfig({
         items: [
           {
             text: 'Position',
-            link: '/dock/orientation.html',
+            link: '/dock/orientation.md',
           },
           {
             text: 'Change Dock icon size',
-            link: '/dock/tilesize.html',
+            link: '/dock/tilesize.md',
           },
           {
             text: 'Autohide',
-            link: '/dock/autohide.html',
+            link: '/dock/autohide.md',
           },
           {
             text: 'Autohide animation time',
-            link: '/dock/autohide-time-modifier.html',
+            link: '/dock/autohide-time-modifier.md',
           },
           {
             text: 'Autohide delay',
-            link: '/dock/autohide-delay.html',
+            link: '/dock/autohide-delay.md',
           },
           {
             text: 'Show recents',
-            link: '/dock/show-recents.html',
+            link: '/dock/show-recents.md',
           },
           {
             text: 'Minimize animation effect',
-            link: '/dock/mineffect.html',
+            link: '/dock/mineffect.md',
           },
           {
             text: 'Active applications only',
-            link: '/dock/static-only.html',
+            link: '/dock/static-only.md',
           },
           {
             text: 'Scroll to Exposé app',
-            link: '/dock/scroll-to-open.html',
+            link: '/dock/scroll-to-open.md',
           },
         ],
       },
       {
         text: 'Screenshots',
         items: [
-          { text: 'Disable shadow', link: '/screenshots/disable-shadow.html' },
-          { text: 'Include date', link: '/screenshots/include-date.html' },
-          { text: 'Set location', link: '/screenshots/location.html' },
+          { text: 'Disable shadow', link: '/screenshots/disable-shadow.md' },
+          { text: 'Include date', link: '/screenshots/include-date.md' },
+          { text: 'Set location', link: '/screenshots/location.md' },
           {
             text: 'Display thumbnail',
-            link: '/screenshots/show-thumbnail.html',
+            link: '/screenshots/show-thumbnail.md',
           },
-          { text: 'Choose screenshot format', link: '/screenshots/type.html' },
+          { text: 'Choose screenshot format', link: '/screenshots/type.md' },
         ],
       },
       {
@@ -214,55 +214,55 @@ export default defineConfig({
         items: [
           {
             text: 'Show full URL',
-            link: '/safari/showfullurlinsmartsearchfield.html',
+            link: '/safari/showfullurlinsmartsearchfield.md',
           },
         ],
       },
       {
         text: 'Finder',
         items: [
-          { text: 'Quit', link: '/finder/quitmenuitem.html' },
+          { text: 'Quit', link: '/finder/quitmenuitem.md' },
           {
             text: 'Show extensions',
-            link: '/finder/appleshowallextensions.html',
+            link: '/finder/appleshowallextensions.md',
           },
-          { text: 'Show hidden files', link: '/finder/appleshowallfiles.html' },
-          { text: 'Path bar', link: '/finder/showpathbar.html' },
+          { text: 'Show hidden files', link: '/finder/appleshowallfiles.md' },
+          { text: 'Path bar', link: '/finder/showpathbar.md' },
           {
             text: 'Default view style',
-            link: '/finder/fxpreferredviewstyle.html',
+            link: '/finder/fxpreferredviewstyle.md',
           },
           {
             text: 'Keep folders on top',
-            link: '/finder/_fxsortfoldersfirst.html',
+            link: '/finder/_fxsortfoldersfirst.md',
           },
           {
             text: 'Default search scope',
-            link: '/finder/fxdefaultsearchscope.html',
+            link: '/finder/fxdefaultsearchscope.md',
           },
           {
             text: 'Empty bin items after 30 days',
-            link: '/finder/fxremoveoldtrashitems.html',
+            link: '/finder/fxremoveoldtrashitems.md',
           },
           {
             text: 'Changing file extension warning',
-            link: '/finder/fxenableextensionchangewarning.html',
+            link: '/finder/fxenableextensionchangewarning.md',
           },
           {
             text: 'Save to disk or iCloud by default',
-            link: '/finder/nsdocumentsavenewdocumentstocloud.html',
+            link: '/finder/nsdocumentsavenewdocumentstocloud.md',
           },
           {
             text: 'Title bar icons',
-            link: '/finder/showwindowtitlebaricons.html',
+            link: '/finder/showwindowtitlebaricons.md',
           },
           {
             text: 'Adjust toolbar title rollover delay',
-            link: '/finder/nstoolbartitleviewrolloverdelay.html',
+            link: '/finder/nstoolbartitleviewrolloverdelay.md',
           },
           {
             text: 'Set sidebar icon size',
-            link: '/finder/nstableviewdefaultsizemode.html',
+            link: '/finder/nstableviewdefaultsizemode.md',
           },
         ],
       },
@@ -271,21 +271,21 @@ export default defineConfig({
         items: [
           {
             text: 'Keep folders on top',
-            link: '/desktop/_fxsortfoldersfirstondesktop.html',
+            link: '/desktop/_fxsortfoldersfirstondesktop.md',
           },
-          { text: 'All icons', link: '/desktop/createdesktop.html' },
-          { text: 'Disks', link: '/desktop/showharddrivesondesktop.html' },
+          { text: 'All icons', link: '/desktop/createdesktop.md' },
+          { text: 'Disks', link: '/desktop/showharddrivesondesktop.md' },
           {
             text: 'External disks',
-            link: '/desktop/showexternalharddrivesondesktop.html',
+            link: '/desktop/showexternalharddrivesondesktop.md',
           },
           {
             text: 'Removable media',
-            link: '/desktop/showremovablemediaondesktop.html',
+            link: '/desktop/showremovablemediaondesktop.md',
           },
           {
             text: 'Connected servers',
-            link: '/desktop/showmountedserversondesktop.html',
+            link: '/desktop/showmountedserversondesktop.md',
           },
         ],
       },
@@ -294,11 +294,11 @@ export default defineConfig({
         items: [
           {
             text: 'Flash clock time separators',
-            link: '/menubar/flashdateseparators.html',
+            link: '/menubar/flashdateseparators.md',
           },
           {
             text: 'Set menubar digital clock format',
-            link: '/menubar/dateformat.html',
+            link: '/menubar/dateformat.md',
           },
         ],
       },
@@ -307,19 +307,19 @@ export default defineConfig({
         items: [
           {
             text: 'Click weight (threshold)',
-            link: '/trackpad/firstclickthreshold.html',
+            link: '/trackpad/firstclickthreshold.md',
           },
           {
             text: 'Enable dragging with drag lock',
-            link: '/trackpad/draglock.html',
+            link: '/trackpad/draglock.md',
           },
           {
             text: 'Enable dragging without drag lock',
-            link: '/trackpad/dragging.html',
+            link: '/trackpad/dragging.md',
           },
           {
             text: 'Enable dragging with three finger drag',
-            link: '/trackpad/trackpadthreefingerdrag.html',
+            link: '/trackpad/trackpadthreefingerdrag.md',
           },
         ],
       },
@@ -328,26 +328,26 @@ export default defineConfig({
         items: [
           {
             text: 'Rearrange automatically',
-            link: '/mission-control/mru-spaces.html',
+            link: '/mission-control/mru-spaces.md',
           },
           {
             text: 'Group windows by application',
-            link: '/mission-control/expose-group-apps.html',
+            link: '/mission-control/expose-group-apps.md',
           },
           {
             text: 'Switch to Space with open windows',
-            link: '/mission-control/applespacesswitchonactivate.html',
+            link: '/mission-control/applespacesswitchonactivate.md',
           },
           {
             text: 'Displays have separate Spaces',
-            link: '/mission-control/spans-displays.html',
+            link: '/mission-control/spans-displays.md',
           },
         ],
       },
       {
         text: 'Feedback Assistant',
         items: [
-          { text: 'Autogather', link: '/feedback-assistant/autogather.html' },
+          { text: 'Autogather', link: '/feedback-assistant/autogather.md' },
         ],
       },
       {
@@ -355,11 +355,11 @@ export default defineConfig({
         items: [
           {
             text: 'Add Additional Counterpart Suffixes',
-            link: '/xcode/ideadditionalcounterpartsuffixes.html',
+            link: '/xcode/ideadditionalcounterpartsuffixes.md',
           },
           {
             text: 'Show Build Durations',
-            link: '/xcode/showbuildoperationduration.html',
+            link: '/xcode/showbuildoperationduration.md',
           },
         ],
       },
@@ -368,7 +368,7 @@ export default defineConfig({
         items: [
           {
             text: 'Set screenshot location',
-            link: '/simulator/screenshotsavelocation.html',
+            link: '/simulator/screenshotsavelocation.md',
           },
         ],
       },
@@ -377,7 +377,7 @@ export default defineConfig({
         items: [
           {
             text: 'Set default document format',
-            link: '/textedit/richtext.html',
+            link: '/textedit/richtext.md',
           },
         ],
       },
@@ -386,7 +386,7 @@ export default defineConfig({
         items: [
           {
             text: "Don't offer new disks for Time Machine backup",
-            link: '/timemachine/donotoffernewdisksforbackup.html',
+            link: '/timemachine/donotoffernewdisksforbackup.md',
           },
         ],
       },
@@ -395,35 +395,35 @@ export default defineConfig({
         items: [
           {
             text: 'Update Frequency',
-            link: '/activity-monitor/updateperiod.html',
+            link: '/activity-monitor/updateperiod.md',
           },
-          { text: 'Dock Icon type', link: '/activity-monitor/icontype.html' },
+          { text: 'Dock Icon type', link: '/activity-monitor/icontype.md' },
         ],
       },
       {
         text: 'Miscellaneous',
         items: [
-          { text: 'Help Menu position', link: '/misc/devmode.html' },
+          { text: 'Help Menu position', link: '/misc/devmode.md' },
           {
             text: 'Enable spring loading for all Dock items',
-            link: '/misc/enable-spring-load-actions-on-all-items.html',
+            link: '/misc/enable-spring-load-actions-on-all-items.md',
           },
           {
             text: 'Show Music song notifications',
-            link: '/misc/userwantsplaybacknotifications.html',
+            link: '/misc/userwantsplaybacknotifications.md',
           },
           {
             text: 'Disable application quarantine message',
-            link: '/misc/lsquarantine.html',
+            link: '/misc/lsquarantine.md',
           },
           {
             text: 'Key held down behavior',
-            link: '/misc/applepressandholdenabled.html',
+            link: '/misc/applepressandholdenabled.md',
           },
-          { text: 'Focus Follows Mouse', link: '/misc/focusfollowsmouse.html' },
+          { text: 'Focus Follows Mouse', link: '/misc/focusfollowsmouse.md' },
           {
             text: 'Close confirm changes popup',
-            link: '/misc/nsclosealwaysconfirmschanges.html',
+            link: '/misc/nsclosealwaysconfirmschanges.md',
           },
         ],
       },

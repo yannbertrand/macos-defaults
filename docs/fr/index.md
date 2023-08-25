@@ -39,7 +39,7 @@ Une liste de commandes `defaults` pour macOS avec des exemples ✨
   <p>L'interface de ligne de commandes <code>defaults</code> est un moyen de manipuler des valeurs.</p>
 </div>
 
-**Source : [Real-World-Systems](http://www.real-world-systems.com/docs/defaults.1.html)**
+**Source : [Real-World-Systems](http://www.real-world-systems.com/docs/defaults.1.md)**
 
 ### La base de la ligne de commandes
 
@@ -77,94 +77,94 @@ defaults rename ${domain} ${old_key} ${new_key}
 
 ### Dock
 
-- [Position](./dock/orientation.html)
-- [Taille des icônes](./dock/tilesize.html)
-- [Caché automatiquement](./dock/autohide.html)
-- [Durée de l&#x27;animation d&#x27;affichage](./dock/autohide-time-modifier.html)
-- [Délai avant affichage](./dock/autohide-delay.html)
-- [Afficher les Apps récentes](./dock/show-recents.html)
-- [Animation de minimisation](./dock/mineffect.html)
-- [Seulement les applications actives](./dock/static-only.html)
+- [Position](./dock/orientation.md)
+- [Taille des icônes](./dock/tilesize.md)
+- [Caché automatiquement](./dock/autohide.md)
+- [Durée de l&#x27;animation d&#x27;affichage](./dock/autohide-time-modifier.md)
+- [Délai avant affichage](./dock/autohide-delay.md)
+- [Afficher les Apps récentes](./dock/show-recents.md)
+- [Animation de minimisation](./dock/mineffect.md)
+- [Seulement les applications actives](./dock/static-only.md)
 
 ### Capture d&#x27;écran
 
-- [Enlever l&#x27;ombre](./screenshots/disable-shadow.html)
-- [Inclure la date](./screenshots/include-date.html)
-- [Emplacement](./screenshots/location.html)
-- [Afficher la vignette](./screenshots/show-thumbnail.html)
-- [Choisir le format de la capture](./screenshots/type.html)
+- [Enlever l&#x27;ombre](./screenshots/disable-shadow.md)
+- [Inclure la date](./screenshots/include-date.md)
+- [Emplacement](./screenshots/location.md)
+- [Afficher la vignette](./screenshots/show-thumbnail.md)
+- [Choisir le format de la capture](./screenshots/type.md)
 
 ### Safari
 
-- [Afficher l&#x27;URL complète](./safari/showfullurlinsmartsearchfield.html)
+- [Afficher l&#x27;URL complète](./safari/showfullurlinsmartsearchfield.md)
 
 ### Finder
 
-- [Quitter](./finder/quitmenuitem.html)
-- [Afficher les extensions](./finder/appleshowallextensions.html)
-- [Afficher les fichiers cachés](./finder/appleshowallfiles.html)
-- [Barre du chemin d&#x27;accès](./finder/showpathbar.html)
-- [Style de présentation par défaut](./finder/fxpreferredviewstyle.html)
-- [Laisser les dossiers en haut](./finder/_fxsortfoldersfirst.html)
-- [Portée des recherches](./finder/fxdefaultsearchscope.html)
-- [Vider la corbeille automatiquement](./finder/fxremoveoldtrashitems.html)
-- [Alerte au changement d&#x27;extension](./finder/fxenableextensionchangewarning.html)
-- [Sauvegarder sur le disque ou dans iCloud par défaut](./finder/nsdocumentsavenewdocumentstocloud.html)
-- [Icône de la barre de titre](./finder/showwindowtitlebaricons.html)
-- [Délai au survol du titre](./finder/nstoolbartitleviewrolloverdelay.html)
-- [Taille des icônes de la barre latérale](./finder/nstableviewdefaultsizemode.html)
+- [Quitter](./finder/quitmenuitem.md)
+- [Afficher les extensions](./finder/appleshowallextensions.md)
+- [Afficher les fichiers cachés](./finder/appleshowallfiles.md)
+- [Barre du chemin d&#x27;accès](./finder/showpathbar.md)
+- [Style de présentation par défaut](./finder/fxpreferredviewstyle.md)
+- [Laisser les dossiers en haut](./finder/_fxsortfoldersfirst.md)
+- [Portée des recherches](./finder/fxdefaultsearchscope.md)
+- [Vider la corbeille automatiquement](./finder/fxremoveoldtrashitems.md)
+- [Alerte au changement d&#x27;extension](./finder/fxenableextensionchangewarning.md)
+- [Sauvegarder sur le disque ou dans iCloud par défaut](./finder/nsdocumentsavenewdocumentstocloud.md)
+- [Icône de la barre de titre](./finder/showwindowtitlebaricons.md)
+- [Délai au survol du titre](./finder/nstoolbartitleviewrolloverdelay.md)
+- [Taille des icônes de la barre latérale](./finder/nstableviewdefaultsizemode.md)
 
 ### Bureau
 
-- [Laisser les dossiers en haut](./desktop/_fxsortfoldersfirstondesktop.html)
-- [Toutes les icônes](./desktop/createdesktop.html)
-- [Disques](./desktop/showharddrivesondesktop.html)
-- [Disques externes](./desktop/showexternalharddrivesondesktop.html)
-- [Supports amovibles](./desktop/showremovablemediaondesktop.html)
-- [Serveurs connectés](./desktop/showmountedserversondesktop.html)
+- [Laisser les dossiers en haut](./desktop/_fxsortfoldersfirstondesktop.md)
+- [Toutes les icônes](./desktop/createdesktop.md)
+- [Disques](./desktop/showharddrivesondesktop.md)
+- [Disques externes](./desktop/showexternalharddrivesondesktop.md)
+- [Supports amovibles](./desktop/showremovablemediaondesktop.md)
+- [Serveurs connectés](./desktop/showmountedserversondesktop.md)
 
 ### Barre des menus
 
-- [Faire clignoter les séparateurs de l&#x27;horloge](./menubar/flashdateseparators.html)
-- [Format de date et heure](./menubar/dateformat.html)
+- [Faire clignoter les séparateurs de l&#x27;horloge](./menubar/flashdateseparators.md)
+- [Format de date et heure](./menubar/dateformat.md)
 
 ### Mission Control
 
-- [Réorganiser automatiquement](./mission-control/mru-spaces.html)
+- [Réorganiser automatiquement](./mission-control/mru-spaces.md)
 
 ### Assistant d&#x27;évaluation
 
-- [Collecte automatique](./feedback-assistant/autogather.html)
+- [Collecte automatique](./feedback-assistant/autogather.md)
 
 ### Xcode
 
-- [Ajouter des suffixes dans les Counterparts](./xcode/ideadditionalcounterpartsuffixes.html)
-- [Afficher la durée de build](./xcode/showbuildoperationduration.html)
+- [Ajouter des suffixes dans les Counterparts](./xcode/ideadditionalcounterpartsuffixes.md)
+- [Afficher la durée de build](./xcode/showbuildoperationduration.md)
 
 ### Simulateur
 
-- [Emplacement des screenshots](./simulator/screenshotsavelocation.html)
+- [Emplacement des screenshots](./simulator/screenshotsavelocation.md)
 
 ### TextEdit
 
-- [Définir le format de document par défaut](./textedit/richtext.html)
+- [Définir le format de document par défaut](./textedit/richtext.md)
 
 ### Time Machine
 
-- [Eviter les nouveaux disques](./timemachine/donotoffernewdisksforbackup.html)
+- [Eviter les nouveaux disques](./timemachine/donotoffernewdisksforbackup.md)
 
 ### Moniteur d&#x27;activité
 
-- [Modifier la fréquence](./activity-monitor/updateperiod.html)
-- [Icône du Dock](./activity-monitor/icontype.html)
+- [Modifier la fréquence](./activity-monitor/updateperiod.md)
+- [Icône du Dock](./activity-monitor/icontype.md)
 
 ### Divers
 
-- [Position du menu d&#x27;Aide](./misc/devmode.html)
-- [Activer le spring loading dans le Dock](./misc/enable-spring-load-actions-on-all-items.html)
-- [Afficher les notifications de Musique](./misc/userwantsplaybacknotifications.html)
-- [Comportement touche maintenue enfoncée](./misc/applepressandholdenabled.html)
-- [Focus du Terminal au survol](./misc/focusfollowsmouse.html)
+- [Position du menu d&#x27;Aide](./misc/devmode.md)
+- [Activer le spring loading dans le Dock](./misc/enable-spring-load-actions-on-all-items.md)
+- [Afficher les notifications de Musique](./misc/userwantsplaybacknotifications.md)
+- [Comportement touche maintenue enfoncée](./misc/applepressandholdenabled.md)
+- [Focus du Terminal au survol](./misc/focusfollowsmouse.md)
 
 ## 🤔 Comment ajouter une commande ?
 

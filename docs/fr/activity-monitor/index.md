@@ -22,5 +22,5 @@ le CPU, la RAM, le disque, le réseau, et l'alimentation.
 
 ## Keys
 
-- [Modifier la fréquence](./updateperiod.html)
-- [Icône du Dock](./icontype.html)
+- [Modifier la fréquence](./updateperiod.md)
+- [Icône du Dock](./icontype.md)

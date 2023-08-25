@@ -27,8 +27,8 @@ There are a few keys you can customize.
 
 ## Keys
 
-- [Disable shadow](./disable-shadow.html)
-- [Include date](./include-date.html)
-- [Set location](./location.html)
-- [Display thumbnail](./show-thumbnail.html)
-- [Choose screenshot format](./type.html)
+- [Disable shadow](./disable-shadow.md)
+- [Include date](./include-date.md)
+- [Set location](./location.md)
+- [Display thumbnail](./show-thumbnail.md)
+- [Choose screenshot format](./type.md)

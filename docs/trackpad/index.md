@@ -21,7 +21,7 @@ The trackpad is hardware to control the cursor that comes on all MacBooks.
 
 ## Keys
 
-- [Click weight (threshold)](./firstclickthreshold.html)
-- [Enable dragging with drag lock](./draglock.html)
-- [Enable dragging without drag lock](./dragging.html)
-- [Enable dragging with three finger drag](./trackpadthreefingerdrag.html)
+- [Click weight (threshold)](./firstclickthreshold.md)
+- [Enable dragging with drag lock](./draglock.md)
+- [Enable dragging without drag lock](./dragging.md)
+- [Enable dragging with three finger drag](./trackpadthreefingerdrag.md)

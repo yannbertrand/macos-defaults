@@ -31,7 +31,7 @@ Change the Dock opening delay.
 
 ## Requirements
 
-- [`com.apple.dock autohide`](/dock/autohide.html#set-to-true) must be set to `true`
+- [`com.apple.dock autohide`](/dock/autohide.md#set-to-true) must be set to `true`
 
 ## Set to `0.2` (default value)
 

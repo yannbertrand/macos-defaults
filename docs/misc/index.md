@@ -21,10 +21,10 @@ All the others `defaults` that don't deserve their own category.
 
 ## Keys
 
-- [Help Menu position](./devmode.html)
-- [Enable spring loading for all Dock items](./enable-spring-load-actions-on-all-items.html)
-- [Show Music song notifications](./userwantsplaybacknotifications.html)
-- [Disable application quarantine message](./lsquarantine.html)
-- [Key held down behavior](./applepressandholdenabled.html)
-- [Focus Follows Mouse](./focusfollowsmouse.html)
-- [Close confirm changes popup](./nsclosealwaysconfirmschanges.html)
+- [Help Menu position](./devmode.md)
+- [Enable spring loading for all Dock items](./enable-spring-load-actions-on-all-items.md)
+- [Show Music song notifications](./userwantsplaybacknotifications.md)
+- [Disable application quarantine message](./lsquarantine.md)
+- [Key held down behavior](./applepressandholdenabled.md)
+- [Focus Follows Mouse](./focusfollowsmouse.md)
+- [Close confirm changes popup](./nsclosealwaysconfirmschanges.md)

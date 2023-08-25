@@ -31,7 +31,7 @@ Changer la durée d'animation d'affichage et de cachage du Dock.
 
 ## Prérequis
 
-- [`com.apple.dock autohide`](../../fr/dock/autohide.html#avec-la-valeur-true) doit avoir la valeur `true`
+- [`com.apple.dock autohide`](../../fr/dock/autohide.md#avec-la-valeur-true) doit avoir la valeur `true`
 
 ## Avec la valeur `0.5` (par défaut)
 

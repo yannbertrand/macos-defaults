@@ -21,4 +21,4 @@ Installé avec les outils d'Xcode, le Simulateur est une application Mac pour si
 
 ## Keys
 
-- [Emplacement des screenshots](./screenshotsavelocation.html)
+- [Emplacement des screenshots](./screenshotsavelocation.md)

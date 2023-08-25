@@ -27,7 +27,7 @@ Formerly known as Spaces, Mission Control allows a user to do the following:
 
 ## Keys
 
-- [Rearrange automatically](./mru-spaces.html)
-- [Group windows by application](./expose-group-apps.html)
-- [Switch to Space with open windows](./applespacesswitchonactivate.html)
-- [Displays have separate Spaces](./spans-displays.html)
+- [Rearrange automatically](./mru-spaces.md)
+- [Group windows by application](./expose-group-apps.md)
+- [Switch to Space with open windows](./applespacesswitchonactivate.md)
+- [Displays have separate Spaces](./spans-displays.md)

@@ -22,9 +22,9 @@ La présentation du bureau peut être personnalisée.
 
 ## Keys
 
-- [Laisser les dossiers en haut](./_fxsortfoldersfirstondesktop.html)
-- [Toutes les icônes](./createdesktop.html)
-- [Disques](./showharddrivesondesktop.html)
-- [Disques externes](./showexternalharddrivesondesktop.html)
-- [Supports amovibles](./showremovablemediaondesktop.html)
-- [Serveurs connectés](./showmountedserversondesktop.html)
+- [Laisser les dossiers en haut](./_fxsortfoldersfirstondesktop.md)
+- [Toutes les icônes](./createdesktop.md)
+- [Disques](./showharddrivesondesktop.md)
+- [Disques externes](./showexternalharddrivesondesktop.md)
+- [Supports amovibles](./showremovablemediaondesktop.md)
+- [Serveurs connectés](./showmountedserversondesktop.md)

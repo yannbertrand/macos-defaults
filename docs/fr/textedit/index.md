@@ -21,4 +21,4 @@ TextEdit permet d'ouvrir et de modifier des documents de texte enrichi (rich tex
 
 ## Keys
 
-- [Définir le format de document par défaut](./richtext.html)
+- [Définir le format de document par défaut](./richtext.md)

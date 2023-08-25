@@ -22,4 +22,4 @@ Some of its features can be customized.
 
 ## Keys
 
-- [Show full URL](./showfullurlinsmartsearchfield.html)
+- [Show full URL](./showfullurlinsmartsearchfield.md)

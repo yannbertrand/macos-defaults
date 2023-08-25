@@ -21,4 +21,4 @@ L'application "Assistant d'évaluation" permet d'envoyer des comptes rendus dév
 
 ## Keys
 
-- [Collecte automatique](./autogather.html)
+- [Collecte automatique](./autogather.md)

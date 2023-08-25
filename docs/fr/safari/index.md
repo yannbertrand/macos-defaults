@@ -22,4 +22,4 @@ Certaines de ses fonctionnalités peuvent être paramétrées.
 
 ## Keys
 
-- [Afficher l&#x27;URL complète](./showfullurlinsmartsearchfield.html)
+- [Afficher l&#x27;URL complète](./showfullurlinsmartsearchfield.md)

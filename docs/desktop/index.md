@@ -22,9 +22,9 @@ The desktop view can be customized.
 
 ## Keys
 
-- [Keep folders on top](./_fxsortfoldersfirstondesktop.html)
-- [All icons](./createdesktop.html)
-- [Disks](./showharddrivesondesktop.html)
-- [External disks](./showexternalharddrivesondesktop.html)
-- [Removable media](./showremovablemediaondesktop.html)
-- [Connected servers](./showmountedserversondesktop.html)
+- [Keep folders on top](./_fxsortfoldersfirstondesktop.md)
+- [All icons](./createdesktop.md)
+- [Disks](./showharddrivesondesktop.md)
+- [External disks](./showexternalharddrivesondesktop.md)
+- [Removable media](./showremovablemediaondesktop.md)
+- [Connected servers](./showmountedserversondesktop.md)

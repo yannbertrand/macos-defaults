@@ -27,8 +27,8 @@ Il est possible de personnaliser quelques trucs.
 
 ## Keys
 
-- [Enlever l&#x27;ombre](./disable-shadow.html)
-- [Inclure la date](./include-date.html)
-- [Emplacement](./location.html)
-- [Afficher la vignette](./show-thumbnail.html)
-- [Choisir le format de la capture](./type.html)
+- [Enlever l&#x27;ombre](./disable-shadow.md)
+- [Inclure la date](./include-date.md)
+- [Emplacement](./location.md)
+- [Afficher la vignette](./show-thumbnail.md)
+- [Choisir le format de la capture](./type.md)

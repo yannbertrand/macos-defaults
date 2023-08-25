@@ -34,7 +34,7 @@ Changer le style d'animation de minimisation des applications.
 
 ## Prérequis
 
-- [`com.apple.dock autohide`](/fr/dock/autohide.html#avec-la-valeur-true) doit avoir la valeur `true`
+- [`com.apple.dock autohide`](/fr/dock/autohide.md#avec-la-valeur-true) doit avoir la valeur `true`
 
 ## Avec la valeur `genie` (par défaut)
 

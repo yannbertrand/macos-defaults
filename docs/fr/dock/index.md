@@ -30,11 +30,11 @@ Il est personnalisable à souhait.
 
 ## Keys
 
-- [Position](./orientation.html)
-- [Taille des icônes](./tilesize.html)
-- [Caché automatiquement](./autohide.html)
-- [Durée de l&#x27;animation d&#x27;affichage](./autohide-time-modifier.html)
-- [Délai avant affichage](./autohide-delay.html)
-- [Afficher les Apps récentes](./show-recents.html)
-- [Animation de minimisation](./mineffect.html)
-- [Seulement les applications actives](./static-only.html)
+- [Position](./orientation.md)
+- [Taille des icônes](./tilesize.md)
+- [Caché automatiquement](./autohide.md)
+- [Durée de l&#x27;animation d&#x27;affichage](./autohide-time-modifier.md)
+- [Délai avant affichage](./autohide-delay.md)
+- [Afficher les Apps récentes](./show-recents.md)
+- [Animation de minimisation](./mineffect.md)
+- [Seulement les applications actives](./static-only.md)
