@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "vitepress": "^1.0.0-rc.4"
+    "vitepress": "^1.0.0-rc.9"
   },
   "devDependencies": {
     "@netlify/plugin-lighthouse": "5.0.0",
