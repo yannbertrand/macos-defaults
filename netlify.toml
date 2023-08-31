@@ -4,6 +4,9 @@ command = "yarn build:prod"
 publish = "docs/.vitepress/dist"
 ignore = "git diff --quiet HEAD^ HEAD docs/ images/ netlify.toml package.json yarn.lock .node-version"
 
+[build.processing]
+skip_processing = true
+
 [[plugins]]
 package = "@netlify/plugin-lighthouse"
 
