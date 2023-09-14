@@ -1,5 +1,5 @@
 ---
-metaTitle: Disks | Desktop | macOS defaults
+title: Disks | Desktop
 meta:
   - property: 'og:title'
     content: macOS defaults > Desktop > Disks

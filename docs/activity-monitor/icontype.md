@@ -1,5 +1,5 @@
 ---
-metaTitle: Dock Icon type | Activity Monitor | macOS defaults
+title: Dock Icon type | Activity Monitor | macOS defaults
 meta:
   - property: 'og:title'
     content: macOS defaults > Activity Monitor > Dock Icon type

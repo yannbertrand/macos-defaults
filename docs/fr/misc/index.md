@@ -1,5 +1,5 @@
 ---
-metaTitle: Divers | macOS defaults
+title: Divers
 meta:
   - property: 'og:title'
     content: macOS defaults > Divers

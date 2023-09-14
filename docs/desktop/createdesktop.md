@@ -1,5 +1,5 @@
 ---
-metaTitle: All icons | Desktop | macOS defaults
+title: All icons | Desktop
 meta:
   - property: 'og:title'
     content: macOS defaults > Desktop > All icons

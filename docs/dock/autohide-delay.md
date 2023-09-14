@@ -1,5 +1,5 @@
 ---
-metaTitle: Autohide delay | Dock | macOS defaults
+title: Autohide delay | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Autohide delay

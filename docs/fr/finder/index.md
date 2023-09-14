@@ -1,5 +1,5 @@
 ---
-metaTitle: Finder | macOS defaults
+title: Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder

@@ -1,5 +1,5 @@
 ---
-metaTitle: Disable shadow | Screenshots | macOS defaults
+title: Disable shadow | Screenshots
 meta:
   - property: 'og:title'
     content: macOS defaults > Screenshots > Disable shadow

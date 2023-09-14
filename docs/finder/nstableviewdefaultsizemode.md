@@ -1,5 +1,5 @@
 ---
-metaTitle: Set sidebar icon size | Finder | macOS defaults
+title: Set sidebar icon size | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Set sidebar icon size

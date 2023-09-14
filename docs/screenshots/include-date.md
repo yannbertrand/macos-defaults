@@ -1,5 +1,5 @@
 ---
-metaTitle: Include date | Screenshots | macOS defaults
+title: Include date | Screenshots
 meta:
   - property: 'og:title'
     content: macOS defaults > Screenshots > Include date

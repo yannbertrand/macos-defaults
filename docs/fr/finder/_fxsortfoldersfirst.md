@@ -1,5 +1,5 @@
 ---
-metaTitle: Laisser les dossiers en haut | Finder | macOS defaults
+title: Laisser les dossiers en haut | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Laisser les dossiers en haut

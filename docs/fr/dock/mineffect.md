@@ -1,5 +1,5 @@
 ---
-metaTitle: Animation de minimisation | Dock | macOS defaults
+title: Animation de minimisation | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Animation de minimisation

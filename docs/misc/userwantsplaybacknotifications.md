@@ -1,5 +1,5 @@
 ---
-metaTitle: Show Music song notifications | Miscellaneous | macOS defaults
+title: Show Music song notifications | Miscellaneous
 meta:
   - property: 'og:title'
     content: macOS defaults > Miscellaneous > Show Music song notifications

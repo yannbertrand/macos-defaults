@@ -1,5 +1,5 @@
 ---
-metaTitle: Group windows by application | Mission Control | macOS defaults
+title: Group windows by application | Mission Control
 meta:
   - property: 'og:title'
     content: macOS defaults > Mission Control > Group windows by application

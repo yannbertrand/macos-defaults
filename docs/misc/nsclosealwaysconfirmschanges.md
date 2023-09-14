@@ -1,5 +1,5 @@
 ---
-metaTitle: Close confirm changes popup | Miscellaneous | macOS defaults
+title: Close confirm changes popup | Miscellaneous
 meta:
   - property: 'og:title'
     content: macOS defaults > Miscellaneous > Close confirm changes popup

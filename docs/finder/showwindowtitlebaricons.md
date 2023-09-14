@@ -1,5 +1,5 @@
 ---
-metaTitle: Title bar icons | Finder | macOS defaults
+title: Title bar icons | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Title bar icons

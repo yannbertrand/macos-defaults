@@ -1,5 +1,5 @@
 ---
-metaTitle: Add Additional Counterpart Suffixes | Xcode | macOS defaults
+title: Add Additional Counterpart Suffixes | Xcode
 meta:
   - property: 'og:title'
     content: macOS defaults > Xcode > Add Additional Counterpart Suffixes

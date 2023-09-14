@@ -1,5 +1,5 @@
 ---
-metaTitle: Set menubar digital clock format | Menu Bar | macOS defaults
+title: Set menubar digital clock format | Menu Bar
 meta:
   - property: 'og:title'
     content: macOS defaults > Menu Bar > Set menubar digital clock format

@@ -1,5 +1,5 @@
 ---
-metaTitle: Safari | macOS defaults
+title: Safari
 meta:
   - property: 'og:title'
     content: macOS defaults > Safari

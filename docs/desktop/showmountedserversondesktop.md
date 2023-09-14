@@ -1,5 +1,5 @@
 ---
-metaTitle: Connected servers | Desktop | macOS defaults
+title: Connected servers | Desktop
 meta:
   - property: 'og:title'
     content: macOS defaults > Desktop > Connected servers

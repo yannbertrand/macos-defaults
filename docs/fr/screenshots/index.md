@@ -1,5 +1,5 @@
 ---
-metaTitle: Capture d'écran | macOS defaults
+title: Capture d'écran
 meta:
   - property: 'og:title'
     content: macOS defaults > Capture d'écran

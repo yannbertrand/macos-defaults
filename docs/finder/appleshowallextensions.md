@@ -1,5 +1,5 @@
 ---
-metaTitle: Show extensions | Finder | macOS defaults
+title: Show extensions | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Show extensions

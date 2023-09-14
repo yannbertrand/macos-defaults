@@ -1,5 +1,5 @@
 ---
-metaTitle: Collecte automatique | Assistant d'évaluation | macOS defaults
+title: Collecte automatique | Assistant d'évaluation
 meta:
   - property: 'og:title'
     content: macOS defaults > Assistant d'évaluation > Collecte automatique

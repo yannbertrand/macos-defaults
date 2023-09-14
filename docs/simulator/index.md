@@ -1,5 +1,5 @@
 ---
-metaTitle: Simulator | macOS defaults
+title: Simulator
 meta:
   - property: 'og:title'
     content: macOS defaults > Simulator

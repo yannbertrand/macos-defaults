@@ -1,5 +1,5 @@
 ---
-metaTitle: Disques externes | Bureau | macOS defaults
+title: Disques externes | Bureau
 meta:
   - property: 'og:title'
     content: macOS defaults > Bureau > Disques externes

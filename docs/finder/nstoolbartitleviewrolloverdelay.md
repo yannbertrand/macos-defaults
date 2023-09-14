@@ -1,5 +1,5 @@
 ---
-metaTitle: Adjust toolbar title rollover delay | Finder | macOS defaults
+title: Adjust toolbar title rollover delay | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Adjust toolbar title rollover delay

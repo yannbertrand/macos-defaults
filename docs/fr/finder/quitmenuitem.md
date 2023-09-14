@@ -1,5 +1,5 @@
 ---
-metaTitle: Quitter | Finder | macOS defaults
+title: Quitter | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Quitter

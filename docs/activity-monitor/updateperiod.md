@@ -1,5 +1,5 @@
 ---
-metaTitle: Update Frequency | Activity Monitor | macOS defaults
+title: Update Frequency | Activity Monitor
 meta:
   - property: 'og:title'
     content: macOS defaults > Activity Monitor > Update Frequency

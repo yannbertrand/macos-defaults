@@ -1,5 +1,5 @@
 ---
-metaTitle: Set location | Screenshots | macOS defaults
+title: Set location | Screenshots
 meta:
   - property: 'og:title'
     content: macOS defaults > Screenshots > Set location

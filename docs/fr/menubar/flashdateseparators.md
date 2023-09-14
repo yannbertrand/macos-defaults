@@ -1,5 +1,5 @@
 ---
-metaTitle: Faire clignoter les séparateurs de l'horloge | Barre des menus | macOS defaults
+title: Faire clignoter les séparateurs de l'horloge | Barre des menus
 meta:
   - property: 'og:title'
     content: macOS defaults > Barre des menus > Faire clignoter les séparateurs de l'horloge

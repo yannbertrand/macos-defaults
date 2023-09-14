@@ -1,5 +1,5 @@
 ---
-metaTitle: Trackpad | macOS defaults
+title: Trackpad
 meta:
   - property: 'og:title'
     content: macOS defaults > Trackpad

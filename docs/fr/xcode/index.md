@@ -1,5 +1,5 @@
 ---
-metaTitle: Xcode | macOS defaults
+title: Xcode
 meta:
   - property: 'og:title'
     content: macOS defaults > Xcode

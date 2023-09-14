@@ -1,5 +1,5 @@
 ---
-metaTitle: Enable dragging with three finger drag | Trackpad | macOS defaults
+title: Enable dragging with three finger drag | Trackpad
 meta:
   - property: 'og:title'
     content: macOS defaults > Trackpad > Enable dragging with three finger drag

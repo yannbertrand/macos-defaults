@@ -1,5 +1,5 @@
 ---
-metaTitle: Bureau | macOS defaults
+title: Bureau
 meta:
   - property: 'og:title'
     content: macOS defaults > Bureau

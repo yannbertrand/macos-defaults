@@ -1,5 +1,5 @@
 ---
-metaTitle: Icône du Dock | Moniteur d'activité | macOS defaults
+title: Icône du Dock | Moniteur d'activité
 meta:
   - property: 'og:title'
     content: macOS defaults > Moniteur d'activité > Icône du Dock

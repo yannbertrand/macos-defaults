@@ -1,5 +1,5 @@
 ---
-metaTitle: Focus du Terminal au survol | Divers | macOS defaults
+title: Focus du Terminal au survol | Divers
 meta:
   - property: 'og:title'
     content: macOS defaults > Divers > Focus du Terminal au survol

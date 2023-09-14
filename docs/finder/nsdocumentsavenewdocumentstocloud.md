@@ -1,5 +1,5 @@
 ---
-metaTitle: Save to disk or iCloud by default | Finder | macOS defaults
+title: Save to disk or iCloud by default | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Save to disk or iCloud by default

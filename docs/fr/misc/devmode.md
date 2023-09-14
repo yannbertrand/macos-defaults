@@ -1,5 +1,5 @@
 ---
-metaTitle: Position du menu d'Aide | Divers | macOS defaults
+title: Position du menu d'Aide | Divers
 meta:
   - property: 'og:title'
     content: macOS defaults > Divers > Position du menu d'Aide

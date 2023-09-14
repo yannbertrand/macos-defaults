@@ -1,5 +1,5 @@
 ---
-metaTitle: External disks | Desktop | macOS defaults
+title: External disks | Desktop
 meta:
   - property: 'og:title'
     content: macOS defaults > Desktop > External disks

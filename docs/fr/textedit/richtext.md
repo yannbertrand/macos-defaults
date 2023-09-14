@@ -1,5 +1,5 @@
 ---
-metaTitle: Définir le format de document par défaut | TextEdit | macOS defaults
+title: Définir le format de document par défaut | TextEdit
 meta:
   - property: 'og:title'
     content: macOS defaults > TextEdit > Définir le format de document par défaut

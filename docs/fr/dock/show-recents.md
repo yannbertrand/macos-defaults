@@ -1,5 +1,5 @@
 ---
-metaTitle: Afficher les Apps récentes | Dock | macOS defaults
+title: Afficher les Apps récentes | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Afficher les Apps récentes

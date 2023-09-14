@@ -1,5 +1,5 @@
 ---
-metaTitle: Show hidden files | Finder | macOS defaults
+title: Show hidden files | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Show hidden files

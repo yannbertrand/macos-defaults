@@ -1,5 +1,5 @@
 ---
-metaTitle: Autohide | Dock | macOS defaults
+title: Autohide | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Autohide

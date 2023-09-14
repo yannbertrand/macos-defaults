@@ -1,5 +1,5 @@
 ---
-metaTitle: Activity Monitor | macOS defaults
+title: Activity Monitor
 meta:
   - property: 'og:title'
     content: macOS defaults > Activity Monitor

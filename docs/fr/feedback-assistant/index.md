@@ -1,5 +1,5 @@
 ---
-metaTitle: Assistant d'évaluation | macOS defaults
+title: Assistant d'évaluation
 meta:
   - property: 'og:title'
     content: macOS defaults > Assistant d'évaluation

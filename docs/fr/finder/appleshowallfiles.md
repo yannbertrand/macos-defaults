@@ -1,5 +1,5 @@
 ---
-metaTitle: Afficher les fichiers cachés | Finder | macOS defaults
+title: Afficher les fichiers cachés | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Afficher les fichiers cachés

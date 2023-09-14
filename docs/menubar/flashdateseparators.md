@@ -1,5 +1,5 @@
 ---
-metaTitle: Flash clock time separators | Menu Bar | macOS defaults
+title: Flash clock time separators | Menu Bar
 meta:
   - property: 'og:title'
     content: macOS defaults > Menu Bar > Flash clock time separators

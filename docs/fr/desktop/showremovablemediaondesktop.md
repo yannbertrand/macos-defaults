@@ -1,5 +1,5 @@
 ---
-metaTitle: Supports amovibles | Bureau | macOS defaults
+title: Supports amovibles | Bureau
 meta:
   - property: 'og:title'
     content: macOS defaults > Bureau > Supports amovibles

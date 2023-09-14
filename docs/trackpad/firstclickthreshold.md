@@ -1,5 +1,5 @@
 ---
-metaTitle: Click weight (threshold) | Trackpad | macOS defaults
+title: Click weight (threshold) | Trackpad
 meta:
   - property: 'og:title'
     content: macOS defaults > Trackpad > Click weight (threshold)

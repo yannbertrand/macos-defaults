@@ -1,5 +1,5 @@
 ---
-metaTitle: Toutes les icônes | Bureau | macOS defaults
+title: Toutes les icônes | Bureau
 meta:
   - property: 'og:title'
     content: macOS defaults > Bureau > Toutes les icônes

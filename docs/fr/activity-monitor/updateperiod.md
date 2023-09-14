@@ -1,5 +1,5 @@
 ---
-metaTitle: Modifier la fréquence | Moniteur d'activité | macOS defaults
+title: Modifier la fréquence | Moniteur d'activité
 meta:
   - property: 'og:title'
     content: macOS defaults > Moniteur d'activité > Modifier la fréquence

@@ -1,5 +1,5 @@
 ---
-metaTitle: Key held down behavior | Miscellaneous | macOS defaults
+title: Key held down behavior | Miscellaneous
 meta:
   - property: 'og:title'
     content: macOS defaults > Miscellaneous > Key held down behavior

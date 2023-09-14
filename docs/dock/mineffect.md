@@ -1,5 +1,5 @@
 ---
-metaTitle: Minimize animation effect | Dock | macOS defaults
+title: Minimize animation effect | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Minimize animation effect

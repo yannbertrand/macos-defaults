@@ -1,5 +1,5 @@
 ---
-metaTitle: Set screenshot location | Simulator | macOS defaults
+title: Set screenshot location | Simulator
 meta:
   - property: 'og:title'
     content: macOS defaults > Simulator > Set screenshot location

@@ -1,5 +1,5 @@
 ---
-metaTitle: Changing file extension warning | Finder | macOS defaults
+title: Changing file extension warning | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Changing file extension warning

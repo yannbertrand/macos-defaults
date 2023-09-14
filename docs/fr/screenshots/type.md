@@ -1,5 +1,5 @@
 ---
-metaTitle: Choisir le format de la capture | Capture d'écran | macOS defaults
+title: Choisir le format de la capture | Capture d'écran
 meta:
   - property: 'og:title'
     content: macOS defaults > Capture d'écran > Choisir le format de la capture

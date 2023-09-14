@@ -1,5 +1,5 @@
 ---
-metaTitle: Afficher les notifications de Musique | Divers | macOS defaults
+title: Afficher les notifications de Musique | Divers
 meta:
   - property: 'og:title'
     content: macOS defaults > Divers > Afficher les notifications de Musique

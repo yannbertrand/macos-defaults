@@ -1,5 +1,5 @@
 ---
-metaTitle: TextEdit | macOS defaults
+title: TextEdit
 meta:
   - property: 'og:title'
     content: macOS defaults > TextEdit

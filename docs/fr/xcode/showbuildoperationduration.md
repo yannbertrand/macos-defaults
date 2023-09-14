@@ -1,5 +1,5 @@
 ---
-metaTitle: Afficher la durée de build | Xcode | macOS defaults
+title: Afficher la durée de build | Xcode
 meta:
   - property: 'og:title'
     content: macOS defaults > Xcode > Afficher la durée de build

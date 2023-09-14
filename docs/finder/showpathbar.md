@@ -1,5 +1,5 @@
 ---
-metaTitle: Path bar | Finder | macOS defaults
+title: Path bar | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Path bar

@@ -1,5 +1,5 @@
 ---
-metaTitle: Don't offer new disks for Time Machine backup | Time Machine | macOS defaults
+title: Don't offer new disks for Time Machine backup | Time Machine
 meta:
   - property: 'og:title'
     content: macOS defaults > Time Machine > Don't offer new disks for Time Machine backup

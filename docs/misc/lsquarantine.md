@@ -1,5 +1,5 @@
 ---
-metaTitle: Disable application quarantine message | Miscellaneous | macOS defaults
+title: Disable application quarantine message | Miscellaneous
 meta:
   - property: 'og:title'
     content: macOS defaults > Miscellaneous > Disable application quarantine message

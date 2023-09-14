@@ -1,5 +1,5 @@
 ---
-metaTitle: Serveurs connectés | Bureau | macOS defaults
+title: Serveurs connectés | Bureau
 meta:
   - property: 'og:title'
     content: macOS defaults > Bureau > Serveurs connectés

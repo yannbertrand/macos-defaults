@@ -1,5 +1,5 @@
 ---
-metaTitle: Scroll to Exposé app | Dock | macOS defaults
+title: Scroll to Exposé app | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Scroll to Exposé app

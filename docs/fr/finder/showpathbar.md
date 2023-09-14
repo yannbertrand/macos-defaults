@@ -1,5 +1,5 @@
 ---
-metaTitle: Barre du chemin d'accès | Finder | macOS defaults
+title: Barre du chemin d'accès | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Barre du chemin d'accès

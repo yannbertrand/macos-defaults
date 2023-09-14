@@ -1,5 +1,5 @@
 ---
-metaTitle: Taille des icônes | Dock | macOS defaults
+title: Taille des icônes | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Taille des icônes

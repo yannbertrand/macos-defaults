@@ -1,5 +1,5 @@
 ---
-metaTitle: Alerte au changement d'extension | Finder | macOS defaults
+title: Alerte au changement d'extension | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Alerte au changement d'extension

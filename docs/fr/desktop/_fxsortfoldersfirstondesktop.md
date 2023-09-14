@@ -1,5 +1,5 @@
 ---
-metaTitle: Laisser les dossiers en haut | Bureau | macOS defaults
+title: Laisser les dossiers en haut | Bureau
 meta:
   - property: 'og:title'
     content: macOS defaults > Bureau > Laisser les dossiers en haut

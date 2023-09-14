@@ -1,5 +1,5 @@
 ---
-metaTitle: Activer le spring loading dans le Dock | Divers | macOS defaults
+title: Activer le spring loading dans le Dock | Divers
 meta:
   - property: 'og:title'
     content: macOS defaults > Divers > Activer le spring loading dans le Dock

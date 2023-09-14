@@ -1,5 +1,5 @@
 ---
-metaTitle: Caché automatiquement | Dock | macOS defaults
+title: Caché automatiquement | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Caché automatiquement

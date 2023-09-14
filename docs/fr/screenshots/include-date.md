@@ -1,5 +1,5 @@
 ---
-metaTitle: Inclure la date | Capture d'écran | macOS defaults
+title: Inclure la date | Capture d'écran
 meta:
   - property: 'og:title'
     content: macOS defaults > Capture d'écran > Inclure la date

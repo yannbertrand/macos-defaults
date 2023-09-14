@@ -1,5 +1,5 @@
 ---
-metaTitle: Default search scope | Finder | macOS defaults
+title: Default search scope | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Default search scope

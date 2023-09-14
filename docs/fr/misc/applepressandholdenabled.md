@@ -1,5 +1,5 @@
 ---
-metaTitle: Comportement touche maintenue enfoncée | Divers | macOS defaults
+title: Comportement touche maintenue enfoncée | Divers
 meta:
   - property: 'og:title'
     content: macOS defaults > Divers > Comportement touche maintenue enfoncée

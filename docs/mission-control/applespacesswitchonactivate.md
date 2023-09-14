@@ -1,5 +1,5 @@
 ---
-metaTitle: Switch to Space with open windows | Mission Control | macOS defaults
+title: Switch to Space with open windows | Mission Control
 meta:
   - property: 'og:title'
     content: macOS defaults > Mission Control > Switch to Space with open windows

@@ -1,5 +1,5 @@
 ---
-metaTitle: Sauvegarder sur le disque ou dans iCloud par défaut | Finder | macOS defaults
+title: Sauvegarder sur le disque ou dans iCloud par défaut | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Sauvegarder sur le disque ou dans iCloud par défaut

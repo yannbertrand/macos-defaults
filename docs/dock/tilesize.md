@@ -1,5 +1,5 @@
 ---
-metaTitle: Change macOS Dock icon size | Dock | macOS defaults
+title: Change macOS Dock icon size | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Change macOS Dock icon size

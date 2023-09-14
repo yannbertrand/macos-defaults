@@ -1,5 +1,5 @@
 ---
-metaTitle: Autogather | Feedback Assistant | macOS defaults
+title: Autogather | Feedback Assistant
 meta:
   - property: 'og:title'
     content: macOS defaults > Feedback Assistant > Autogather

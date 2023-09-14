@@ -1,5 +1,5 @@
 ---
-metaTitle: Portée des recherches | Finder | macOS defaults
+title: Portée des recherches | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Portée des recherches

@@ -1,5 +1,5 @@
 ---
-metaTitle: Feedback Assistant | macOS defaults
+title: Feedback Assistant
 meta:
   - property: 'og:title'
     content: macOS defaults > Feedback Assistant

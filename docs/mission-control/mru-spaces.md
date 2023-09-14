@@ -1,5 +1,5 @@
 ---
-metaTitle: Rearrange automatically | Mission Control | macOS defaults
+title: Rearrange automatically | Mission Control
 meta:
   - property: 'og:title'
     content: macOS defaults > Mission Control > Rearrange automatically

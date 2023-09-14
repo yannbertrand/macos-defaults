@@ -1,5 +1,5 @@
 ---
-metaTitle: Taille des icônes de la barre latérale | Finder | macOS defaults
+title: Taille des icônes de la barre latérale | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Taille des icônes de la barre latérale

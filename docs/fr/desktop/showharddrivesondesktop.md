@@ -1,5 +1,5 @@
 ---
-metaTitle: Disques | Bureau | macOS defaults
+title: Disques | Bureau
 meta:
   - property: 'og:title'
     content: macOS defaults > Bureau > Disques

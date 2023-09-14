@@ -1,5 +1,5 @@
 ---
-metaTitle: Mission Control | macOS defaults
+title: Mission Control
 meta:
   - property: 'og:title'
     content: macOS defaults > Mission Control

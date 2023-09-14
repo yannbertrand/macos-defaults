@@ -1,5 +1,5 @@
 ---
-metaTitle: Choose screenshot format | Screenshots | macOS defaults
+title: Choose screenshot format | Screenshots
 meta:
   - property: 'og:title'
     content: macOS defaults > Screenshots > Choose screenshot format

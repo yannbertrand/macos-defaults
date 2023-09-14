@@ -1,5 +1,5 @@
 ---
-metaTitle: Help Menu position | Miscellaneous | macOS defaults
+title: Help Menu position | Miscellaneous
 meta:
   - property: 'og:title'
     content: macOS defaults > Miscellaneous > Help Menu position

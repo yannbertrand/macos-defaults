@@ -1,5 +1,5 @@
 ---
-metaTitle: Emplacement des screenshots | Simulateur | macOS defaults
+title: Emplacement des screenshots | Simulateur
 meta:
   - property: 'og:title'
     content: macOS defaults > Simulateur > Emplacement des screenshots

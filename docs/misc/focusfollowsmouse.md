@@ -1,5 +1,5 @@
 ---
-metaTitle: Focus Follows Mouse | Miscellaneous | macOS defaults
+title: Focus Follows Mouse | Miscellaneous
 meta:
   - property: 'og:title'
     content: macOS defaults > Miscellaneous > Focus Follows Mouse

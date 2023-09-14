@@ -1,5 +1,5 @@
 ---
-metaTitle: Desktop | macOS defaults
+title: Desktop
 meta:
   - property: 'og:title'
     content: macOS defaults > Desktop

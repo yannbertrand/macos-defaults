@@ -1,5 +1,5 @@
 ---
-metaTitle: Barre des menus | macOS defaults
+title: Barre des menus
 meta:
   - property: 'og:title'
     content: macOS defaults > Barre des menus

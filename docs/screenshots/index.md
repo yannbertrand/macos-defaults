@@ -1,5 +1,5 @@
 ---
-metaTitle: Screenshots | macOS defaults
+title: Screenshots
 meta:
   - property: 'og:title'
     content: macOS defaults > Screenshots

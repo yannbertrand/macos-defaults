@@ -1,5 +1,5 @@
 ---
-metaTitle: Default view style | Finder | macOS defaults
+title: Default view style | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Default view style

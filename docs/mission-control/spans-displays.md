@@ -1,5 +1,5 @@
 ---
-metaTitle: Displays have separate Spaces | Mission Control | macOS defaults
+title: Displays have separate Spaces | Mission Control
 meta:
   - property: 'og:title'
     content: macOS defaults > Mission Control > Displays have separate Spaces

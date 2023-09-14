@@ -1,5 +1,5 @@
 ---
-metaTitle: Délai au survol du titre | Finder | macOS defaults
+title: Délai au survol du titre | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Délai au survol du titre

@@ -1,5 +1,5 @@
 ---
-metaTitle: Seulement les applications actives | Dock | macOS defaults
+title: Seulement les applications actives | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Seulement les applications actives

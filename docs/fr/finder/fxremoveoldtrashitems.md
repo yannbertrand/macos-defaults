@@ -1,5 +1,5 @@
 ---
-metaTitle: Vider la corbeille automatiquement | Finder | macOS defaults
+title: Vider la corbeille automatiquement | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Vider la corbeille automatiquement

@@ -1,5 +1,5 @@
 ---
-metaTitle: Keep folders on top | Desktop | macOS defaults
+title: Keep folders on top | Desktop
 meta:
   - property: 'og:title'
     content: macOS defaults > Desktop > Keep folders on top

@@ -1,5 +1,5 @@
 ---
-metaTitle: Afficher l'URL complète | Safari | macOS defaults
+title: Afficher l'URL complète | Safari
 meta:
   - property: 'og:title'
     content: macOS defaults > Safari > Afficher l'URL complète

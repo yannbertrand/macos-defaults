@@ -1,5 +1,5 @@
 ---
-metaTitle: Miscellaneous | macOS defaults
+title: Miscellaneous
 meta:
   - property: 'og:title'
     content: macOS defaults > Miscellaneous

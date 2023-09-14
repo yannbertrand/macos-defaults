@@ -1,5 +1,5 @@
 ---
-metaTitle: Enlever l'ombre | Capture d'écran | macOS defaults
+title: Enlever l'ombre | Capture d'écran
 meta:
   - property: 'og:title'
     content: macOS defaults > Capture d'écran > Enlever l'ombre

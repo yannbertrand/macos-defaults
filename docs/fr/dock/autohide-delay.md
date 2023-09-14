@@ -1,5 +1,5 @@
 ---
-metaTitle: Délai avant affichage | Dock | macOS defaults
+title: Délai avant affichage | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Délai avant affichage

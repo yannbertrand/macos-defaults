@@ -1,5 +1,5 @@
 ---
-metaTitle: Dock | macOS defaults
+title: Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock

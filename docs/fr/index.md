@@ -1,5 +1,6 @@
 ---
-metaTitle: 'Liste de defaults macOS'
+title: Liste de defaults macOS
+titleTemplate: false
 meta:
   - property: 'og:title'
     content: 'Une liste de commandes `defaults` pour macOS ✨'

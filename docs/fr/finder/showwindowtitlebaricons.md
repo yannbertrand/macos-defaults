@@ -1,5 +1,5 @@
 ---
-metaTitle: Icône de la barre de titre | Finder | macOS defaults
+title: Icône de la barre de titre | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Icône de la barre de titre

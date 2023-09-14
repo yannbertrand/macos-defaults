@@ -1,5 +1,5 @@
 ---
-metaTitle: Removable media | Desktop | macOS defaults
+title: Removable media | Desktop
 meta:
   - property: 'og:title'
     content: macOS defaults > Desktop > Removable media

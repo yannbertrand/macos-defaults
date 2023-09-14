@@ -1,5 +1,5 @@
 ---
-metaTitle: Enable dragging without drag lock | Trackpad | macOS defaults
+title: Enable dragging without drag lock | Trackpad
 meta:
   - property: 'og:title'
     content: macOS defaults > Trackpad > Enable dragging without drag lock

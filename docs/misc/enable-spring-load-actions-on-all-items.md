@@ -1,5 +1,5 @@
 ---
-metaTitle: Enable spring loading for all Dock items | Miscellaneous | macOS defaults
+title: Enable spring loading for all Dock items | Miscellaneous
 meta:
   - property: 'og:title'
     content: macOS defaults > Miscellaneous > Enable spring loading for all Dock items

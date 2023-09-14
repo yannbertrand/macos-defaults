@@ -1,5 +1,5 @@
 ---
-metaTitle: Durée de l'animation d'affichage | Dock | macOS defaults
+title: Durée de l'animation d'affichage | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Durée de l'animation d'affichage

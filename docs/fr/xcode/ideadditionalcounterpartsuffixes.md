@@ -1,5 +1,5 @@
 ---
-metaTitle: Ajouter des suffixes dans les Counterparts | Xcode | macOS defaults
+title: Ajouter des suffixes dans les Counterparts | Xcode
 meta:
   - property: 'og:title'
     content: macOS defaults > Xcode > Ajouter des suffixes dans les Counterparts

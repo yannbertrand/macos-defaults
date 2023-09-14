@@ -1,5 +1,5 @@
 ---
-metaTitle: Time Machine | macOS defaults
+title: Time Machine
 meta:
   - property: 'og:title'
     content: macOS defaults > Time Machine

@@ -1,5 +1,5 @@
 ---
-metaTitle: Format de date et heure | Barre des menus | macOS defaults
+title: Format de date et heure | Barre des menus
 meta:
   - property: 'og:title'
     content: macOS defaults > Barre des menus > Format de date et heure

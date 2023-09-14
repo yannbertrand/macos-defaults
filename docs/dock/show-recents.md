@@ -1,5 +1,5 @@
 ---
-metaTitle: Show recents | Dock | macOS defaults
+title: Show recents | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Show recents

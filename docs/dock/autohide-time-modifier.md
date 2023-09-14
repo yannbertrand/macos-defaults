@@ -1,5 +1,5 @@
 ---
-metaTitle: Autohide animation time | Dock | macOS defaults
+title: Autohide animation time | Dock
 meta:
   - property: 'og:title'
     content: macOS defaults > Dock > Autohide animation time

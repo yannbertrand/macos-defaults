@@ -1,5 +1,5 @@
 ---
-metaTitle: Empty bin items after 30 days | Finder | macOS defaults
+title: Empty bin items after 30 days | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Empty bin items after 30 days

@@ -1,5 +1,5 @@
 ---
-metaTitle: Eviter les nouveaux disques | Time Machine | macOS defaults
+title: Eviter les nouveaux disques | Time Machine
 meta:
   - property: 'og:title'
     content: macOS defaults > Time Machine > Eviter les nouveaux disques

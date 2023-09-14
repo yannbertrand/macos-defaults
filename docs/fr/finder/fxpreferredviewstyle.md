@@ -1,5 +1,5 @@
 ---
-metaTitle: Style de présentation par défaut | Finder | macOS defaults
+title: Style de présentation par défaut | Finder
 meta:
   - property: 'og:title'
     content: macOS defaults > Finder > Style de présentation par défaut

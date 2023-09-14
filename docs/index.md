@@ -1,5 +1,6 @@
 ---
-metaTitle: 'macOS defaults list'
+title: macOS defaults list
+titleTemplate: false
 meta:
   - property: 'og:title'
     content: 'A list of macOS defaults commands with demos ✨'
@@ -17,7 +18,7 @@ meta:
 
 # macOS `defaults` list
 
-Uncomplete list of macOS `defaults` commands with demos ✨
+Incomplete list of macOS `defaults` commands with demos ✨
 
 ## 🙋 What's a `defaults` command?
 

@@ -1,5 +1,5 @@
 ---
-metaTitle: Réorganiser automatiquement | Mission Control | macOS defaults
+title: Réorganiser automatiquement | Mission Control
 meta:
   - property: 'og:title'
     content: macOS defaults > Mission Control > Réorganiser automatiquement
