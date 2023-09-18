@@ -1,18 +1,13 @@
 ---
 title: Set sidebar icon size | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Set sidebar icon size
-  - name: 'description'
-    content: 'Choose the size of Finder sidebar icons'
-  - property: 'og:description'
-    content: 'Choose the size of Finder sidebar icons'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Choose the size of Finder sidebar icons
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Set sidebar icon size
+  - - meta
+    - property: 'og:description'
+      content: Choose the size of Finder sidebar icons
 ---
 
 # Set sidebar icon size

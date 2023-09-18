@@ -98,6 +98,20 @@ export default defineConfig({
     [
       'meta',
       {
+        property: 'twitter:card',
+        content: 'summary',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:image',
+        content: 'https://macos-defaults.com/media-1x1.webp',
+      },
+    ],
+    [
+      'meta',
+      {
         property: 'og:site_name',
         content: 'macOS defaults',
       },
@@ -106,7 +120,7 @@ export default defineConfig({
       'meta',
       {
         property: 'og:url',
-        content: 'https://macos-defaults.netlify.app',
+        content: 'https://macos-defaults.com',
       },
     ],
     [
@@ -114,6 +128,13 @@ export default defineConfig({
       {
         property: 'og:type',
         content: 'website',
+      },
+    ],
+    [
+      'meta',
+      {
+        property: 'og:image',
+        content: 'https://macos-defaults.com/media-1x1.jpg',
       },
     ],
     [

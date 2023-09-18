@@ -1,18 +1,13 @@
 ---
 title: Disable shadow | Screenshots
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Screenshots > Disable shadow
-  - name: 'description'
-    content: 'Disable screenshot shadow when capturing an app (`⌘ cmd`+`⇧ shift`+`4` then `space`).'
-  - property: 'og:description'
-    content: 'Disable screenshot shadow when capturing an app (`⌘ cmd`+`⇧ shift`+`4` then `space`).'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Disable screenshot shadow when capturing an app (`⌘ cmd`+`⇧ shift`+`4` then `space`).
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Screenshots > Disable shadow
+  - - meta
+    - property: 'og:description'
+      content: Disable screenshot shadow when capturing an app (`⌘ cmd`+`⇧ shift`+`4` then `space`).
 ---
 
 # Disable shadow

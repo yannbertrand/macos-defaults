@@ -1,19 +1,23 @@
 ---
 title: macOS defaults list
 titleTemplate: false
-meta:
-  - property: 'og:title'
-    content: 'A list of macOS defaults commands with demos ✨'
-  - name: 'description'
-    content: "You've already copied `defaults write` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
-  - property: 'og:description'
-    content: "You've already copied `defaults write` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help."
-  - property: 'twitter:card'
-    content: 'summary_large_image'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-2x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-2x1.jpg'
+description: You've already copied `defaults write` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.
+head:
+  - - meta
+    - property: 'og:title'
+      content: A list of macOS defaults commands with demos ✨
+  - - meta
+    - property: 'og:description'
+      content: You've already copied `defaults write` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.
+  - - meta
+    - property: 'og:image'
+      content: 'https://macos-defaults.com/media-2x1.jpg'
+  - - meta
+    - property: 'twitter:image'
+      content: 'https://macos-defaults.com/media-2x1.webp'
+  - - meta
+    - property: 'twitter:card'
+      content: 'summary_large_image'
 ---
 
 # macOS `defaults` list

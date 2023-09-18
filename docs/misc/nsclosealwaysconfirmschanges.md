@@ -1,18 +1,13 @@
 ---
 title: Close confirm changes popup | Miscellaneous
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Miscellaneous > Close confirm changes popup
-  - name: 'description'
-    content: "Should you be asked to keep changes when closing documents or just have changes saved automatically.\nRequires closing and opening the app before working. Tested on Apple Preview.\n"
-  - property: 'og:description'
-    content: "Should you be asked to keep changes when closing documents or just have changes saved automatically.\nRequires closing and opening the app before working. Tested on Apple Preview.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Should you be asked to keep changes when closing documents or just have changes saved automatically.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Miscellaneous > Close confirm changes popup
+  - - meta
+    - property: 'og:description'
+      content: Should you be asked to keep changes when closing documents or just have changes saved automatically.
 ---
 
 # Close confirm changes popup

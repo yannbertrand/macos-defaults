@@ -1,18 +1,13 @@
 ---
 title: Choose screenshot format | Screenshots
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Screenshots > Choose screenshot format
-  - name: 'description'
-    content: 'Choose the screenshots image format.'
-  - property: 'og:description'
-    content: 'Choose the screenshots image format.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Choose the screenshots image format.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Screenshots > Choose screenshot format
+  - - meta
+    - property: 'og:description'
+      content: Choose the screenshots image format.
 ---
 
 # Choose screenshot format

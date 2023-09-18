@@ -1,18 +1,13 @@
 ---
 title: Change macOS Dock icon size | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Change macOS Dock icon size
-  - name: 'description'
-    content: 'Set the icon size of Dock items in pixels.'
-  - property: 'og:description'
-    content: 'Set the icon size of Dock items in pixels.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Set the icon size of Dock items in pixels.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Change macOS Dock icon size
+  - - meta
+    - property: 'og:description'
+      content: Set the icon size of Dock items in pixels.
 ---
 
 # Change macOS Dock icon size

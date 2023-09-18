@@ -1,18 +1,13 @@
 ---
 title: Save to disk or iCloud by default | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Save to disk or iCloud by default
-  - name: 'description'
-    content: 'Choose whether the default file save location is on disk or iCloud'
-  - property: 'og:description'
-    content: 'Choose whether the default file save location is on disk or iCloud'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Choose whether the default file save location is on disk or iCloud
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Save to disk or iCloud by default
+  - - meta
+    - property: 'og:description'
+      content: Choose whether the default file save location is on disk or iCloud
 ---
 
 # Save to disk or iCloud by default

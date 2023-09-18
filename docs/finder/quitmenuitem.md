@@ -1,18 +1,13 @@
 ---
 title: Quit | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Quit
-  - name: 'description'
-    content: 'Add a quit option to the Finder. Behaves strangely when activated, would not recommend.'
-  - property: 'og:description'
-    content: 'Add a quit option to the Finder. Behaves strangely when activated, would not recommend.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Add a quit option to the Finder. Behaves strangely when activated, would not recommend.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Quit
+  - - meta
+    - property: 'og:description'
+      content: Add a quit option to the Finder. Behaves strangely when activated, would not recommend.
 ---
 
 # Quit

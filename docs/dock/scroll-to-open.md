@@ -1,18 +1,13 @@
 ---
 title: Scroll to Exposé app | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Scroll to Exposé app
-  - name: 'description'
-    content: "Scroll up on a Dock icon to show all Space's opened windows for an app, or open stack."
-  - property: 'og:description'
-    content: "Scroll up on a Dock icon to show all Space's opened windows for an app, or open stack."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Scroll up on a Dock icon to show all Space's opened windows for an app, or open stack.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Scroll to Exposé app
+  - - meta
+    - property: 'og:description'
+      content: Scroll up on a Dock icon to show all Space's opened windows for an app, or open stack.
 ---
 
 # Scroll to Exposé app

@@ -1,18 +1,13 @@
 ---
 title: Title bar icons | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Title bar icons
-  - name: 'description'
-    content: "Always show folder icon before title in the title bar\n\n⚠️ This command requires to grant full disk access to the terminal\n(System Preferences → Security & Privacy → Full Disk Access)\n"
-  - property: 'og:description'
-    content: "Always show folder icon before title in the title bar\n\n⚠️ This command requires to grant full disk access to the terminal\n(System Preferences → Security & Privacy → Full Disk Access)\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Always show folder icon before title in the title bar
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Title bar icons
+  - - meta
+    - property: 'og:description'
+      content: Always show folder icon before title in the title bar
 ---
 
 # Title bar icons

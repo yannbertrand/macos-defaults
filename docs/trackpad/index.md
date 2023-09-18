@@ -1,18 +1,13 @@
 ---
 title: Trackpad
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Trackpad
-  - name: 'description'
-    content: 'The trackpad is hardware to control the cursor that comes on all MacBooks.'
-  - property: 'og:description'
-    content: 'The trackpad is hardware to control the cursor that comes on all MacBooks.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: The trackpad is hardware to control the cursor that comes on all MacBooks.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Trackpad
+  - - meta
+    - property: 'og:description'
+      content: The trackpad is hardware to control the cursor that comes on all MacBooks.
 ---
 
 # Trackpad

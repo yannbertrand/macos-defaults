@@ -1,18 +1,13 @@
 ---
 title: Autohide animation time | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Autohide animation time
-  - name: 'description'
-    content: 'Change the Dock opening and closing animation times.'
-  - property: 'og:description'
-    content: 'Change the Dock opening and closing animation times.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Change the Dock opening and closing animation times.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Autohide animation time
+  - - meta
+    - property: 'og:description'
+      content: Change the Dock opening and closing animation times.
 ---
 
 # Autohide animation time

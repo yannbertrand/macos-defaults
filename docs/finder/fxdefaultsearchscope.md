@@ -1,18 +1,13 @@
 ---
 title: Default search scope | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Default search scope
-  - name: 'description'
-    content: 'Set the default search scope when performing a search'
-  - property: 'og:description'
-    content: 'Set the default search scope when performing a search'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Set the default search scope when performing a search
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Default search scope
+  - - meta
+    - property: 'og:description'
+      content: Set the default search scope when performing a search
 ---
 
 # Default search scope

@@ -1,18 +1,13 @@
 ---
 title: Empty bin items after 30 days | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Empty bin items after 30 days
-  - name: 'description'
-    content: 'Remove items in the bin after 30 days'
-  - property: 'og:description'
-    content: 'Remove items in the bin after 30 days'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Remove items in the bin after 30 days
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Empty bin items after 30 days
+  - - meta
+    - property: 'og:description'
+      content: Remove items in the bin after 30 days
 ---
 
 # Empty bin items after 30 days

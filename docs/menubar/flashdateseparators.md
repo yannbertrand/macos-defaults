@@ -1,18 +1,13 @@
 ---
 title: Flash clock time separators | Menu Bar
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Menu Bar > Flash clock time separators
-  - name: 'description'
-    content: 'When enabled, the clock indicator (which by default is the colon) will flash on and off each second.'
-  - property: 'og:description'
-    content: 'When enabled, the clock indicator (which by default is the colon) will flash on and off each second.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: When enabled, the clock indicator (which by default is the colon) will flash on and off each second.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Menu Bar > Flash clock time separators
+  - - meta
+    - property: 'og:description'
+      content: When enabled, the clock indicator (which by default is the colon) will flash on and off each second.
 ---
 
 # Flash clock time separators

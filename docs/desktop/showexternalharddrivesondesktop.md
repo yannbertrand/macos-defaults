@@ -1,18 +1,13 @@
 ---
 title: External disks | Desktop
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Desktop > External disks
-  - name: 'description'
-    content: 'Hide external disks on desktop'
-  - property: 'og:description'
-    content: 'Hide external disks on desktop'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Hide external disks on desktop
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Desktop > External disks
+  - - meta
+    - property: 'og:description'
+      content: Hide external disks on desktop
 ---
 
 # External disks

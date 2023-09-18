@@ -1,18 +1,13 @@
 ---
 title: Group windows by application | Mission Control
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Mission Control > Group windows by application
-  - name: 'description'
-    content: "If you have several windows from multiple apps open simultaneously, have the windows organised by app in\nMission Control.\n"
-  - property: 'og:description'
-    content: "If you have several windows from multiple apps open simultaneously, have the windows organised by app in\nMission Control.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: If you have several windows from multiple apps open simultaneously, have the windows organised by app in Mission Control.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Mission Control > Group windows by application
+  - - meta
+    - property: 'og:description'
+      content: If you have several windows from multiple apps open simultaneously, have the windows organised by app in Mission Control.
 ---
 
 # Group windows by application

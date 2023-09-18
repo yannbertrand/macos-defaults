@@ -1,18 +1,13 @@
 ---
 title: Switch to Space with open windows | Mission Control
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Mission Control > Switch to Space with open windows
-  - name: 'description'
-    content: 'When switching to an app, switch to a space with open windows for this app.'
-  - property: 'og:description'
-    content: 'When switching to an app, switch to a space with open windows for this app.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: When switching to an app, switch to a space with open windows for this app.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Mission Control > Switch to Space with open windows
+  - - meta
+    - property: 'og:description'
+      content: When switching to an app, switch to a space with open windows for this app.
 ---
 
 # Switch to Space with open windows

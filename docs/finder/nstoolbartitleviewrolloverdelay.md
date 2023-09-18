@@ -1,18 +1,13 @@
 ---
 title: Adjust toolbar title rollover delay | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Adjust toolbar title rollover delay
-  - name: 'description'
-    content: 'Choose the delay of the auto-hidden document-proxy icon.'
-  - property: 'og:description'
-    content: 'Choose the delay of the auto-hidden document-proxy icon.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Choose the delay of the auto-hidden document-proxy icon.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Adjust toolbar title rollover delay
+  - - meta
+    - property: 'og:description'
+      content: Choose the delay of the auto-hidden document-proxy icon.
 ---
 
 # Adjust toolbar title rollover delay

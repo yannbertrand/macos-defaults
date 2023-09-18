@@ -1,18 +1,13 @@
 ---
 title: Rearrange automatically | Mission Control
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Mission Control > Rearrange automatically
-  - name: 'description'
-    content: 'Choose whether to rearrange Spaces automatically.'
-  - property: 'og:description'
-    content: 'Choose whether to rearrange Spaces automatically.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Choose whether to rearrange Spaces automatically.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Mission Control > Rearrange automatically
+  - - meta
+    - property: 'og:description'
+      content: Choose whether to rearrange Spaces automatically.
 ---
 
 # Rearrange automatically

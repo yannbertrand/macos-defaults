@@ -1,18 +1,13 @@
 ---
 title: Changing file extension warning | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Changing file extension warning
-  - name: 'description'
-    content: 'Choose whether to display a warning when changing a file extension.'
-  - property: 'og:description'
-    content: 'Choose whether to display a warning when changing a file extension.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Choose whether to display a warning when changing a file extension.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Changing file extension warning
+  - - meta
+    - property: 'og:description'
+      content: Choose whether to display a warning when changing a file extension.
 ---
 
 # Changing file extension warning

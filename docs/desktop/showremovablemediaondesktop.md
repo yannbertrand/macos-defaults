@@ -1,18 +1,13 @@
 ---
 title: Removable media | Desktop
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Desktop > Removable media
-  - name: 'description'
-    content: 'Hide removable media _(CDs, DVDs and iPods)_ on desktop'
-  - property: 'og:description'
-    content: 'Hide removable media _(CDs, DVDs and iPods)_ on desktop'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Hide removable media (CDs, DVDs and iPods) on desktop
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Desktop > Removable media
+  - - meta
+    - property: 'og:description'
+      content: Hide removable media (CDs, DVDs and iPods) on desktop
 ---
 
 # Removable media

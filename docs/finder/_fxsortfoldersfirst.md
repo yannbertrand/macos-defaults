@@ -1,18 +1,13 @@
 ---
 title: Keep folders on top | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Keep folders on top
-  - name: 'description'
-    content: 'Keep folders on top when sorting by name'
-  - property: 'og:description'
-    content: 'Keep folders on top when sorting by name'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Keep folders on top when sorting by name
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Keep folders on top
+  - - meta
+    - property: 'og:description'
+      content: Keep folders on top when sorting by name
 ---
 
 # Keep folders on top

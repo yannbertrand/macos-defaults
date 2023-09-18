@@ -1,18 +1,13 @@
 ---
 title: Focus Follows Mouse | Miscellaneous
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Miscellaneous > Focus Follows Mouse
-  - name: 'description'
-    content: "Focus of the Terminal windows when the mouse cursor hovers over them.\nThe focus change only works between the Terminal windows.\n"
-  - property: 'og:description'
-    content: "Focus of the Terminal windows when the mouse cursor hovers over them.\nThe focus change only works between the Terminal windows.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Focus of the Terminal windows when the mouse cursor hovers over them. The focus change only works between the Terminal windows.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Miscellaneous > Focus Follows Mouse
+  - - meta
+    - property: 'og:description'
+      content: Focus of the Terminal windows when the mouse cursor hovers over them. The focus change only works between the Terminal windows.
 ---
 
 # Focus Follows Mouse

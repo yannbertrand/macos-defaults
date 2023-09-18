@@ -1,18 +1,13 @@
 ---
 title: TextEdit
-meta:
-  - property: 'og:title'
-    content: macOS defaults > TextEdit
-  - name: 'description'
-    content: 'TextEdit allows you to open and edit rich text, plain text and HTML documents.'
-  - property: 'og:description'
-    content: 'TextEdit allows you to open and edit rich text, plain text and HTML documents.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: TextEdit allows you to open and edit rich text, plain text and HTML documents.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > TextEdit
+  - - meta
+    - property: 'og:description'
+      content: TextEdit allows you to open and edit rich text, plain text and HTML documents.
 ---
 
 # TextEdit

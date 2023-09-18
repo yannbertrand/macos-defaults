@@ -1,18 +1,13 @@
 ---
 title: Set default document format | TextEdit
-meta:
-  - property: 'og:title'
-    content: macOS defaults > TextEdit > Set default document format
-  - name: 'description'
-    content: 'Set default document format as rich text (.rtf) or plain text (.txt).'
-  - property: 'og:description'
-    content: 'Set default document format as rich text (.rtf) or plain text (.txt).'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Set default document format as rich text (.rtf) or plain text (.txt).
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > TextEdit > Set default document format
+  - - meta
+    - property: 'og:description'
+      content: Set default document format as rich text (.rtf) or plain text (.txt).
 ---
 
 # Set default document format

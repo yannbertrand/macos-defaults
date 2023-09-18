@@ -1,18 +1,13 @@
 ---
 title: Show hidden files | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Show hidden files
-  - name: 'description'
-    content: 'Show hidden files in the Finder. You can toggle the value using `⌘ cmd`+`⇧ shift`+`.`.'
-  - property: 'og:description'
-    content: 'Show hidden files in the Finder. You can toggle the value using `⌘ cmd`+`⇧ shift`+`.`.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Show hidden files in the Finder. You can toggle the value using `⌘ cmd`+`⇧ shift`+`.`.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Show hidden files
+  - - meta
+    - property: 'og:description'
+      content: Show hidden files in the Finder. You can toggle the value using `⌘ cmd`+`⇧ shift`+`.`.
 ---
 
 # Show hidden files

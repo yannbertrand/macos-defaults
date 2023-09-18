@@ -1,18 +1,13 @@
 ---
 title: Autogather | Feedback Assistant
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Feedback Assistant > Autogather
-  - name: 'description'
-    content: "Choose whether to autogather large files when submitting a feedback report.\n\nCan result in a slow Mac and important upload metrics.\n"
-  - property: 'og:description'
-    content: "Choose whether to autogather large files when submitting a feedback report.\n\nCan result in a slow Mac and important upload metrics.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Choose whether to autogather large files when submitting a feedback report. Can result in a slow Mac and important upload metrics.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Feedback Assistant > Autogather
+  - - meta
+    - property: 'og:description'
+      content: Choose whether to autogather large files when submitting a feedback report. Can result in a slow Mac and important upload metrics.
 ---
 
 # Autogather

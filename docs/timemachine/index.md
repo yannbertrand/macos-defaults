@@ -1,18 +1,13 @@
 ---
 title: Time Machine
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Time Machine
-  - name: 'description'
-    content: 'The Time Machine feature allows simple, regular backups of your filesystem.'
-  - property: 'og:description'
-    content: 'The Time Machine feature allows simple, regular backups of your filesystem.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: The Time Machine feature allows simple, regular backups of your filesystem.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Time Machine
+  - - meta
+    - property: 'og:description'
+      content: The Time Machine feature allows simple, regular backups of your filesystem.
 ---
 
 # Time Machine

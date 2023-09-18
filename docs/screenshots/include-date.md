@@ -1,18 +1,13 @@
 ---
 title: Include date | Screenshots
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Screenshots > Include date
-  - name: 'description'
-    content: 'Include date and time in screenshot filenames.'
-  - property: 'og:description'
-    content: 'Include date and time in screenshot filenames.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Include date and time in screenshot filenames.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Screenshots > Include date
+  - - meta
+    - property: 'og:description'
+      content: Include date and time in screenshot filenames.
 ---
 
 # Include date

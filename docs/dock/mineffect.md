@@ -1,18 +1,13 @@
 ---
 title: Minimize animation effect | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Minimize animation effect
-  - name: 'description'
-    content: 'Change the Dock minimize animation.'
-  - property: 'og:description'
-    content: 'Change the Dock minimize animation.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Change the Dock minimize animation.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Minimize animation effect
+  - - meta
+    - property: 'og:description'
+      content: Change the Dock minimize animation.
 ---
 
 # Minimize animation effect

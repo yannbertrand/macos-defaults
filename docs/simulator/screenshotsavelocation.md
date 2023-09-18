@@ -1,18 +1,13 @@
 ---
 title: Set screenshot location | Simulator
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Simulator > Set screenshot location
-  - name: 'description'
-    content: "Set default location for Simulator screenshots.\n\nNote that the folder has to exist in the filesystem.\n"
-  - property: 'og:description'
-    content: "Set default location for Simulator screenshots.\n\nNote that the folder has to exist in the filesystem.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Set default location for Simulator screenshots. Note that the folder has to exist in the filesystem.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Simulator > Set screenshot location
+  - - meta
+    - property: 'og:description'
+      content: Set default location for Simulator screenshots. Note that the folder has to exist in the filesystem.
 ---
 
 # Set screenshot location

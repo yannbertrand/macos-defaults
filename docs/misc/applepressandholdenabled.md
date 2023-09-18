@@ -1,18 +1,13 @@
 ---
 title: Key held down behavior | Miscellaneous
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Miscellaneous > Key held down behavior
-  - name: 'description'
-    content: "Allows you to select the behavior when a key is held down for a long time. The two possible behaviors are:\n\n- show character accents menu (default)\n- repeat character while key held\n\n⚠️ Restarting the Mac, closing the session or restarting the application is necessary to take into effect the changes.\n"
-  - property: 'og:description'
-    content: "Allows you to select the behavior when a key is held down for a long time. The two possible behaviors are:\n\n- show character accents menu (default)\n- repeat character while key held\n\n⚠️ Restarting the Mac, closing the session or restarting the application is necessary to take into effect the changes.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Allows you to select the behavior when a key is held down for a long time.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Miscellaneous > Key held down behavior
+  - - meta
+    - property: 'og:description'
+      content: Allows you to select the behavior when a key is held down for a long time.
 ---
 
 # Key held down behavior

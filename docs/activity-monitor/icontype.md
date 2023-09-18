@@ -1,18 +1,13 @@
 ---
 title: Dock Icon type | Activity Monitor | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Activity Monitor > Dock Icon type
-  - name: 'description'
-    content: "Choose what information should be shown in the app's Dock icon, if any."
-  - property: 'og:description'
-    content: "Choose what information should be shown in the app's Dock icon, if any."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Choose what information should be shown in the app's Dock icon, if any.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Activity Monitor > Dock Icon type
+  - - meta
+    - property: 'og:description'
+      content: Choose what information should be shown in the app's Dock icon, if any.
 ---
 
 # Dock Icon type

@@ -1,18 +1,13 @@
 ---
 title: Displays have separate Spaces | Mission Control
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Mission Control > Displays have separate Spaces
-  - name: 'description'
-    content: 'Set up separate spaces for each display (if you use Spaces and have multiple displays).'
-  - property: 'og:description'
-    content: 'Set up separate spaces for each display (if you use Spaces and have multiple displays).'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Set up separate spaces for each display (if you use Spaces and have multiple displays).
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Mission Control > Displays have separate Spaces
+  - - meta
+    - property: 'og:description'
+      content: Set up separate spaces for each display (if you use Spaces and have multiple displays).
 ---
 
 # Displays have separate Spaces

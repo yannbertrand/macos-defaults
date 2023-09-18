@@ -1,18 +1,13 @@
 ---
 title: Click weight (threshold) | Trackpad
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Trackpad > Click weight (threshold)
-  - name: 'description'
-    content: 'Choose between Light/Medium/Firm.'
-  - property: 'og:description'
-    content: 'Choose between Light/Medium/Firm.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Choose between Light/Medium/Firm.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Trackpad > Click weight (threshold)
+  - - meta
+    - property: 'og:description'
+      content: Choose between Light/Medium/Firm.
 ---
 
 # Click weight (threshold)

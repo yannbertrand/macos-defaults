@@ -1,18 +1,13 @@
 ---
 title: Autohide delay | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Autohide delay
-  - name: 'description'
-    content: 'Change the Dock opening delay.'
-  - property: 'og:description'
-    content: 'Change the Dock opening delay.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Change the Dock opening delay.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Autohide delay
+  - - meta
+    - property: 'og:description'
+      content: Change the Dock opening delay.
 ---
 
 # Autohide delay

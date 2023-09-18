@@ -1,18 +1,13 @@
 ---
 title: Miscellaneous
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Miscellaneous
-  - name: 'description'
-    content: "All the others `defaults` that don't deserve their own category."
-  - property: 'og:description'
-    content: "All the others `defaults` that don't deserve their own category."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: All the others `defaults` that don't deserve their own category.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Miscellaneous
+  - - meta
+    - property: 'og:description'
+      content: All the others `defaults` that don't deserve their own category.
 ---
 
 # Miscellaneous

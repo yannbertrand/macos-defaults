@@ -1,18 +1,13 @@
 ---
 title: Show full URL | Safari
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Safari > Show full URL
-  - name: 'description'
-    content: 'Show full website address.'
-  - property: 'og:description'
-    content: 'Show full website address.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Show full website address.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Safari > Show full URL
+  - - meta
+    - property: 'og:description'
+      content: Show full website address.
 ---
 
 # Show full URL

@@ -1,18 +1,13 @@
 ---
 title: Set location | Screenshots
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Screenshots > Set location
-  - name: 'description'
-    content: 'Set default screenshot location.'
-  - property: 'og:description'
-    content: 'Set default screenshot location.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Set default screenshot location.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Screenshots > Set location
+  - - meta
+    - property: 'og:description'
+      content: Set default screenshot location.
 ---
 
 # Set location

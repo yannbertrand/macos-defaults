@@ -1,18 +1,13 @@
 ---
 title: Path bar | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Path bar
-  - name: 'description'
-    content: 'Show path bar in the bottom of the Finder windows'
-  - property: 'og:description'
-    content: 'Show path bar in the bottom of the Finder windows'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+description: Show path bar in the bottom of the Finder windows
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Path bar
+  - - meta
+    - property: 'og:description'
+      content: Show path bar in the bottom of the Finder windows
 ---
 
 # Path bar
