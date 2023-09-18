@@ -1,18 +1,5 @@
 ---
 title: Sauvegarder sur le disque ou dans iCloud par défaut | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Sauvegarder sur le disque ou dans iCloud par défaut
-  - name: 'description'
-    content: "Définir si l'emplacement de sauvegarde par défaut est sur le disque ou dans iCloud"
-  - property: 'og:description'
-    content: "Définir si l'emplacement de sauvegarde par défaut est sur le disque ou dans iCloud"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Sauvegarder sur le disque ou dans iCloud par défaut

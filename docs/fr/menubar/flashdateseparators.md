@@ -1,18 +1,5 @@
 ---
 title: Faire clignoter les séparateurs de l'horloge | Barre des menus
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Barre des menus > Faire clignoter les séparateurs de l'horloge
-  - name: 'description'
-    content: "Permet de faire clignoter ou non les séparateurs de l'horloge numérique (par défaut, ce sont des deux points)."
-  - property: 'og:description'
-    content: "Permet de faire clignoter ou non les séparateurs de l'horloge numérique (par défaut, ce sont des deux points)."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Faire clignoter les séparateurs de l'horloge

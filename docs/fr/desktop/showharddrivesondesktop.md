@@ -1,18 +1,5 @@
 ---
 title: Disques | Bureau
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Bureau > Disques
-  - name: 'description'
-    content: 'Afficher les disques durs sur le bureau.'
-  - property: 'og:description'
-    content: 'Afficher les disques durs sur le bureau.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Disques

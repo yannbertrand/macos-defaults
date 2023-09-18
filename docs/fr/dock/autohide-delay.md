@@ -1,18 +1,5 @@
 ---
 title: Délai avant affichage | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Délai avant affichage
-  - name: 'description'
-    content: 'Change the Dock opening delay.'
-  - property: 'og:description'
-    content: 'Change the Dock opening delay.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Délai avant affichage

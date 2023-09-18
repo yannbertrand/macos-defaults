@@ -1,18 +1,5 @@
 ---
 title: Emplacement | Capture d'écran
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Capture d'écran > Emplacement
-  - name: 'description'
-    content: "Préciser l'emplacement par défaut des captures."
-  - property: 'og:description'
-    content: "Préciser l'emplacement par défaut des captures."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Emplacement

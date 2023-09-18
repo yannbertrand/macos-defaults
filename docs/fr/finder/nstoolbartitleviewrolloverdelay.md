@@ -1,18 +1,5 @@
 ---
 title: Délai au survol du titre | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Délai au survol du titre
-  - name: 'description'
-    content: "Choisir le délai d'affichage du titre complet."
-  - property: 'og:description'
-    content: "Choisir le délai d'affichage du titre complet."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Délai au survol du titre

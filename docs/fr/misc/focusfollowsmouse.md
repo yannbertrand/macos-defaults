@@ -1,18 +1,5 @@
 ---
 title: Focus du Terminal au survol | Divers
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Divers > Focus du Terminal au survol
-  - name: 'description'
-    content: "Focus des fenêtres du Terminal au survol du curseur de la souris.\nLe changement de focus ne fonctionne qu'entre les fenêtres du Terminal.\n"
-  - property: 'og:description'
-    content: "Focus des fenêtres du Terminal au survol du curseur de la souris.\nLe changement de focus ne fonctionne qu'entre les fenêtres du Terminal.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Focus du Terminal au survol

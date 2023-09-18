@@ -1,18 +1,5 @@
 ---
 title: Définir le format de document par défaut | TextEdit
-meta:
-  - property: 'og:title'
-    content: macOS defaults > TextEdit > Définir le format de document par défaut
-  - name: 'description'
-    content: 'Définir le format de document par défaut comme texte enrichi (.rtf) ou texte brut (.txt).'
-  - property: 'og:description'
-    content: 'Définir le format de document par défaut comme texte enrichi (.rtf) ou texte brut (.txt).'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Définir le format de document par défaut

@@ -1,18 +1,5 @@
 ---
 title: Alerte au changement d'extension | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Alerte au changement d'extension
-  - name: 'description'
-    content: 'Choisir si il faut afficher une alerte au changement de format de fichier ou non.'
-  - property: 'og:description'
-    content: 'Choisir si il faut afficher une alerte au changement de format de fichier ou non.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Alerte au changement d'extension

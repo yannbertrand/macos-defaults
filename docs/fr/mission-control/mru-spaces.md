@@ -1,18 +1,5 @@
 ---
 title: Réorganiser automatiquement | Mission Control
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Mission Control > Réorganiser automatiquement
-  - name: 'description'
-    content: 'Réorganiser les bureaux virtuels automatiquement.'
-  - property: 'og:description'
-    content: 'Réorganiser les bureaux virtuels automatiquement.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Réorganiser automatiquement

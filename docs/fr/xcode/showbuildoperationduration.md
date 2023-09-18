@@ -1,18 +1,5 @@
 ---
 title: Afficher la durée de build | Xcode
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Xcode > Afficher la durée de build
-  - name: 'description'
-    content: "Afficher la durée de build dans la toolbar en haut de la fenêtre d'Xcode"
-  - property: 'og:description'
-    content: "Afficher la durée de build dans la toolbar en haut de la fenêtre d'Xcode"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Afficher la durée de build

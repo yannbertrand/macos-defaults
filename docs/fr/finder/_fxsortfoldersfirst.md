@@ -1,18 +1,5 @@
 ---
 title: Laisser les dossiers en haut | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Laisser les dossiers en haut
-  - name: 'description'
-    content: "Laisser les dossiers en haut lors d'un tri par nom."
-  - property: 'og:description'
-    content: "Laisser les dossiers en haut lors d'un tri par nom."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Laisser les dossiers en haut

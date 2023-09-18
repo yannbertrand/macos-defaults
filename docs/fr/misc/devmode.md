@@ -1,18 +1,5 @@
 ---
 title: Position du menu d'Aide | Divers
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Divers > Position du menu d'Aide
-  - name: 'description'
-    content: "Choisir si le menu d'Aide doit être au-dessus de toutes les applications."
-  - property: 'og:description'
-    content: "Choisir si le menu d'Aide doit être au-dessus de toutes les applications."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Position du menu d'Aide

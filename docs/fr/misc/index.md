@@ -1,18 +1,5 @@
 ---
 title: Divers
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Divers
-  - name: 'description'
-    content: "Tous les `defaults` qui n'ont pas leur place ailleurs."
-  - property: 'og:description'
-    content: "Tous les `defaults` qui n'ont pas leur place ailleurs."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Divers

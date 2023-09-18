@@ -1,18 +1,5 @@
 ---
 title: Durée de l'animation d'affichage | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Durée de l'animation d'affichage
-  - name: 'description'
-    content: "Changer la durée d'animation d'affichage et de cachage du Dock."
-  - property: 'og:description'
-    content: "Changer la durée d'animation d'affichage et de cachage du Dock."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Durée de l'animation d'affichage

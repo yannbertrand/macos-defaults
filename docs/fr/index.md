@@ -1,19 +1,6 @@
 ---
 title: Liste de defaults macOS
 titleTemplate: false
-meta:
-  - property: 'og:title'
-    content: 'Une liste de commandes `defaults` pour macOS ✨'
-  - name: 'description'
-    content: "Vous avez déjà copié des commandes du style `defaults write`. Parfois sans être sur de ce qu'elles font ou si elles fonctionnent toujours. Cette liste de commandes `defaults` macOS est là pour vous aider."
-  - property: 'og:description'
-    content: "Vous avez déjà copié des commandes du style `defaults write`. Parfois sans être sur de ce qu'elles font ou si elles fonctionnent toujours. Cette liste de commandes `defaults` macOS est là pour vous aider."
-  - property: 'twitter:card'
-    content: 'summary_large_image'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-2x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-2x1.jpg'
 ---
 
 # macOS `defaults`

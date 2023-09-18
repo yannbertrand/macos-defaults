@@ -1,18 +1,5 @@
 ---
 title: Barre du chemin d'accès | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Barre du chemin d'accès
-  - name: 'description'
-    content: "Afficher la barre du chemin d'accès en bas de la fenêtre du Finder."
-  - property: 'og:description'
-    content: "Afficher la barre du chemin d'accès en bas de la fenêtre du Finder."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Barre du chemin d'accès

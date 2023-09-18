@@ -1,18 +1,5 @@
 ---
 title: Afficher les fichiers cachés | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Afficher les fichiers cachés
-  - name: 'description'
-    content: 'Afficher les fichiers cachés dans le Finder.'
-  - property: 'og:description'
-    content: 'Afficher les fichiers cachés dans le Finder.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Afficher les fichiers cachés

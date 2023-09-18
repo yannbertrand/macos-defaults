@@ -1,18 +1,5 @@
 ---
 title: Animation de minimisation | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Animation de minimisation
-  - name: 'description'
-    content: "Changer le style d'animation de minimisation des applications."
-  - property: 'og:description'
-    content: "Changer le style d'animation de minimisation des applications."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Animation de minimisation

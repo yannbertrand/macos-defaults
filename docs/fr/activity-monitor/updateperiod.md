@@ -1,18 +1,5 @@
 ---
 title: Modifier la fréquence | Moniteur d'activité
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Moniteur d'activité > Modifier la fréquence
-  - name: 'description'
-    content: "Modifier la fréquence à laquelle le Moniteur d'activité met à jour ses données, en secondes."
-  - property: 'og:description'
-    content: "Modifier la fréquence à laquelle le Moniteur d'activité met à jour ses données, en secondes."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Modifier la fréquence

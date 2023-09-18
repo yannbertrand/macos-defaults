@@ -1,18 +1,5 @@
 ---
 title: Icône de la barre de titre | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Icône de la barre de titre
-  - name: 'description'
-    content: "Toujours afficher l'icône du dossier avant le titre dans la barre de titre.\n\n⚠️ Cette commande nécessite d'accorder au terminal un accès complet au disque.\n(Préférences Système → Sécurité et confidentialité → Accès complet au disque).\n"
-  - property: 'og:description'
-    content: "Toujours afficher l'icône du dossier avant le titre dans la barre de titre.\n\n⚠️ Cette commande nécessite d'accorder au terminal un accès complet au disque.\n(Préférences Système → Sécurité et confidentialité → Accès complet au disque).\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Icône de la barre de titre

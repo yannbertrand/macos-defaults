@@ -1,18 +1,5 @@
 ---
 title: Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock
-  - name: 'description'
-    content: "Le Dock est une composante importante de macOS.\nIl est utilisé pour lancer des applications et pour naviguer entre les applications lancées.\nPar défaut il est placé en bas de votre écran.\n\nIl est personnalisable à souhait.\n"
-  - property: 'og:description'
-    content: "Le Dock est une composante importante de macOS.\nIl est utilisé pour lancer des applications et pour naviguer entre les applications lancées.\nPar défaut il est placé en bas de votre écran.\n\nIl est personnalisable à souhait.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Dock

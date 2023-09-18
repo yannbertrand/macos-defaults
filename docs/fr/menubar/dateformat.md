@@ -1,18 +1,5 @@
 ---
 title: Format de date et heure | Barre des menus
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Barre des menus > Format de date et heure
-  - name: 'description'
-    content: "Ce paramètre permet de préciser le format de date et heure de la barre de menus.\nLes valeurs acceptées dépendent de vos paramètres de Langue & région.\n\n- `ss` pour les secondes.\n- `HH` pour l'heure (24h).\n- `EEE` pour le jour de la semaine en 3 lettres.\n- `d MMM` pour le jour dans le mois et le mois en 3 lettres.\n"
-  - property: 'og:description'
-    content: "Ce paramètre permet de préciser le format de date et heure de la barre de menus.\nLes valeurs acceptées dépendent de vos paramètres de Langue & région.\n\n- `ss` pour les secondes.\n- `HH` pour l'heure (24h).\n- `EEE` pour le jour de la semaine en 3 lettres.\n- `d MMM` pour le jour dans le mois et le mois en 3 lettres.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Format de date et heure

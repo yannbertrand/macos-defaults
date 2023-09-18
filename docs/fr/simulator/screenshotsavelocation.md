@@ -1,18 +1,5 @@
 ---
 title: Emplacement des screenshots | Simulateur
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Simulateur > Emplacement des screenshots
-  - name: 'description'
-    content: "Préciser le chemin par défaut des screenshots du Simulateur.\n\nLe dossier doit obligatoirement exister dans le système.\n"
-  - property: 'og:description'
-    content: "Préciser le chemin par défaut des screenshots du Simulateur.\n\nLe dossier doit obligatoirement exister dans le système.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Emplacement des screenshots

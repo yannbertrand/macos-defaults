@@ -1,18 +1,5 @@
 ---
 title: Afficher l'URL complète | Safari
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Safari > Afficher l'URL complète
-  - name: 'description'
-    content: "Afficher l'adresse des sites web en entier."
-  - property: 'og:description'
-    content: "Afficher l'adresse des sites web en entier."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Afficher l'URL complète

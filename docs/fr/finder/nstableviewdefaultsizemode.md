@@ -1,18 +1,5 @@
 ---
 title: Taille des icônes de la barre latérale | Finder
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Taille des icônes de la barre latérale
-  - name: 'description'
-    content: 'Personnaliser la taille des icônes dans la barre latérale du Finder'
-  - property: 'og:description'
-    content: 'Personnaliser la taille des icônes dans la barre latérale du Finder'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Taille des icônes de la barre latérale

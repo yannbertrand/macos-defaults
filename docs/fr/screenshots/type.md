@@ -1,18 +1,5 @@
 ---
 title: Choisir le format de la capture | Capture d'écran
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Capture d'écran > Choisir le format de la capture
-  - name: 'description'
-    content: "Choisir le format de fichier de l'image dans lequel la capture est enregistrée."
-  - property: 'og:description'
-    content: "Choisir le format de fichier de l'image dans lequel la capture est enregistrée."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Choisir le format de la capture

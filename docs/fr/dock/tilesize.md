@@ -1,18 +1,5 @@
 ---
 title: Taille des icônes | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Taille des icônes
-  - name: 'description'
-    content: 'Paramétrer le taille des icônes du Dock'
-  - property: 'og:description'
-    content: 'Paramétrer le taille des icônes du Dock'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Taille des icônes

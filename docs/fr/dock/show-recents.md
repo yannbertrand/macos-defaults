@@ -1,18 +1,5 @@
 ---
 title: Afficher les Apps récentes | Dock
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Afficher les Apps récentes
-  - name: 'description'
-    content: 'Afficher ou non les applications utilisées récemment dans une section à part.'
-  - property: 'og:description'
-    content: 'Afficher ou non les applications utilisées récemment dans une section à part.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
 ---
 
 # Afficher les Apps récentes
