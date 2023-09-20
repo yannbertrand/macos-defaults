@@ -450,4 +450,10 @@ export default defineConfig({
       },
     ],
   },
+  sitemap: {
+    hostname: 'https://macos-defaults.com',
+    transformItems: (items) => {
+      return items.map((item) => ({ ...item, changefreq: 'weekly' }))
+    },
+  },
 })
