@@ -157,7 +157,7 @@ export default defineConfig({
   },
   themeConfig: {
     siteTitle: 'macOS defaults',
-    logo: '/logo.svg',
+    logo: { src: '/logo.svg', width: 410 / 16, height: 385 / 16 },
     algolia: {
       apiKey: process.env.ALGOLIA_API_KEY || '',
       indexName: process.env.ALGOLIA_INDEX_NAME || '',
