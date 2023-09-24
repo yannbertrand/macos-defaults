@@ -2,6 +2,10 @@
 title: Quitter | Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Quitter
 
 Afficher ou non l'option pour quitter le Finder. Non recommandé.

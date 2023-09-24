@@ -2,6 +2,10 @@
 title: Activer le spring loading dans le Dock | Divers
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Activer le spring loading dans le Dock
 
 Glisser un fichier au dessus d'une icône du Dock et l'application va s'ouvrir. Ne permet de le faire que si l'application n'est pas déjà ouverte. Nous avons réussi à le faire fonctionner sur Aperçu, QuickTime et iWork (Keynote, Pages, Numbers).

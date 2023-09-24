@@ -2,6 +2,10 @@
 title: Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Finder
 
 Le Finder est le gestionnaire de fichier de macOS.

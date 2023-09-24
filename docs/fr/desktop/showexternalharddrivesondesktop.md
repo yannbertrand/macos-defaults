@@ -2,6 +2,10 @@
 title: Disques externes | Bureau
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Disques externes
 
 Masquer les disques externes sur le bureau.

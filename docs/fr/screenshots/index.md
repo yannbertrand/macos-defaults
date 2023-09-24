@@ -2,6 +2,10 @@
 title: Capture d'écran
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Capture d&#x27;écran
 
 Sur un Mac, il est possible de prendre des captures d'écran avec:

@@ -2,6 +2,10 @@
 title: Inclure la date | Capture d'écran
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Inclure la date
 
 Inclure la date et l'heure dans le nom du fichier.

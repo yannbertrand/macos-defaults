@@ -2,6 +2,10 @@
 title: Modifier la fréquence | Moniteur d'activité
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Modifier la fréquence
 
 Modifier la fréquence à laquelle le Moniteur d'activité met à jour ses données, en secondes.

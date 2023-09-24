@@ -2,6 +2,10 @@
 title: Afficher la durée de build | Xcode
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Afficher la durée de build
 
 Afficher la durée de build dans la toolbar en haut de la fenêtre d'Xcode

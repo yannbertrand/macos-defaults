@@ -2,6 +2,10 @@
 title: Ajouter des suffixes dans les Counterparts | Xcode
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Ajouter des suffixes dans les Counterparts
 
 Ajouter des suffixes supplémentaires que Xcode place dans le menu "Related Items > Counterparts".

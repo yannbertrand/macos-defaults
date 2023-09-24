@@ -3,6 +3,10 @@ title: Liste de defaults macOS
 titleTemplate: false
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # macOS `defaults`
 
 Une liste de commandes `defaults` pour macOS avec des exemples ✨

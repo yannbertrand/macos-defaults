@@ -2,6 +2,10 @@
 title: Icône de la barre de titre | Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Icône de la barre de titre
 
 Toujours afficher l'icône du dossier avant le titre dans la barre de titre.

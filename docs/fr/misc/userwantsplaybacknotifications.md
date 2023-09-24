@@ -2,6 +2,10 @@
 title: Afficher les notifications de Musique | Divers
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Afficher les notifications de Musique
 
 Afficher une notification lorsqu'une nouvelle chanson commence dans l'application Musique.

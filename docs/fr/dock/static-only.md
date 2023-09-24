@@ -2,6 +2,10 @@
 title: Seulement les applications actives | Dock
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Seulement les applications actives
 
 Afficher dans le Dock uniquement les applications ouvertes.

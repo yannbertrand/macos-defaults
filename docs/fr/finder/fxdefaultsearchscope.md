@@ -2,6 +2,10 @@
 title: Portée des recherches | Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Portée des recherches
 
 Définir la portée par défaut des recherche.

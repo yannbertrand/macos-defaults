@@ -2,6 +2,10 @@
 title: Bureau
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Bureau
 
 Le bureau est une partie du Finder, il affiche les fichiers et les icônes par dessus le fond d'écran.

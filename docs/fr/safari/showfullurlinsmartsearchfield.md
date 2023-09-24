@@ -2,6 +2,10 @@
 title: Afficher l'URL complète | Safari
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Afficher l'URL complète
 
 Afficher l'adresse des sites web en entier.

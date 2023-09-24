@@ -2,6 +2,10 @@
 title: Style de présentation par défaut | Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Style de présentation par défaut
 
 Définir le style d'affichage par défaut des dossiers sans réglage spécifique.

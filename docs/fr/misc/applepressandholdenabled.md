@@ -2,6 +2,10 @@
 title: Comportement touche maintenue enfoncée | Divers
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Comportement touche maintenue enfoncée
 
 Permet de choisir le comportement lorsque l'on maintient une touche enfoncée. Les deux comportements possibles sont:

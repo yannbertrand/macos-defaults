@@ -2,6 +2,10 @@
 title: Faire clignoter les séparateurs de l'horloge | Barre des menus
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Faire clignoter les séparateurs de l'horloge
 
 Permet de faire clignoter ou non les séparateurs de l'horloge numérique (par défaut, ce sont des deux points).

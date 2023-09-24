@@ -2,6 +2,10 @@
 title: Définir le format de document par défaut | TextEdit
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Définir le format de document par défaut
 
 Définir le format de document par défaut comme texte enrichi (.rtf) ou texte brut (.txt).

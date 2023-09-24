@@ -2,6 +2,10 @@
 title: Sauvegarder sur le disque ou dans iCloud par défaut | Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Sauvegarder sur le disque ou dans iCloud par défaut
 
 Définir si l'emplacement de sauvegarde par défaut est sur le disque ou dans iCloud

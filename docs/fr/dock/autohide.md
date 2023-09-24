@@ -2,6 +2,10 @@
 title: Caché automatiquement | Dock
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Caché automatiquement
 
 Cacher le Dock automatiquement. Vous pouvez afficher/cacher le Dock avec `⌥ alt`+`⌘ cmd`+`d`.

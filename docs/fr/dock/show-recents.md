@@ -2,6 +2,10 @@
 title: Afficher les Apps récentes | Dock
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Afficher les Apps récentes
 
 Afficher ou non les applications utilisées récemment dans une section à part.

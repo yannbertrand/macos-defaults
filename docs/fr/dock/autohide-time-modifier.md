@@ -2,6 +2,10 @@
 title: Durée de l'animation d'affichage | Dock
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Durée de l'animation d'affichage
 
 Changer la durée d'animation d'affichage et de cachage du Dock.

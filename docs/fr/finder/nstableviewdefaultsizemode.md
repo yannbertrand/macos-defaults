@@ -2,6 +2,10 @@
 title: Taille des icônes de la barre latérale | Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Taille des icônes de la barre latérale
 
 Personnaliser la taille des icônes dans la barre latérale du Finder

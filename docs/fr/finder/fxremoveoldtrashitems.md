@@ -2,6 +2,10 @@
 title: Vider la corbeille automatiquement | Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Vider la corbeille automatiquement
 
 Supprimer automatiquement les éléments se trouvant dans la corbeille depuis plus de 30 jours.

@@ -2,6 +2,10 @@
 title: Collecte automatique | Assistant d'évaluation
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Collecte automatique
 
 Collecter automatiquement des larges fichiers lors de la soumission de compte rendu.

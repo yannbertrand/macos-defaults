@@ -2,6 +2,10 @@
 title: Focus du Terminal au survol | Divers
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Focus du Terminal au survol
 
 Focus des fenêtres du Terminal au survol du curseur de la souris.

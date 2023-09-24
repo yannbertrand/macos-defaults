@@ -2,6 +2,10 @@
 title: Laisser les dossiers en haut | Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Laisser les dossiers en haut
 
 Laisser les dossiers en haut lors d'un tri par nom.

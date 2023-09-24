@@ -2,6 +2,10 @@
 title: Format de date et heure | Barre des menus
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Format de date et heure
 
 Ce paramètre permet de préciser le format de date et heure de la barre de menus.

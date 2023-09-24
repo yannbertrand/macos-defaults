@@ -2,6 +2,10 @@
 title: Barre du chemin d'accès | Finder
 ---
 
+::: warning Attention
+La langue française n'est plus supportée sur macos-defaults.com. Cette page redirigera automatiquement vers la version anglaise correspondante en 2024.
+:::
+
 # Barre du chemin d'accès
 
 Afficher la barre du chemin d'accès en bas de la fenêtre du Finder.
