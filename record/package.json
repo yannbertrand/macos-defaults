@@ -21,7 +21,7 @@
     "glob": "^9",
     "glob-promise": "6.0.3",
     "jimp": "0.22.10",
-    "mkdirp": "^2",
+    "mkdirp": "^3.0.0",
     "node-pngquant-native": "2.2.0",
     "prettier": "^2.8.8",
     "prompt-confirm": "2.0.4",
