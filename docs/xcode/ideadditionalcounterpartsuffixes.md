@@ -1,18 +1,13 @@
 ---
-metaTitle: Add Additional Counterpart Suffixes | Xcode | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Xcode > Add Additional Counterpart Suffixes
-  - name: 'description'
-    content: 'Add additional counterpart suffixes that Xcode should consider in the &quot;Related Items > Counterparts&quot; menu.'
-  - property: 'og:description'
-    content: 'Add additional counterpart suffixes that Xcode should consider in the &quot;Related Items > Counterparts&quot; menu.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Add Additional Counterpart Suffixes | Xcode
+description: Add additional counterpart suffixes that Xcode should consider in the "Related Items > Counterparts" menu.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Xcode > Add Additional Counterpart Suffixes
+  - - meta
+    - property: 'og:description'
+      content: Add additional counterpart suffixes that Xcode should consider in the "Related Items > Counterparts" menu.
 ---
 
 # Add Additional Counterpart Suffixes

@@ -2,28 +2,23 @@
   "private": true,
   "name": "macos-defaults-production-builder",
   "version": "2.0.0",
-  "main": "build.js",
+  "type": "module",
   "scripts": {
-    "clean": "rimraf dist*",
+    "clean": "rimraf docs/.vitepress/cache docs/.vitepress/dist",
     "build": "yarn build:prod",
-    "build:prod": "vuepress build docs --dest dist",
-    "start": "vuepress dev docs",
-    "test": "yarn lint",
+    "build:prod": "vitepress build docs --dest dist",
+    "start": "vitepress dev docs",
+    "preview": "vitepress preview docs",
     "format": "prettier --write .",
     "lint": "prettier --check ."
   },
   "license": "MIT",
   "dependencies": {
-    "vuepress": "1.9.10",
-    "vuepress-plugin-sitemap": "2.3.1"
+    "vitepress": "^1.0.0-rc.20"
   },
   "devDependencies": {
     "@netlify/plugin-lighthouse": "5.0.0",
-    "netlify-plugin-minify-html": "0.3.1",
     "prettier": "^2.8.8",
     "rimraf": "5.0.1"
-  },
-  "resolutions": {
-    "vuepress/@vuepress/core/@vuepress/markdown/markdown-it": "13.0.1"
   }
 }

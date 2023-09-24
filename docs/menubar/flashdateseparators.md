@@ -1,18 +1,13 @@
 ---
-metaTitle: Flash clock time separators | Menu Bar | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Menu Bar > Flash clock time separators
-  - name: 'description'
-    content: 'When enabled, the clock indicator (which by default is the colon) will flash on and off each second.'
-  - property: 'og:description'
-    content: 'When enabled, the clock indicator (which by default is the colon) will flash on and off each second.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Flash clock time separators | Menu Bar
+description: When enabled, the clock indicator (which by default is the colon) will flash on and off each second.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Menu Bar > Flash clock time separators
+  - - meta
+    - property: 'og:description'
+      content: When enabled, the clock indicator (which by default is the colon) will flash on and off each second.
 ---
 
 # Flash clock time separators
@@ -38,7 +33,7 @@ defaults write com.apple.menuextra.clock "FlashDateSeparators" -bool "false" && 
 ```
 
 <video autoplay loop muted playsinline width="727" height="40" style="max-width: 100%; height: auto">
-  <source src="../../images/menubar/FlashDateSeparators/false.mp4" type="video/mp4">
+  <source src="./images/FlashDateSeparators/false.mp4" type="video/mp4">
   Example output with value set to false
 </video>
 
@@ -51,7 +46,7 @@ defaults write com.apple.menuextra.clock "FlashDateSeparators" -bool "true" && k
 ```
 
 <video autoplay loop muted playsinline width="727" height="40" style="max-width: 100%; height: auto">
-  <source src="../../images/menubar/FlashDateSeparators/true.mp4" type="video/mp4">
+  <source src="./images/FlashDateSeparators/true.mp4" type="video/mp4">
   Example output with value set to true
 </video>
 

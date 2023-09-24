@@ -1,18 +1,5 @@
 ---
-metaTitle: Définir le format de document par défaut | TextEdit | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > TextEdit > Définir le format de document par défaut
-  - name: 'description'
-    content: 'Définir le format de document par défaut comme texte enrichi (.rtf) ou texte brut (.txt).'
-  - property: 'og:description'
-    content: 'Définir le format de document par défaut comme texte enrichi (.rtf) ou texte brut (.txt).'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Définir le format de document par défaut | TextEdit
 ---
 
 # Définir le format de document par défaut
@@ -36,7 +23,7 @@ defaults write com.apple.TextEdit "RichText" -bool "true" && killall TextEdit
 ```
 
 <img
-  src="../../../images/textedit/RichText/true.png"
+  src="../../textedit/images/RichText/true.png"
   alt="Exemple avec la valeur true"
   width="740" height="451" style="height: auto"
 />
@@ -50,7 +37,7 @@ defaults write com.apple.TextEdit "RichText" -bool "false" && killall TextEdit
 ```
 
 <img
-  src="../../../images/textedit/RichText/false.png"
+  src="../../textedit/images/RichText/false.png"
   alt="Exemple avec la valeur false"
   width="740" height="451" style="height: auto"
 />

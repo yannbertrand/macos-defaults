@@ -1,18 +1,13 @@
 ---
-metaTitle: Path bar | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Path bar
-  - name: 'description'
-    content: 'Show path bar in the bottom of the Finder windows'
-  - property: 'og:description'
-    content: 'Show path bar in the bottom of the Finder windows'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Path bar | Finder
+description: Show path bar in the bottom of the Finder windows
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Path bar
+  - - meta
+    - property: 'og:description'
+      content: Show path bar in the bottom of the Finder windows
 ---
 
 # Path bar
@@ -36,7 +31,7 @@ defaults write com.apple.finder "ShowPathbar" -bool "true" && killall Finder
 ```
 
 <img
-  src="../../images/finder/ShowPathbar/true.png"
+  src="./images/ShowPathbar/true.png"
   alt="Example output with value set to true"
   width="740" height="451" style="height: auto"
 />
@@ -50,7 +45,7 @@ defaults write com.apple.finder "ShowPathbar" -bool "false" && killall Finder
 ```
 
 <img
-  src="../../images/finder/ShowPathbar/false.png"
+  src="./images/ShowPathbar/false.png"
   alt="Example output with value set to false"
   width="740" height="451" style="height: auto"
 />

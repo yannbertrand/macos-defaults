@@ -1,18 +1,5 @@
 ---
-metaTitle: Disques externes | Bureau | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Bureau > Disques externes
-  - name: 'description'
-    content: 'Masquer les disques externes sur le bureau.'
-  - property: 'og:description'
-    content: 'Masquer les disques externes sur le bureau.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Disques externes | Bureau
 ---
 
 # Disques externes

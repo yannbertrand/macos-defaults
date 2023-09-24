@@ -1,18 +1,5 @@
 ---
-metaTitle: Alerte au changement d'extension | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Alerte au changement d'extension
-  - name: 'description'
-    content: 'Choisir si il faut afficher une alerte au changement de format de fichier ou non.'
-  - property: 'og:description'
-    content: 'Choisir si il faut afficher une alerte au changement de format de fichier ou non.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Alerte au changement d'extension | Finder
 ---
 
 # Alerte au changement d'extension
@@ -38,7 +25,7 @@ defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "true" &&
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/finder/FXEnableExtensionChangeWarning/true.mp4" type="video/mp4">
+  <source src="../../finder/images/FXEnableExtensionChangeWarning/true.mp4" type="video/mp4">
   Exemple avec la valeur true
 </video>
 
@@ -51,7 +38,7 @@ defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "false" &
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/finder/FXEnableExtensionChangeWarning/false.mp4" type="video/mp4">
+  <source src="../../finder/images/FXEnableExtensionChangeWarning/false.mp4" type="video/mp4">
   Exemple avec la valeur false
 </video>
 

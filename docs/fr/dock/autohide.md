@@ -1,18 +1,5 @@
 ---
-metaTitle: Caché automatiquement | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Caché automatiquement
-  - name: 'description'
-    content: 'Cacher le Dock automatiquement. Vous pouvez afficher/cacher le Dock avec `⌥ alt`+`⌘ cmd`+`d`.'
-  - property: 'og:description'
-    content: 'Cacher le Dock automatiquement. Vous pouvez afficher/cacher le Dock avec `⌥ alt`+`⌘ cmd`+`d`.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Caché automatiquement | Dock
 ---
 
 # Caché automatiquement

@@ -1,18 +1,5 @@
 ---
-metaTitle: Afficher les Apps récentes | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Afficher les Apps récentes
-  - name: 'description'
-    content: 'Afficher ou non les applications utilisées récemment dans une section à part.'
-  - property: 'og:description'
-    content: 'Afficher ou non les applications utilisées récemment dans une section à part.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Afficher les Apps récentes | Dock
 ---
 
 # Afficher les Apps récentes
@@ -38,7 +25,7 @@ defaults write com.apple.dock "show-recents" -bool "true" && killall Dock
 ```
 
 <img
-  src="../../../images/dock/show-recents/true.png"
+  src="../../dock/images/show-recents/true.png"
   alt="Exemple avec la valeur true"
   width="740" height="82" style="height: auto"
 />
@@ -52,7 +39,7 @@ defaults write com.apple.dock "show-recents" -bool "false" && killall Dock
 ```
 
 <img
-  src="../../../images/dock/show-recents/false.png"
+  src="../../dock/images/show-recents/false.png"
   alt="Exemple avec la valeur false"
   width="740" height="82" style="height: auto"
 />

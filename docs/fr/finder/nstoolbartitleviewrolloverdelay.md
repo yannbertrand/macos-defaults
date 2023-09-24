@@ -1,18 +1,5 @@
 ---
-metaTitle: Délai au survol du titre | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Délai au survol du titre
-  - name: 'description'
-    content: "Choisir le délai d'affichage du titre complet."
-  - property: 'og:description'
-    content: "Choisir le délai d'affichage du titre complet."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Délai au survol du titre | Finder
 ---
 
 # Délai au survol du titre
@@ -29,7 +16,7 @@ Choisir le délai d'affichage du titre complet.
 
 ## Prérequis
 
-- [`com.apple.universalaccess showWindowTitlebarIcons`](../../fr/finder/showWindowTitlebarIcons.html#avec-la-valeur-false) doit avoir la valeur `false`
+- [`com.apple.universalaccess showWindowTitlebarIcons`](/fr/finder/showwindowtitlebaricons.md#avec-la-valeur-false-par-defaut) doit avoir la valeur `false`
 
 ## Avec la valeur `0.5` (par défaut)
 
@@ -40,7 +27,7 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "0.5" && 
 ```
 
 <video autoplay loop muted playsinline width="741" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/finder/NSToolbarTitleViewRolloverDelay/0.5.mp4" type="video/mp4">
+  <source src="../../finder/images/NSToolbarTitleViewRolloverDelay/0.5.mp4" type="video/mp4">
   Exemple avec la valeur 0.5
 </video>
 
@@ -53,7 +40,7 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "0" && ki
 ```
 
 <video autoplay loop muted playsinline width="741" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/finder/NSToolbarTitleViewRolloverDelay/0.mp4" type="video/mp4">
+  <source src="../../finder/images/NSToolbarTitleViewRolloverDelay/0.mp4" type="video/mp4">
   Exemple avec la valeur 0
 </video>
 
@@ -66,7 +53,7 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "1" && ki
 ```
 
 <video autoplay loop muted playsinline width="741" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/finder/NSToolbarTitleViewRolloverDelay/1.mp4" type="video/mp4">
+  <source src="../../finder/images/NSToolbarTitleViewRolloverDelay/1.mp4" type="video/mp4">
   Exemple avec la valeur 1
 </video>
 

@@ -1,18 +1,5 @@
 ---
-metaTitle: Taille des icônes de la barre latérale | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Taille des icônes de la barre latérale
-  - name: 'description'
-    content: 'Personnaliser la taille des icônes dans la barre latérale du Finder'
-  - property: 'og:description'
-    content: 'Personnaliser la taille des icônes dans la barre latérale du Finder'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Taille des icônes de la barre latérale | Finder
 ---
 
 # Taille des icônes de la barre latérale
@@ -37,7 +24,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "1" && killall F
 ```
 
 <img
-  src="../../../images/finder/NSTableViewDefaultSizeMode/1.png"
+  src="../../finder/images/NSTableViewDefaultSizeMode/1.png"
   alt="Exemple avec la valeur 1"
   width="740" height="415" style="height: auto"
 />
@@ -51,7 +38,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "2" && killall F
 ```
 
 <img
-  src="../../../images/finder/NSTableViewDefaultSizeMode/2.png"
+  src="../../finder/images/NSTableViewDefaultSizeMode/2.png"
   alt="Exemple avec la valeur 2"
   width="740" height="415" style="height: auto"
 />
@@ -65,7 +52,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "3" && killall F
 ```
 
 <img
-  src="../../../images/finder/NSTableViewDefaultSizeMode/3.png"
+  src="../../finder/images/NSTableViewDefaultSizeMode/3.png"
   alt="Exemple avec la valeur 3"
   width="740" height="415" style="height: auto"
 />

@@ -1,18 +1,13 @@
 ---
-metaTitle: Display thumbnail | Screenshots | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Screenshots > Display thumbnail
-  - name: 'description'
-    content: 'Choose whether to display a thumbnail after taking a screenshot.'
-  - property: 'og:description'
-    content: 'Choose whether to display a thumbnail after taking a screenshot.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Display thumbnail | Screenshots
+description: Choose whether to display a thumbnail after taking a screenshot.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Screenshots > Display thumbnail
+  - - meta
+    - property: 'og:description'
+      content: Choose whether to display a thumbnail after taking a screenshot.
 ---
 
 # Display thumbnail

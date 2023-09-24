@@ -1,18 +1,13 @@
 ---
-metaTitle: Active applications only | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Active applications only
-  - name: 'description'
-    content: "Only show opened apps in Dock.\n\n⚠️ Beware this command empties your Dock.\n"
-  - property: 'og:description'
-    content: "Only show opened apps in Dock.\n\n⚠️ Beware this command empties your Dock.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Active applications only | Dock
+description: Only show opened apps in Dock.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Active applications only
+  - - meta
+    - property: 'og:description'
+      content: Only show opened apps in Dock.
 ---
 
 # Active applications only

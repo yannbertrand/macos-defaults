@@ -1,18 +1,13 @@
 ---
-metaTitle: Show Music song notifications | Miscellaneous | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Miscellaneous > Show Music song notifications
-  - name: 'description'
-    content: 'Display a notification when a new song starts in the Music app.'
-  - property: 'og:description'
-    content: 'Display a notification when a new song starts in the Music app.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Show Music song notifications | Miscellaneous
+description: Display a notification when a new song starts in the Music app.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Miscellaneous > Show Music song notifications
+  - - meta
+    - property: 'og:description'
+      content: Display a notification when a new song starts in the Music app.
 ---
 
 # Show Music song notifications

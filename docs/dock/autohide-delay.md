@@ -1,18 +1,13 @@
 ---
-metaTitle: Autohide delay | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Autohide delay
-  - name: 'description'
-    content: 'Change the Dock opening delay.'
-  - property: 'og:description'
-    content: 'Change the Dock opening delay.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Autohide delay | Dock
+description: Change the Dock opening delay.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Autohide delay
+  - - meta
+    - property: 'og:description'
+      content: Change the Dock opening delay.
 ---
 
 # Autohide delay
@@ -31,7 +26,7 @@ Change the Dock opening delay.
 
 ## Requirements
 
-- [`com.apple.dock autohide`](../../dock/autohide.html#set-to-true) must be set to `true`
+- [`com.apple.dock autohide`](/dock/autohide.md#set-to-true) must be set to `true`
 
 ## Set to `0.2` (default value)
 
@@ -42,7 +37,7 @@ defaults write com.apple.dock "autohide-delay" -float "0.2" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="../../images/dock/autohide-delay/0.5.mp4" type="video/mp4">
+  <source src="./images/autohide-delay/0.5.mp4" type="video/mp4">
   Example output with value set to 0.2
 </video>
 
@@ -55,7 +50,7 @@ defaults write com.apple.dock "autohide-delay" -float "0" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="../../images/dock/autohide-delay/0.mp4" type="video/mp4">
+  <source src="./images/autohide-delay/0.mp4" type="video/mp4">
   Example output with value set to 0
 </video>
 

@@ -1,18 +1,5 @@
 ---
-metaTitle: Focus du Terminal au survol | Divers | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Divers > Focus du Terminal au survol
-  - name: 'description'
-    content: "Focus des fenêtres du Terminal au survol du curseur de la souris.\nLe changement de focus ne fonctionne qu'entre les fenêtres du Terminal.\n"
-  - property: 'og:description'
-    content: "Focus des fenêtres du Terminal au survol du curseur de la souris.\nLe changement de focus ne fonctionne qu'entre les fenêtres du Terminal.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Focus du Terminal au survol | Divers
 ---
 
 # Focus du Terminal au survol
@@ -37,7 +24,7 @@ defaults write com.apple.Terminal "FocusFollowsMouse" -bool "false" && killall T
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/misc/FocusFollowsMouse/false.mp4" type="video/mp4">
+  <source src="../../misc/images/FocusFollowsMouse/false.mp4" type="video/mp4">
   Exemple avec la valeur false
 </video>
 
@@ -50,7 +37,7 @@ defaults write com.apple.Terminal "FocusFollowsMouse" -bool "true" && killall Te
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../../images/misc/FocusFollowsMouse/true.mp4" type="video/mp4">
+  <source src="../../misc/images/FocusFollowsMouse/true.mp4" type="video/mp4">
   Exemple avec la valeur true
 </video>
 

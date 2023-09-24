@@ -1,18 +1,5 @@
 ---
-metaTitle: Inclure la date | Capture d'écran | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Capture d'écran > Inclure la date
-  - name: 'description'
-    content: "Inclure la date et l'heure dans le nom du fichier."
-  - property: 'og:description'
-    content: "Inclure la date et l'heure dans le nom du fichier."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Inclure la date | Capture d'écran
 ---
 
 # Inclure la date

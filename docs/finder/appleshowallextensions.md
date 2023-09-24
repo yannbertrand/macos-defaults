@@ -1,18 +1,13 @@
 ---
-metaTitle: Show extensions | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Show extensions
-  - name: 'description'
-    content: 'Show all file extensions in the Finder.'
-  - property: 'og:description'
-    content: 'Show all file extensions in the Finder.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Show extensions | Finder
+description: Show all file extensions in the Finder.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Show extensions
+  - - meta
+    - property: 'og:description'
+      content: Show all file extensions in the Finder.
 ---
 
 # Show extensions

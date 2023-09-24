@@ -1,18 +1,5 @@
 ---
-metaTitle: Icône du Dock | Moniteur d'activité | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Moniteur d'activité > Icône du Dock
-  - name: 'description'
-    content: "Choisir quelles informations sont à afficher dans l'icône lorsqu'elle est dans le Dock."
-  - property: 'og:description'
-    content: "Choisir quelles informations sont à afficher dans l'icône lorsqu'elle est dans le Dock."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Icône du Dock | Moniteur d'activité
 ---
 
 # Icône du Dock

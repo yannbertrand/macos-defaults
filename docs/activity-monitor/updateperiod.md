@@ -1,18 +1,13 @@
 ---
-metaTitle: Update Frequency | Activity Monitor | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Activity Monitor > Update Frequency
-  - name: 'description'
-    content: 'How frequently Activity Monitor should update its data, in seconds.'
-  - property: 'og:description'
-    content: 'How frequently Activity Monitor should update its data, in seconds.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Update Frequency | Activity Monitor
+description: How frequently Activity Monitor should update its data, in seconds.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Activity Monitor > Update Frequency
+  - - meta
+    - property: 'og:description'
+      content: How frequently Activity Monitor should update its data, in seconds.
 ---
 
 # Update Frequency

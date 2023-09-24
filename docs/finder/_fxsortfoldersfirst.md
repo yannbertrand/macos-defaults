@@ -1,18 +1,13 @@
 ---
-metaTitle: Keep folders on top | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Keep folders on top
-  - name: 'description'
-    content: 'Keep folders on top when sorting by name'
-  - property: 'og:description'
-    content: 'Keep folders on top when sorting by name'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Keep folders on top | Finder
+description: Keep folders on top when sorting by name
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Keep folders on top
+  - - meta
+    - property: 'og:description'
+      content: Keep folders on top when sorting by name
 ---
 
 # Keep folders on top
@@ -36,7 +31,7 @@ defaults write com.apple.finder "_FXSortFoldersFirst" -bool "true" && killall Fi
 ```
 
 <img
-  src="../../images/finder/_FXSortFoldersFirst/true.png"
+  src="./images/_FXSortFoldersFirst/true.png"
   alt="Example output with value set to true"
   width="740" height="400" style="height: auto"
 />
@@ -50,7 +45,7 @@ defaults write com.apple.finder "_FXSortFoldersFirst" -bool "false" && killall F
 ```
 
 <img
-  src="../../images/finder/_FXSortFoldersFirst/false.png"
+  src="./images/_FXSortFoldersFirst/false.png"
   alt="Example output with value set to false"
   width="740" height="400" style="height: auto"
 />

@@ -1,18 +1,13 @@
 ---
-metaTitle: Adjust toolbar title rollover delay | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Adjust toolbar title rollover delay
-  - name: 'description'
-    content: 'Choose the delay of the auto-hidden document-proxy icon.'
-  - property: 'og:description'
-    content: 'Choose the delay of the auto-hidden document-proxy icon.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Adjust toolbar title rollover delay | Finder
+description: Choose the delay of the auto-hidden document-proxy icon.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Adjust toolbar title rollover delay
+  - - meta
+    - property: 'og:description'
+      content: Choose the delay of the auto-hidden document-proxy icon.
 ---
 
 # Adjust toolbar title rollover delay
@@ -29,7 +24,7 @@ Choose the delay of the auto-hidden document-proxy icon.
 
 ## Requirements
 
-- [`com.apple.universalaccess showWindowTitlebarIcons`](../../finder/showWindowTitlebarIcons.html#set-to-false-default-value) must be set to `false`
+- [`com.apple.universalaccess showWindowTitlebarIcons`](/finder/showwindowtitlebaricons.md#set-to-false-default-value) must be set to `false`
 
 ## Set to `0.5` (default value)
 
@@ -40,7 +35,7 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "0.5" && 
 ```
 
 <video autoplay loop muted playsinline width="741" height="416" style="max-width: 100%; height: auto">
-  <source src="../../images/finder/NSToolbarTitleViewRolloverDelay/0.5.mp4" type="video/mp4">
+  <source src="./images/NSToolbarTitleViewRolloverDelay/0.5.mp4" type="video/mp4">
   Example output with value set to 0.5
 </video>
 
@@ -53,7 +48,7 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "0" && ki
 ```
 
 <video autoplay loop muted playsinline width="741" height="416" style="max-width: 100%; height: auto">
-  <source src="../../images/finder/NSToolbarTitleViewRolloverDelay/0.mp4" type="video/mp4">
+  <source src="./images/NSToolbarTitleViewRolloverDelay/0.mp4" type="video/mp4">
   Example output with value set to 0
 </video>
 
@@ -66,7 +61,7 @@ defaults write NSGlobalDomain "NSToolbarTitleViewRolloverDelay" -float "1" && ki
 ```
 
 <video autoplay loop muted playsinline width="741" height="416" style="max-width: 100%; height: auto">
-  <source src="../../images/finder/NSToolbarTitleViewRolloverDelay/1.mp4" type="video/mp4">
+  <source src="./images/NSToolbarTitleViewRolloverDelay/1.mp4" type="video/mp4">
   Example output with value set to 1
 </video>
 

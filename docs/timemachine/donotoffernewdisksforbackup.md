@@ -1,18 +1,13 @@
 ---
-metaTitle: Don't offer new disks for Time Machine backup | Time Machine | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Time Machine > Don't offer new disks for Time Machine backup
-  - name: 'description'
-    content: 'Prevent Time Machine from prompting to use newly connected storage as backup volumes.'
-  - property: 'og:description'
-    content: 'Prevent Time Machine from prompting to use newly connected storage as backup volumes.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Don't offer new disks for Time Machine backup | Time Machine
+description: Prevent Time Machine from prompting to use newly connected storage as backup volumes.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Time Machine > Don't offer new disks for Time Machine backup
+  - - meta
+    - property: 'og:description'
+      content: Prevent Time Machine from prompting to use newly connected storage as backup volumes.
 ---
 
 # Don't offer new disks for Time Machine backup

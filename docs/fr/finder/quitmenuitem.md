@@ -1,18 +1,5 @@
 ---
-metaTitle: Quitter | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Quitter
-  - name: 'description'
-    content: "Afficher ou non l'option pour quitter le Finder. Non recommandé."
-  - property: 'og:description'
-    content: "Afficher ou non l'option pour quitter le Finder. Non recommandé."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Quitter | Finder
 ---
 
 # Quitter

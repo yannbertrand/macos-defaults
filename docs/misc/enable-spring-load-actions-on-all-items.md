@@ -1,18 +1,13 @@
 ---
-metaTitle: Enable spring loading for all Dock items | Miscellaneous | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Miscellaneous > Enable spring loading for all Dock items
-  - name: 'description'
-    content: 'Drag a file over an icon in the Dock, hover, and the application will open. The behaviour is unchanged if the app is already open. This behaviour has been observed with Preview, Quicktime, and iWork (Keynote, Pages, Numbers).'
-  - property: 'og:description'
-    content: 'Drag a file over an icon in the Dock, hover, and the application will open. The behaviour is unchanged if the app is already open. This behaviour has been observed with Preview, Quicktime, and iWork (Keynote, Pages, Numbers).'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Enable spring loading for all Dock items | Miscellaneous
+description: Drag a file over an icon in the Dock, hover, and the application will open. The behaviour is unchanged if the app is already open. This behaviour has been observed with Preview, Quicktime, and iWork (Keynote, Pages, Numbers).
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Miscellaneous > Enable spring loading for all Dock items
+  - - meta
+    - property: 'og:description'
+      content: Drag a file over an icon in the Dock, hover, and the application will open. The behaviour is unchanged if the app is already open. This behaviour has been observed with Preview, Quicktime, and iWork (Keynote, Pages, Numbers).
 ---
 
 # Enable spring loading for all Dock items

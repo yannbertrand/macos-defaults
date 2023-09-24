@@ -1,18 +1,13 @@
 ---
-metaTitle: Help Menu position | Miscellaneous | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Miscellaneous > Help Menu position
-  - name: 'description'
-    content: 'Choose whether the Help Menu should be always-on-top.'
-  - property: 'og:description'
-    content: 'Choose whether the Help Menu should be always-on-top.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Help Menu position | Miscellaneous
+description: Choose whether the Help Menu should be always-on-top.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Miscellaneous > Help Menu position
+  - - meta
+    - property: 'og:description'
+      content: Choose whether the Help Menu should be always-on-top.
 ---
 
 # Help Menu position

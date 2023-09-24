@@ -1,18 +1,13 @@
 ---
-metaTitle: Focus Follows Mouse | Miscellaneous | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Miscellaneous > Focus Follows Mouse
-  - name: 'description'
-    content: "Focus of the Terminal windows when the mouse cursor hovers over them.\nThe focus change only works between the Terminal windows.\n"
-  - property: 'og:description'
-    content: "Focus of the Terminal windows when the mouse cursor hovers over them.\nThe focus change only works between the Terminal windows.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Focus Follows Mouse | Miscellaneous
+description: Focus of the Terminal windows when the mouse cursor hovers over them. The focus change only works between the Terminal windows.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Miscellaneous > Focus Follows Mouse
+  - - meta
+    - property: 'og:description'
+      content: Focus of the Terminal windows when the mouse cursor hovers over them. The focus change only works between the Terminal windows.
 ---
 
 # Focus Follows Mouse
@@ -36,7 +31,7 @@ defaults write com.apple.Terminal "FocusFollowsMouse" -bool "false" && killall T
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../images/misc/FocusFollowsMouse/false.mp4" type="video/mp4">
+  <source src="./images/FocusFollowsMouse/false.mp4" type="video/mp4">
   Example output with value set to false
 </video>
 
@@ -49,7 +44,7 @@ defaults write com.apple.Terminal "FocusFollowsMouse" -bool "true" && killall Te
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../images/misc/FocusFollowsMouse/true.mp4" type="video/mp4">
+  <source src="./images/FocusFollowsMouse/true.mp4" type="video/mp4">
   Example output with value set to true
 </video>
 

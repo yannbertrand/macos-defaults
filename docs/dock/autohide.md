@@ -1,18 +1,13 @@
 ---
-metaTitle: Autohide | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Autohide
-  - name: 'description'
-    content: 'Autohides the Dock. You can toggle the Dock using `⌥ alt`+`⌘ cmd`+`d`.'
-  - property: 'og:description'
-    content: 'Autohides the Dock. You can toggle the Dock using `⌥ alt`+`⌘ cmd`+`d`.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Autohide | Dock
+description: Autohides the Dock. You can toggle the Dock using `⌥ alt`+`⌘ cmd`+`d`.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Autohide
+  - - meta
+    - property: 'og:description'
+      content: Autohides the Dock. You can toggle the Dock using `⌥ alt`+`⌘ cmd`+`d`.
 ---
 
 # Autohide

@@ -1,18 +1,5 @@
 ---
-metaTitle: Animation de minimisation | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Animation de minimisation
-  - name: 'description'
-    content: "Changer le style d'animation de minimisation des applications."
-  - property: 'og:description'
-    content: "Changer le style d'animation de minimisation des applications."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Animation de minimisation | Dock
 ---
 
 # Animation de minimisation
@@ -34,7 +21,7 @@ Changer le style d'animation de minimisation des applications.
 
 ## Prérequis
 
-- [`com.apple.dock autohide`](../../fr/dock/autohide.html#avec-la-valeur-true) doit avoir la valeur `true`
+- [`com.apple.dock autohide`](/fr/dock/autohide.md#avec-la-valeur-true) doit avoir la valeur `true`
 
 ## Avec la valeur `genie` (par défaut)
 
@@ -43,7 +30,7 @@ defaults write com.apple.dock "mineffect" -string "genie" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="740" height="740" style="max-width: 100%; height: auto">
-  <source src="../../../images/dock/mineffect/genie.mp4" type="video/mp4">
+  <source src="../../dock/images/mineffect/genie.mp4" type="video/mp4">
   Exemple avec la valeur genie
 </video>
 
@@ -54,7 +41,7 @@ defaults write com.apple.dock "mineffect" -string "scale" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="740" height="740" style="max-width: 100%; height: auto">
-  <source src="../../../images/dock/mineffect/scale.mp4" type="video/mp4">
+  <source src="../../dock/images/mineffect/scale.mp4" type="video/mp4">
   Exemple avec la valeur scale
 </video>
 
@@ -67,7 +54,7 @@ defaults write com.apple.dock "mineffect" -string "suck" && killall Dock
 ```
 
 <video autoplay loop muted playsinline width="740" height="740" style="max-width: 100%; height: auto">
-  <source src="../../../images/dock/mineffect/suck.mp4" type="video/mp4">
+  <source src="../../dock/images/mineffect/suck.mp4" type="video/mp4">
   Exemple avec la valeur suck
 </video>
 

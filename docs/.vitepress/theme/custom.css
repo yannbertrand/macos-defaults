@@ -1,0 +1,23 @@
+:root {
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --vp-font-family-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+
+  --vp-c-brand-1: #004bbd;
+
+  /* Next line should be unnecessary in Vite¨Press next version
+    See https://github.com/vuejs/vitepress/blob/e4f5c51bbe25d42fd52a1cd47e83dda4254fdd7e/src/client/theme-default/styles/vars.css#L210 */
+  --vp-c-brand: var(--vp-c-brand-1);
+
+  --vp-code-lang-color: #717171;
+}
+
+.dark {
+  --vp-c-brand-1: #7ea6e2;
+
+  /* Next line should be unnecessary in Vite¨Press next version
+    See https://github.com/vuejs/vitepress/blob/e4f5c51bbe25d42fd52a1cd47e83dda4254fdd7e/src/client/theme-default/styles/vars.css#L210 */
+  --vp-c-brand: var(--vp-c-brand-1);
+}

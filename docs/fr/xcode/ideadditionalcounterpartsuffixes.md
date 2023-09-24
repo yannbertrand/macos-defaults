@@ -1,18 +1,5 @@
 ---
-metaTitle: Ajouter des suffixes dans les Counterparts | Xcode | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Xcode > Ajouter des suffixes dans les Counterparts
-  - name: 'description'
-    content: 'Ajouter des suffixes supplémentaires que Xcode place dans le menu &quot;Related Items > Counterparts&quot;.'
-  - property: 'og:description'
-    content: 'Ajouter des suffixes supplémentaires que Xcode place dans le menu &quot;Related Items > Counterparts&quot;.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Ajouter des suffixes dans les Counterparts | Xcode
 ---
 
 # Ajouter des suffixes dans les Counterparts

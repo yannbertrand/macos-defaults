@@ -1,18 +1,13 @@
 ---
-metaTitle: All icons | Desktop | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Desktop > All icons
-  - name: 'description'
-    content: 'Hide all icons on desktop'
-  - property: 'og:description'
-    content: 'Hide all icons on desktop'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: All icons | Desktop
+description: Hide all icons on desktop
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Desktop > All icons
+  - - meta
+    - property: 'og:description'
+      content: Hide all icons on desktop
 ---
 
 # All icons

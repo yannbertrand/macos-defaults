@@ -1,18 +1,5 @@
 ---
-metaTitle: Durée de l'animation d'affichage | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Durée de l'animation d'affichage
-  - name: 'description'
-    content: "Changer la durée d'animation d'affichage et de cachage du Dock."
-  - property: 'og:description'
-    content: "Changer la durée d'animation d'affichage et de cachage du Dock."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Durée de l'animation d'affichage | Dock
 ---
 
 # Durée de l'animation d'affichage
@@ -31,7 +18,7 @@ Changer la durée d'animation d'affichage et de cachage du Dock.
 
 ## Prérequis
 
-- [`com.apple.dock autohide`](../../fr/dock/autohide.html#avec-la-valeur-true) doit avoir la valeur `true`
+- [`com.apple.dock autohide`](../../fr/dock/autohide.md#avec-la-valeur-true) doit avoir la valeur `true`
 
 ## Avec la valeur `0.5` (par défaut)
 
@@ -42,7 +29,7 @@ defaults write com.apple.dock "autohide-time-modifier" -float "0.5" && killall D
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="../../../images/dock/autohide-time-modifier/0.5.mp4" type="video/mp4">
+  <source src="../../dock/images/autohide-time-modifier/0.5.mp4" type="video/mp4">
   Exemple avec la valeur 0.5
 </video>
 
@@ -55,7 +42,7 @@ defaults write com.apple.dock "autohide-time-modifier" -float "2" && killall Doc
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="../../../images/dock/autohide-time-modifier/2.mp4" type="video/mp4">
+  <source src="../../dock/images/autohide-time-modifier/2.mp4" type="video/mp4">
   Exemple avec la valeur 2
 </video>
 
@@ -68,7 +55,7 @@ defaults write com.apple.dock "autohide-time-modifier" -float "0" && killall Doc
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="../../../images/dock/autohide-time-modifier/0.mp4" type="video/mp4">
+  <source src="../../dock/images/autohide-time-modifier/0.mp4" type="video/mp4">
   Exemple avec la valeur 0
 </video>
 

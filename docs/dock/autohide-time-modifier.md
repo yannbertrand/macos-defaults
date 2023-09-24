@@ -1,18 +1,13 @@
 ---
-metaTitle: Autohide animation time | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Autohide animation time
-  - name: 'description'
-    content: 'Change the Dock opening and closing animation times.'
-  - property: 'og:description'
-    content: 'Change the Dock opening and closing animation times.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Autohide animation time | Dock
+description: Change the Dock opening and closing animation times.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Autohide animation time
+  - - meta
+    - property: 'og:description'
+      content: Change the Dock opening and closing animation times.
 ---
 
 # Autohide animation time
@@ -31,7 +26,7 @@ Change the Dock opening and closing animation times.
 
 ## Requirements
 
-- [`com.apple.dock autohide`](../../dock/autohide.html#set-to-true) must be set to `true`
+- [`com.apple.dock autohide`](/dock/autohide.md#set-to-true) must be set to `true`
 
 ## Set to `0.5` (default value)
 
@@ -42,7 +37,7 @@ defaults write com.apple.dock "autohide-time-modifier" -float "0.5" && killall D
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="../../images/dock/autohide-time-modifier/0.5.mp4" type="video/mp4">
+  <source src="./images/autohide-time-modifier/0.5.mp4" type="video/mp4">
   Example output with value set to 0.5
 </video>
 
@@ -55,7 +50,7 @@ defaults write com.apple.dock "autohide-time-modifier" -float "2" && killall Doc
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="../../images/dock/autohide-time-modifier/2.mp4" type="video/mp4">
+  <source src="./images/autohide-time-modifier/2.mp4" type="video/mp4">
   Example output with value set to 2
 </video>
 
@@ -68,7 +63,7 @@ defaults write com.apple.dock "autohide-time-modifier" -float "0" && killall Doc
 ```
 
 <video autoplay loop muted playsinline width="742" height="202" style="max-width: 100%; height: auto">
-  <source src="../../images/dock/autohide-time-modifier/0.mp4" type="video/mp4">
+  <source src="./images/autohide-time-modifier/0.mp4" type="video/mp4">
   Example output with value set to 0
 </video>
 

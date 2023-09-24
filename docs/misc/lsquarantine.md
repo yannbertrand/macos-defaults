@@ -1,18 +1,13 @@
 ---
-metaTitle: Disable application quarantine message | Miscellaneous | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Miscellaneous > Disable application quarantine message
-  - name: 'description'
-    content: "Turn off the “Application Downloaded from Internet” quarantine warning.\n\n⚠️ Stopped working on Big Sur.\n"
-  - property: 'og:description'
-    content: "Turn off the “Application Downloaded from Internet” quarantine warning.\n\n⚠️ Stopped working on Big Sur.\n"
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Disable application quarantine message | Miscellaneous
+description: Turn off the “Application Downloaded from Internet” quarantine warning.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Miscellaneous > Disable application quarantine message
+  - - meta
+    - property: 'og:description'
+      content: Turn off the “Application Downloaded from Internet” quarantine warning.
 ---
 
 # Disable application quarantine message

@@ -2,5 +2,6 @@ build
 !docsify
 dist*
 node_modules
+docs/.vitepress/cache
 .DS_Store
 diffs/**

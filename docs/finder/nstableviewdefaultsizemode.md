@@ -1,18 +1,13 @@
 ---
-metaTitle: Set sidebar icon size | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Set sidebar icon size
-  - name: 'description'
-    content: 'Choose the size of Finder sidebar icons'
-  - property: 'og:description'
-    content: 'Choose the size of Finder sidebar icons'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Set sidebar icon size | Finder
+description: Choose the size of Finder sidebar icons
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Set sidebar icon size
+  - - meta
+    - property: 'og:description'
+      content: Choose the size of Finder sidebar icons
 ---
 
 # Set sidebar icon size
@@ -37,7 +32,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "1" && killall F
 ```
 
 <img
-  src="../../images/finder/NSTableViewDefaultSizeMode/1.png"
+  src="./images/NSTableViewDefaultSizeMode/1.png"
   alt="Example output with value set to 1"
   width="740" height="415" style="height: auto"
 />
@@ -51,7 +46,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "2" && killall F
 ```
 
 <img
-  src="../../images/finder/NSTableViewDefaultSizeMode/2.png"
+  src="./images/NSTableViewDefaultSizeMode/2.png"
   alt="Example output with value set to 2"
   width="740" height="415" style="height: auto"
 />
@@ -65,7 +60,7 @@ defaults write NSGlobalDomain "NSTableViewDefaultSizeMode" -int "3" && killall F
 ```
 
 <img
-  src="../../images/finder/NSTableViewDefaultSizeMode/3.png"
+  src="./images/NSTableViewDefaultSizeMode/3.png"
   alt="Example output with value set to 3"
   width="740" height="415" style="height: auto"
 />

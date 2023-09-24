@@ -1,18 +1,5 @@
 ---
-metaTitle: Afficher la vignette | Capture d'écran | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Capture d'écran > Afficher la vignette
-  - name: 'description'
-    content: 'Afficher ou non la vignette après avoir fait une capture.'
-  - property: 'og:description'
-    content: 'Afficher ou non la vignette après avoir fait une capture.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Afficher la vignette | Capture d'écran
 ---
 
 # Afficher la vignette

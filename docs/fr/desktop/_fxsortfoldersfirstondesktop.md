@@ -1,18 +1,5 @@
 ---
-metaTitle: Laisser les dossiers en haut | Bureau | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Bureau > Laisser les dossiers en haut
-  - name: 'description'
-    content: "Laisser les dossiers du bureau en haut lors d'un tri."
-  - property: 'og:description'
-    content: "Laisser les dossiers du bureau en haut lors d'un tri."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Laisser les dossiers en haut | Bureau
 ---
 
 # Laisser les dossiers en haut

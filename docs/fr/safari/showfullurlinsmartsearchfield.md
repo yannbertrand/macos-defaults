@@ -1,18 +1,5 @@
 ---
-metaTitle: Afficher l'URL complète | Safari | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Safari > Afficher l'URL complète
-  - name: 'description'
-    content: "Afficher l'adresse des sites web en entier."
-  - property: 'og:description'
-    content: "Afficher l'adresse des sites web en entier."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Afficher l'URL complète | Safari
 ---
 
 # Afficher l'URL complète
@@ -34,7 +21,7 @@ defaults write com.apple.Safari "ShowFullURLInSmartSearchField" -bool "true" && 
 ```
 
 <img
-  src="../../../images/safari/ShowFullURLInSmartSearchField/true.png"
+  src="../../safari/images/ShowFullURLInSmartSearchField/true.png"
   alt="Exemple avec la valeur true"
   width="740" height="207" style="height: auto"
 />
@@ -48,7 +35,7 @@ defaults write com.apple.Safari "ShowFullURLInSmartSearchField" -bool "false" &&
 ```
 
 <img
-  src="../../../images/safari/ShowFullURLInSmartSearchField/false.png"
+  src="../../safari/images/ShowFullURLInSmartSearchField/false.png"
   alt="Exemple avec la valeur false"
   width="740" height="207" style="height: auto"
 />

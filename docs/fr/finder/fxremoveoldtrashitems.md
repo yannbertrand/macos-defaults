@@ -1,18 +1,5 @@
 ---
-metaTitle: Vider la corbeille automatiquement | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Vider la corbeille automatiquement
-  - name: 'description'
-    content: 'Supprimer automatiquement les éléments se trouvant dans la corbeille depuis plus de 30 jours.'
-  - property: 'og:description'
-    content: 'Supprimer automatiquement les éléments se trouvant dans la corbeille depuis plus de 30 jours.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Vider la corbeille automatiquement | Finder
 ---
 
 # Vider la corbeille automatiquement

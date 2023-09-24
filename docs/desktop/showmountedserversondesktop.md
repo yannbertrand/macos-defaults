@@ -1,18 +1,13 @@
 ---
-metaTitle: Connected servers | Desktop | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Desktop > Connected servers
-  - name: 'description'
-    content: 'Show connected servers on desktop'
-  - property: 'og:description'
-    content: 'Show connected servers on desktop'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Connected servers | Desktop
+description: Show connected servers on desktop
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Desktop > Connected servers
+  - - meta
+    - property: 'og:description'
+      content: Show connected servers on desktop
 ---
 
 # Connected servers

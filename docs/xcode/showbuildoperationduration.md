@@ -1,18 +1,13 @@
 ---
-metaTitle: Show Build Durations | Xcode | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Xcode > Show Build Durations
-  - name: 'description'
-    content: "Show build durations in the Activity Viewer in Xcode's toolbar at the top of the workspace window."
-  - property: 'og:description'
-    content: "Show build durations in the Activity Viewer in Xcode's toolbar at the top of the workspace window."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Show Build Durations | Xcode
+description: Show build durations in the Activity Viewer in Xcode's toolbar at the top of the workspace window.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Xcode > Show Build Durations
+  - - meta
+    - property: 'og:description'
+      content: Show build durations in the Activity Viewer in Xcode's toolbar at the top of the workspace window.
 ---
 
 # Show Build Durations

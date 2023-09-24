@@ -1,18 +1,5 @@
 ---
-metaTitle: Enlever l'ombre | Capture d'écran | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Capture d'écran > Enlever l'ombre
-  - name: 'description'
-    content: "Afficher ou non une ombre en prenant une capture d'une app (`⌘ cmd`+`⇧ shift`+`4` puis `espace`)."
-  - property: 'og:description'
-    content: "Afficher ou non une ombre en prenant une capture d'une app (`⌘ cmd`+`⇧ shift`+`4` puis `espace`)."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Enlever l'ombre | Capture d'écran
 ---
 
 # Enlever l'ombre
@@ -37,7 +24,7 @@ defaults write com.apple.screencapture "disable-shadow" -bool "false"
 ```
 
 <img
-  src="../../../images/screenshots/disable-shadow/false.png"
+  src="../../screenshots/images/disable-shadow/false.png"
   alt="Exemple avec la valeur false"
   width="740" height="574" style="height: auto"
 />
@@ -51,7 +38,7 @@ defaults write com.apple.screencapture "disable-shadow" -bool "true"
 ```
 
 <img
-  src="../../../images/screenshots/disable-shadow/true.png"
+  src="../../screenshots/images/disable-shadow/true.png"
   alt="Exemple avec la valeur true"
   width="740" height="550" style="height: auto"
 />

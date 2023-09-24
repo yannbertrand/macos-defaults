@@ -1,18 +1,5 @@
 ---
-metaTitle: Eviter les nouveaux disques | Time Machine | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Time Machine > Eviter les nouveaux disques
-  - name: 'description'
-    content: 'Ne pas proposer les périphériques de stockage nouvellement branchés en tant que disque de sauvegarde'
-  - property: 'og:description'
-    content: 'Ne pas proposer les périphériques de stockage nouvellement branchés en tant que disque de sauvegarde'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Eviter les nouveaux disques | Time Machine
 ---
 
 # Eviter les nouveaux disques

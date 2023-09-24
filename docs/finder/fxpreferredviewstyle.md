@@ -1,18 +1,13 @@
 ---
-metaTitle: Default view style | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Default view style
-  - name: 'description'
-    content: 'Set the default view style for folders without custom setting'
-  - property: 'og:description'
-    content: 'Set the default view style for folders without custom setting'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Default view style | Finder
+description: Set the default view style for folders without custom setting
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Default view style
+  - - meta
+    - property: 'og:description'
+      content: Set the default view style for folders without custom setting
 ---
 
 # Default view style

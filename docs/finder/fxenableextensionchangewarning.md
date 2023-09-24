@@ -1,18 +1,13 @@
 ---
-metaTitle: Changing file extension warning | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Changing file extension warning
-  - name: 'description'
-    content: 'Choose whether to display a warning when changing a file extension.'
-  - property: 'og:description'
-    content: 'Choose whether to display a warning when changing a file extension.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Changing file extension warning | Finder
+description: Choose whether to display a warning when changing a file extension.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Finder > Changing file extension warning
+  - - meta
+    - property: 'og:description'
+      content: Choose whether to display a warning when changing a file extension.
 ---
 
 # Changing file extension warning
@@ -38,7 +33,7 @@ defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "true" &&
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../images/finder/FXEnableExtensionChangeWarning/true.mp4" type="video/mp4">
+  <source src="./images/FXEnableExtensionChangeWarning/true.mp4" type="video/mp4">
   Example output with value set to true
 </video>
 
@@ -51,7 +46,7 @@ defaults write com.apple.finder "FXEnableExtensionChangeWarning" -bool "false" &
 ```
 
 <video autoplay loop muted playsinline width="739" height="416" style="max-width: 100%; height: auto">
-  <source src="../../images/finder/FXEnableExtensionChangeWarning/false.mp4" type="video/mp4">
+  <source src="./images/FXEnableExtensionChangeWarning/false.mp4" type="video/mp4">
   Example output with value set to false
 </video>
 

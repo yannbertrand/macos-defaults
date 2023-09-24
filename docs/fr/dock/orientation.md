@@ -1,18 +1,5 @@
 ---
-metaTitle: Position | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Position
-  - name: 'description'
-    content: 'Choisir la position du Dock'
-  - property: 'og:description'
-    content: 'Choisir la position du Dock'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Position | Dock
 ---
 
 # Position
@@ -41,7 +28,7 @@ defaults write com.apple.dock "orientation" -string "left" && killall Dock
 ```
 
 <img
-  src="../../../images/dock/orientation/left.png"
+  src="../../dock/images/orientation/left.png"
   alt="Exemple avec la valeur left"
   width="740" height="463" style="height: auto"
 />
@@ -55,7 +42,7 @@ defaults write com.apple.dock "orientation" -string "bottom" && killall Dock
 ```
 
 <img
-  src="../../../images/dock/orientation/bottom.png"
+  src="../../dock/images/orientation/bottom.png"
   alt="Exemple avec la valeur bottom"
   width="740" height="463" style="height: auto"
 />
@@ -69,7 +56,7 @@ defaults write com.apple.dock "orientation" -string "right" && killall Dock
 ```
 
 <img
-  src="../../../images/dock/orientation/right.png"
+  src="../../dock/images/orientation/right.png"
   alt="Exemple avec la valeur right"
   width="740" height="463" style="height: auto"
 />

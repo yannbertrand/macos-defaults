@@ -1,18 +1,5 @@
 ---
-metaTitle: Barre du chemin d'accès | Finder | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Finder > Barre du chemin d'accès
-  - name: 'description'
-    content: "Afficher la barre du chemin d'accès en bas de la fenêtre du Finder."
-  - property: 'og:description'
-    content: "Afficher la barre du chemin d'accès en bas de la fenêtre du Finder."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Barre du chemin d'accès | Finder
 ---
 
 # Barre du chemin d'accès
@@ -36,7 +23,7 @@ defaults write com.apple.finder "ShowPathbar" -bool "true" && killall Finder
 ```
 
 <img
-  src="../../../images/finder/ShowPathbar/true.png"
+  src="../../finder/images/ShowPathbar/true.png"
   alt="Exemple avec la valeur true"
   width="740" height="451" style="height: auto"
 />
@@ -50,7 +37,7 @@ defaults write com.apple.finder "ShowPathbar" -bool "false" && killall Finder
 ```
 
 <img
-  src="../../../images/finder/ShowPathbar/false.png"
+  src="../../finder/images/ShowPathbar/false.png"
   alt="Exemple avec la valeur false"
   width="740" height="451" style="height: auto"
 />

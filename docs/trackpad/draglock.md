@@ -1,18 +1,13 @@
 ---
-metaTitle: Enable dragging with drag lock | Trackpad | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Trackpad > Enable dragging with drag lock
-  - name: 'description'
-    content: 'Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.'
-  - property: 'og:description'
-    content: 'Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Enable dragging with drag lock | Trackpad
+description: Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Trackpad > Enable dragging with drag lock
+  - - meta
+    - property: 'og:description'
+      content: Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.
 ---
 
 # Enable dragging with drag lock

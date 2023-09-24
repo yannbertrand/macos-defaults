@@ -1,18 +1,13 @@
 ---
-metaTitle: Disks | Desktop | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Desktop > Disks
-  - name: 'description'
-    content: 'Show hard disks on desktop'
-  - property: 'og:description'
-    content: 'Show hard disks on desktop'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Disks | Desktop
+description: Show hard disks on desktop
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Desktop > Disks
+  - - meta
+    - property: 'og:description'
+      content: Show hard disks on desktop
 ---
 
 # Disks

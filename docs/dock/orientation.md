@@ -1,18 +1,13 @@
 ---
-metaTitle: Position | Dock | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Dock > Position
-  - name: 'description'
-    content: 'Set the Dock position'
-  - property: 'og:description'
-    content: 'Set the Dock position'
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Position | Dock
+description: Set the Dock position
+head:
+  - - meta
+    - property: 'og:title'
+      content: macOS defaults > Dock > Position
+  - - meta
+    - property: 'og:description'
+      content: Set the Dock position
 ---
 
 # Position
@@ -41,7 +36,7 @@ defaults write com.apple.dock "orientation" -string "left" && killall Dock
 ```
 
 <img
-  src="../../images/dock/orientation/left.png"
+  src="./images/orientation/left.png"
   alt="Example output with value set to left"
   width="740" height="463" style="height: auto"
 />
@@ -55,7 +50,7 @@ defaults write com.apple.dock "orientation" -string "bottom" && killall Dock
 ```
 
 <img
-  src="../../images/dock/orientation/bottom.png"
+  src="./images/orientation/bottom.png"
   alt="Example output with value set to bottom"
   width="740" height="463" style="height: auto"
 />
@@ -69,7 +64,7 @@ defaults write com.apple.dock "orientation" -string "right" && killall Dock
 ```
 
 <img
-  src="../../images/dock/orientation/right.png"
+  src="./images/orientation/right.png"
   alt="Example output with value set to right"
   width="740" height="463" style="height: auto"
 />

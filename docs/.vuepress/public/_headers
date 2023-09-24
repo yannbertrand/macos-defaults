@@ -1,5 +1,0 @@
-/*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=' 'sha256-PjBkwE8xcYZAp+HsnzzOVNqa/Ra+/v1Fnx6f0PW6ic4=' 'unsafe-hashes' 'sha256-aqNNdDLnnrDOnTNdkJpYlAxKVJtLt9CtFLklmInuUAE=' 'sha256-OFZH/KmE1spbRSh4CjNax9vyG1iEwWYtQyOeXApqoN4=' 'sha256-laxniBKFE69CPUpLCGftSNNcrHa/q3ajB6sagR6TudM='; img-src 'self' data: https://www.netlify.com; media-src 'self' data:; connect-src https://*.algolia.net https://*.algolianet.com;
-  X-Frame-Options: DENY
-  X-Content-Type-Options: nosniff
-  X-XSS-Protection: 1; mode=block

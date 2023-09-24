@@ -1,18 +1,5 @@
 ---
-metaTitle: Activer le spring loading dans le Dock | Divers | macOS defaults
-meta:
-  - property: 'og:title'
-    content: macOS defaults > Divers > Activer le spring loading dans le Dock
-  - name: 'description'
-    content: "Glisser un fichier au dessus d'une icône du Dock et l'application va s'ouvrir. Ne permet de le faire que si l'application n'est pas déjà ouverte. Nous avons réussi à le faire fonctionner sur Aperçu, QuickTime et iWork (Keynote, Pages, Numbers)."
-  - property: 'og:description'
-    content: "Glisser un fichier au dessus d'une icône du Dock et l'application va s'ouvrir. Ne permet de le faire que si l'application n'est pas déjà ouverte. Nous avons réussi à le faire fonctionner sur Aperçu, QuickTime et iWork (Keynote, Pages, Numbers)."
-  - property: 'twitter:card'
-    content: 'summary'
-  - property: 'twitter:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.webp'
-  - property: 'og:image'
-    content: 'https://macos-defaults.netlify.app/media-1x1.jpg'
+title: Activer le spring loading dans le Dock | Divers
 ---
 
 # Activer le spring loading dans le Dock
