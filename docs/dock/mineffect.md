@@ -77,3 +77,8 @@ defaults read com.apple.dock "mineffect"
 ```bash
 defaults delete com.apple.dock "mineffect" && killall Dock
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.dock?Dock">Access Dock settings from macOS UI</a>
+2. Set "Minimise window using" dropdown value

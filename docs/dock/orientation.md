@@ -80,3 +80,8 @@ defaults read com.apple.dock "orientation"
 ```bash
 defaults delete com.apple.dock "orientation" && killall Dock
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.dock?Dock">Access Dock settings from macOS UI</a>
+2. Set "Position on the screen" dropdown value

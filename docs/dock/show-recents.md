@@ -63,3 +63,8 @@ defaults read com.apple.dock "show-recents"
 ```bash
 defaults delete com.apple.dock "show-recents" && killall Dock
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.dock?Dock">Access Dock settings from macOS UI</a>
+2. Set "Show recent applications in Dock" dropdown value

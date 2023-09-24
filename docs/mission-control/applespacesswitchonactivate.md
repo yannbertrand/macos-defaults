@@ -48,3 +48,8 @@ defaults read NSGlobalDomain "AppleSpacesSwitchOnActivate"
 ```bash
 defaults delete NSGlobalDomain "AppleSpacesSwitchOnActivate" && killall Dock
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.dock?WindowsApps">Access Dock settings from macOS UI</a>
+2. Toggle "When switching to an application, switch to a Space with open windows for the application" value

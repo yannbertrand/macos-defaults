@@ -61,3 +61,8 @@ defaults read com.apple.dock "expose-group-apps"
 ```bash
 defaults delete com.apple.dock "expose-group-apps" && killall Dock
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.dock?WindowsApps">Access Dock settings from macOS UI</a>
+2. Toggle "Group windows by application" value

@@ -51,3 +51,8 @@ defaults read com.apple.dock "mru-spaces"
 ```bash
 defaults delete com.apple.dock "mru-spaces" && killall Dock
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.dock?WindowsApps">Access Dock settings from macOS UI</a>
+2. Toggle "Automatically rearrange Spaces based on most recent use" value

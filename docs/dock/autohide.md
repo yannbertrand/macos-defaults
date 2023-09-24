@@ -51,3 +51,8 @@ defaults read com.apple.dock "autohide"
 ```bash
 defaults delete com.apple.dock "autohide" && killall Dock
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.dock?Dock">Access Dock settings from macOS UI</a>
+2. Toggle "Automatically hide and show the Dock" value

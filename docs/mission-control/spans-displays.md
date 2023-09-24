@@ -48,3 +48,8 @@ defaults read com.apple.spaces "spans-displays"
 ```bash
 defaults delete com.apple.spaces "spans-displays" && killall SystemUIServer
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.dock?WindowsApps">Access Dock settings from macOS UI</a>
+2. Toggle "Displays have separate Spaces" value

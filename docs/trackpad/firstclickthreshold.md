@@ -59,3 +59,8 @@ defaults read com.apple.AppleMultitouchTrackpad "FirstClickThreshold"
 ```bash
 defaults delete com.apple.AppleMultitouchTrackpad "FirstClickThreshold"
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.trackpad?trackpadTab">Access Trackpad settings from macOS UI</a>
+2. Slide "Click" range value

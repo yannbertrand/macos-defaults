@@ -62,3 +62,8 @@ defaults read com.apple.dock "tilesize"
 ```bash
 defaults delete com.apple.dock "tilesize" && killall Dock
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.preference.dock?Dock">Access Dock settings from macOS UI</a>
+2. Slide "Size" range value
