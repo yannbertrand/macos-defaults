@@ -449,6 +449,10 @@ export default defineConfig({
         ],
       },
     ],
+    editLink: {
+      pattern:
+        'https://github.com/yannbertrand/macos-defaults/edit/main/docs/:path',
+    },
   },
   sitemap: {
     hostname: 'https://macos-defaults.com',
