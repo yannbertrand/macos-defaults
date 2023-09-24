@@ -454,6 +454,7 @@ export default defineConfig({
         'https://github.com/yannbertrand/macos-defaults/edit/main/docs/:path',
     },
   },
+  lastUpdated: true,
   sitemap: {
     hostname: 'https://macos-defaults.com',
     transformItems: (items) => {
