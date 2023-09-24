@@ -12,7 +12,7 @@ module.exports = {
           'com.apple.finder',
           '_FXSortFoldersFirst',
           '-bool true',
-          '1'
+          '1',
         )
         .killApp('Finder')
         .openApp('Finder', '~/macos-defaults')
@@ -40,9 +40,9 @@ module.exports = {
 
 function logRollbackInfo() {
   console.info(
-    'Please manually run this command to make sure everything is properly reset:'
+    'Please manually run this command to make sure everything is properly reset:',
   )
   console.info(
-    'defaults delete com.apple.finder _FXSortFoldersFirst && killall Finder'
+    'defaults delete com.apple.finder _FXSortFoldersFirst && killall Finder',
   )
 }
