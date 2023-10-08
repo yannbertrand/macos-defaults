@@ -25,20 +25,20 @@ Allows you to change the behavior of the function keys. The two possible options
   - Sonoma
 - **Parameter type**: bool
 
-## Set to `true`
-
-`F1`, `F2`, etc. behave as standard function keys. Press the `fn` key to use the special features printed on the key.
-
-```bash
-defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
-```
-
 ## Set to `false` (default value)
 
 By default, pressing a function key will perform the special feature printed on that key.
 
 ```bash
 defaults write NSGlobalDomain com.apple.keyboard.fnState -bool false
+```
+
+## Set to `true`
+
+`F1`, `F2`, etc. behave as standard function keys. Press the `fn` key to use the special features printed on the key.
+
+```bash
+defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 ```
 
 ## Read current value
