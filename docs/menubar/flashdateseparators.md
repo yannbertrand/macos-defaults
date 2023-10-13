@@ -61,3 +61,8 @@ defaults read com.apple.menuextra.clock "FlashDateSeparators"
 ```bash
 defaults delete com.apple.menuextra.clock "FlashDateSeparators" && killall SystemUIServer
 ```
+
+## Set value from UI
+
+1. <a href="x-apple.systempreferences:com.apple.ControlCenter-Settings.extension?Clock">Access Clock settings from macOS UI</a>
+2. Toggle "Flash the time separator" value
