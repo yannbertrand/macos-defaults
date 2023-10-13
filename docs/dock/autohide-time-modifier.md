@@ -17,6 +17,7 @@ Change the Dock opening and closing animation times.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur

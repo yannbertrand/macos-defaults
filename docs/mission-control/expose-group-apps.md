@@ -18,6 +18,7 @@ Mission Control.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Big Sur
 - **Parameter type**: bool

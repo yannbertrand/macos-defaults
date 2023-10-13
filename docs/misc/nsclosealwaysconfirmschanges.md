@@ -18,6 +18,7 @@ Requires closing and opening the app before working. Tested on Apple Preview.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
 - **Parameter type**: bool

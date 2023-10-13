@@ -18,6 +18,7 @@ The focus change only works between the Terminal windows.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
 - **Parameter type**: bool

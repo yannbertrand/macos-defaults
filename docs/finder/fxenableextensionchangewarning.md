@@ -17,6 +17,7 @@ Choose whether to display a warning when changing a file extension.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur

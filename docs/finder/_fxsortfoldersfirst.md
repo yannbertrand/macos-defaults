@@ -17,6 +17,7 @@ Keep folders on top when sorting by name
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur

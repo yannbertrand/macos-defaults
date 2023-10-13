@@ -17,6 +17,7 @@ Set the default view style for folders without custom setting
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur

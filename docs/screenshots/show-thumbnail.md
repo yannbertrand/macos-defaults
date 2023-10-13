@@ -17,6 +17,7 @@ Choose whether to display a thumbnail after taking a screenshot.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur
