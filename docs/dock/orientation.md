@@ -17,6 +17,7 @@ Set the Dock position
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur

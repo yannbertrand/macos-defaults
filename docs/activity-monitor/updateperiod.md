@@ -17,6 +17,7 @@ How frequently Activity Monitor should update its data, in seconds.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
 - **Parameter type**: int

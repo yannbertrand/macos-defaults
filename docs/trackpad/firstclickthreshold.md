@@ -17,6 +17,7 @@ Choose between Light/Medium/Firm.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
 - **Parameter type**: int

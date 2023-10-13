@@ -17,6 +17,7 @@ Include date and time in screenshot filenames.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur

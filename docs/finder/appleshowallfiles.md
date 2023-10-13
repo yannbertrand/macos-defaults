@@ -17,6 +17,7 @@ Show hidden files in the Finder. You can toggle the value using `⌘ cmd`+`⇧ s
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur

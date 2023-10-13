@@ -17,6 +17,7 @@ Choose what information should be shown in the app's Dock icon, if any.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
 - **Parameter type**: int

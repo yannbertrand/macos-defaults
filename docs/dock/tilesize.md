@@ -17,6 +17,7 @@ Set the icon size of Dock items in pixels.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur

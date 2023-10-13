@@ -17,6 +17,7 @@ Scroll up on a Dock icon to show all Space's opened windows for an app, or open 
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur

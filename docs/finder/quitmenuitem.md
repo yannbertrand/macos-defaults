@@ -17,6 +17,7 @@ Add a quit option to the Finder. Behaves strangely when activated, would not rec
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Ventura
   - Monterey
   - Big Sur
