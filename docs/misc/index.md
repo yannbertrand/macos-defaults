@@ -23,3 +23,4 @@ All the others `defaults` that don't deserve their own category.
 - [Key held down behavior](./applepressandholdenabled.md)
 - [Focus Follows Mouse](./focusfollowsmouse.md)
 - [Close confirm changes popup](./nsclosealwaysconfirmschanges.md)
+- [Function keys behavior](./applekeyboardfnstate.md)
