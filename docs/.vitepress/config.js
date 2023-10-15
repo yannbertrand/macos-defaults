@@ -446,6 +446,10 @@ export default defineConfig({
             text: 'Close confirm changes popup',
             link: '/misc/nsclosealwaysconfirmschanges.md',
           },
+          {
+            text: 'Function keys behavior',
+            link: '/misc/applekeyboardfnstate.md',
+          },
         ],
       },
     ],

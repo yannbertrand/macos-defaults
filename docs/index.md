@@ -183,6 +183,7 @@ defaults rename ${domain} ${old_key} ${new_key}
 - [Key held down behavior](./misc/applepressandholdenabled.md)
 - [Focus Follows Mouse](./misc/focusfollowsmouse.md)
 - [Close confirm changes popup](./misc/nsclosealwaysconfirmschanges.md)
+- [Function keys behavior](./misc/applekeyboardfnstate.md)
 
 ## 🤔 How do I add a command?
 
