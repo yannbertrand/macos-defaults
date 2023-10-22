@@ -19,6 +19,7 @@ Only show opened apps in Dock.
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Monterey
 - **Parameter type**: bool
 
