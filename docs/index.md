@@ -187,11 +187,11 @@ defaults rename ${domain} ${old_key} ${new_key}
 
 ## 🤔 How do I add a command?
 
-Please update [this file](https://github.com/yannbertrand/macos-defaults/blob/main/defaults.yml) that I use to [build multiple websites](https://github.com/yannbertrand/macos-defaults/#readme) like this one.
+Please take [a look at the GitHub project](https://github.com/yannbertrand/macos-defaults#add-a-command). Feel free to open an issue if you know an unlisted command. It's also possible to add the command yourself by creating a Pull Request.
 
 ## ❤️ I like this website, how can I build the same?
 
-Thank you! I built it using [VuePress](https://vuepress.vuejs.org/). Take a look at [my report](https://github.com/yannbertrand/macos-defaults/tree/main/build#readme) if you want to use it.
+Thank you! I built it using [VitePress](https://vitepress.dev/).
 
 <a href="https://www.netlify.com">
   <img src="/netlify.svg" alt="Deploys by Netlify" width="114" height="51" />
