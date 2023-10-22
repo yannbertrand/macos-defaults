@@ -160,11 +160,11 @@ defaults rename ${domain} ${old_key} ${new_key}
 
 ## 🤔 Comment ajouter une commande ?
 
-Mettez à jour [ce fichier](https://github.com/yannbertrand/macos-defaults/blob/main/defaults.yml) que j'utilise pour [construire plusieurs sites](https://github.com/yannbertrand/macos-defaults/#readme) équivalents.
+Jetez un coup d'oeil [à la doc dans le projet GitHub](https://github.com/yannbertrand/macos-defaults#add-a-command).
 
 ## ❤️ J'adore ce site, comment faire le même ?
 
-Merci ! Il a été construit grâce à [VuePress](https://vuepress.vuejs.org/). Jetez un coup d'oeil à [mon avis](https://github.com/yannbertrand/macos-defaults/tree/main/build#readme) si vous souhaitez utiliser la même techno.
+Merci ! Il a été construit grâce à [VitePress](https://vitepress.dev/).
 
 <a href="https://www.netlify.com">
   <img src="/netlify.svg" alt="Déployé par Netlify" />
