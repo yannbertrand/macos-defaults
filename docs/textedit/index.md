@@ -17,3 +17,4 @@ TextEdit allows you to open and edit rich text, plain text and HTML documents.
 ## Keys
 
 - [Set default document format](./richtext.md)
+- [Set smart quotes](./smartquotes.md)
