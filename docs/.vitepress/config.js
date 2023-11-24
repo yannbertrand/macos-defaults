@@ -403,7 +403,7 @@ export default defineConfig({
           {
             text: 'Set smart quotes',
             link: '/textedit/smartquotes.md',
-          }
+          },
         ],
       },
       {
