@@ -164,6 +164,7 @@ defaults rename ${domain} ${old_key} ${new_key}
 ### TextEdit
 
 - [Set default document format](./textedit/richtext.md)
+- [Set smart quotes](./textedit/smartquotes.md)
 
 ### Time Machine
 

@@ -400,6 +400,10 @@ export default defineConfig({
             text: 'Set default document format',
             link: '/textedit/richtext.md',
           },
+          {
+            text: 'Set smart quotes',
+            link: '/textedit/smartquotes.md',
+          },
         ],
       },
       {
