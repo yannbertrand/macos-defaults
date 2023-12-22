@@ -31,7 +31,7 @@ defaults write com.apple.MobileSMS "MMSShowSubject" -bool "true" && killall Mess
 <img
   src="./images/show-subject-field/true.png"
   alt="Messages app with subject field showing"
-  height="550" style="height: auto"
+  height="550"
 />
 
 ## Set to `false` (default value)
@@ -45,7 +45,7 @@ defaults write com.apple.MobileSMS "MMSShowSubject" -bool "false" && killall Mes
 <img
   src="./images/show-subject-field/false.png"
   alt="Messages app with subject field hidden"
-  height="550" style="height: auto"
+  height="550"
 />
 
 ## Read current value
