@@ -134,6 +134,10 @@ defaults rename ${domain} ${old_key} ${new_key}
 - [Flash clock time separators](./menubar/flashdateseparators.md)
 - [Set menubar digital clock format](./menubar/dateformat.md)
 
+### Mouse
+
+- [Disable acceleration](./mouse/linear.md)
+
 ### Trackpad
 
 - [Click weight (threshold)](./trackpad/firstclickthreshold.md)

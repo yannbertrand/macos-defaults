@@ -324,6 +324,10 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Mouse',
+        items: [{ text: 'Disable acceleration', link: '/mouse/linear.md' }],
+      },
+      {
         text: 'Trackpad',
         items: [
           {
