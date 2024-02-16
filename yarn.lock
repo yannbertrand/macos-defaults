@@ -293,10 +293,10 @@
   resolved "https://registry.yarnpkg.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz#d7c6e6755c78567a951e04ab52ef0fd26de59f32"
   integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
 
-"@netlify/plugin-lighthouse@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/@netlify/plugin-lighthouse/-/plugin-lighthouse-5.0.0.tgz"
-  integrity sha512-tCaoVYxCU3OB592vChtFkANzUL4kDUNaIk9VCGp3qBecBnH+yFrILUlcqy2d08Is4ecstjTacyHqV+ixKbNYGQ==
+"@netlify/plugin-lighthouse@6.0.0":
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/@netlify/plugin-lighthouse/-/plugin-lighthouse-6.0.0.tgz#cf4c186f1de2bc01cb79515a385c8c2e9cea3d4c"
+  integrity sha512-Uqqy9A7huuDT+1RIBWDoWhp+ntlLE1ibp1jXFpiizWy8QProWkLm8E7PFLu0Bf+aAwgjV2eJPj6ocIbk+jBANQ==
   dependencies:
     chalk "^4.1.0"
     chrome-launcher "^0.15.0"
