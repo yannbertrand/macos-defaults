@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "main": "record.js",
   "engines": {
-    "node": ">=15 <=16"
+    "node": ">=15 <=20"
   },
   "scripts": {
     "record": "node index.js",
