@@ -17,6 +17,7 @@ Remove items in the bin after 30 days
 <!-- break lists -->
 
 - **Tested on macOS**:
+  - Sonoma
   - Monterey
   - Big Sur
 - **Parameter type**: bool
