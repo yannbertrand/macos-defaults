@@ -17,3 +17,16 @@ fail_deploy_on_score_thresholds = "true"
 accessibility = 1
 best-practices = 1
 seo = 1
+
+[[headers]]
+for = "/assets/*"
+[headers.values]
+Cache-Control = '''max-age=31536000,immutable'''
+
+[[headers]]
+for = "/*"
+[headers.value]
+Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://netlify-rum.netlify.app/netlify-rum.js; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.netlify.com; media-src 'self' data:; object-src 'none'; connect-src https://*.algolia.net https://*.algolianet.com;"
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
