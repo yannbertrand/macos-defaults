@@ -1048,10 +1048,10 @@ glob-parent@^5.1.2:
   dependencies:
     is-glob "^4.0.1"
 
-glob-promise@6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/glob-promise/-/glob-promise-6.0.3.tgz#e6b3ab02d350b3f4b3e15b57e4485986e41ba2fe"
-  integrity sha512-m+kxywR5j/2Z2V9zvHKfwwL5Gp7gIFEBX+deTB9w2lJB+wSuw9kcS43VfvTAMk8TXL5JCl/cCjsR+tgNVspGyA==
+glob-promise@6.0.5:
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/glob-promise/-/glob-promise-6.0.5.tgz#3d56331b324fd7d097b43ba9e9959e9c7e200e2c"
+  integrity sha512-uUzvxo60yo/vMLXZHCNAlfdM5U5A07jCnUO8xTK44Z0Vc58poGDXhDx8ju1DmPdprOORh+4Lpog64hl+AJ5piA==
   dependencies:
     "@types/glob" "^8.0.0"
 
