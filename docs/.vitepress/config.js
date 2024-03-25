@@ -331,6 +331,7 @@ export default defineConfig({
             text: 'Set movement speed',
             link: '/mouse/scaling.md',
           },
+          { text: 'Focus Follows Mouse', link: '/mouse/focusfollowsmouse.md' },
         ],
       },
       {
@@ -455,7 +456,6 @@ export default defineConfig({
             text: 'Key held down behavior',
             link: '/misc/applepressandholdenabled.md',
           },
-          { text: 'Focus Follows Mouse', link: '/misc/focusfollowsmouse.md' },
           {
             text: 'Close confirm changes popup',
             link: '/misc/nsclosealwaysconfirmschanges.md',
