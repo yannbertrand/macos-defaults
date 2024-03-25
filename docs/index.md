@@ -134,6 +134,12 @@ defaults rename ${domain} ${old_key} ${new_key}
 - [Flash clock time separators](./menubar/flashdateseparators.md)
 - [Set menubar digital clock format](./menubar/dateformat.md)
 
+### Mouse
+
+- [Disable acceleration](./mouse/linear.md)
+- [Set movement speed](./mouse/scaling.md)
+- [Focus Follows Mouse](./mouse/focusfollowsmouse.md)
+
 ### Trackpad
 
 - [Click weight (threshold)](./trackpad/firstclickthreshold.md)
@@ -182,7 +188,6 @@ defaults rename ${domain} ${old_key} ${new_key}
 - [Show Music song notifications](./misc/userwantsplaybacknotifications.md)
 - [Disable application quarantine message](./misc/lsquarantine.md)
 - [Key held down behavior](./misc/applepressandholdenabled.md)
-- [Focus Follows Mouse](./misc/focusfollowsmouse.md)
 - [Close confirm changes popup](./misc/nsclosealwaysconfirmschanges.md)
 - [Function keys behavior](./misc/applekeyboardfnstate.md)
 
