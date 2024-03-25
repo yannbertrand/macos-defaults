@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "clean": "rimraf docs/.vitepress/cache docs/.vitepress/dist",
-    "build": "yarn build:prod",
+    "build": "npm run build:prod",
     "build:prod": "vitepress build docs --dest dist",
     "start": "vitepress dev docs",
     "preview": "vitepress preview docs",

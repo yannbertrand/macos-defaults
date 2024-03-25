@@ -1,8 +1,8 @@
 [build]
 base = ""
-command = "yarn build:prod"
+command = "npm run build:prod"
 publish = "docs/.vitepress/dist"
-ignore = "git diff --quiet HEAD^ HEAD docs/ netlify.toml package.json yarn.lock .node-version"
+ignore = "git diff --quiet HEAD^ HEAD docs/ netlify.toml package.json package-lock.json .node-version"
 
 [build.processing]
 skip_processing = true

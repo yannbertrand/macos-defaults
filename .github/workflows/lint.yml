@@ -15,5 +15,5 @@ jobs:
         with:
           node-version-file: '.node-version'
           cache: 'npm'
-      - run: yarn install --frozen-lockfile
-      - run: yarn lint
+      - run: npm ci
+      - run: npm run lint
