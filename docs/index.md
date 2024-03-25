@@ -147,6 +147,10 @@ defaults rename ${domain} ${old_key} ${new_key}
 - [Enable dragging without drag lock](./trackpad/dragging.md)
 - [Enable dragging with three finger drag](./trackpad/trackpadthreefingerdrag.md)
 
+### Keyboard
+
+- [Configure fn/🌐︎ key](./keyboard/applefnusagetype.md)
+
 ### Mission Control
 
 - [Rearrange automatically](./mission-control/mru-spaces.md)

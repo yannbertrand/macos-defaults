@@ -356,6 +356,15 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Keyboard',
+        items: [
+          {
+            text: 'Configure fn/🌐︎ key',
+            link: '/keyboard/applefnusagetype.md',
+          },
+        ],
+      },
+      {
         text: 'Mission Control',
         items: [
           {
