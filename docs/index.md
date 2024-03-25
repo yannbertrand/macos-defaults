@@ -150,6 +150,7 @@ defaults rename ${domain} ${old_key} ${new_key}
 ### Keyboard
 
 - [Configure fn/🌐︎ key](./keyboard/applefnusagetype.md)
+- [Function keys behavior](./keyboard/applekeyboardfnstate.md)
 
 ### Mission Control
 
@@ -197,7 +198,6 @@ defaults rename ${domain} ${old_key} ${new_key}
 - [Disable application quarantine message](./misc/lsquarantine.md)
 - [Key held down behavior](./misc/applepressandholdenabled.md)
 - [Close confirm changes popup](./misc/nsclosealwaysconfirmschanges.md)
-- [Function keys behavior](./misc/applekeyboardfnstate.md)
 
 ## 🤔 How do I add a command?
 

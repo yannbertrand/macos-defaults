@@ -17,3 +17,4 @@ The hardware device to type on a computer.
 ## Keys
 
 - [Configure fn/🌐︎ key](./applefnusagetype.md)
+- [Function keys behavior](./applekeyboardfnstate.md)

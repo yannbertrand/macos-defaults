@@ -1,10 +1,10 @@
 ---
-title: Function keys behavior | Miscellaneous
+title: Function keys behavior | Keyboard
 description: Allows you to change the behavior of the function keys.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Miscellaneous > Function keys behaviour
+      content: macOS defaults > Keyboard > Function keys behaviour
   - - meta
     - property: 'og:description'
       content: Allows you to change the behavior of the function keys.

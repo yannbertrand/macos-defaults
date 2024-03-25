@@ -22,4 +22,3 @@ All the others `defaults` that don't deserve their own category.
 - [Disable application quarantine message](./lsquarantine.md)
 - [Key held down behavior](./applepressandholdenabled.md)
 - [Close confirm changes popup](./nsclosealwaysconfirmschanges.md)
-- [Function keys behavior](./applekeyboardfnstate.md)
