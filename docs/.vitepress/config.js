@@ -356,6 +356,23 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Keyboard',
+        items: [
+          {
+            text: 'Key held down behavior',
+            link: '/keyboard/applepressandholdenabled.md',
+          },
+          {
+            text: 'Configure fn/🌐︎ key',
+            link: '/keyboard/applefnusagetype.md',
+          },
+          {
+            text: 'Function keys behavior',
+            link: '/keyboard/applekeyboardfnstate.md',
+          },
+        ],
+      },
+      {
         text: 'Mission Control',
         items: [
           {
@@ -468,10 +485,6 @@ export default defineConfig({
           {
             text: 'Close confirm changes popup',
             link: '/misc/nsclosealwaysconfirmschanges.md',
-          },
-          {
-            text: 'Function keys behavior',
-            link: '/misc/applekeyboardfnstate.md',
           },
         ],
       },

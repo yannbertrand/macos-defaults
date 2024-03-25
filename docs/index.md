@@ -147,6 +147,12 @@ defaults rename ${domain} ${old_key} ${new_key}
 - [Enable dragging without drag lock](./trackpad/dragging.md)
 - [Enable dragging with three finger drag](./trackpad/trackpadthreefingerdrag.md)
 
+### Keyboard
+
+- [Key held down behavior](./keyboard/applepressandholdenabled.md)
+- [Configure fn/🌐︎ key](./keyboard/applefnusagetype.md)
+- [Function keys behavior](./keyboard/applekeyboardfnstate.md)
+
 ### Mission Control
 
 - [Rearrange automatically](./mission-control/mru-spaces.md)
@@ -191,9 +197,7 @@ defaults rename ${domain} ${old_key} ${new_key}
 - [Enable spring loading for all Dock items](./misc/enable-spring-load-actions-on-all-items.md)
 - [Show Music song notifications](./misc/userwantsplaybacknotifications.md)
 - [Disable application quarantine message](./misc/lsquarantine.md)
-- [Key held down behavior](./misc/applepressandholdenabled.md)
 - [Close confirm changes popup](./misc/nsclosealwaysconfirmschanges.md)
-- [Function keys behavior](./misc/applekeyboardfnstate.md)
 
 ## 🤔 How do I add a command?
 

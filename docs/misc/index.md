@@ -20,6 +20,4 @@ All the others `defaults` that don't deserve their own category.
 - [Enable spring loading for all Dock items](./enable-spring-load-actions-on-all-items.md)
 - [Show Music song notifications](./userwantsplaybacknotifications.md)
 - [Disable application quarantine message](./lsquarantine.md)
-- [Key held down behavior](./applepressandholdenabled.md)
 - [Close confirm changes popup](./nsclosealwaysconfirmschanges.md)
-- [Function keys behavior](./applekeyboardfnstate.md)
