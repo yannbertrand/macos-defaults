@@ -1,10 +1,10 @@
 ---
-title: Key held down behavior | Miscellaneous
+title: Key held down behavior | Keyboard
 description: Allows you to select the behavior when a key is held down for a long time.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Miscellaneous > Key held down behavior
+      content: macOS defaults > Keyboard > Key held down behavior
   - - meta
     - property: 'og:description'
       content: Allows you to select the behavior when a key is held down for a long time.

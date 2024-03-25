@@ -359,6 +359,10 @@ export default defineConfig({
         text: 'Keyboard',
         items: [
           {
+            text: 'Key held down behavior',
+            link: '/keyboard/applepressandholdenabled.md',
+          },
+          {
             text: 'Configure fn/🌐︎ key',
             link: '/keyboard/applefnusagetype.md',
           },
