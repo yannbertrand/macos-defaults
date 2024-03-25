@@ -137,6 +137,7 @@ defaults rename ${domain} ${old_key} ${new_key}
 ### Mouse
 
 - [Disable acceleration](./mouse/linear.md)
+- [Set movement speed](./mouse/scaling.md)
 
 ### Trackpad
 
