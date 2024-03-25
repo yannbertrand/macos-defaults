@@ -181,6 +181,10 @@ defaults rename ${domain} ${old_key} ${new_key}
 - [Update Frequency](./activity-monitor/updateperiod.md)
 - [Dock Icon type](./activity-monitor/icontype.md)
 
+### Messages
+
+- [Show Subject Field](./messages/show-subject-field.md)
+
 ### Miscellaneous
 
 - [Help Menu position](./misc/devmode.md)
