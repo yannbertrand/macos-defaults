@@ -437,6 +437,15 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Messages',
+        items: [
+          {
+            text: 'Show Subject Field',
+            link: '/messages/show-subject-field.md',
+          },
+        ],
+      },
+      {
         text: 'Miscellaneous',
         items: [
           { text: 'Help Menu position', link: '/misc/devmode.md' },
