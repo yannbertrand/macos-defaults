@@ -1,10 +1,10 @@
 ---
-title: Focus Follows Mouse | Miscellaneous
+title: Focus Follows Mouse | Mouse
 description: Focus of the Terminal windows when the mouse cursor hovers over them. The focus change only works between the Terminal windows.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Miscellaneous > Focus Follows Mouse
+      content: macOS defaults > Mouse > Focus Follows Mouse
   - - meta
     - property: 'og:description'
       content: Focus of the Terminal windows when the mouse cursor hovers over them. The focus change only works between the Terminal windows.

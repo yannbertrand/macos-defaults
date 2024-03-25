@@ -324,6 +324,17 @@ export default defineConfig({
         ],
       },
       {
+        text: 'Mouse',
+        items: [
+          { text: 'Disable acceleration', link: '/mouse/linear.md' },
+          {
+            text: 'Set movement speed',
+            link: '/mouse/scaling.md',
+          },
+          { text: 'Focus Follows Mouse', link: '/mouse/focusfollowsmouse.md' },
+        ],
+      },
+      {
         text: 'Trackpad',
         items: [
           {
@@ -445,7 +456,6 @@ export default defineConfig({
             text: 'Key held down behavior',
             link: '/misc/applepressandholdenabled.md',
           },
-          { text: 'Focus Follows Mouse', link: '/misc/focusfollowsmouse.md' },
           {
             text: 'Close confirm changes popup',
             link: '/misc/nsclosealwaysconfirmschanges.md',

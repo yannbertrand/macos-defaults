@@ -21,6 +21,5 @@ All the others `defaults` that don't deserve their own category.
 - [Show Music song notifications](./userwantsplaybacknotifications.md)
 - [Disable application quarantine message](./lsquarantine.md)
 - [Key held down behavior](./applepressandholdenabled.md)
-- [Focus Follows Mouse](./focusfollowsmouse.md)
 - [Close confirm changes popup](./nsclosealwaysconfirmschanges.md)
 - [Function keys behavior](./applekeyboardfnstate.md)
