@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "aperture": "6.1.3",
+    "aperture": "7.0.0",
     "delay": "5.0.0",
     "glob": "^9",
     "glob-promise": "6.0.3",
