@@ -479,10 +479,6 @@ export default defineConfig({
             link: '/misc/lsquarantine.md',
           },
           {
-            text: 'Key held down behavior',
-            link: '/misc/applepressandholdenabled.md',
-          },
-          {
             text: 'Close confirm changes popup',
             link: '/misc/nsclosealwaysconfirmschanges.md',
           },

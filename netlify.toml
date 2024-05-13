@@ -23,3 +23,9 @@ seo = 1
   to = "/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/misc/applepressandholdenabled.html"
+  to = "/keyboard/applepressandholdenabled.html"
+  status = 301
+  force = true
