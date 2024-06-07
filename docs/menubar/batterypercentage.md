@@ -2,12 +2,11 @@
 title: Battery Percentage | Menu Bar
 description: When enabled, this command allows you to show or hide (hidden by default) the battery percentage in the menu bar on macOS.
 head:
-  - - meta
-    - property: 'og:title'
+  - meta:
+      property: 'og:title'
       content: System Settings → Battery → Show Battery Percentage
-separators
-  - - meta
-    - property: 'og:description'
+  - meta:
+      property: 'og:description'
       content: When enabled, this command allows you to show or hide (default) the battery percentage in the menu bar on macOS.
 ---
 
