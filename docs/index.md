@@ -1,4 +1,4 @@
----
+[Show battery percentage](./menubar/batterypercentage.md)---
 title: macOS defaults list
 titleTemplate: false
 description: You've already copied `defaults write` commands. Sometimes you don't know what they do and are not sure they still work. This list of macOS defaults commands is here to help.
@@ -133,6 +133,7 @@ defaults rename ${domain} ${old_key} ${new_key}
 
 - [Flash clock time separators](./menubar/flashdateseparators.md)
 - [Set menubar digital clock format](./menubar/dateformat.md)
+- [Show battery percentage](./menubar/batterypercentage.md)
 
 ### Mouse
 
