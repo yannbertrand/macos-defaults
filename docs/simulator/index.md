@@ -10,10 +10,14 @@ head:
       content: Installed as part of the Xcode tools, Simulator is a Mac app simulating iPhone, iPad, Apple Watch, or Apple TV environments.
 ---
 
+<script setup>
+import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+</script>
+
 # Simulator
 
 Installed as part of the Xcode tools, Simulator is a Mac app simulating iPhone, iPad, Apple Watch, or Apple TV environments.
 
 ## Keys
 
-- [Set screenshot location](./screenshotsavelocation.md)
+<FolderTableOfContents />

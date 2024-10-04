@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { generateSidebar } from 'vitepress-sidebar'
 
 export default defineConfig({
   title: 'macOS defaults',
@@ -175,316 +176,113 @@ export default defineConfig({
         link: 'https://github.com/yannbertrand/macos-defaults',
       },
     ],
-    sidebar: [
-      {
-        text: 'Dock',
-        items: [
-          {
-            text: 'Position',
-            link: '/dock/orientation.md',
-          },
-          {
-            text: 'Change Dock icon size',
-            link: '/dock/tilesize.md',
-          },
-          {
-            text: 'Autohide',
-            link: '/dock/autohide.md',
-          },
-          {
-            text: 'Autohide animation time',
-            link: '/dock/autohide-time-modifier.md',
-          },
-          {
-            text: 'Autohide delay',
-            link: '/dock/autohide-delay.md',
-          },
-          {
-            text: 'Show recents',
-            link: '/dock/show-recents.md',
-          },
-          {
-            text: 'Minimize animation effect',
-            link: '/dock/mineffect.md',
-          },
-          {
-            text: 'Active applications only',
-            link: '/dock/static-only.md',
-          },
-          {
-            text: 'Scroll to Exposé app',
-            link: '/dock/scroll-to-open.md',
-          },
-        ],
-      },
-      {
-        text: 'Screenshots',
-        items: [
-          { text: 'Disable shadow', link: '/screenshots/disable-shadow.md' },
-          { text: 'Include date', link: '/screenshots/include-date.md' },
-          { text: 'Set location', link: '/screenshots/location.md' },
-          {
-            text: 'Display thumbnail',
-            link: '/screenshots/show-thumbnail.md',
-          },
-          { text: 'Choose screenshot format', link: '/screenshots/type.md' },
-        ],
-      },
-      {
-        text: 'Safari',
-        items: [
-          {
-            text: 'Show full URL',
-            link: '/safari/showfullurlinsmartsearchfield.md',
-          },
-        ],
-      },
-      {
-        text: 'Finder',
-        items: [
-          { text: 'Quit', link: '/finder/quitmenuitem.md' },
-          {
-            text: 'Show extensions',
-            link: '/finder/appleshowallextensions.md',
-          },
-          { text: 'Show hidden files', link: '/finder/appleshowallfiles.md' },
-          { text: 'Path bar', link: '/finder/showpathbar.md' },
-          {
-            text: 'Default view style',
-            link: '/finder/fxpreferredviewstyle.md',
-          },
-          {
-            text: 'Keep folders on top',
-            link: '/finder/_fxsortfoldersfirst.md',
-          },
-          {
-            text: 'Default search scope',
-            link: '/finder/fxdefaultsearchscope.md',
-          },
-          {
-            text: 'Empty bin items after 30 days',
-            link: '/finder/fxremoveoldtrashitems.md',
-          },
-          {
-            text: 'Changing file extension warning',
-            link: '/finder/fxenableextensionchangewarning.md',
-          },
-          {
-            text: 'Save to disk or iCloud by default',
-            link: '/finder/nsdocumentsavenewdocumentstocloud.md',
-          },
-          {
-            text: 'Title bar icons',
-            link: '/finder/showwindowtitlebaricons.md',
-          },
-          {
-            text: 'Adjust toolbar title rollover delay',
-            link: '/finder/nstoolbartitleviewrolloverdelay.md',
-          },
-          {
-            text: 'Set sidebar icon size',
-            link: '/finder/nstableviewdefaultsizemode.md',
-          },
-        ],
-      },
-      {
-        text: 'Desktop',
-        items: [
-          {
-            text: 'Keep folders on top',
-            link: '/desktop/_fxsortfoldersfirstondesktop.md',
-          },
-          { text: 'All icons', link: '/desktop/createdesktop.md' },
-          { text: 'Disks', link: '/desktop/showharddrivesondesktop.md' },
-          {
-            text: 'External disks',
-            link: '/desktop/showexternalharddrivesondesktop.md',
-          },
-          {
-            text: 'Removable media',
-            link: '/desktop/showremovablemediaondesktop.md',
-          },
-          {
-            text: 'Connected servers',
-            link: '/desktop/showmountedserversondesktop.md',
-          },
-        ],
-      },
-      {
-        text: 'Menu Bar',
-        items: [
-          {
-            text: 'Flash clock time separators',
-            link: '/menubar/flashdateseparators.md',
-          },
-          {
-            text: 'Set menubar digital clock format',
-            link: '/menubar/dateformat.md',
-          },
-        ],
-      },
-      {
-        text: 'Mouse',
-        items: [
-          { text: 'Disable acceleration', link: '/mouse/linear.md' },
-          {
-            text: 'Set movement speed',
-            link: '/mouse/scaling.md',
-          },
-          { text: 'Focus Follows Mouse', link: '/mouse/focusfollowsmouse.md' },
-        ],
-      },
-      {
-        text: 'Trackpad',
-        items: [
-          {
-            text: 'Click weight (threshold)',
-            link: '/trackpad/firstclickthreshold.md',
-          },
-          {
-            text: 'Enable dragging with drag lock',
-            link: '/trackpad/draglock.md',
-          },
-          {
-            text: 'Enable dragging without drag lock',
-            link: '/trackpad/dragging.md',
-          },
-          {
-            text: 'Enable dragging with three finger drag',
-            link: '/trackpad/trackpadthreefingerdrag.md',
-          },
-        ],
-      },
-      {
-        text: 'Keyboard',
-        items: [
-          {
-            text: 'Key held down behavior',
-            link: '/keyboard/applepressandholdenabled.md',
-          },
-          {
-            text: 'Configure fn/🌐︎ key',
-            link: '/keyboard/applefnusagetype.md',
-          },
-          {
-            text: 'Function keys behavior',
-            link: '/keyboard/applekeyboardfnstate.md',
-          },
-        ],
-      },
-      {
-        text: 'Mission Control',
-        items: [
-          {
-            text: 'Rearrange automatically',
-            link: '/mission-control/mru-spaces.md',
-          },
-          {
-            text: 'Group windows by application',
-            link: '/mission-control/expose-group-apps.md',
-          },
-          {
-            text: 'Switch to Space with open windows',
-            link: '/mission-control/applespacesswitchonactivate.md',
-          },
-          {
-            text: 'Displays have separate Spaces',
-            link: '/mission-control/spans-displays.md',
-          },
-        ],
-      },
-      {
-        text: 'Feedback Assistant',
-        items: [
-          { text: 'Autogather', link: '/feedback-assistant/autogather.md' },
-        ],
-      },
-      {
-        text: 'Xcode',
-        items: [
-          {
-            text: 'Add Additional Counterpart Suffixes',
-            link: '/xcode/ideadditionalcounterpartsuffixes.md',
-          },
-          {
-            text: 'Show Build Durations',
-            link: '/xcode/showbuildoperationduration.md',
-          },
-        ],
-      },
-      {
-        text: 'Simulator',
-        items: [
-          {
-            text: 'Set screenshot location',
-            link: '/simulator/screenshotsavelocation.md',
-          },
-        ],
-      },
-      {
-        text: 'TextEdit',
-        items: [
-          {
-            text: 'Set default document format',
-            link: '/textedit/richtext.md',
-          },
-          {
-            text: 'Set smart quotes',
-            link: '/textedit/smartquotes.md',
-          },
-        ],
-      },
-      {
-        text: 'Time Machine',
-        items: [
-          {
-            text: "Don't offer new disks for Time Machine backup",
-            link: '/timemachine/donotoffernewdisksforbackup.md',
-          },
-        ],
-      },
-      {
-        text: 'Activity Monitor',
-        items: [
-          {
-            text: 'Update Frequency',
-            link: '/activity-monitor/updateperiod.md',
-          },
-          { text: 'Dock Icon type', link: '/activity-monitor/icontype.md' },
-        ],
-      },
-      {
-        text: 'Messages',
-        items: [
-          {
-            text: 'Show Subject Field',
-            link: '/messages/show-subject-field.md',
-          },
-        ],
-      },
-      {
-        text: 'Miscellaneous',
-        items: [
-          { text: 'Help Menu position', link: '/misc/devmode.md' },
-          {
-            text: 'Enable spring loading for all Dock items',
-            link: '/misc/enable-spring-load-actions-on-all-items.md',
-          },
-          {
-            text: 'Show Music song notifications',
-            link: '/misc/userwantsplaybacknotifications.md',
-          },
-          {
-            text: 'Disable application quarantine message',
-            link: '/misc/lsquarantine.md',
-          },
-          {
-            text: 'Close confirm changes popup',
-            link: '/misc/nsclosealwaysconfirmschanges.md',
-          },
-        ],
-      },
-    ],
+    sidebar: generateSidebar({
+      documentRootPath: 'docs',
+      useFolderTitleFromIndexFile: true,
+      useTitleFromFileHeading: true,
+      manualSortFileNameByPriority: [
+        'dock',
+        'orientation.md',
+        'tilesize.md',
+        'autohide.md',
+        'autohide-time-modifier.md',
+        'autohide-delay.md',
+        'show-recents.md',
+        'mineffect.md',
+        'static-only.md',
+        'scroll-to-open.md',
+
+        'screenshots',
+        'disable-shadow.md',
+        'include-date.md',
+        'location.md',
+        'show-thumbnail.md',
+        'type.md',
+
+        'safari',
+        'showfullurlinsmartsearchfield.md',
+
+        'finder',
+        'quitmenuitem.md',
+        'appleshowallextensions.md',
+        'appleshowallfiles.md',
+        'showpathbar.md',
+        'fxpreferredviewstyle.md',
+        '_fxsortfoldersfirst.md',
+        'fxdefaultsearchscope.md',
+        'fxremoveoldtrashitems.md',
+        'fxenableextensionchangewarning.md',
+        'nsdocumentsavenewdocumentstocloud.md',
+        'showwindowtitlebaricons.md',
+        'nstoolbartitleviewrolloverdelay.md',
+        'nstableviewdefaultsizemode.md',
+
+        'desktop',
+        '_fxsortfoldersfirstondesktop.md',
+        'createdesktop.md',
+        'showharddrivesondesktop.md',
+        'showexternalharddrivesondesktop.md',
+        'showremovablemediaondesktop.md',
+        'showmountedserversondesktop.md',
+
+        'menubar',
+        'flashdateseparators.md',
+        'dateformat.md',
+
+        'mouse',
+        'linear.md',
+        'scaling.md',
+        'focusfollowsmouse.md',
+
+        'trackpad',
+        'firstclickthreshold.md',
+        'draglock.md',
+        'dragging.md',
+        'trackpadthreefingerdrag.md',
+
+        'keyboard',
+        'applepressandholdenabled.md',
+        'applefnusagetype.md',
+        'applekeyboardfnstate.md',
+
+        'mission-control',
+        'mru-spaces.md',
+        'expose-group-apps.md',
+        'applespacesswitchonactivate.md',
+        'mission-control/spans-displays.md',
+
+        'feedback-assistant',
+        'autogather.md',
+
+        'xcode',
+        'ideadditionalcounterpartsuffixes.md',
+        'showbuildoperationduration.md',
+
+        'simulator',
+        'screenshotsavelocation.md',
+
+        'textedit',
+        'richtext.md',
+        'smartquotes.md',
+
+        'timemachine',
+        'donotoffernewdisksforbackup.md',
+
+        'activity-monitor',
+        'updateperiod.md',
+        'icontype.md',
+
+        'messages',
+        'show-subject-field.md',
+
+        'miscellaneous',
+        'devmode.md',
+        'enable-spring-load-actions-on-all-items.md',
+        'userwantsplaybacknotifications.md',
+        'lsquarantine.md',
+        'nsclosealwaysconfirmschanges.md',
+      ],
+    }),
     editLink: {
       pattern:
         'https://github.com/yannbertrand/macos-defaults/edit/main/docs/:path',

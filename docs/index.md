@@ -20,6 +20,10 @@ head:
       content: 'summary_large_image'
 ---
 
+<script setup>
+import SiteTableOfContents from '../components/SiteTableOfContents.vue'
+</script>
+
 # macOS `defaults` list
 
 Incomplete list of macOS `defaults` commands with demos ✨
@@ -80,124 +84,7 @@ defaults rename ${domain} ${old_key} ${new_key}
 
 ## 💻 List of commands
 
-### Dock
-
-- [Position](./dock/orientation.md)
-- [Change macOS Dock icon size](./dock/tilesize.md)
-- [Autohide](./dock/autohide.md)
-- [Autohide animation time](./dock/autohide-time-modifier.md)
-- [Autohide delay](./dock/autohide-delay.md)
-- [Show recents](./dock/show-recents.md)
-- [Minimize animation effect](./dock/mineffect.md)
-- [Active applications only](./dock/static-only.md)
-- [Scroll to Exposé app](./dock/scroll-to-open.md)
-
-### Screenshots
-
-- [Disable shadow](./screenshots/disable-shadow.md)
-- [Include date](./screenshots/include-date.md)
-- [Set location](./screenshots/location.md)
-- [Display thumbnail](./screenshots/show-thumbnail.md)
-- [Choose screenshot format](./screenshots/type.md)
-
-### Safari
-
-- [Show full URL](./safari/showfullurlinsmartsearchfield.md)
-
-### Finder
-
-- [Quit](./finder/quitmenuitem.md)
-- [Show extensions](./finder/appleshowallextensions.md)
-- [Show hidden files](./finder/appleshowallfiles.md)
-- [Path bar](./finder/showpathbar.md)
-- [Default view style](./finder/fxpreferredviewstyle.md)
-- [Keep folders on top](./finder/_fxsortfoldersfirst.md)
-- [Default search scope](./finder/fxdefaultsearchscope.md)
-- [Empty bin items after 30 days](./finder/fxremoveoldtrashitems.md)
-- [Changing file extension warning](./finder/fxenableextensionchangewarning.md)
-- [Save to disk or iCloud by default](./finder/nsdocumentsavenewdocumentstocloud.md)
-- [Title bar icons](./finder/showwindowtitlebaricons.md)
-- [Adjust toolbar title rollover delay](./finder/nstoolbartitleviewrolloverdelay.md)
-- [Set sidebar icon size](./finder/nstableviewdefaultsizemode.md)
-
-### Desktop
-
-- [Keep folders on top](./desktop/_fxsortfoldersfirstondesktop.md)
-- [All icons](./desktop/createdesktop.md)
-- [Disks](./desktop/showharddrivesondesktop.md)
-- [External disks](./desktop/showexternalharddrivesondesktop.md)
-- [Removable media](./desktop/showremovablemediaondesktop.md)
-- [Connected servers](./desktop/showmountedserversondesktop.md)
-
-### Menu Bar
-
-- [Flash clock time separators](./menubar/flashdateseparators.md)
-- [Set menubar digital clock format](./menubar/dateformat.md)
-
-### Mouse
-
-- [Disable acceleration](./mouse/linear.md)
-- [Set movement speed](./mouse/scaling.md)
-- [Focus Follows Mouse](./mouse/focusfollowsmouse.md)
-
-### Trackpad
-
-- [Click weight (threshold)](./trackpad/firstclickthreshold.md)
-- [Enable dragging with drag lock](./trackpad/draglock.md)
-- [Enable dragging without drag lock](./trackpad/dragging.md)
-- [Enable dragging with three finger drag](./trackpad/trackpadthreefingerdrag.md)
-
-### Keyboard
-
-- [Key held down behavior](./keyboard/applepressandholdenabled.md)
-- [Configure fn/🌐︎ key](./keyboard/applefnusagetype.md)
-- [Function keys behavior](./keyboard/applekeyboardfnstate.md)
-
-### Mission Control
-
-- [Rearrange automatically](./mission-control/mru-spaces.md)
-- [Group windows by application](./mission-control/expose-group-apps.md)
-- [Switch to Space with open windows](./mission-control/applespacesswitchonactivate.md)
-- [Displays have separate Spaces](./mission-control/spans-displays.md)
-
-### Feedback Assistant
-
-- [Autogather](./feedback-assistant/autogather.md)
-
-### Xcode
-
-- [Add Additional Counterpart Suffixes](./xcode/ideadditionalcounterpartsuffixes.md)
-- [Show Build Durations](./xcode/showbuildoperationduration.md)
-
-### Simulator
-
-- [Set screenshot location](./simulator/screenshotsavelocation.md)
-
-### TextEdit
-
-- [Set default document format](./textedit/richtext.md)
-- [Set smart quotes](./textedit/smartquotes.md)
-
-### Time Machine
-
-- [Don&#x27;t offer new disks for Time Machine backup](./timemachine/donotoffernewdisksforbackup.md)
-
-### Activity Monitor
-
-- [Update Frequency](./activity-monitor/updateperiod.md)
-- [Dock Icon type](./activity-monitor/icontype.md)
-
-### Messages
-
-- [Show Subject Field](./messages/show-subject-field.md)
-
-### Miscellaneous
-
-- [Help Menu position](./misc/devmode.md)
-- [Enable spring loading for all Dock items](./misc/enable-spring-load-actions-on-all-items.md)
-- [Show Music song notifications](./misc/userwantsplaybacknotifications.md)
-- [Disable application quarantine message](./misc/lsquarantine.md)
-- [Close confirm changes popup](./misc/nsclosealwaysconfirmschanges.md)
+<SiteTableOfContents />
 
 ## 🤔 How do I add a command?
 

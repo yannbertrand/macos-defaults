@@ -10,6 +10,10 @@ head:
       content: Desktop shows files and icons on a background, works as a part of the Finder. The desktop view can be customized.
 ---
 
+<script setup>
+import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+</script>
+
 # Desktop
 
 Desktop shows files and icons on a background, works as a part of the Finder.
@@ -17,9 +21,4 @@ The desktop view can be customized.
 
 ## Keys
 
-- [Keep folders on top](./_fxsortfoldersfirstondesktop.md)
-- [All icons](./createdesktop.md)
-- [Disks](./showharddrivesondesktop.md)
-- [External disks](./showexternalharddrivesondesktop.md)
-- [Removable media](./showremovablemediaondesktop.md)
-- [Connected servers](./showmountedserversondesktop.md)
+<FolderTableOfContents />

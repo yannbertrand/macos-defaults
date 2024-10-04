@@ -10,6 +10,10 @@ head:
       content: Safari is the default web browser on macOS. Some of its features can be customized.
 ---
 
+<script setup>
+import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+</script>
+
 # Safari
 
 Safari is the default web browser on macOS.
@@ -17,4 +21,4 @@ Some of its features can be customized.
 
 ## Keys
 
-- [Show full URL](./showfullurlinsmartsearchfield.md)
+<FolderTableOfContents />

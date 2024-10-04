@@ -10,12 +10,14 @@ head:
       content: The hardware device to type on a computer.
 ---
 
+<script setup>
+import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+</script>
+
 # Keyboard
 
 The hardware device to type on a computer.
 
 ## Keys
 
-- [Key held down behavior](./applepressandholdenabled.md)
-- [Configure fn/🌐︎ key](./applefnusagetype.md)
-- [Function keys behavior](./applekeyboardfnstate.md)
+<FolderTableOfContents />

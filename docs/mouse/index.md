@@ -10,12 +10,14 @@ head:
       content: The hardware device to control the cursor.
 ---
 
+<script setup>
+import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+</script>
+
 # Mouse
 
 The hardware device to control the cursor.
 
 ## Keys
 
-- [Disable acceleration](./linear.md)
-- [Set movement speed](./scaling.md)
-- [Focus Follows Mouse](./focusfollowsmouse.md)
+<FolderTableOfContents />

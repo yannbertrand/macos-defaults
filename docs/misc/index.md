@@ -10,14 +10,14 @@ head:
       content: All the others `defaults` that don't deserve their own category.
 ---
 
+<script setup>
+import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+</script>
+
 # Miscellaneous
 
 All the others `defaults` that don't deserve their own category.
 
 ## Keys
 
-- [Help Menu position](./devmode.md)
-- [Enable spring loading for all Dock items](./enable-spring-load-actions-on-all-items.md)
-- [Show Music song notifications](./userwantsplaybacknotifications.md)
-- [Disable application quarantine message](./lsquarantine.md)
-- [Close confirm changes popup](./nsclosealwaysconfirmschanges.md)
+<FolderTableOfContents />

@@ -10,10 +10,14 @@ head:
       content: The Time Machine feature allows simple, regular backups of your filesystem.
 ---
 
+<script setup>
+import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+</script>
+
 # Time Machine
 
 The Time Machine feature allows simple, regular backups of your filesystem.
 
 ## Keys
 
-- [Don&#x27;t offer new disks for Time Machine backup](./donotoffernewdisksforbackup.md)
+<FolderTableOfContents />

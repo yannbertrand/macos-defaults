@@ -10,11 +10,14 @@ head:
       content: The menu bar runs along the top of the screen on your Mac. Use the menus and icons in the menu bar to choose commands, perform tasks, and check status.
 ---
 
+<script setup>
+import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+</script>
+
 # Menu Bar
 
 The menu bar runs along the top of the screen on your Mac. Use the menus and icons in the menu bar to choose commands, perform tasks, and check status.
 
 ## Keys
 
-- [Flash clock time separators](./flashdateseparators.md)
-- [Set menubar digital clock format](./dateformat.md)
+<FolderTableOfContents />
