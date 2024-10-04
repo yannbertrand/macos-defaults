@@ -1,16 +1,16 @@
 ---
-title: Change macOS Dock icon size | Dock
+title: Icon size | Dock
 description: Set the icon size of Dock items in pixels.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Dock > Change macOS Dock icon size
+      content: macOS defaults > Dock > Icon size
   - - meta
     - property: 'og:description'
       content: Set the icon size of Dock items in pixels.
 ---
 
-# Change macOS Dock icon size
+# Icon size
 
 Set the icon size of Dock items in pixels.
 

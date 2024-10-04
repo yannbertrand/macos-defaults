@@ -1,16 +1,16 @@
 ---
-title: Set smart quotes | TextEdit
+title: Smart quotes | TextEdit
 description: Set if quotation marks should be converted from neutral form to opening/closing variants.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > TextEdit > Set smart quotes
+      content: macOS defaults > TextEdit > Smart quotes
   - - meta
     - property: 'og:description'
       content: Set if quotation marks should be converted from neutral form to opening/closing variants.
 ---
 
-# Set smart quotes
+# Smart quotes
 
 Set if quotation marks should be converted from neutral form to opening/closing variants.
 

@@ -1,16 +1,16 @@
 ---
-title: Set screenshot location | Simulator
+title: Screenshot location | Simulator
 description: Set default location for Simulator screenshots. Note that the folder has to exist in the filesystem.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Simulator > Set screenshot location
+      content: macOS defaults > Simulator > Screenshot location
   - - meta
     - property: 'og:description'
       content: Set default location for Simulator screenshots. Note that the folder has to exist in the filesystem.
 ---
 
-# Set screenshot location
+# Screenshot location
 
 Set default location for Simulator screenshots.
 

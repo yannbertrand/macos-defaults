@@ -1,5 +1,5 @@
 ---
-title: Dock Icon type | Activity Monitor | macOS defaults
+title: Dock Icon type | Activity Monitor
 description: Choose what information should be shown in the app's Dock icon, if any.
 head:
   - - meta

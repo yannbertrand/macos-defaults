@@ -1,16 +1,16 @@
 ---
-title: Enable spring loading for all Dock items | Miscellaneous
+title: Spring loading for all Dock items | Miscellaneous
 description: Drag a file over an icon in the Dock, hover, and the application will open. The behaviour is unchanged if the app is already open. This behaviour has been observed with Preview, Quicktime, and iWork (Keynote, Pages, Numbers).
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Miscellaneous > Enable spring loading for all Dock items
+      content: macOS defaults > Miscellaneous > Spring loading for all Dock items
   - - meta
     - property: 'og:description'
       content: Drag a file over an icon in the Dock, hover, and the application will open. The behaviour is unchanged if the app is already open. This behaviour has been observed with Preview, Quicktime, and iWork (Keynote, Pages, Numbers).
 ---
 
-# Enable spring loading for all Dock items
+# Spring loading for all Dock items
 
 Drag a file over an icon in the Dock, hover, and the application will open. The behaviour is unchanged if the app is already open. This behaviour has been observed with Preview, Quicktime, and iWork (Keynote, Pages, Numbers).
 

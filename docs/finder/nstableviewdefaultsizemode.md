@@ -1,16 +1,16 @@
 ---
-title: Set sidebar icon size | Finder
+title: Sidebar icon size | Finder
 description: Choose the size of Finder sidebar icons
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Finder > Set sidebar icon size
+      content: macOS defaults > Finder > Sidebar icon size
   - - meta
     - property: 'og:description'
       content: Choose the size of Finder sidebar icons
 ---
 
-# Set sidebar icon size
+# Sidebar icon size
 
 Choose the size of Finder sidebar icons
 

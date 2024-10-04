@@ -1,16 +1,16 @@
 ---
-title: Enable dragging without drag lock | Trackpad
+title: Dragging without drag lock | Trackpad
 description: Mutually exclusive with `DragLock` and `TrackpadThreeFingerDrag`.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Trackpad > Enable dragging without drag lock
+      content: macOS defaults > Trackpad > Dragging without drag lock
   - - meta
     - property: 'og:description'
       content: Mutually exclusive with `DragLock` and `TrackpadThreeFingerDrag`.
 ---
 
-# Enable dragging without drag lock
+# Dragging without drag lock
 
 Mutually exclusive with `DragLock` and `TrackpadThreeFingerDrag`.
 

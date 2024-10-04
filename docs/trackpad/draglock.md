@@ -1,16 +1,16 @@
 ---
-title: Enable dragging with drag lock | Trackpad
+title: Dragging with drag lock | Trackpad
 description: Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Trackpad > Enable dragging with drag lock
+      content: macOS defaults > Trackpad > Dragging with drag lock
   - - meta
     - property: 'og:description'
       content: Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.
 ---
 
-# Enable dragging with drag lock
+# Dragging with drag lock
 
 Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.
 
