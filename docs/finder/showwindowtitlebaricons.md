@@ -17,8 +17,6 @@ Always show folder icon before title in the title bar
 ⚠️ This command requires to grant full disk access to the terminal
 (System Preferences → Security & Privacy → Full Disk Access)
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Monterey

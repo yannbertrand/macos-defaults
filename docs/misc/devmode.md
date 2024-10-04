@@ -14,8 +14,6 @@ head:
 
 Choose whether the Help Menu should be always-on-top.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Monterey

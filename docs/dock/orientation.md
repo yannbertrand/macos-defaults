@@ -14,8 +14,6 @@ head:
 
 Set the Dock position
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

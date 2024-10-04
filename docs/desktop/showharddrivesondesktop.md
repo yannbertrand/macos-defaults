@@ -14,8 +14,6 @@ head:
 
 Show hard disks on desktop
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Monterey
   - Big Sur

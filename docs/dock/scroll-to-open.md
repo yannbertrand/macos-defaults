@@ -14,8 +14,6 @@ head:
 
 Scroll up on a Dock icon to show all Space's opened windows for an app, or open stack.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

@@ -20,8 +20,6 @@ Accepted values depend on your Language & Region settings.
 - `EEE` for 3-letter day of the week.
 - `d MMM` for day of the month and 3-letter month.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Monterey
   - Big Sur

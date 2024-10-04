@@ -14,8 +14,6 @@ head:
 
 Keep folders on top when sorting
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Monterey

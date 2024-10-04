@@ -14,8 +14,6 @@ head:
 
 Disable screenshot shadow when capturing an app (`⌘ cmd`+`⇧ shift`+`4` then `space`).
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

@@ -19,8 +19,6 @@ Allows you to select the behavior when a key is held down for a long time. The t
 
 ⚠️ Restarting the Mac, closing the session or restarting the application is necessary to take into effect the changes.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Monterey

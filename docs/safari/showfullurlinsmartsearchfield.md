@@ -14,8 +14,6 @@ head:
 
 Show full website address.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Monterey
 - **Parameter type**: bool

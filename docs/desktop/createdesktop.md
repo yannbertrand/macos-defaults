@@ -14,8 +14,6 @@ head:
 
 Hide all icons on desktop
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

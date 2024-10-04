@@ -14,8 +14,6 @@ head:
 
 Show build durations in the Activity Viewer in Xcode's toolbar at the top of the workspace window.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Catalina
 - **Parameter type**: bool

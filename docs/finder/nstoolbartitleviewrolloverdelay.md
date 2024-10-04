@@ -14,8 +14,6 @@ head:
 
 Choose the delay of the auto-hidden document-proxy icon.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Monterey

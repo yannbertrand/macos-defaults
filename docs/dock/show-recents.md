@@ -14,8 +14,6 @@ head:
 
 Show recently used apps in a separate section of the Dock.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

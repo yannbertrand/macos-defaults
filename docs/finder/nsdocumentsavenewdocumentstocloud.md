@@ -14,8 +14,6 @@ head:
 
 Choose whether the default file save location is on disk or iCloud
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Catalina
 - **Parameter type**: bool

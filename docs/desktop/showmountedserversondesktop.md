@@ -14,8 +14,6 @@ head:
 
 Show connected servers on desktop
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Monterey
   - Big Sur

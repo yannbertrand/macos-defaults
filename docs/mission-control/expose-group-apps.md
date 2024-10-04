@@ -15,8 +15,6 @@ head:
 If you have several windows from multiple apps open simultaneously, have the windows organised by app in
 Mission Control.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

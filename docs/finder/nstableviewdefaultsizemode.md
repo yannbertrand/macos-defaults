@@ -14,8 +14,6 @@ head:
 
 Choose the size of Finder sidebar icons
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

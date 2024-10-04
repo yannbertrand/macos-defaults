@@ -14,8 +14,6 @@ head:
 
 Display a notification when a new song starts in the Music app.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Catalina
