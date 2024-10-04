@@ -10,10 +10,14 @@ head:
       content: The Feedback Assistant app allows user to submit reports for developer or public betas.
 ---
 
+<script setup>
+import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+</script>
+
 # Feedback Assistant
 
 The Feedback Assistant app allows user to submit reports for developer or public betas.
 
 ## Keys
 
-- [Autogather](./autogather.md)
+<FolderTableOfContents />
