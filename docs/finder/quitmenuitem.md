@@ -14,8 +14,6 @@ head:
 
 Add a quit option to the Finder. Behaves strangely when activated, would not recommend.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

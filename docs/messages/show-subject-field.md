@@ -14,8 +14,6 @@ head:
 
 Show the subject field which appears above the iMessage/Text Message field in Messages. Text entered in the subject field will be sent in bold (unless there is no text in the iMessage/Text Message field; in this case, the text in the subject field will be sent without the bold effect).
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
 - **Parameter type**: bool

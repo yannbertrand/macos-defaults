@@ -15,8 +15,6 @@ head:
 Focus of the Terminal windows when the mouse cursor hovers over them.
 The focus change only works between the Terminal windows.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

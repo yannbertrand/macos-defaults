@@ -14,8 +14,6 @@ head:
 
 Mutually exclusive with `Dragging` and `TrackpadThreeFingerDrag`.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Monterey

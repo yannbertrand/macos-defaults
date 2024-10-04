@@ -14,8 +14,6 @@ head:
 
 Change the Dock opening delay.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

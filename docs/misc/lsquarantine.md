@@ -16,8 +16,6 @@ Turn off the “Application Downloaded from Internet” quarantine warning.
 
 ⚠️ Stopped working on Big Sur.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Catalina
 - **Parameter type**: bool

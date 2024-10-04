@@ -16,8 +16,6 @@ Set up separate spaces for each display (if you use Spaces and have multiple dis
 
 ⚠️ Requires a logout to take effect.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Big Sur

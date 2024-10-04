@@ -14,8 +14,6 @@ head:
 
 Choose whether to rearrange Spaces automatically.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

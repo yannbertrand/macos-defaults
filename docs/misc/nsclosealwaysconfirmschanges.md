@@ -15,8 +15,6 @@ head:
 Should you be asked to keep changes when closing documents or just have changes saved automatically.
 Requires closing and opening the app before working. Tested on Apple Preview.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

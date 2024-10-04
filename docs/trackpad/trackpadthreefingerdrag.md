@@ -14,8 +14,6 @@ head:
 
 Mutually exclusive with `Dragging` and `DragLock`.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Monterey

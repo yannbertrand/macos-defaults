@@ -14,8 +14,6 @@ head:
 
 Add additional counterpart suffixes that Xcode should consider in the "Related Items > Counterparts" menu.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Catalina
 - **Parameter type**: array

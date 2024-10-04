@@ -16,8 +16,6 @@ Set default location for Simulator screenshots.
 
 Note that the folder has to exist in the filesystem.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Catalina
 - **Parameter type**: string

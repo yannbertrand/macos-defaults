@@ -14,8 +14,6 @@ head:
 
 Prevent Time Machine from prompting to use newly connected storage as backup volumes.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Catalina
 - **Parameter type**: bool

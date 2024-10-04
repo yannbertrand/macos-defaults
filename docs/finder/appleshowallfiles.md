@@ -14,8 +14,6 @@ head:
 
 Show hidden files in the Finder. You can toggle the value using `⌘ cmd`+`⇧ shift`+`.`.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

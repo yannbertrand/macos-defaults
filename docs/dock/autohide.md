@@ -14,8 +14,6 @@ head:
 
 Autohides the Dock. You can toggle the Dock using `⌥ alt`+`⌘ cmd`+`d`.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

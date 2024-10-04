@@ -14,8 +14,6 @@ head:
 
 When switching to an app, switch to a space with open windows for this app.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

@@ -14,8 +14,6 @@ head:
 
 Set default document format as rich text (.rtf) or plain text (.txt).
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Monterey

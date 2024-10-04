@@ -14,8 +14,6 @@ head:
 
 Set if quotation marks should be converted from neutral form to opening/closing variants.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

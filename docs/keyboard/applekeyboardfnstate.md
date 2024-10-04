@@ -19,8 +19,6 @@ Allows you to change the behavior of the function keys. The two possible options
 
 ⚠️ A restart of your Mac is required to apply these changes.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
 - **Parameter type**: bool

@@ -14,8 +14,6 @@ head:
 
 Choose the screenshots image format.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

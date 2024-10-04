@@ -14,8 +14,6 @@ head:
 
 Hide external disks on desktop
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Monterey
   - Big Sur

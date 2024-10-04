@@ -14,8 +14,6 @@ head:
 
 Hide removable media _(CDs, DVDs and iPods)_ on desktop
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Monterey
   - Big Sur

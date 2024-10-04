@@ -14,8 +14,6 @@ head:
 
 Change the Dock minimize animation.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

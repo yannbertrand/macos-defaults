@@ -20,8 +20,6 @@ The underlying acceleration curve (which determines how much movement you get at
 
 ⚠️ A restart of your Mac is required to apply these changes.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
 - **Parameter type**: bool

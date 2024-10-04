@@ -14,8 +14,6 @@ head:
 
 Set the default search scope when performing a search
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

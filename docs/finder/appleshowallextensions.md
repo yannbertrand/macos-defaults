@@ -14,8 +14,6 @@ head:
 
 Show all file extensions in the Finder.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Ventura

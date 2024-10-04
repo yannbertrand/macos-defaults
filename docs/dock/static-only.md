@@ -16,8 +16,6 @@ Only show opened apps in Dock.
 
 ⚠️ Beware this command empties your Dock.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Sonoma
   - Monterey

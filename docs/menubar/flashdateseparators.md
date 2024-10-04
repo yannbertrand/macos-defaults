@@ -14,8 +14,6 @@ head:
 
 When enabled, the clock indicator (which by default is the colon) will flash on and off each second.
 
-<!-- break lists -->
-
 - **Tested on macOS**:
   - Ventura
   - Monterey
