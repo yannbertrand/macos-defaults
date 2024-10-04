@@ -11,10 +11,24 @@ head:
 ---
 
 <script setup>
+import { useData } from 'vitepress'
 import FolderTableOfContents from '../../components/FolderTableOfContents.vue'
+
+const { isDark } = useData();
 </script>
 
 # Screenshots
+
+<img
+  v-if="isDark"
+  src="./images/screenshot-dark.png" alt="A screenshot of the Screenshot app"
+  width="540" height="89" style="height: auto"
+/>
+<img
+  v-else
+  src="./images/screenshot-light.png" alt="A screenshot of the Screenshot app"
+  width="540" height="89" style="height: auto"
+/>
 
 On a Mac, you can take screenshots using:
 
