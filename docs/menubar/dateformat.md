@@ -1,18 +1,18 @@
 ---
-title: Set menubar digital clock format | Menu Bar
-description: This setting configures the time and date format for the menubar digital clock.
+title: Digital clock format | Menu Bar
+description: This setting configures the time and date format for the Menu Bar digital clock.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Menu Bar > Set menubar digital clock format
+      content: macOS defaults > Menu Bar > Set digital clock format
   - - meta
     - property: 'og:description'
-      content: This setting configures the time and date format for the menubar digital clock.
+      content: This setting configures the time and date format for the Menu Bar digital clock.
 ---
 
-# Set menubar digital clock format
+# Digital clock format
 
-This setting configures the time and date format for the menubar digital clock.
+This setting configures the time and date format for the Menu Bar digital clock.
 Accepted values depend on your Language & Region settings.
 
 - `ss` for seconds.

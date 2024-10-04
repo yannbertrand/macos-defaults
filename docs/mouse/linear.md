@@ -1,5 +1,5 @@
 ---
-title: Mouse | Acceleration
+title: Acceleration | Mouse
 description: Disable mouse acceleration.
 head:
   - - meta

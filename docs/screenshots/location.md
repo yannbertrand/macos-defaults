@@ -1,5 +1,5 @@
 ---
-title: Set location | Screenshots
+title: Location | Screenshots
 description: Set default screenshot location.
 head:
   - - meta
@@ -10,7 +10,7 @@ head:
       content: Set default screenshot location.
 ---
 
-# Set location
+# Location
 
 Set default screenshot location.
 

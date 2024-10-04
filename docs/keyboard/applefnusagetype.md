@@ -1,16 +1,16 @@
 ---
-title: Keyboard | Fn key usage
+title: Fn/🌐 key usage | Keyboard
 description: Choose what happens when you press the Fn or 🌐︎ key on the keyboard.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Keyboard > Fn key usage
+      content: macOS defaults > Keyboard > Fn/🌐 key usage
   - - meta
     - property: 'og:description'
       content: Choose what happens when you press the Fn or 🌐︎ key on the keyboard.
 ---
 
-# Function key usage
+# Fn/🌐 key usage
 
 Choose what happens when you press the Fn or 🌐︎ key on the keyboard.
 

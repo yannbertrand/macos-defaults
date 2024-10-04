@@ -1,5 +1,5 @@
 ---
-title: Mouse | Speed
+title: Speed | Mouse
 description: Set movement speed of the mouse cursor.
 head:
   - - meta

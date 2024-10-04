@@ -1,16 +1,16 @@
 ---
-title: Set default document format | TextEdit
+title: Default document format | TextEdit
 description: Set default document format as rich text (.rtf) or plain text (.txt).
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > TextEdit > Set default document format
+      content: macOS defaults > TextEdit > Default document format
   - - meta
     - property: 'og:description'
       content: Set default document format as rich text (.rtf) or plain text (.txt).
 ---
 
-# Set default document format
+# Default document format
 
 Set default document format as rich text (.rtf) or plain text (.txt).
 
