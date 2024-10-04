@@ -179,6 +179,7 @@ export default defineConfig({
     sidebar: generateSidebar({
       documentRootPath: 'docs',
       useFolderTitleFromIndexFile: true,
+      useFolderLinkFromIndexFile: true,
       useTitleFromFileHeading: true,
       manualSortFileNameByPriority: [
         'dock',
