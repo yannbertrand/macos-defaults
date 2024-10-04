@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rimraf docs/.vitepress/cache docs/.vitepress/dist",
     "build": "npm run build:prod",
-    "build:prod": "vitepress build docs --dest dist",
+    "build:prod": "vitepress build docs",
     "start": "vitepress dev docs",
     "preview": "vitepress preview docs",
     "format": "prettier --write .",

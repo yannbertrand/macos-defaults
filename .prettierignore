@@ -1,2 +1,2 @@
-*.handlebars
-dist
+docs/.vitepress/cache
+docs/.vitepress/dist
