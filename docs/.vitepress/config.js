@@ -210,6 +210,7 @@ export default defineConfig({
         'showpathbar.md',
         'fxpreferredviewstyle.md',
         '_fxsortfoldersfirst.md',
+        'finderspawntab.md',
         'fxdefaultsearchscope.md',
         'fxremoveoldtrashitems.md',
         'fxenableextensionchangewarning.md',
