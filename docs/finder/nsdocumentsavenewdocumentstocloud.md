@@ -1,5 +1,5 @@
 ---
-title: Save to disk or iCloud by default | Finder
+title: Save to disk location | Finder
 description: Choose whether the default file save location is on disk or iCloud
 head:
   - - meta
@@ -10,7 +10,7 @@ head:
       content: Choose whether the default file save location is on disk or iCloud
 ---
 
-# Save to disk or iCloud by default
+# Save to disk location
 
 Choose whether the default file save location is on disk or iCloud
 
