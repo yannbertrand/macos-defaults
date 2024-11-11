@@ -25,7 +25,7 @@ Change the Dock opening and closing animation times.
 
 ## Requirements
 
-- [`com.apple.dock autohide`](/dock/autohide.md#set-to-true) must be set to `true`
+- [`com.apple.dock autohide`](/docs/dock/autohide.md#set-to-true) must be set to `true`
 
 ## Set to `0.5` (default value)
 
