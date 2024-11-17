@@ -246,6 +246,7 @@ export default defineConfig({
         'applepressandholdenabled.md',
         'applefnusagetype.md',
         'applekeyboardfnstate.md',
+        'applekeyboarduimode.md',
 
         'mission-control',
         'mru-spaces.md',
