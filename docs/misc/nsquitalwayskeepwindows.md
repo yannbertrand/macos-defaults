@@ -13,8 +13,6 @@ head:
 # Keep windows when quitting an application
 
 When enabled, open documents and windows will be restored when you re-open an application.
-This setting is the inverse of the option accessible through
-System Preferences > Desktop & Dock > Close windows when quitting an application.
 
 ⚠️ Restarting the Mac or closing the session is necessary to take the changes into effect.
 
@@ -51,3 +49,11 @@ defaults read NSGlobalDomain "NSQuitAlwaysKeepsWindow"
 ```bash
 defaults delete NSGlobalDomain "NSQuitAlwaysKeepsWindow"
 ```
+
+## Set value from UI
+
+This setting is the inverse of the following option accessible through
+System Preferences.
+
+1. Open the <a href="x-apple.systempreferences:com.apple.preference.dock?Windows">Desktop & Dock preference pane in System Preferences</a>.
+2. Toggle "Close windows when quitting an application".
