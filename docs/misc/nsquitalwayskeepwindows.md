@@ -1,6 +1,6 @@
 ---
 title: Keep windows when quitting an application | Miscellaneous
-description: 
+description: When enabled, open documents and windows will be restored when you re-open an application.
 head:
   - - meta
     - property: 'og:title'
@@ -15,7 +15,8 @@ head:
 When enabled, open documents and windows will be restored when you re-open an application.
 This setting is the inverse of the option accessible through
 System Preferences > Desktop & Dock > Close windows when quitting an application.
-Requires logging out and in again before working.
+
+⚠️ Restarting the Mac or closing the session is necessary to take the changes into effect.
 
 - **Tested on macOS**:
   - Sequoia
