@@ -36,7 +36,7 @@ Here are the mandatory infos to add a new command:
 - Ideally, an image or video for each example
 - Compatible versions it has been tested on
 
-Some images and videos are built programmatically. Take a look at the [record folder](./record/#readme) to find out how to record some. I will always prefer images and videos examples as they help maintenance a lot! Please consider it if you want to [open a PR](https://github.com/yannbertrand/macos-defaults/compare).
+I will always prefer images and videos examples as they help users and maintenance a lot! Please consider it if you want to [open a PR](https://github.com/yannbertrand/macos-defaults/compare).
 
 ### How to discover a `defaults` command
 
@@ -46,13 +46,7 @@ After you find the key with your options, simply run `defaults find ${keyname}` 
 
 # macOS-defaults recorder 📷
 
-Programmatically record a Mac screen with a predefined list of actions 📹.
-
-The project also contains scripts that run desktop actions, take screenshots or record videos. The goal is to avoid having to manually recheck the status of commands with each new major version of macOS.
-
-## How does it work?
-
-Take a look at the [record folder](./record/#readme) if you want to go deeper.
+Some screenshots and videos were recorded programmatically in the past. Take a look at [the `record` folder in the project history](https://github.com/yannbertrand/macos-defaults/tree/a48f54fe1aab9dd5251cb08a984f4ccf19af6778/record) to learn more about it.
 
 # macOS-defaults builder 🤖
 
