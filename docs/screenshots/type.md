@@ -30,6 +30,7 @@ Choose the screenshots image format.
   - tga
   - tiff
   - bmp
+  - heic
 
 ## Set to `png` (default value)
 
@@ -45,6 +46,14 @@ The generated image is a jpg
 
 ```bash
 defaults write com.apple.screencapture "type" -string "jpg"
+```
+
+## Set to `heic`
+
+The generated image is a HEIF image (.heic)
+
+```bash
+defaults write com.apple.screencapture "type" -string "heic"
 ```
 
 ## Read current value
