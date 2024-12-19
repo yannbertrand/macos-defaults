@@ -88,7 +88,9 @@ defaults rename ${domain} ${old_key} ${new_key}
 
 ## 🤔 How do I add a command?
 
-Please take [a look at the GitHub project](https://github.com/yannbertrand/macos-defaults#add-a-command). Feel free to open an issue if you know an unlisted command. It's also possible to add the command yourself by creating a Pull Request.
+Feel free to open a [GitHub issue](https://github.com/yannbertrand/macos-defaults/issues) if you know an unlisted command.
+
+It's also possible to add the command yourself by creating a Pull Request. Please take [a look at the contribution guidelines](/contributing.md).
 
 ## ❤️ I like this website, how can I build the same?
 

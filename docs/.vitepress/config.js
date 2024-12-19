@@ -285,6 +285,7 @@ export default defineConfig({
         'lsquarantine.md',
         'nsclosealwaysconfirmschanges.md',
       ],
+      excludePattern: ['contributing.md'],
     }),
     editLink: {
       pattern:
