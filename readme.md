@@ -16,27 +16,9 @@ An up-to-date list of [macOS `defaults` commands](https://macos-defaults.com) wi
 
 ## Add a command
 
-All the listed `defaults` commands are Markdown files stored in the [docs folder](./docs). It is recommended to look at a few of them before proposing a new one:
+Feel free to open an issue if you know an unlisted command.
 
-- https://macos-defaults.com/dock/orientation.html
-- https://macos-defaults.com/dock/autohide-time-modifier.html
-- https://macos-defaults.com/screenshots/disable-shadow.html
-
-Here are the mandatory infos to add a new command:
-
-- The defaults command's domain
-- The command's key
-- A neutral title
-- A simple description
-- Parameter type, and list of accepted values when applicable
-- Other command dependency
-- A scenario to test the command is still working
-- The corresponding option access from UI when it exists
-- At least two examples with a small text description
-- Ideally, an image or video for each example
-- Compatible versions it has been tested on
-
-I will always prefer images and videos examples as they help users and maintenance a lot! Please consider it if you want to [open a PR](https://github.com/yannbertrand/macos-defaults/compare).
+It's also possible to add the command yourself by creating a Pull Request. Please take [a look at the contribution guidelines](https://macos-defaults.com/contributing.html).
 
 ### How to discover a `defaults` command
 
