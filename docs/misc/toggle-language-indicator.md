@@ -18,7 +18,7 @@ Turn off the language indicator while switching input sources.
 
   - Sonoma
 
-- **Parameter type**: bool
+**Parameter type**: bool
 
 ## Set to `true` (default value)
 
