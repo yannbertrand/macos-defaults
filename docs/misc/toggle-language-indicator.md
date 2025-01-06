@@ -1,6 +1,6 @@
 ---
 title: Toggle language indicator | Miscellaneous
-description: Turn off the language indicator while switching input sources.
+description: Toggle the language indicator visibility while switching input sources.
 head:
   - - meta
     - property: 'og:title'
