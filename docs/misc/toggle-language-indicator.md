@@ -1,5 +1,5 @@
 ---
-title: Disable language indicator | Miscellaneous
+title: Toggle language indicator | Miscellaneous
 description: Turn off the language indicator while switching input sources.
 head:
   - - meta
