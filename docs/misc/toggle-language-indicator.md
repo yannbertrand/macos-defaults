@@ -35,7 +35,7 @@ defaults write kCFPreferencesAnyApplication TSMLanguageIndicatorEnabled -bool "t
 <img
   src="./images/toggle-language-indicator/on.png"
   alt="Example output with value set to true"
-  width="740" height="463" style="height: auto"
+  width="740" height="494" style="height: auto"
 />
 
 ## Set to `false`
