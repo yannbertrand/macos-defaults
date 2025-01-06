@@ -1,10 +1,10 @@
 ---
-title: Toggle language indicator | Miscellaneous
+title: Toggle language indicator | Keyboard
 description: Toggle the language indicator visibility while switching input sources.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Miscellaneous > Toggle language indicator
+      content: macOS defaults > Keyboard > Toggle language indicator
   - - meta
     - property: 'og:description'
       content: Toggle the language indicator visibility while switching input sources.
