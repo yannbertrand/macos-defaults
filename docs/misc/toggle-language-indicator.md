@@ -4,7 +4,7 @@ description: Turn off the language indicator while switching input sources.
 head:
   - - meta
     - property: 'og:title'
-      content: macOS defaults > Miscellaneous > Disable indicator of input sources
+      content: macOS defaults > Miscellaneous > Toggle language indicator
   - - meta
     - property: 'og:description'
       content: Turn off the language indicator while switching input sources.
