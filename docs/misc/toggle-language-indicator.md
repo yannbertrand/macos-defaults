@@ -20,6 +20,10 @@ Turn off the language indicator while switching input sources.
 
 **Parameter type**: bool
 
+## Requirements
+
+- User must have at least <a href="x-apple.systempreferences:com.apple.preference.keyboard?InputSources">2 Input Sources set up in the Keyboard settings</a>
+
 ## Set to `true` (default value)
 
 Turn on the language indicator while switching input sources.
