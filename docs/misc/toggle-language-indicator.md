@@ -10,7 +10,7 @@ head:
       content: Toggle the language indicator visibility while switching input sources.
 ---
 
-# Disable indicator of input sources
+# Toggle language indicator
 
 Turn off the language indicator while switching input sources.
 
