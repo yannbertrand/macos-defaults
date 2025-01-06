@@ -14,8 +14,10 @@ head:
 
 Turn off the language indicator while switching input sources.
 
-- **Tested on macOS**:
+**Tested on macOS**:
+
   - Sonoma
+
 - **Parameter type**: bool
 
 ## Set to `true` (default value)
