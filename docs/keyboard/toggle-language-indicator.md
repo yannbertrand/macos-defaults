@@ -16,7 +16,7 @@ Turn off the language indicator while switching input sources.
 
 **Tested on macOS**:
 
-  - Sonoma
+- Sonoma
 
 **Parameter type**: bool
 
