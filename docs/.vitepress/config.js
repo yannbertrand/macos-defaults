@@ -279,6 +279,7 @@ export default defineConfig({
         'show-subject-field.md',
 
         'miscellaneous',
+        'apple-intelligence.md',
         'devmode.md',
         'enable-spring-load-actions-on-all-items.md',
         'userwantsplaybacknotifications.md',
