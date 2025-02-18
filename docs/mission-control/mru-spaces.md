@@ -21,6 +21,7 @@ Choose whether to rearrange Spaces automatically.
   - Big Sur
   - Catalina
   - Mojave
+  - Sequoia
 - **Parameter type**: bool
 
 ## Set to `true` (default value)
