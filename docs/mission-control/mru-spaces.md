@@ -15,13 +15,14 @@ head:
 Choose whether to rearrange Spaces automatically.
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Ventura
   - Monterey
   - Big Sur
   - Catalina
   - Mojave
-  - Sequoia
+
 - **Parameter type**: bool
 
 ## Set to `true` (default value)
