@@ -15,6 +15,7 @@ head:
 Choose whether to rearrange Spaces automatically.
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Ventura
   - Monterey
