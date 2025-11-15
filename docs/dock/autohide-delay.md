@@ -15,6 +15,7 @@ head:
 Change the Dock opening delay.
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Ventura
   - Monterey
