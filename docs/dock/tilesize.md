@@ -15,6 +15,7 @@ head:
 Set the icon size of Dock items in pixels.
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Ventura
   - Monterey
