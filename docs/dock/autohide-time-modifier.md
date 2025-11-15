@@ -15,6 +15,7 @@ head:
 Change the Dock opening and closing animation times.
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Ventura
   - Monterey
