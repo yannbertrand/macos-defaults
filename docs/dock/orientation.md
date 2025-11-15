@@ -15,6 +15,7 @@ head:
 Set the Dock position
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Ventura
   - Monterey
