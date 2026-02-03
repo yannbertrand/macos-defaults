@@ -15,6 +15,7 @@ head:
 Autohides the Dock. You can toggle the Dock using `⌥ alt`+`⌘ cmd`+`d`.
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Ventura
   - Monterey

@@ -15,6 +15,7 @@ head:
 Show recently used apps in a separate section of the Dock.
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Ventura
   - Monterey

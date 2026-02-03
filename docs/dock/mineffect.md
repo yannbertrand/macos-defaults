@@ -15,6 +15,7 @@ head:
 Change the Dock minimize animation.
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Ventura
   - Monterey

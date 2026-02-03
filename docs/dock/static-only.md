@@ -17,6 +17,7 @@ Only show opened apps in Dock.
 ⚠️ Beware this command empties your Dock.
 
 - **Tested on macOS**:
+  - Sequoia
   - Sonoma
   - Monterey
 - **Parameter type**: bool
