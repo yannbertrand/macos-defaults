@@ -18,7 +18,7 @@
     "vitepress-sidebar": "^1.27.1"
   },
   "devDependencies": {
-    "@netlify/plugin-lighthouse": "6.0.1",
+    "@netlify/plugin-lighthouse": "6.0.4",
     "prettier": "^3.0.0",
     "rimraf": "5.0.7"
   }
