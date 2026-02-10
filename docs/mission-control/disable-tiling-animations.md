@@ -12,7 +12,7 @@ head:
 
 # Disable window tiling animations
 
-Disable the animation used when tiling windows (triggered by `fn`+`ctrl`+`→ right`).
+Toggles the resize animations triggered by tiling windows with the `fn`+`ctrl`+`arrow keys` or by dragging a window to the edges of the screen.
 
 - **Tested on macOS**:
   - Tahoe
