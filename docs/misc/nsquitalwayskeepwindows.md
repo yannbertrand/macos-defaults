@@ -26,7 +26,7 @@ Keep windows when quitting an application.
 Open documents and windows will be restored when you re-open an application.
 
 ```bash
-defaults write NSGlobalDomain "NSQuitAlwaysKeepsWindow" -bool "true"
+defaults write NSGlobalDomain "NSQuitAlwaysKeepsWindows" -bool "true"
 ```
 
 ## Set to `false`
@@ -35,19 +35,19 @@ Close windows when quitting an application.
 Open documents and windows will not be restored when you re-open an application.
 
 ```bash
-defaults write NSGlobalDomain "NSQuitAlwaysKeepsWindow" -bool "false"
+defaults write NSGlobalDomain "NSQuitAlwaysKeepsWindows" -bool "false"
 ```
 
 ## Read current value
 
 ```bash
-defaults read NSGlobalDomain "NSQuitAlwaysKeepsWindow"
+defaults read NSGlobalDomain "NSQuitAlwaysKeepsWindows"
 ```
 
 ## Reset to default value
 
 ```bash
-defaults delete NSGlobalDomain "NSQuitAlwaysKeepsWindow"
+defaults delete NSGlobalDomain "NSQuitAlwaysKeepsWindows"
 ```
 
 ## Set value from UI
