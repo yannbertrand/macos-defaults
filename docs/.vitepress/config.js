@@ -252,6 +252,7 @@ export default defineConfig({
         'mru-spaces.md',
         'expose-group-apps.md',
         'applespacesswitchonactivate.md',
+        'disable-tiling-animations.md',
         'mission-control/spans-displays.md',
 
         'feedback-assistant',
