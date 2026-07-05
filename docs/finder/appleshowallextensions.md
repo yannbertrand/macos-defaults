@@ -15,6 +15,7 @@ head:
 Show all file extensions in the Finder.
 
 - **Tested on macOS**:
+  - Tahoe
   - Sonoma
   - Ventura
   - Monterey

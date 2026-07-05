@@ -15,6 +15,7 @@ head:
 Show path bar in the bottom of the Finder windows
 
 - **Tested on macOS**:
+  - Tahoe
   - Sonoma
   - Ventura
   - Monterey

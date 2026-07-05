@@ -15,6 +15,7 @@ head:
 Choose between Light/Medium/Firm.
 
 - **Tested on macOS**:
+  - Tahoe
   - Sonoma
   - Ventura
   - Monterey

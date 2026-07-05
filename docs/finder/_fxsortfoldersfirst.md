@@ -15,6 +15,7 @@ head:
 Keep folders on top when sorting by name
 
 - **Tested on macOS**:
+  - Tahoe
   - Sonoma
   - Ventura
   - Monterey
