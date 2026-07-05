@@ -15,6 +15,7 @@ head:
 Choose whether to display a warning when changing a file extension.
 
 - **Tested on macOS**:
+  - Tahoe
   - Sonoma
   - Ventura
   - Monterey

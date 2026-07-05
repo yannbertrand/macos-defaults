@@ -15,6 +15,7 @@ head:
 Choose the delay of the auto-hidden document-proxy icon.
 
 - **Tested on macOS**:
+  - Tahoe
   - Ventura
   - Monterey
   - Big Sur
