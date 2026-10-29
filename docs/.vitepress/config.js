@@ -280,6 +280,7 @@ export default defineConfig({
 
         'miscellaneous',
         'apple-intelligence.md',
+        'appleaccentcolor.md',
         'devmode.md',
         'enable-spring-load-actions-on-all-items.md',
         'userwantsplaybacknotifications.md',
